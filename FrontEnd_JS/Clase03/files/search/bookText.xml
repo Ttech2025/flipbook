@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="10"><page Index="1"><![CDATA[«Talento Tech»
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Front End
+
+
+
+
+
+
+
+
+
+      Js
+
+
+
+
+
+
+
+
+
+       CLASE 3]]></page><page Index="2"><![CDATA[Clase N° 3: Formularios y Subida al
+
+
+               Servidor
+
+
+
+
+
+               Temario:
+
+                   Ɣ  Formularios
+                          ż  Estructura de un formulario HTML
+                          ż  Atributos principales: action y method
+                          ż  Elementos de formulario:
+                                 Ŷ  input,
+                                 Ŷ  label,
+                                 Ŷ  textarea,
+                                 Ŷ  select
+                          ż  Validaciones y tipos de inputs
+
+                          ż  Uso de Formspree para manejar formularios
+                   Ɣ  Herramientas de inspección
+                          ż  Introducción a las herramientas de desarrollo de Chrome y Firefox
+                          ż  Inspeccionar y modificar elementos en tiempo real
+                   Ɣ  Subida a un hosting gratuito
+                          ż  Introducción a Netlify y GitHub Pages
+                          ż  Pasos para desplegar un sitio web en Netlify
+                          ż  Pasos para desplegar un sitio web en GitHub Pages]]></page><page Index="3"><![CDATA[Formulario en HTML
+
+
+
+               Hoy nos toca un tema clave para cualquier página web que quiera interactuar con el
+               usuario: los formularios. ¿Te imaginás una web sin formularios? Sería como entrar a un
+               restaurante y no poder pedir comida. Los formularios son el puente entre lo que quiere el
+               usuario y lo que el sitio tiene para ofrecer.
+
+               La estructura básica del formulario
+
+               El formulario en HTML es básicamente una serie de cajitas donde el usuario mete sus
+               datos. Imaginate que es como un formulario en papel, pero en versión digital. La idea es
+               que llenás esos datos y los mandás a un servidor, que los procesa (como cuando mandás
+               una carta, pero mucho más rápido).]]></page><page Index="4"><![CDATA[Así que, en términos simples, un formulario arranca así:
+
+               Estructura básica de un formulario:
+
+
+               <form action="URL_de_destino" method="POST">
+                   <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
+                   <input type="email" name="email" id="email" placeholder="Escribe tu email">
+                   <textarea name="mensaje" id="mensaje" rows="4" cols="50" placeholder="Escribe tu
+               mensaje"></textarea>
+                   <button type="submit">Enviar</button>
+               </form>
+
+
+
+               Fácil, ¿no? La idea básica es que tenés una etiqueta <form> que agrupa todo, y adentro
+               metés los campos: texto, correo, mensaje, y un botón para enviar. Cuando hacés clic en el
+               botón, ¡Listo! La info se va volando al servidor.
+
+
+               Atributos del formulario:
+
+                   Ɣ  action: Define la URL a la que se enviarán los datos del formulario.
+                   Ɣ  method: Especifica el método de envío de datos (comúnmente GET o POST).
+
+               Campos básicos de un formulario:
+
+               Label: Se utiliza para etiquetar un campo del formulario.
+               <label for="nombre">Nombre:</label>
+
+                   Ɣ  Input: Campo de entrada de datos.
+                          ż  type="text": Campo de texto.
+                          ż  type="email": Campo para ingresar correos electrónicos.
+                          ż  type="password": Campo de contraseñas, el texto se oculta.
+                          ż  type="checkbox" y type="radio": Campos para seleccionar opciones.
+                          ż  type="submit": Botón para enviar el formulario.
+
+               Textarea: Campo para ingresar texto en múltiples líneas.
+               <textarea name="mensaje" rows="4" cols="50"></textarea>]]></page><page Index="5"><![CDATA[Select y Option: Menú desplegable para seleccionar una opción.
+               <select name="opciones">
+                   <option value="opcion1">Opción 1</option>
+                   <option value="opcion2">Opción 2</option>
+               </select>
+
+
+
+               Validaciones y tipos de inputs: Los formularios permiten la validación automática
+               mediante atributos como required para campos obligatorios, minlength y maxlength para
+               definir la longitud del texto, y pattern para expresiones regulares.
+
+
+               Uso de Formspree: Formspree es un servicio que permite enviar formularios sin necesidad
+               de configurar un servidor. Solo es necesario incluir la URL proporcionada por Formspree en
+               el atributo action del formulario.
+
+
+               Paso a paso para integrar Formspree:
+
+                   1.  Registrarse en Formspree: Crear una cuenta gratuita en https://formspree.io/.
+                   2.  Crear un formulario: Añadir el HTML proporcionado por Formspree.
+                   3.  Configuración: Cambiar la acción del formulario al URL generado por Formspree.
+                   4.  Prueba del formulario: Enviar un mensaje y verificar que llegue al correo configurado
+                       en Formspree.
+
+
+
+
+               ________________________________________________________________________]]></page><page Index="6"><![CDATA[Herramientas de inspección
+
+
+
+               Las herramientas de inspección en los navegadores permiten a los desarrolladores ver y
+               modificar el código fuente de una página web en tiempo real.
+
+               Acceso a herramientas de inspección:
+
+                   Ɣ  En Chrome:
+                          ż  Hacer clic derecho en cualquier parte de la página y seleccionar
+                              "Inspeccionar".
+                          ż  Alternativamente, usar el atajo Ctrl + Shift + I.
+                   Ɣ  En Firefox:
+                          ż  Hacer clic derecho y seleccionar "Inspeccionar elemento".
+                          ż  Usar Ctrl + Shift + I para abrir las herramientas de desarrollo.
+
+
+               Funciones básicas de las herramientas de inspección:
+
+                   Ɣ  Elementos: Examinar y editar el HTML de la página.
+                   Ɣ  Consola: Ver mensajes de depuración y ejecutar código JavaScript.
+                   Ɣ  Red: Ver las solicitudes HTTP enviadas por la página, ideal para depurar problemas
+                       de red.
+                   Ɣ  Estilos: Modificar y probar CSS en vivo.
+                   Ɣ  Depuración de JavaScript: Colocar puntos de interrupción en el código JS para
+                       analizar la ejecución.
+
+
+
+
+               ________________________________________________________________________]]></page><page Index="7"><![CDATA[Subida a un Hosting Gratuito
+
+
+
+               Ahora que ya tenés tu formulario armado, toca ponerlo online para que todo el mundo lo
+               vea. Vamos a usar dos servicios que te lo hacen fácil y sin gastar un peso: Netlify y GitHub
+               Pages.
+
+                          Netlify: el hosting simple (y eficaz)
+
+                   1.  Andá a Netlify, creá tu cuenta.
+                   2.  Prepará la carpeta del proyecto, asegurate que tenga el archivo index.html.
+                   3.  Arrastrá la carpeta a Netlify Drop (literalmente arrastrá y soltá, como cuando
+                       mandás un archivo por WhatsApp).
+                   4.  ¡Listo! Netlify te da una URL para que la compartas con tus amigos, tu perro, o quien
+                       quieras.
+
+
+                          GitHub Pages: para los que ya usan GitHub
+
+               Si ya tenés GitHub, podés subir tu proyecto ahí y hacer lo siguiente:
+
+                   1.  Creás un nuevo repositorio y subís los archivos del proyecto.
+                   2.  Activás GitHub Pages en la configuración del repositorio.
+                   3.  GitHub te da un link, ¡y tu página está online!]]></page><page Index="8"><![CDATA[Ejercicios Prácticos:
+
+
+               Ejercicio práctico #1:
+
+
+
+               Crear un Formulario de Contacto
+
+
+                   Ɣ  Descripción: Dentro de la sección <main>, creá un formulario de
+                       contacto utilizando Formspree. El formulario debe incluir los siguientes
+                       campos:
+                          ż  Nombre (<input type="text">)
+                          ż  Correo electrónico (<input type="email">)
+                          ż  Mensaje (<textarea>)
+
+
+
+               Resolución:
+               <form action="https://formspree.io/mi-cuenta" method="POST">
+                   <label for="nombre">Nombre:</label>
+                   <input type="text" id="nombre" name="nombre" required>
+
+                   <label for="email">Correo electrónico:</label>
+                   <input type="email" id="email" name="email" required>
+
+                   <label for="mensaje">Mensaje:</label>
+                   <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+
+                   <button type="submit">Enviar</button>
+               </form>
+
+               Listo, con eso ya tenés un formulario básico que manda los datos a tu correo vía
+               Formspree.]]></page><page Index="9"><![CDATA[Ejercicio práctico #2:
+
+
+
+                Subir el Proyecto a un Hosting Gratuito
+
+
+                   Ɣ  Descripción: Subí el proyecto desarrollado hasta el momento a un
+                       hosting gratuito (Netlify o GitHub Pages) y compartí el enlace en el aula
+                       virtual.
+                   Ɣ  Resolución:
+                          ż  Para Netlify:
+                                 1.  Accedé a https://app.netlify.com/drop.
+
+                                 2.  Arrastrá la carpeta del proyecto.
+                                 3.  Copiá y compartí el enlace proporcionado.
+                          ż  Para GitHub Pages:
+                                 1.  Subí los archivos del proyecto a un nuevo repositorio en
+                                     GitHub.
+                                 2.  Activá GitHub Pages en la configuración del repositorio.
+
+                                 3.  Copiá y compartí el enlace generado.]]></page><page Index="10"><![CDATA[]]></page></pages></Search>

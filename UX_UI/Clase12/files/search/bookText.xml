@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="17"><page Index="1"><![CDATA[«Talento Tech»
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Fundamentos
+
+
+
+
+
+
+
+
+
+      del Diseño Ux UI
+
+
+
+
+
+
+
+
+
+       CLASE 12]]></page><page Index="2"><![CDATA[Clase N° 12 | Arquitectura de la
+
+               Información / Mapa de Sitio
+
+
+
+
+               Temario:
+
+
+
+
+                   ● Mapa de Sitio
+                   ● Jerarquías: Categorías y subcategorías
+                   ● Lab Arquitectura
+                   ● Ejercicio]]></page><page Index="3"><![CDATA[Mapa de Sitio.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               A veces, sin darse cuenta, los profesionales confunden el concepto de arquitectura de la
+               información (AI) con el de mapa del sitio. Si bien estos dos conceptos están relacionados,
+               no son lo mismo. Un mapa del sitio es solo una parte de la arquitectura de la
+               información del sitio o aplicación.
+
+
+
+               Un mapa del sitio (site map) es una representación visual de la organización del
+               contenido de la aplicación. Un mapa del sitio es una jerarquía de nodos (generalmente
+               representados como cuadros) que indican las páginas (pantallas) o el contenido de tu
+               aplicación. Las flechas o líneas muestran la relación entre las pantallas.]]></page><page Index="4"><![CDATA[Representa un paso importante dentro del diseño centrado en el usuario pues asegura que
+               el contenido esté en el lugar correcto, es decir, donde el usuario lo espera encontrar.
+               También sirve como punto de referencia para hacer Wireframes, especificaciones
+               funcionales y mapas de contenido.
+
+
+
+               Beneficios de un Mapa de Sitio.
+
+               Los mapas de sitio son útiles por varias razones:
+
+                   ●   Demuestran cómo se debe estructurar la navegación.
+                   ●   Ayudan a identificar dónde irá el contenido y qué se necesita producir.
+                   ●   Muestran la relación entre las distintas pantallas de la aplicación.
+                   ●   Proporcionan una estructura por dónde se debe empezar el proyecto y así estimar el
+                       tiempo de desarrollo.
+                   ●   Será el primer entregable que demuestra lo que estarás creando.
+
+
+
+
+               ¿Los mapas del sitio son visibles para los usuarios?
+
+
+               Los mapas de sitio no suelen mostrarse a los usuarios y se utilizan únicamente con fines de
+               planificación interna.
+
+
+               ¿En qué se diferencian la Arquitectura de la Información y
+               los mapas de sitio?
+
+
+
+               Un mapa de sitio es únicamente un elemento dentro de la arquitectura de la
+               información. Representa de manera visual la jerarquía y organización de la aplicación, y
+               sirve como una herramienta para planificar su estructura general, sin enfocarse en los
+               términos específicos. Proporciona un panorama general de cómo estará organizado el
+               contenido, sin entrar en detalles sobre los componentes más pequeños de la interfaz de
+               navegación.
+
+               Tanto el mapa del sitio como la arquitectura de la información pueden iterarse a lo largo
+               del proceso de diseño. Algunos aspectos de ambos pueden cambiar en función de la
+               investigación de los usuarios. Dicho esto, hay algunos aspectos de la arquitectura de la]]></page><page Index="5"><![CDATA[información que no cambian con frecuencia. Por ejemplo, en el desarrollo de taxonomías,
+               los vocabularios controlados (una lista predefinida de etiquetas de categorización que
+               clasifican el contenido) están predeterminados y tienen como objetivo durar mucho tiempo.
+
+
+
+               ¿Cuándo crear un mapa de sitio?
+
+
+
+
+               Para crear un mapa de sitio correctamente y de manera que nos sea verdaderamente útil,
+               primero deberíamos de haber llevado a cabo varios pasos e investigaciones previas.
+               Algunos de los pasos que deberíamos tener en cuenta serían el User Research,
+               Cardsorting y la definición del objetivo de nuestra aplicación o producto digital.]]></page><page Index="6"><![CDATA[¿Qué debe incluir el mapa de sitio para un proyecto UX?
+
+
+
+
+               Para que el mapa de sitio nos sea de utilidad, deberá mostrarnos:
+
+
+
+                   ●   Un elemento de página de inicio, situada en la parte superior/inicial.
+                   ●   Un número de referencia para organizar y estructurar cada elemento.
+                   ●   Etiquetas que definan de la mejor manera posible cada elemento.
+                   ●   Organización de categorías, subcategorías y/o niveles.
+                   ●   Conectores entre los elementos.]]></page><page Index="7"><![CDATA[Jerarquías: Categorías y subcategorías
+
+
+
+
+
+               Jerarquía: el diseño de una aplicación comienza definiendo cómo se conectan sus páginas
+               principales. En la mayoría de los casos, el menú de navegación principal sigue una
+               estructura jerárquica, que se representa visualmente como un árbol invertido. Sin embargo,
+               también hay otros tipos de organización menos comunes, como la secuencial, basada en
+               bases de datos, y la estructura en matriz. De todas, la jerárquica es la más empleada.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               La manera de crear un mapa de sitio es muy variable porque depende de la forma en que
+               se categoriza tu producto o servicio, pero un punto de partida es determinar qué ofreces y
+               qué buscan tus usuarios.
+
+
+
+                   1. Enlistá lo que ofrece tu aplicación.
+                   2. Priorizá lo más importante o lo que te interesa mostrar primero.
+                   3. Categorizá en bloques y dale nombre a esa categoría.
+                   4. Validá con un grupo de personas de preferencia tus usuarios (card sorting).
+                   5. Diagramá la estructura.]]></page><page Index="8"><![CDATA[➔ Importante: analizá tu competencia, pero no la copies, una manera de diferenciarte
+                       es partiendo de cómo muestras el contenido a tus usuarios.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Un mapa del sitio de UX es importante porque ayuda al equipo del producto a hacer ciertas
+               consideraciones de diseño mucho antes de que se lance el producto, lo que ahorra tiempo y
+               dinero.
+
+
+
+               Estos son los beneficios clave de un mapa de sitio:
+
+
+
+                   ●   Ayuda a los diseñadores y propietarios de productos a visualizar fácilmente la
+                       estructura del producto.
+                   ●   Ayuda a los diseñadores a tomar decisiones inteligentes sobre las estructuras de
+                       diseño.
+                   ●   Ilumina dónde y cómo sus usuarios van a interactuar con la aplicación.
+                   ●   Detecta los errores a los que se pueden enfrentar los usuarios y crea una mejor
+                       experiencia para ellos.
+                   ●   Es útil para hacer iteraciones y cambios rápidos.
+                   ●   Demuestra la funcionalidad del sitio a las partes interesadas antes de crear diseños
+                       de alta fidelidad. Esto potencialmente ahorra tiempo y recursos.
+                   ●   Aumenta la confianza de las partes interesadas en el producto final.
+                   ●   Proporciona un registro lógico de todas sus decisiones de diseño de UX, lo que es
+                       útil si los cambios son necesarios en una fecha posterior.]]></page><page Index="9"><![CDATA[Los 3 niveles de profundidad
+
+
+
+
+               Una buena práctica para definir el flujo de tu menú de navegación, es lograr que el usuario
+               encuentre tu contenido en no más de 3 clics, por lo que procura encontrar la manera de
+               reducir los pasos.
+
+
+               En un aplicación de servicios conviene tener una estructura lineal de modo que se muestre
+               en un segundo nivel el detalle de cada servicio:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Una estructura donde el contenido es más extenso se pasa el detalle del servicio a un tercer
+               nivel:]]></page><page Index="10"><![CDATA[En un e-commerce, por ejemplo, la categorización es clave ya que el proceso de pago hace
+               que el camino sea más extenso:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Al crear tu mapa de sitio, intenta ser lo más detallado posible. Concéntrate en cómo el
+               usuario interactuará con cada sección de la página y qué acciones tomará en cada punto.
+               No te preocupes por el diseño todavía; podés centrarte en la estructura antes que en la
+               estética.
+
+
+
+               Si estás trabajando en una aplicación más compleja, es posible que desees crear múltiples
+               niveles de detalle dentro de tus mapas de sitio. Mostrá primero las secciones principales,]]></page><page Index="11"><![CDATA[luego dividilas en submenús si es necesario. Esto ayudará a otros miembros del equipo que
+               están colaborando en el proyecto.
+
+
+
+               Conclusión
+
+
+
+
+               El mapa de sitio en UX muestra una «imagen» completa de la organización de un producto
+               digital, y se debería entregar siempre en las primeras etapas de un proyecto para ayudar a
+               definir bien la interfaz y mejorar la navegación.]]></page><page Index="12"><![CDATA[Whimsical
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Es un espacio de trabajo visual que se integra con otras herramientas y plataformas. Podes
+               utilizar Whimsical para crear diferentes tipos de diagramas y diagramas de flujo, como
+               recorridos de usuario, mapas de sitio, flujos de usuario, mapas mentales y flujos lógicos.
+               También podés usar Whimsical para crear wireframes y maquetas para el diseño de tu web
+               o aplicación móvil. Whimsical tiene una biblioteca de elementos, iconos y plantillas listos
+               para usar que podés arrastrar y soltar, cambiar el tamaño y personalizar. También podés
+               agregar notas, comentarios, anotaciones y enlaces a sus diagramas y diagramas de flujo,
+               haciéndolos más interactivos e informativos.
+
+
+
+               Sitio web: https://whimsical.com/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Para que todos los integrantes del equipo puedan editar un mismo archivo, se debe crear un
+               Workspace y asignarle un nombre.]]></page><page Index="13"><![CDATA[A continuación, enviar invitación por mail a los integrantes del equipo. Una vez hecho, te
+               aparecerá en la sección Teams un equipo conformado por los integrantes invitados al
+               Workspace.]]></page><page Index="14"><![CDATA[AI - Mapa de Sitio]]></page><page Index="15"><![CDATA[Whimsical ofrece muchas funciones y opciones que pueden ayudarte a crear mejores
+               diagramas y diagramas de flujo. Para aprovechar al máximo Whimsical, se puede usar:
+
+
+                   ●   La función de cuadrícula y ajuste para alinear y organizar elementos,
+                   ●   La función de zoom y panorámica para navegar y ver desde diferentes perspectivas,
+                   ●   La función de búsqueda para encontrar e insertar iconos, imágenes y plantillas,
+                   ●   La función de marcos para crear contenedores y límites,
+                   ●   La función de conectores para crear vínculos dinámicos entre elementos,
+                   ●   La función “capas” para organizar y administrar elementos,
+                   ●   La función “temas” para cambiar la combinación de colores o el estilo, o crear su
+                       propio tema personalizado, y la función “configuración” para personalizar las
+                       preferencias.]]></page><page Index="16"><![CDATA[Alternativas de software:
+
+
+
+                   ●   Lucidchart es un espacio de trabajo gráfico que combina diagramas, visualización
+                       de datos y colaboración para acelerar la comprensión e impulsar la innovación.
+                   ●   Draw.io es un software de diagramación de código abierto y gratuito.
+                   ●   Miro una plataforma de pizarra en línea para diagramación y mapeado
+                       colaborativos.
+
+
+               Ejercicios prácticos:
+
+
+
+
+               AI - Mapa de Sitio
+
+
+                   1. Creá el Mapa de sitio, en Whimsical, utilizando la información validada por
+                       los usuarios, obtenida del informe del estudio de CardSorting y sus gráficos.
+
+                   2. Definí cuáles van a ser las categorías y subcategorías a partir de los
+                       resultados dados por los participantes/usuarios (como ellos ordenaron la
+                       información).
+
+                   3. Creá el diagrama de la app, partiendo desde la HOME, siguiendo a las
+                       categorías principales y luego desde estas a las subcategorías y dentro las
+                       tareas u opciones que se encuentren.
+
+
+
+                   Acá podrás encontrar un ejemplo de su resolución.]]></page><page Index="17"><![CDATA[]]></page></pages></Search>

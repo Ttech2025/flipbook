@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="17"><page Index="1"><![CDATA[«Talento Tech»
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Fundamentos
+
+
+
+
+
+
+
+
+
+      del Diseño Ux UI
+
+
+
+
+
+
+
+
+
+       CLASE 9]]></page><page Index="2"><![CDATA[Clase N° 9 | Storyboard + herramientas
+
+               de IA
+
+
+
+
+
+
+
+               Temario:
+
+                   ● Guión gráfico
+                   ● Estilos , elementos compositivos
+                   ● Herramientas para crear Storyboard
+                   ● Herramientas de IA
+
+                   ● Ejercicios]]></page><page Index="3"><![CDATA[Guión gráfico.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               El guión gráfico (también conocido como storyboard) plasma en forma de imágenes todo lo
+               recogido en el guión literario, en nuestro caso el storytelling. Este se elabora a partir de
+               dibujos organizados en viñetas, que van contando la historia de forma visual. Se podría
+               decir que se parece a un cómic, aunque no lo es.
+
+
+               Su nombre en inglés, storyboard, proviene de cuando en los estudios se colocaban estas
+               viñetas sobre un panel (board) para hacer un seguimiento de la narración (story).
+
+               Los storyboards son herramientas de visualización que ayudan a transmitir fácilmente
+               escenarios de uso del producto digital para que los miembros del equipo de trabajo los
+               recuerden y los tengan en cuenta en el proceso de diseño.
+
+               Utilizar el storyboard como elemento de análisis en el proceso de diseño UX presenta
+               diversas ventajas:
+
+
+                   ●   Permite reforzar la premisa “el usuario es lo más importante”.
+                   ●   Facilita constatar de manera práctica el flujo de interacción de un usuario.
+                   ●   Visualizar el proyecto antes del diseño asegura desarrollar solo lo necesario.
+                   ●   Que el equipo “vea” cómo será el diseño permite recibir diversas opiniones.
+                   ●   El storyboard permite maximizar la iteración, facilitando rehacer propuestas.]]></page><page Index="4"><![CDATA[Los storyboards pueden ser usados en diferentes partes
+
+               del proceso de diseño de UX:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Investigación y testing con usuarios: los storyboards pueden ser una excelente forma de
+               presentar los hallazgos de un test con usuarios para el resto del equipo de trabajo que no
+               ha estado involucrado y para los stakeholders que pueden empatizar con los usuarios del
+               test de una manera amable y sencilla de recordar.
+
+               Aumentar los journey maps: una manera de presentar mejor un journey map es añadir un
+               pequeño storyboard que lo completa y ayuda a entender los itinerarios de los usuarios que
+               usan el producto digital.
+
+
+               Priorización y elementos base: tener una forma visual donde ves a los usuarios usar tu
+               producto digital y cómo usan sus elementos básicos, te ayuda a la hora de priorizar las
+               tareas y conocer qué partes no debes tocar y cuáles debes de mejorar. Además, ayudan a
+               conocer el contexto de los usuarios y tenerlos en cuenta al diseñar una solución.
+
+
+               Ideación: los storyboards pueden ser una excelente herramienta para mostrar el contexto
+               de una nueva idea y hacerse una idea de cómo funciona en el contexto al que se enfrenta el
+               usuario.]]></page><page Index="5"><![CDATA[Roles en el equipo:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Dibujantes: quienes van a representar de forma visual cada escena del concepto. No hace
+               falta que vengan de una academia de arte, con representar las ideas con palitos y formas
+               alcanza.
+
+
+               Anotadores: personas que vayan registrando las decisiones que se tomaron y puedan
+               sumar notas adicionales a los dibujos; esto implica todo lo que ayude a que la historia se
+               entienda sola.
+
+
+               Guías: personas que van a dar feedback a los demás. Ellas van recorriendo la historia
+               cuadro por cuadro desafiando lo que se cuenta en cada una, encontrando errores de
+               continuidad y ayudando a destrabar inconsistencias. Estas personas tienen que ser críticas
+               y tener muy claro el objetivo y el concepto a testear.
+               .]]></page><page Index="6"><![CDATA[Elementos compositivos.
+
+
+               La experiencia del usuario es una construcción completa basada en tres componentes:
+
+
+                   ●   Estado de ánimo del usuario frente al producto/servicio (necesidades, motivaciones
+                       y expectativas).
+                   ●   Contexto (o entorno) en el que se produce la interacción.
+                   ●   Características tecnológicas (funcionalidad, usos y complejidad).
+
+
+               El diseño de un producto o servicio debe integrar el contexto de uso, así como el ánimo del
+               usuario, y no simplemente las características.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Un storyboard contiene tres elementos:
+                   ●   Escenario: un storyboard se basa en un escenario o en una historia de usuario, es
+                       decir una posible situación ante la que el usuario se puede encontrar durante el uso
+                       o para la cual sea necesario usar un producto digital.]]></page><page Index="7"><![CDATA[●   Ilustraciones: cada paso del escenario se muestra de una manera visual con una
+                       ilustración simple, una foto o cualquier otro tipo de elemento gráfico que nos ayude a
+                       ponernos en la situación que describimos.
+                   ●   Comentarios: debajo de cada ilustración se colocan un par de comentarios cortos
+                       donde se explican las acciones del usuario en cada ilustración del storyboard.
+
+               Un storyboard debe tener toda la información que requiera la historia. Es decir, tiene que
+               contar qué es lo que ocurre por sí mismo: qué les pasa a los personajes, qué emociones
+               expresan, cuál es el conflicto entre uno y otros… Además, tiene que reflejar una cierta
+               cinematografía básica, es decir, una lógica narrativa que tiene que ver con la gramática del
+               lenguaje audiovisual.]]></page><page Index="8"><![CDATA[Tipos de storyboards.
+
+
+
+               Antes de profundizar en el tema de cómo hacer un guión gráfico, vamos a explorar los tres
+               tipos principales de guiones gráficos.
+
+                   1. Guiones gráficos tradicionales
+
+
+                                                        Los storyboards tradicionales se parecen mucho a
+                                                        los cómics: se dibujan con lápiz o bolígrafo sobre
+                                                        papel, ilustrando cada una de las escenas.
+                                                        Algunos guiones gráficos de vídeo tradicionales
+                                                        son muy detallados y parecen obras de arte,
+                                                        mientras que otros se componen de simples
+                                                        bocetos con figuras de palo y etiquetas para los
+                                                        diferentes componentes de cada escena. Además,
+                                                        muchos storyboards tradicionales no incluyen
+               fotogramas para cada toma. En su lugar, dan una idea del flujo. Este enfoque suele ser
+               mejor para vídeos más sencillos y/o vídeos en los que no es necesario comunicar mucha
+               información sobre las tomas.
+
+
+
+
+
+                   2. Guiones gráficos en miniatura
+
+
+                                                               Los storyboards en miniatura pueden
+                                                               parecer similares a los storyboards
+                                                               tradicionales, ya que pueden realizarse con
+                                                               lápiz y papel. Sin embargo, los storyboards
+                                                               en miniatura son siempre muy detallados e
+                                                               incluyen todos los aspectos de cada plano
+                                                               en cada dibujo. Este nivel de detalle, con
+                                                               una miniatura o dibujo para cada toma]]></page><page Index="9"><![CDATA[individual. Todo lo que tienes que hacer es seguir el guión gráfico y tendrás todas las
+               secuencias que necesitas.
+
+
+                   3. Guiones gráficos digitales
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Los guiones gráficos digitales pueden ser tan detallados o minimalistas como desees. Te
+               permiten configurar cada toma en tu ordenador y añadir etiquetas, copia del guión y notas
+               de acción para cada fotograma. Básicamente, con un guión gráfico digital, se puede crear
+               un guión gráfico en miniatura con mucho menos trabajo que dibujar cada fotograma. Es
+               importante tener en cuenta que no todos los programas de guión gráfico digital tienen las
+               mismas capacidades. Algunos requieren que dibujes tus guiones gráficos en formato digital.
+               Algunos animarán sus guiones gráficos para usted. Otros tienen diferentes elementos
+               pre-dibujados para elegir como usted pone sus guiones gráficos juntos. Todos ellos hacen
+               que sea más fácil crear y compartir el guión gráfico de su video que tratar de dibujar un
+               guión gráfico anticuado de lápiz y papel.]]></page><page Index="10"><![CDATA[¿Cómo crear un guión gráfico?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Es fundamental que este guión gráfico se base en un caso que se corresponda a una
+               historia lo más auténtica posible.
+
+
+               Si tu guión gráfico se refiere a una app de smartphone destinada al running, por ejemplo, y
+               quieres seguir el progreso de un usuario que empieza a correr gracias a tu producto,
+               desarrollarás una historia concreta en torno a un usuario móvil que descarga la app.
+               Específicamente, abre la app por primera vez, crea una cuenta de usuario, empieza su
+               primera sesión de running, mejora gradualmente, etc. También deberás tener en cuenta la
+               frecuencia de sus sesiones, la música que elige para motivarse, la facilidad con la que
+               puede evaluar su rendimiento después de cada sesión…]]></page><page Index="11"><![CDATA[Para elaborar un guión gráfico debemos seguir estos seis sencillos pasos:
+
+
+                   1. Recopilar los datos: para empezar un guión gráfico tenemos que elegir qué datos
+                       vamos a introducir y de qué fuentes los extraeremos: de una investigación, de unas
+                       entrevistas, de un test con usuarios, de métricas, de observación de usuarios.
+                       Algunas preguntas podrían ser:
+                          ●   ¿Por qué los usuarios recurren al producto o servicio?
+                          ●   ¿Qué pretenden conseguir? ¿Qué problemas intentan resolver?
+                          ●   ¿Cuáles son los impedimentos?
+                          ●   ¿Cuáles son sus expectativas en términos de interfaz, funcionalidad, etc.?
+                          ●   ¿Cuáles son los puntos de contacto entre los usuarios y su empresa, tanto
+                              antes como después del uso del producto/servicio?
+
+
+                   2. Elegir el nivel de fidelidad: elegir con qué elementos se van a hacer; ilustraciones
+                       o imágenes; y a partir de ahí elegir quién se encarga de ello en el equipo.
+
+                   3. Definir la base: hay que definir la persona y el escenario, el escenario debe ser de
+                       una sola ruta y si quieres hacer varias rutas haz varios storyboards.
+
+
+                   4. Planificar los pasos: haz un esbozo de la ruta con flechas antes de hacer el
+                       storyboard definitivo para definir los pasos correctamente.
+
+                   5. Elaborar los visuales y añade las leyendas: después de hacer este esbozo, nos
+                       queda elaborar el storyboard con el nivel de fidelidad elegido. Si optamos por un
+                       estilo de cómic, Norman Nielsen nos recomienda basarnos en el libro de Scott
+                       McCloud “Entender el cómic”, para plasmar lo mejor posible las emociones, gestos y
+                       situaciones de los usuarios.
+
+                   6. Distribuir y mejorar: una vez terminado debemos distribuir entre los miembros del
+                       equipo y los stakeholders y mejorarlo con el feedback que se reciba.]]></page><page Index="12"><![CDATA[Mini documental sobre ¿Cómo arman los storyboards en Pixar?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Importante
+
+
+
+                   ●   Que haya consistencia en la historia
+                   ●   Que la imagen se encuentre completa
+                   ●   Incluir leyenda en cada viñeta
+                   ●   Elegir cuáles son las 3 viñetas más relevantes de trabajar en detalle
+                   ●   Que haya palabras y lenguaje real. Nada de lorem ipsum
+                   ●   Que se resuelva la problemática por medio de la App]]></page><page Index="13"><![CDATA[Herramientas para crear Storyboard.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   ➔ Miro: la mejor opción para colaboraciones en equipo; es una herramienta de
+                       colaboración para guiones gráficos, diagramas de flujo y otras visualizaciones.
+                   ➔ Storyboarder: la mejor herramienta gratuita para dibujar guiones gráficos; es un
+                       programa gratuito fácil de usar para dibujar guiones gráficos tradicionales y en
+                       miniatura.
+                   ➔ Plot: creador de guiones gráficos asequible; es un programa con opciones para
+                       añadir colaboradores y guiones gráficos.
+                   ➔ StudioBinder: el creador de guiones gráficos en línea más intuitivo; es una gran
+                       herramienta para crear guiones gráficos digitales en línea sin necesidad de
+                       descargar ningún software.
+                   ➔ Milanote: creador de storyboards en línea más potente: es una potente herramienta
+                       de guión gráfico con funciones de importación de guiones y planificación de tomas.]]></page><page Index="14"><![CDATA[Conclusión.
+
+               Como sugiere su nombre, los storyboards nos ayudan a contar historias sobre nuestros
+               usuarios. Cuando se basan en datos reales y se combinan con otras actividades de UX,
+               pueden:
+                   ●   Quita el foco de nuestros sesgos internos y ayúdanos a empatizar con nuestros
+                       usuarios.
+                   ●   Ayudar a los clientes y las partes interesadas a recordar escenarios de usuario
+                       específicos
+                   ●   Ayúdanos a comprender qué impulsa el comportamiento del usuario
+
+
+               Herramientas de IA
+
+
+               Existen varias herramientas de inteligencia artificial (IA) que están revolucionando el diseño
+               UX/UI, ayudando a automatizar tareas, optimizar flujos de trabajo y mejorar la experiencia
+               del usuario. A continuación, te comparto algunas de las más destacadas:
+
+
+
+               Herramientas de análisis de comportamiento del usuario.
+
+
+
+
+                   ➔ Google Analytics recoge datos de tus aplicaciones para crear informes que
+                       proporcionan estadísticas. Utiliza la IA para proporcionar insights sobre el
+                       comportamiento del usuario.
+                   ➔ Hotjar es una plataforma de insights de experiencia de producto que te proporciona
+                       análisis de comportamiento y datos de retroalimentación para ayudarte a empatizar y
+                       comprender a tus clientes. Las herramientas de Observación como Mapas de Calor
+                       y Grabaciones te permiten ver lo que ven tus usuarios.
+                   ➔ Dovetail utiliza la IA para ayudar a los diseñadores a analizar los datos de
+                       investigación del usuario.
+                   ➔ QoQo.ai utiliza la IA para ayudar a los investigadores a analizar los datos de
+                       comportamiento del usuario y proporcionar insights que pueden informar el proceso
+                       de diseño.]]></page><page Index="15"><![CDATA[Herramientas de IA para research
+
+
+
+                   ➔ ChatGPT: modelo de lenguaje al que le puedes pedir ayuda para los benchmarkings
+                       y sugerencias para ideación.
+                   ➔ Synthetic Users: genera usuarios artificiales para ser utilizados en investigación de
+                       usuarios y pruebas de usabilidad.
+                   ➔ Kraftful: ayuda también a los equipos de research a analizar los datos de uso de la
+                       aplicación y a proporcionar insights que pueden informar el proceso de diseño.
+
+
+
+               Herramientas de IA para visual
+
+
+                   ➔ Khroma: podrás crear paletas de colores de forma automática basadas en tus
+                       preferencias.
+                   ➔ PixAI: aplicación de generación de imágenes impulsada por IA. Te permite crear arte
+                       digital, enfocado principalmente en personajes de estilo anime, retratos realistas y
+                       fondos de pantalla.
+                   ➔ Fontjoy: encontrarás combinaciones tipográficas que funcionen bien entre sí tanto
+                       en light o dark mode.
+                   ➔ Dall-E: generarás imágenes a partir de texto. Solo le tienes que describir lo que
+                       quieres. Te da varias opciones y puedes seguir modificándolas.
+                   ➔ Firefly: es un sistema de inteligencia artificial creado por Adobe. Te permite
+                       modificar imágenes a un nivel altísimo de detalle.
+                   ➔ Leonardo.ai: es una plataforma de inteligencia artificial que permite a los usuarios
+                       crear imágenes y mundos en minutos. Utiliza una red neuronal para interpretar las
+                       entradas del lenguaje natural y generar imágenes correspondientes.
+                   ➔ Designs.ai: plataforma de diseño gráfico que utiliza la IA para ayudar a los
+                       diseñadores a crear logotipos, videos, maquetas y otros elementos de diseño
+                       gráfico.
+
+               Herramientas de IA para mockups
+                   ➔ AutoDraw: es una herramienta de Google que utiliza la IA para ayudar a los
+                       diseñadores a dibujar. Podemos empezar a dibujar una forma y la herramienta
+                       sugerirá automáticamente completaciones basadas en esa forma.
+                   ➔ Components.ai: es una herramienta de diseño de código abierto para crear
+                       componentes y páginas responsives que puedas usar en cualquier proyecto web.
+                   ➔ Uizard: podrás crear mockups editables a partir de indicaciones de texto, capturas
+                       de pantalla o de sketches a mano y evolucionarlos con otros componentes.]]></page><page Index="16"><![CDATA[Herramientas de IA para copywritting
+
+                   ➔ Copy.ai: generador de texto para producir contenidos de alta calidad de forma
+                       rápida y sencilla. Por si quieres ir un poco más allá del Lorem Ipsum.
+                   ➔ Writecream: en su última actualización ha incluido un sistema de creación de
+                       imágenes mediante IA que acompañarán a tus contenidos.
+
+
+               Ejercicios Prácticos:
+
+
+
+
+               Storyboard
+
+
+
+               Realizá un Storyboard y/o guión gráfico, ilustrando los momentos clave de la
+               historia (6 dibujos máximo).
+               Puede ser a mano o digital, si es a mano deberán pasarlo a tinta y escanearlo con
+               buena calidad y buena luz para que se pueda visualizar correctamente.
+
+
+                  Acá podrás encontrar un ejemplo de su resolución.]]></page><page Index="17"><![CDATA[]]></page></pages></Search>

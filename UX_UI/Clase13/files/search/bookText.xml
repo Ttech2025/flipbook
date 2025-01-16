@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="18"><page Index="1"><![CDATA[«Talento Tech»
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Fundamentos
+
+
+
+
+
+
+
+
+
+      del Diseño Ux UI
+
+
+
+
+
+
+
+
+
+       CLASE 13]]></page><page Index="2"><![CDATA[Clase N° 13 | Recorridos de usuario:
+
+               Task Flow + User Flow
+
+
+
+
+               Temario:
+
+
+
+
+                   ● Task Flow (Flujo de Tareas)
+                   ● “Happy Path” (escenario ideal)
+                   ● User Flow (Flujo de Usuario)
+                   ● Diagrama de flujo
+                   ● Flujos de usuario clave para tareas críticas dentro de la app
+
+                   ● Ejercicios]]></page><page Index="3"><![CDATA[Task flow.
+
+
+
+
+
+               Un “task flow” (flujo de tareas) es un
+               concepto que se utiliza en el diseño de
+               interfaces de usuario y la experiencia del
+               usuario (UX) para describir la secuencia de
+               pasos que un usuario debe seguir para
+               completar una tarea específica dentro de
+               una aplicación o sitio web.
+
+
+               En esencia, un task flow es una
+               representación visual o un mapa de los
+               pasos y decisiones que un usuario debe tomar para lograr un objetivo particular mientras
+               utiliza una aplicación.
+
+
+               Importancia de contar con un task flow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Los task flows son una herramienta valiosa para diseñar y mejorar la usabilidad de una
+               aplicación, ya que permiten identificar posibles obstáculos, puntos de fricción o pasos
+               innecesarios en el proceso de usuario. Al comprender cómo los usuarios interactúan con
+               una aplicación, los diseñadores pueden optimizar la interfaz de usuario para que sea más
+               intuitiva y satisfactoria.
+
+
+               Además, los task flows son especialmente útiles para diseñadores de UX y desarrolladores
+               de software, ya que les ayudan a comprender de qué manera los usuarios interactuarán con
+               una aplicación y cómo se moverán de una pantalla o función a otra.]]></page><page Index="4"><![CDATA[Características del flujo de tareas.
+
+
+
+
+
+
+
+
+
+
+
+
+                   ●   Secuencia de pasos: el flujo de tareas debe detallar la secuencia exacta de pasos
+                       que un usuario debe seguir para completar una tarea o alcanzar un objetivo
+                       específico.
+
+
+                   ●   Decisiones del usuario: en un task flow, se pueden representar las decisiones que
+                       los usuarios deben tomar. Por ejemplo, elegir entre diferentes opciones, responder a
+                       preguntas o seleccionar preferencias. Nosotros vamos a trabajar con “happy path”
+                       (lo que veremos más adelante en esta unidad).
+
+
+                   ●   Interconexiones: un task flow muestra cómo se conectan y relacionan los diferentes
+                       pasos y decisiones dentro de una aplicación; esto ayuda a comprender la
+                       navegación y la fluidez de la experiencia del usuario.
+
+                   ●   Objetivos de usuario: los task flows están diseñados para ayudar a los usuarios a
+                       lograr sus objetivos de manera eficiente y efectiva. Por lo tanto, se centran en guiar
+                       al usuario hacia la consecución de su tarea o meta.]]></page><page Index="5"><![CDATA[Ejemplo de Task flow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Un ejemplo de flujo de tareas es un proceso de registro. Normalmente, implica una serie de
+               pasos muy específicos que cada usuario debe seguir.
+
+               En el caso del proceso de registro los pasos podrían ser los siguientes:
+
+
+                   1. Completar el formulario de registro y envíelo.
+                   2. Confirmar correo electrónico.
+                   3. Iniciar sesión en la aplicación.
+
+               Veamos algo un poco más complejo:
+
+
+               Supongamos que un usuario necesita actualizar su avatar (foto de perfil) en la aplicación. El
+               flujo de tareas en este caso podría ser el siguiente:
+
+                   1. Ir a la configuración del perfil.
+                   2. Hacer clic en la imagen de perfil para editarla o cambiarla.
+                   3. Hacer clic en cargar nuevo y elegir una nueva foto.
+                   4. Recortar la foto.
+                   5. Guardar cambios.]]></page><page Index="6"><![CDATA[Nuevamente, esto puede parecer un flujo muy simple, pero es importante considerarlo en
+               detalle y asegurarse de que cada paso esté diseñado con intención.
+
+
+               En nuestro caso nos preguntaremos ¿cuál es la acción principal que deben realizar el
+               usuario/a en la aplicación? Recuerden que esa información la tenemos en el MVP.
+
+
+
+
+
+
+
+
+
+
+               Pasos para crear un task flow
+
+
+                   1. Definí la tarea específica que los usuarios deben completar.
+                   2. Asegurate de comprender los detalles y los resultados esperados.
+                   3. Enumerá los pasos necesarios para que los usuarios completen la tarea.
+                   4. Para cada paso, considerá las acciones que los usuarios deben realizar, las
+                       decisiones que deben tomar y la información que necesitan.
+                   5. Ordená los pasos desde el punto de inicio y avanzá en la secuencia lógica hasta
+                       el punto final.
+                   6. Creá un esquema visual que represente la secuencia de pasos.
+                   7. Conectá los pasos en un flujo lógico que muestre cómo los usuarios se mueven de
+                       un paso al siguiente.
+                   8. Utilizá flechas u otras indicaciones visuales para mostrar la dirección.
+                   9. Asegurate de que el flujo sea claro, eficiente y que cumpla con los objetivos
+                       establecidos.
+                   10. Realizá ajustes según sea necesario y continuá refinando el task flow hasta que
+                       sea óptimo.]]></page><page Index="7"><![CDATA[El flujo de tareas es un flujo único que todos los usuarios completan de manera
+               similar para una acción específica. Los flujos de tareas tienen un flujo único, no se
+               ramifican.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Happy Path.
+
+
+
+
+
+               El happy path es el camino ideal que
+               siguen tus usuarios/as. Es el camino
+               más corto, el que no tiene fallos
+               técnicos ni errores humanos.]]></page><page Index="8"><![CDATA[Es el camino que permite que quien utilice esa aplicación pueda conseguir su objetivo de
+               forma rápida, precisa y efectiva.
+
+
+
+
+
+
+
+
+
+
+               Es el camino por el que, consciente o inconscientemente, empezamos a plantear y a
+               diseñar cuando empezamos un proyecto.]]></page><page Index="9"><![CDATA[User Flow.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               El flujo de usuario (user flow) es el camino que sigue un usuario a través de una
+               aplicación. El flujo no tiene por qué ser lineal, puede ramificarse en un camino no lineal.
+               Al determinar este camino, se pueden ver posibles giros a lo largo de la ruta y optimizar la
+               experiencia del usuario.
+
+
+               El flujo de usuario comprende desde el punto de su entrada, sumando el conjunto de
+               pasos que ejecuta, hasta que completa las tareas con un resultado exitoso. Definir los
+               flujos de usuario conduce a una mejor experiencia de usuario, ya que lo coloca en el centro
+               del proceso de diseño.]]></page><page Index="10"><![CDATA[Los flujos de usuario pueden comenzar siendo simples y ayudar a determinar los recorridos
+               clave del usuario. Estos pueden evolucionar fácilmente hacia flujos complejos cuando hay
+               muchas condiciones y requisitos involucrados. Los flujos de usuario son útiles para analizar
+               flujos complejos antes de desarrollar el producto.
+
+
+
+               Es importante diseñar teniendo en cuenta los flujos de usuario y por lo tanto centrarnos en
+               lo que el usuario necesita hacer y cómo integrarlo de la manera más eficiente y efectiva
+               posible.
+
+
+               Existen una serie de preguntas que nos ayudarán a definir el flujo de usuario:
+
+
+
+                   ●   ¿Qué está tratando de lograr el usuario?
+                   ●   ¿Qué es importante para el usuario y qué le dará confianza para continuar?
+                   ●   ¿Qué información adicional necesitará el usuario para realizar la tarea?
+                   ●   ¿Cuáles son sus dudas, frustraciones o barreras para realizar la tarea?]]></page><page Index="11"><![CDATA[Elementos de un flujo de trabajo
+
+
+
+                   ●   Entradas y salidas.
+                   ●   Pasos; por ejemplo: acción del usuario, acción del sistema, ruta alternativa.
+                   ●   Conexiones: indicar el camino deseado y los diferentes flujos posibles.
+                   ●   Puntos de decisión: un punto en el que un usuario debe elegir entre 2 o más
+                       opciones.
+
+
+
+               Esta comprensión de los posibles escenarios de los usuarios permite una mejor
+               experiencia de diseño.]]></page><page Index="12"><![CDATA[Un diagrama de flujo es la herramienta que te permitirá entender y comunicar
+               fácilmente los flujos de los usuarios y las tareas con los equipos de desarrollo, product
+               managers o product owners y, en realidad, con cualquier persona interesada en el proyecto.]]></page><page Index="13"><![CDATA[Diagrama de Flujo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Los diagramas de flujo son una herramienta esencial para representar de manera gráfica
+               procesos y procedimientos. Un diagrama de flujo básico es una representación visual de un
+               proceso o algoritmo que muestra las etapas que lo componen, los pasos que se deben
+               seguir y las decisiones que se deben tomar en cada etapa. Los diagramas de flujo se
+               utilizan en muchos campos, desde la programación hasta la ingeniería, y son una forma
+               efectiva de comunicar información compleja de manera clara y concisa.
+
+
+
+               Los diagramas de flujo se realizan de izquierda a derecha y de arriba a abajo. Es
+               importante en su realización evitar el cruce de líneas para facilitar la comprensión global del
+               proceso.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Para el user flow suelen utilizarse una serie de figuras geométricas que representan cada
+               paso del proceso. Estás formas ya están definidas y se conectan entre sí a través de
+               flechas y líneas que marcan la dirección del flujo y determinan el recorrido.]]></page><page Index="14"><![CDATA[Elementos de los diagramas de flujo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Un diagrama de flujo básico consta de varios elementos clave que se combinan para
+               representar visualmente un proceso. Estos elementos incluyen:
+
+
+                   ●   Símbolos de inicio y fin: estos símbolos marcan el comienzo y el final del proceso
+                       y se representan como círculos.
+                   ●   Símbolos de acción: los símbolos de acción se utilizan para representar cada paso
+                       del proceso; se representan como rectángulos.
+                   ●   Símbolos de decisión: los símbolos de decisión se utilizan para representar puntos
+                       en el proceso donde se debe tomar una decisión; se representan como rombos.
+                   ●   Flechas: las flechas se utilizan para conectar los símbolos de inicio, acción y
+                       decisión para mostrar la secuencia de pasos en el proceso.]]></page><page Index="15"><![CDATA[Los diagramas de flujo deben ser:
+
+
+
+
+
+                   ●   Comprensibles: su propósito es representar un proceso de manera visual y simple
+                       para el público.
+                   ●   Compactos: se caracterizan por incluir solo la información esencial del proceso.
+                   ●   Claros: emplean símbolos universales que son fáciles de seguir: flechas, checks,
+                       cruces y más.
+                   ●   Autoexplicativos: no requieren una fuente externa para ser explicados; son los
+                       símbolos que guían al usuario en la secuencia de información sobre el proceso.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       Limitaciones
+
+
+
+               Los diagramas de flujo tienen un alcance limitado. Si quieres representar el desarrollo de
+               una empresa durante los últimos cinco años, será difícil sintetizar todos los detalles
+               necesarios en símbolos.
+
+
+               Crearlos te puede tomar mucho tiempo, debido a la diversidad de formas y la lógica que
+               debes mantener para que la información fluya de un paso al otro.
+
+
+               Al ser una sucesión de pasos a seguir, un solo error puede anular el proceso entero.]]></page><page Index="16"><![CDATA[Conclusión
+
+
+
+
+               Al tener representados de forma sencilla todos los pasos que sigue el usuario podrás
+               identificar mucho mejor cuantas pantallas hay que diseñar. También te permitirá detectar
+               antes cuando es mejor mostrar alertas, estados vacíos, etcétera.
+
+
+
+               Whimsical.
+
+
+
+
+
+
+
+
+
+
+
+               Es un espacio de trabajo visual que se integra con otras herramientas y plataformas. Podés
+               utilizar Whimsical para crear diferentes tipos de diagramas y diagramas de flujo, como
+               recorridos de usuario, mapas de sitio, flujos de usuario, mapas mentales y flujos lógicos.
+               También podés usar Whimsical para crear wireframes y maquetas para el diseño de tu web
+               o aplicación móvil. Whimsical tiene una biblioteca de elementos, iconos y plantillas listos
+               para usar que puedes arrastrar y soltar, cambiar el tamaño y personalizar. También podés
+               agregar notas, comentarios, anotaciones y enlaces a sus diagramas y diagramas de flujo,
+               haciéndolos más interactivos e informativos.
+
+
+
+               Sitio web: https://whimsical.com/]]></page><page Index="17"><![CDATA[Ejercicios prácticos:
+
+
+
+
+               Task Flow
+
+
+
+               Realizá el Task Flow (Flujo de Tareas) que detalle los pasos que un usuario debe
+               seguir para completar la función principal de nuestra app (happy path).
+
+               Debe reflejar de manera clara y concisa la secuencia de acciones que el usuario
+               realiza, desde el inicio hasta la finalización de la tarea.
+
+               User Flow
+
+
+               Realizá el User Flow, (trayecto del usuario representado con un diagrama de
+               flujo para mostrar gráficamente los pasos que debe realizar para completar una
+               experiencia en un entorno digital) empezando con la Función principal de nuestra
+               app (happy path), después le sumaremos los posibles errores que puedan surgir y
+               por último las demás tareas o funcionalidades que vayan a formar parte de la
+               primera versión (MVP) de nuestro proyecto.
+
+
+               Se deben utilizar las figuras geométricas sugeridas en clase como código para los
+               diagramas. El diagrama se realiza de izquierda a derecha, arriba a abajo, tiene un
+               comienzo y un fin.
+
+
+
+                   Acá podrás encontrar un ejemplo de su resolución.]]></page><page Index="18"><![CDATA[]]></page></pages></Search>

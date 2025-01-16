@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="16"><page Index="1"><![CDATA[«Talento Tech»
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Fundamentos
+
+
+
+
+
+
+
+
+
+      del Diseño Ux UI
+
+
+
+
+
+
+
+
+
+       CLASE 5]]></page><page Index="2"><![CDATA[Clase N° 5 | Metodología Cuantitativa
+
+
+
+
+
+
+               Temario:
+
+
+                   ●   Diferencia entre investigación cuantitativa y cualitativa
+                   ●   Metodología cuantitativa: encuesta. Objetivos
+                   ●   Preguntas cuantificables
+                   ●   Encuestas a usuarios
+                       Informe de encuestas
+                   ●   Ejercicios]]></page><page Index="3"><![CDATA[Diferencia entre investigación cuantitativa y
+
+
+               cualitativa.
+
+
+
+                Investigación Cuantitativa                   Investigación Cualitativa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Es ideal para descubrir quién, qué, cuándo   Permite entender a detalle las actitudes y
+                y dónde                                      comportamientos
+
+                Genera Información numérica o de             Genera información verbal para
+                calificación para convertirse en estadísticas  comprender opiniones y motivaciones
+
+                Se hace por medio de encuestas en papel y Se puede hacer con preguntas abiertas y
+                online                                       observación entre otros
+
+                Proporciona números duros útiles para        Puede proporcionar una comprensión más
+                tomar decisiones                             profunda (insight)]]></page><page Index="4"><![CDATA[Métodos de investigación: cualitativa y cuantitativa.
+
+
+               Los métodos de investigación son procedimientos específicos para recopilar y analizar
+               datos. En este sentido, lo primero que hay que hacer al planificar un método de
+               investigación es decidir qué técnica utilizar: la cualitativa o cuantitativa. No obstante, esta
+               elección dependerá en gran medida del tema que se quiera abordar, del tipo de datos que
+               se necesiten y de las personas o los elementos de los que se recopilarán datos.
+
+
+               Los datos recogidos se pueden representar tanto en números como en palabras; ahí la
+               diferencia entre ambos tipos de investigación. Y es que, mientras la investigación
+               cuantitativa se ocupa de los números y las estadísticas, en la investigación cualitativa se
+               emplean las palabras y los significados.
+
+               La investigación cuantitativa proporciona datos objetivos sobre la eficiencia y efectividad de
+               los productos digitales, mientras que la investigación cualitativa revela percepciones y
+               experiencias de usuario que guían la mejora continua del diseño y la experiencia del
+               usuario.
+
+               La combinación de ambas metodologías ayuda a obtener una imagen más completa, ya que
+               integra los beneficios de los dos métodos: proporciona un enfoque holístico que combina y
+               analiza los datos estadísticos con conocimientos contextualizados de mayor profundidad,
+               así como permite verificar los resultados obtenidos de varias fuentes.
+
+               En la fase inicial de un proyecto UX/UI, se realiza una investigación exploratoria que puede
+               incluir encuestas cuantitativas para recopilar datos demográficos y patrones de uso, así
+               como entrevistas cualitativas para profundizar en las necesidades y expectativas de los
+               usuarios.]]></page><page Index="5"><![CDATA[Metodología cuantitativa.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Su nombre proviene de cantidad o cuantificación, o sea, numeración.
+
+               La investigación cuantitativa se usa para comprender frecuencias, patrones, promedios y
+
+               correlaciones, entender relaciones de causa y efecto, hacer generalizaciones y probar o
+               confirmar teorías, hipótesis o suposiciones mediante un análisis estadístico. De esta
+               manera, los resultados se expresan en números o gráficos.
+
+
+               Algunas de las herramientas empleadas en investigación cuantitativa para recopilar datos
+               son:
+
+
+                   ●   Encuestas o cuestionarios: las encuestas o los cuestionarios que se emplean
+                       plantean una misma serie de preguntas cerradas a un gran número de participantes
+                       o utilizan escalas para medir datos numéricos.
+                   ●   Experimentos: se incluyen pruebas de hipótesis en un laboratorio y pruebas de
+                       relaciones de causa y efecto.
+                   ●   Observación: se cuenta el número de veces que ocurre un fenómeno o evento en
+                       concreto o se codifican datos observados para expresarlos en números.
+                   ●   Selección de documentos: se obtienen datos numéricos de informes a partir de un
+                       recuento de apariciones de palabras.]]></page><page Index="6"><![CDATA[Algunas de sus principales ventajas son:
+
+
+                   ●   Es replicable: permite establecer protocolos de recopilación de datos
+                       estandarizados que pueden usar otros investigadores para repetir la investigación.
+                   ●   Es comparable: es posible hacer comparaciones directas de los resultados para
+                       reproducir el estudio en otros contextos.
+                   ●   Es analizable: se puede tanto analizar muestras grandes mediante procedimientos
+                       fiables como probar hipótesis formalizadas.
+
+               Sin embargo, la investigación cuantitativa también presenta ciertas limitaciones:
+
+
+                   ●   Puede resultar superficial para analizar conceptos complejos.
+                   ●   El enfoque que ofrece podría ser insuficiente, ya que las variables predeterminadas
+                       y los procedimientos de medición pueden provocar que no se tengan en cuenta otras
+                       observaciones relevantes a la hora de sacar conclusiones.
+                   ●   Puede haber un sesgo estructural, ya que los datos que faltan, las mediciones
+                       imprecisas o los métodos de muestreo inadecuados pueden llevar a conclusiones
+                       erróneas.
+                   ●   La recopilación de datos o los resultados pueden verse afectados, dado que esta se
+                       realiza fuera de contexto, por ejemplo, en entornos no naturales o sin considerar los
+                       contextos históricos y culturales.]]></page><page Index="7"><![CDATA[Encuesta.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Las encuestas son una herramienta fundamental en la metodología cuantitativa de
+               investigación, ya que permiten recopilar datos numéricos y estadísticamente
+               significativos sobre las opiniones, actitudes y comportamientos de una muestra
+               representativa de la población en estudio.
+
+
+               Si utilizamos la encuesta como herramienta para obtener datos cuantitativos de nuestra
+               audiencia, los objetivos serían:
+                   ●   Obtener información demográfica y general sobre nuestra audiencia.
+                   ●   Recopilar datos que sean medibles y cuantificables.
+                   ●   Terminar de identificar el problema.
+                   ●   Identificar si nuestra proto persona se relaciona con nuestro problema.]]></page><page Index="8"><![CDATA[Preguntas cuantificables
+
+
+
+               Las encuestas puede incluir una variedad de tipos de preguntas, como:
+
+               Preguntas cerradas de opción múltiple
+
+               La opción múltiple es un tipo de pregunta cerrada simple que permite a los encuestados
+               seleccionar una sola respuesta de una lista definida de opciones.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Preguntas de escala de Likert:
+
+
+               En estas preguntas se presenta una declaración y la persona debe indicar en qué grado se
+               siente de acuerdo o en desacuerdo con su contenido. Generalmente, consta de 5 opciones
+               de respuesta: dos opciones negativas, una opción neutra o intermedia y dos opciones
+               positivas.]]></page><page Index="9"><![CDATA[Se pueden usar escalas visuales como una opción de respuesta, pues esto hará más
+               dinámico el proceso. En la aplicación de evaluaciones de la escala de Likert es muy común
+               encontrar emojis que ilustran cada grado a la perfección. Lo importante es que los
+               elementos gráficos estén alineados con las respuestas que planteas.]]></page><page Index="10"><![CDATA[Preguntas dicotómicas:
+
+               Son preguntas que se responden solo con dos posibles opciones: Sí o No, Verdadero o
+               Falso, De Acuerdo o En desacuerdo. Las preguntas dicotómicas plantean al encuestado la
+               necesidad de elegir una única respuesta a elegir entre dos opciones claramente opuestas y
+               diferenciadas.]]></page><page Index="11"><![CDATA[Encuestas a usuarios.
+
+
+               Las encuestas en UX ayudan a obtener información sobre los usuarios y también ayudan
+               a diseñar un mejor producto para que los usuarios logren sus objetivos de manera más
+               eficiente.
+
+
+               Las encuestas de UX deben ser lo más rápidas y fáciles de completar posible y solo
+               deberían incluir aquellas preguntas que ayudarían a aprender algo que sea relevante para
+               el objetivo de la encuesta.
+
+               Las preguntas deben ser neutrales y evitar las que lleven a elegir una respuesta en
+               particular. Debe usarse un lenguaje claro y simple, y que sea fácil de comprender.
+               Se deben evitar las jergas, los acrónimos y los términos con los que el usuario no esta
+               familiarizado. Es importante informar a los encuestados como usaremos los datos y cual es
+               el fin de la misma.]]></page><page Index="12"><![CDATA[Herramienta para crear la encuesta
+
+
+
+
+
+
+
+
+                                                           Google Forms es una herramienta excelente
+                                                           para crear encuestas debido a varias razones
+                                                           que la hacen ideal para la recopilación de
+                                                           datos de manera eficiente y organizada.
+                                                           Algunas de sus ventajas son:
+
+
+
+                   ●   Fácil de usar: Google Forms tiene una interfaz intuitiva que permite crear encuestas
+                       sin necesidad de conocimientos técnicos. Puedes agregar preguntas, editar
+                       respuestas, y configurar el formulario de manera muy simple.
+                   ●   Variedad de tipos de preguntas: permite incluir preguntas abiertas, cerradas, de
+                       opción múltiple, casillas de verificación, escalas, desplegables, entre otros, lo que
+                       facilita la adaptación a diferentes necesidades de investigación.
+                   ●   Acceso en cualquier lugar: al ser una herramienta basada en la nube, tanto los
+                       encuestadores como los encuestados pueden acceder desde cualquier dispositivo
+                       con conexión a Internet, ya sea una computadora o un smartphone.
+                   ●   Colaboración en tiempo real: Google Forms permite la colaboración en tiempo
+                       real, lo que significa que varias personas pueden trabajar juntas en la creación y
+                       edición de la encuesta al mismo tiempo.
+                   ●   Recopilación y análisis de datos: la información recopilada se organiza
+                       automáticamente en una hoja de cálculo de Google (Google Sheets), lo que facilita
+                       el análisis y seguimiento de los resultados.
+                   ●   Gratuita: Google Forms es completamente gratuito, lo que lo convierte en una
+                       excelente opción para equipos con recursos limitados.
+                   ●   Personalización y diseño: aunque su diseño es básico, puedes personalizar los
+                       colores y agregar imágenes para que la encuesta sea visualmente atractiva y
+                       alineada con la identidad del proyecto.
+
+               Por estas razones, Google Forms es una opción efectiva para crear encuestas que te
+               permitan recopilar y organizar datos de manera clara, accesible y sencilla.]]></page><page Index="13"><![CDATA[Objetivos de realizar encuestas.
+
+
+
+
+                                                               El primer paso es definir un objetivo para
+                                                               la encuesta. Para ello hay que hacerse
+                                                               preguntas como ¿Qué estás tratando de
+                                                               saber sobre los usuarios?
+                                                               Las encuestas ayudan a obtener
+                                                               conocimientos específicos de grupos de
+                                                               personas, ya sean usuarios o todo un
+                                                               mercado objetivo. Si bien, es difícil confiar
+                                                               en la respuesta u opinión de una persona,
+                                                               al preguntar a un grupo numeroso las
+                                                               respuestas se volverán más claras y
+                                                               aplicables en todos los ámbitos.
+
+
+
+
+
+               ¿Cómo se presenta la información obtenida en
+
+
+               una encuesta?
+
+
+
+
+               El primer paso del documento en el que se presentan los resultados de una encuesta es
+               recordar el propósito de la investigación. Es decir, describir cuál era tu objetivo al realizar
+               tal estudio.
+
+
+               A continuación, deberás describir las características de las personas que respondieron a
+               tus preguntas. Es importante que seas breve y te enfoques únicamente en los aspectos
+               más relevantes.
+
+
+               También es importante presentar algunas de las preguntas que se hicieron. Esto
+               permitirá comprobar que se recopila información detallada y valiosa.
+               Y, por último, los resultados.]]></page><page Index="14"><![CDATA[Informe de las encuestas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Los seres humanos nos relacionamos mejor con la información por medio del sentido de la
+               vista, por lo que es conveniente que usemos gráficos y porcentajes para obtener un análisis
+               óptimo de las encuestas.
+               Se sugiere crear un gráfico para cada pregunta /categoría o suma las puntuaciones de cada
+               participante para obtener los resultados.]]></page><page Index="15"><![CDATA[Ejercicio práctico N° 1:
+
+
+
+               Encuestas
+               Realizar una encuesta por medio de Google Form con preguntas cerradas, de opciones
+               múltiples o escalas tipo Likert que permitan recolectar información dirigida a un mínimo de
+               10 personas que formen parte de nuestro público objetivo.
+
+
+
+
+
+
+               Ejercicio práctico N° 2:
+
+
+
+
+               Informe de encuestas
+               Realizar un informe de la encuesta utilizando gráficos de torta para mostrar la información
+               cuantitativa recopilada e incluir un breve resumen de los descubrimientos como conclusión.]]></page><page Index="16"><![CDATA[]]></page></pages></Search>

@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="20"><page Index="1"><![CDATA[«Talento Tech»
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Front End
+
+
+
+
+
+
+
+
+
+      Js
+
+
+
+
+
+
+
+
+
+       CLASE 12]]></page><page Index="2"><![CDATA[Clase 12: DOM y eventos
+
+
+
+                   1. Manipulación del DOM
+                          ○   ¿Qué es el DOM?
+                          ○   La estructura jerárquica del DOM
+                          ○   Importancia del DOM en el desarrollo web
+                          ○   Cómo acceder al DOM desde JavaScript
+                          ○   Métodos para modificar el DOM:
+                                 ■   getElementById()
+                                 ■   getElementsByClassName()
+                                 ■   querySelector()
+                                 ■   querySelectorAll()
+                          ○   Creación dinámica de elementos HTML con createElement()
+                          ○   Modificar elementos con innerHTML y textContent
+                          ○   Eliminar elementos con remove()
+                   2. Eventos en JavaScript
+                          ○   ¿Qué son los eventos en JS?
+                          ○   La importancia de los eventos en la interacción usuario-sitio
+                          ○   Tipos de eventos comunes: click, keypress, submit, etc.
+                          ○   Cómo "escuchar" eventos en el DOM: addEventListener
+                          ○   Diferencias entre eventos en atributos HTML, propiedades y
+                              addEventListener
+                          ○   Ejemplos prácticos de eventos
+                          ○   Eventos con funciones flecha y eventos tradicionales
+                          ○   Delegación de eventos]]></page><page Index="3"><![CDATA[1. Manipulación del DOM
+
+
+               ¿Qué es el DOM?
+
+               El DOM (Document Object Model) es una representación estructurada de la página web.
+               Es la manera en la que el navegador convierte el HTML en una estructura de nodos a los
+               que podemos acceder y modificar mediante JavaScript. Pensá en el DOM como en un árbol
+               donde cada elemento HTML (etiquetas, atributos, textos) es un nodo del mismo.
+
+               En resumen, el DOM es la "puerta de entrada" para que JavaScript interactúe con tu página
+               web.]]></page><page Index="4"><![CDATA[La estructura jerárquica del DOM
+
+
+               El DOM está organizado de forma jerárquica, como un árbol genealógico, en el que los
+               elementos HTML están relacionados entre sí como una familia, siguiendo una línea de
+               herencia. El documento HTML comienza con la etiqueta <html>, que tiene como
+
+               "hijos/hijas" a <head> y <body>. Dentro de estos, encontramos más elementos anidados
+               (que descienden de otros elementos). Por ejemplo:
+
+
+               <!DOCTYPE html>
+
+               <html>
+
+                 <head>
+
+
+                   <title>Título de la página</title>
+
+                 </head>
+
+                 <body>
+
+
+                   <h1>Encabezado</h1>
+
+                   <p>Este es un párrafo.</p>
+
+                 </body>
+
+
+               </html>
+
+               Aquí, <html> es el "madre o padre" de <head> y <body>, mientras que <h1> y <p> son
+               "hijos/as" de <body>.
+
+
+               Importancia del DOM en el desarrollo web:
+
+               El DOM es fundamental porque es lo que le da interactividad a nuestras páginas. Gracias a
+               él, podemos modificar elementos, agregar otros nuevos, o incluso eliminar los que ya no
+               necesitamos, todo en tiempo real y sin recargar la página.]]></page><page Index="5"><![CDATA[¿Cómo acceder al DOM desde JavaScript?
+
+
+               Para interactuar con el DOM desde JavaScript, siempre empezamos accediendo al objeto
+               document, que representa el documento HTML cargado en el navegador. A partir de ahí,
+               podemos usar varios métodos para buscar, seleccionar y modificar elementos.
+
+               Métodos para modificar el DOM
+
+               Ahora, vamos a profundizar en algunos de los métodos más utilizados para seleccionar y
+               modificar elementos del DOM.
+
+               1. getElementById()
+
+
+               Este es uno de los métodos más simples y rápidos para acceder a un elemento específico
+               del DOM. Como su nombre lo indica, selecciona un elemento según su atributo id. Recordá
+               que el id debe ser único en el documento.
+
+
+               Ejemplo:
+
+                   <h1 id="titulo">Bienvenido a mi sitio</h1>
+
+                   <script>
+
+
+                     let elemento = document.getElementById("titulo");
+
+                     console.log(elemento);      // Devuelve el elemento <h1 id="titulo">...</h1>
+
+                   </script>
+
+
+               En este ejemplo, accedemos al <h1> usando su id. Una vez que tenemos acceso al
+               elemento, podemos modificar su contenido, cambiar estilos o realizar cualquier operación
+               que necesitemos.
+
+
+               Ventaja: Es muy rápido porque los id son únicos en la página, por lo que el navegador no
+               tiene que buscar entre muchos elementos.]]></page><page Index="6"><![CDATA[2. getElementsByClassName()
+
+
+               Este método devuelve una colección de elementos que comparten la misma clase. A
+               diferencia de getElementById(), que devuelve un solo elemento, este método devuelve
+               un HTMLCollection, lo que significa que podés tener varios elementos con la misma clase
+               y trabajar con todos ellos.
+
+               Ejemplo:
+
+                   <div class="caja">Caja 1</div>
+
+
+                   <div class="caja">Caja 2</div>
+
+                   <div class="caja">Caja 3</div>
+
+
+                   <script>
+
+                     let cajas = document.getElementsByClassName("caja");
+
+                     console.log(cajas);      // Devuelve una colección con las tres <div
+               class="caja">...</div>
+
+
+                     // Podemos iterar sobre ellos:
+
+                     for (let i = 0; i < cajas.length; i++) {
+
+
+                        cajas[i].style.color = "red";       // Cambiamos el color de texto a rojo
+
+                     }
+
+
+                   </script>
+
+               En este caso, getElementsByClassName() selecciona todas las div con la clase "caja".
+               Podés luego modificar cualquiera de estos elementos usando índices, ya que es una
+               colección.]]></page><page Index="7"><![CDATA[3. querySelector()
+
+
+               Este es un método mucho más flexible y potente. Nos permite seleccionar el primer
+               elemento que coincida con un selector CSS. Si estás familiarizado con selectores en CSS,
+               te va a resultar muy fácil de usar. Ejemplo:
+
+                   <div class="contenedor">
+
+
+                      <p class="texto">Texto 1</p>
+
+                      <p class="texto">Texto 2</p>
+
+                   </div>
+
+
+                   <script>
+
+
+                      let primerParrafo = document.querySelector(".contenedor .texto");
+
+                      console.log(primerParrafo);         // Devuelve el primer <p
+               class="texto">Texto 1</p>
+
+
+                      // Podemos cambiar su contenido:
+
+                      primerParrafo.textContent = "Nuevo texto";
+
+
+                   </script>
+
+               Acá estamos utilizando un selector compuesto para acceder al primer párrafo dentro del
+
+               div con clase "contenedor". Este método es sumamente versátil porque acepta cualquier
+               selector CSS.]]></page><page Index="8"><![CDATA[4. querySelectorAll()
+
+
+
+               Este método es similar a querySelector(), pero en lugar de devolver sólo el primer
+               elemento que coincide, devuelve todos los elementos que coinciden con el selector, en
+               forma de NodeList (una lista de nodos). Ejemplo:
+
+
+                   <div class="contenedor">
+
+                     <p class="texto">Texto 1</p>
+
+                     <p class="texto">Texto 2</p>
+
+                   </div>
+
+
+                   <script>
+
+                     let parrafos = document.querySelectorAll(".contenedor .texto");
+
+                     console.log(parrafos);      // Devuelve una NodeList con los dos <p
+               class="texto">...</p>
+
+
+                     // Cambiamos el color de todos los párrafos seleccionados:
+
+                     parrafos.forEach(parrafo => {
+
+                        parrafo.style.color = "blue";
+
+
+                     });
+
+                   </script>
+
+               En este ejemplo, querySelectorAll() selecciona todos los párrafos con la clase "texto"
+
+               dentro del div con clase "contenedor", y luego usamos un bucle forEach para cambiar el
+               color de todos ellos. A diferencia de getElementsByClassName(), que devuelve una
+               colección de HTML, querySelectorAll() devuelve una lista de nodos que soporta
+               métodos como forEach().]]></page><page Index="9"><![CDATA[Creación dinámica de elementos HTML con createElement()
+
+
+               Una de las mayores ventajas del DOM es que no solo podés modificar lo que ya está en la
+               página, sino que también podés agregar nuevos elementos en tiempo real. Esto lo hacemos
+               con createElement(), que crea un nuevo nodo en memoria, pero que no se añade a la
+               página hasta que usamos appendChild(). Ejemplo:
+
+                   <ul id="lista">
+
+
+                      <li>Elemento 1</li>
+
+                      <li>Elemento 2</li>
+
+
+                   </ul>
+
+                   <script>
+
+
+                      let nuevoElemento = document.createElement("li");
+
+                      nuevoElemento.textContent = "Elemento 3";
+
+
+                      document.getElementById("lista").appendChild(nuevoElemento);
+
+                   </script>
+
+
+                 En este ejemplo, creamos un nuevo elemento de lista (<li>) y lo agregamos a la lista
+               existente. Esta técnica es perfecta para páginas dinámicas, donde el contenido puede
+
+               cambiar o crecer dependiendo de las acciones de las personas usuarias.]]></page><page Index="10"><![CDATA[Modificar elementos con innerHTML y textContent
+
+
+                   ●   innerHTML: Este método te permite modificar o insertar contenido HTML dentro de
+                       un elemento. Es muy útil cuando querés agregar contenido más complejo, como
+                       listas, tablas o incluso secciones enteras con varias etiquetas HTML.
+
+               Ejemplo:
+
+                   <div id="contenido">
+
+
+                      <p>Texto inicial</p>
+
+                   </div>
+
+
+                   <script>
+
+                      let div = document.getElementById("contenido");
+
+
+                      div.innerHTML = "<h2>Nuevo título</h2><p>Nuevo párrafo
+               añadido</p>";
+
+                   </script>
+
+
+               En este ejemplo, usamos innerHTML para reemplazar el contenido del div. Esto elimina el
+               párrafo original y lo reemplaza por un h2 y un nuevo p. Como ves, con innerHTML podés
+               insertar HTML completo, no solo texto.
+
+
+               Nota importante: Aunque innerHTML es muy flexible, debés usarlo con cuidado cuando
+               estás manipulando contenido que proviene de los usuarios, porque puede ser una puerta de
+               entrada para ataques de XSS (Cross-Site Scripting).]]></page><page Index="11"><![CDATA[●   textContent: A diferencia de innerHTML, este método solo modifica el texto dentro
+                       de un elemento, sin interpretar etiquetas HTML. Es mucho más seguro si solo estás
+                       manejando texto y querés evitar problemas de seguridad o renderizado inesperado.
+
+
+               Ejemplo:
+
+                   <div id="contenido">
+
+                      <p>Texto inicial</p>
+
+
+                   </div>
+
+                   <script>
+
+
+                      let div = document.getElementById("contenido");
+
+
+                      div.textContent = "Este es solo texto, sin HTML";
+
+                   </script>
+
+
+               En este ejemplo, textContent reemplaza todo el contenido del div con texto plano, sin
+               interpretación de etiquetas HTML. Si hubieras intentado insertar HTML (por ejemplo, un
+               <h1>), se mostraría tal cual, como texto, sin ser renderizado como un encabezado.]]></page><page Index="12"><![CDATA[Eliminar elementos con remove()
+
+
+               A veces no sólo queremos agregar o modificar elementos, sino que también necesitamos
+               eliminarlos por completo. Para esto, usamos el método remove(), que elimina un nodo del
+               DOM.
+
+               Ejemplo:
+
+
+                   <ul>
+
+                      <li id="item1">Elemento 1</li>
+
+
+                      <li id="item2">Elemento 2</li>
+
+                      <li id="item3">Elemento 3</li>
+
+
+                   </ul>
+
+                   <script>
+
+
+                      let item = document.getElementById("item2");
+
+                      item.remove();
+
+
+                   </script>
+
+
+
+
+
+               En este caso, seleccionamos el elemento con id="item2" y lo eliminamos por completo
+               del DOM. Esto es útil cuando trabajás con listas dinámicas o interfaces donde algunos
+               elementos deben desaparecer dependiendo de la acción del usuario o la usuaria.]]></page><page Index="13"><![CDATA[2. Eventos en JavaScript
+
+
+               ¿Qué son los eventos en JS?
+
+               Los eventos en JavaScript son acciones que ocurren en el navegador y que podemos
+               "escuchar" o capturar para ejecutar algún código. Estos eventos pueden ser disparados por
+               distintas interacciones como un clic, una tecla presionada, o el envío de un formulario) o
+               bien por el navegador (carga de la página) u otros elementos interactivos.
+
+               En otras palabras, un evento es como una señal de que algo ha pasado en el navegador, y
+               podemos responder a esa señal escribiendo código.
+
+               La importancia de los eventos en la interacción usuario-sitio
+
+
+               Sin eventos, una página web sería estática e inerte. Gracias a los eventos, podemos
+               interactuar con la usuaria, permitiéndole realizar acciones como enviar formularios, hacer
+               clic en botones, o incluso mover el ratón sobre elementos para mostrar información
+               adicional. Los eventos son esenciales para la interactividad en las aplicaciones web
+               modernas.
+
+
+
+
+
+               Tipos de eventos comunes: click, keypress, submit, etc.
+
+               Algunos de los eventos más comunes en JavaScript incluyen:
+
+                   ●   click: Se dispara cuando se hace clic en un elemento.
+                   ●   keypress: Se activa cuando se presiona una tecla.
+                   ●   submit: Ocurre cuando un formulario es enviado.
+                   ●   mouseover: Se dispara cuando el ratón pasa por encima de un elemento.
+                   ●   load: Ocurre cuando un recurso (como una página o una imagen) se ha cargado
+                       completamente.]]></page><page Index="14"><![CDATA[¿Cómo "escuchar" eventos en el DOM: addEventListener?
+
+
+               Para "escuchar" estos eventos y ejecutar alguna acción cuando ocurren, usamos
+               addEventListener. Este método asocia una función a un evento para que se ejecute
+               cada vez que el mismo ocurra.
+
+               Ejemplo:
+
+
+                   <button id="miBoton">Hacé clic</button>
+
+                   <script>
+
+
+                      let boton = document.getElementById("miBoton");
+
+                      boton.addEventListener("click", function() {
+
+
+                        alert("¡Hiciste clic en el botón!");
+
+                      });
+
+
+                   </script>
+
+               En este caso, cuando se haga clic en el botón, aparecerá una alerta. El método
+               addEventListener nos permite definir de manera limpia cómo reaccionar a distintos
+               eventos.]]></page><page Index="15"><![CDATA[Diferencias entre eventos en atributos HTML, propiedades y
+
+               addEventListener
+
+               Hay varias formas de manejar eventos en JavaScript:
+
+               Atributos HTML: Podés definir eventos directamente en el HTML, pero no es
+               recomendable porque mezcla lógica con estructura.
+               Ejemplo:
+
+
+               <button onclick="alert('¡Hiciste clic!')">Hacé clic</button>
+
+               Propiedades de los elementos: Podés asignar una función directamente a la propiedad
+               del evento del elemento en JavaScript.
+
+
+
+               Ejemplo:
+
+               boton.onclick = function() {
+
+                   alert("¡Clic detectado!");
+
+
+                 };
+
+
+                   ●
+                   ●   addEventListener: Es la forma recomendada, ya que permite adjuntar múltiples
+                       eventos al mismo elemento sin sobrescribir funciones anteriores. Además, es más
+                       flexible.]]></page><page Index="16"><![CDATA[Eventos con funciones flecha y eventos tradicionales
+
+
+               Podés usar tanto funciones normales como funciones flecha en tus eventos. La diferencia
+               principal es cómo manejan el contexto (this):
+
+               Ejemplo con función tradicional:
+
+
+               boton.addEventListener("click", function() {
+
+                   console.log(this);       // 'this' se refiere al elemento que disparó el
+               evento
+
+
+                 });
+
+               Ejemplo con función flecha:
+
+
+               boton.addEventListener("click", () => {
+
+               console.log(this);        // 'this' se refiere al contexto exterior, no al
+               botón
+
+
+                 });
+
+               En general, si necesitás que this apunte al elemento que disparó el evento, usá una
+               función tradicional.]]></page><page Index="17"><![CDATA[Delegación de eventos
+
+
+               La delegación de eventos es una técnica que nos permite escuchar eventos de varios
+               elementos hijos utilizando un solo "listener" en el padre. Es especialmente útil cuando los
+               elementos hijos son generados dinámicamente.
+
+               Ejemplo:
+
+                   <ul id="lista">
+
+
+                      <li>Elemento 1</li>
+
+                      <li>Elemento 2</li>
+
+
+                      <li>Elemento 3</li>
+
+                   </ul>
+
+
+                   <script>
+
+                      let lista = document.getElementById("lista");
+
+
+                      lista.addEventListener("click", function(event) {
+
+                        if (event.target.tagName === "LI") {
+
+
+                           alert("Hiciste clic en " + event.target.textContent);
+
+                        }
+
+
+                      });
+
+
+                   </script>
+
+               En este caso, en lugar de agregar un listener a cada <li>, lo añadimos a la lista completa y
+               verificamos si el target del evento fue un li. De esta manera, el evento se maneja de
+               forma eficiente, incluso si se agregan nuevos elementos dinámicamente.]]></page><page Index="18"><![CDATA[Ejercicio práctico #1:
+
+
+
+               Modificación del DOM con Métodos de Selección
+
+               Enunciado: Crear un programa que, al hacer clic en un botón, cambie el contenido de un
+               párrafo en la página utilizando los métodos para acceder al DOM. Los pasos específicos
+               son:
+
+                   1. Al cargar la página, se debe mostrar un párrafo con el texto: "Texto inicial".
+                   2. Al hacer clic en un botón, se debe cambiar ese texto por: "El texto ha sido
+                       modificado con JavaScript".
+                   3. Usar getElementById() para seleccionar el párrafo y modificar su contenido con
+                       textContent.
+
+
+               Tips:
+
+                   ●   Selección por id: Utilizar getElementById() para acceder al elemento del DOM
+                       que queremos modificar.
+                   ●   Modificación de contenido: Utilizá textContent para cambiar el texto del párrafo.
+                   ●   Eventos: Usar addEventListener para ejecutar la modificación cuando se hace
+                       clic en el botón.]]></page><page Index="19"><![CDATA[Ejercicio práctico #2:
+
+
+
+               Creación Dinámica de Elementos y Eventos
+
+
+               Enunciado: Desarrollar un programa que permita a la persona agregar
+               nuevos elementos a una lista mediante un botón. Los pasos son:
+
+
+                   1. Al hacer clic en un botón, se debe crear un nuevo elemento <li> en
+                       una lista ya existente.
+                   2. El contenido del nuevo elemento debe ser el texto: "Nuevo Elemento".
+
+                   3. Usar createElement() para crear el nuevo elemento y
+                       appendChild() para añadirlo a la lista.
+
+                   4. Cada vez que se agrega un nuevo elemento, se debe mostrar una
+                       alerta indicando: "Se ha añadido un nuevo elemento".
+
+               Tips:
+
+
+                   ● Creación de elementos: Usar createElement() para generar el
+
+                       nuevo nodo <li>.
+                   ● Agregar al DOM: Usar appendChild() para añadir el nuevo
+                       elemento a la lista.
+
+                   ● Eventos: Utilizá addEventListener() para asociar la acción de
+                       agregar el elemento al evento click del botón.]]></page><page Index="20"><![CDATA[]]></page></pages></Search>

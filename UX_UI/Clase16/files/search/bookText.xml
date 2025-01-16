@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="12"><page Index="1"><![CDATA[«Talento Tech»
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Fundamentos
+
+
+
+
+
+
+
+
+
+      del Diseño Ux UI
+
+
+
+
+
+
+
+
+
+       CLASE 16]]></page><page Index="2"><![CDATA[Clase N° 16 | Workshop de Prototipado
+
+
+
+
+               Temario:
+
+                          ● Prototipo
+                          ● Wireframing
+
+                          ● Wireframe a mano
+                          ● Wireframe en baja resolución
+                          ● Ejercicios]]></page><page Index="3"><![CDATA[Prototipo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Los prototipos son piezas fundamentales en el proceso de diseño de Experiencia de
+               Usuario (UX), ya que permiten explorar y validar soluciones antes de la implementación
+               final. Exploraremos qué son los prototipos, por qué son importantes en el diseño UX, y
+               cómo se integran en el flujo de trabajo de los diseñadores y equipos de desarrollo.
+
+
+               Su propósito principal es visualizar y probar conceptos antes de invertir recursos
+               significativos en el desarrollo completo. Esto permite a los diseñadores y equipos
+               identificar problemas potenciales y validar soluciones desde las primeras etapas del proceso
+               de diseño.
+
+
+               Los prototipos juegan un papel crucial en la creación de experiencias digitales exitosas. Al
+               permitir a los diseñadores y stakeholders (grupos de interés o personas que tienen un
+               interés en las actividades o resultados de un proyecto) interactuar con una versión
+               simulada del producto, se pueden obtener retroalimentaciones valiosas que ayudan a]]></page><page Index="4"><![CDATA[refinar y mejorar el diseño antes de llegar a la etapa de desarrollo. Esta iteración temprana
+               no solo reduce los riesgos de implementación, sino que también asegura que el producto
+               final cumpla con las expectativas y necesidades del usuario final.
+
+
+
+
+               Beneficios de Utilizar Prototipos en UX:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Validación de Conceptos y Funcionalidades: los prototipos permiten probar la viabilidad
+               de ideas y funcionalidades antes de comprometer recursos en el desarrollo completo. Esto
+               ayuda a evitar costosos rediseños o cambios tardíos.
+
+
+               Comunicación Efectiva: son herramientas poderosas para comunicar ideas y visiones de
+               diseño tanto dentro del equipo de desarrollo como hacia los stakeholders. Los prototipos
+               visuales facilitan una comprensión más clara y concreta del diseño propuesto.
+
+               Reducción de Errores y Costos: identificar problemas de usabilidad o diseño en etapas
+               tempranas del proceso permite corregirlos con mayor facilidad y a un menor costo que
+               durante el desarrollo completo del producto.
+
+               Alineación del Equipo: los prototipos ayudan a alinear expectativas entre diseñadores,
+               desarrolladores y stakeholders desde el inicio del proyecto, minimizando malentendidos y
+               asegurando que todos estén trabajando hacia los mismos objetivos.]]></page><page Index="5"><![CDATA[Tipos de Prototipos en el Proceso de Diseño:
+
+
+               Existen varios tipos de prototipos que pueden ser utilizados a lo largo del proceso de diseño
+               UX, cada uno con su propósito específico y nivel de fidelidad:
+
+
+               Prototipos de Baja Fidelidad: son representaciones simples y rápidas del diseño,
+               generalmente hechas con lápiz y papel o herramientas de diseño gráfico básicas. Estos
+               prototipos son útiles para explorar conceptos iniciales y obtener feedback rápido.
+
+
+               Prototipos de Media Fidelidad: son versiones más detalladas que pueden incluir
+               interacciones básicas y elementos visuales más refinados. Se utilizan para validar el flujo de
+               usuario y la estructura general del diseño.
+
+               Prototipos de Alta Fidelidad: son simulaciones casi completas del producto final, con
+               detalles visuales precisos y funcionalidades interactivas avanzadas. Estos prototipos son
+               ideales para pruebas de usabilidad exhaustivas y presentaciones a stakeholders.
+
+
+               Cada tipo de prototipo tiene su momento y lugar en el proceso de diseño, y la elección
+               depende del objetivo específico y el contexto del proyecto en curso.
+
+
+
+
+               Características de un prototipo
+
+
+                   ●   Concreto y tangible
+                   ●   Funcionalidades básica
+                   ●   Beneficios máximos
+                   ●   Rápido
+                   ●   Barato
+                   ●   Desechable
+
+
+
+
+               Un principio básico en el diseño de prototipos es adoptar un enfoque centrado en el
+               usuario. Esto implica diseñar no solo para que el producto sea funcional y estéticamente
+               agradable, sino también para que sea intuitivo y fácil de usar para los usuarios finales.]]></page><page Index="6"><![CDATA[Involucrar a los usuarios en todas las etapas del proceso de diseño y testing garantiza que
+               el producto final satisfaga sus necesidades y expectativas.
+
+
+               Errores típicos en prototipado
+
+
+                   ●   Gastar demasiado (tiempo, dinero, recursos humanos) en la construcción de un
+                       prototipo.
+                   ●   Pensar que una aplicación lo arregla todo.
+                   ●   Enamorarse del prototipo.
+                   ●   Pensar que un prototipo es sinónimo de adopción por parte de los usuarios.
+
+
+               Los prototipos en UX representan mucho más que simples herramientas de diseño. Son
+               vehículos para la innovación, la colaboración y la mejora continua. Al adoptar prácticas
+               centradas en el usuario y metodologías ágiles, las organizaciones pueden aprovechar al
+               máximo el potencial de los prototipos para crear productos digitales que no solo cumplan,
+               sino que superen las expectativas de los usuarios en un mercado cada vez más competitivo
+               y dinámico.]]></page><page Index="7"><![CDATA[Wireframing.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Wireframing es una de las fases iniciales en la creación de un producto digital y consiste en
+               el diseño de la estructura que tendrá cada una de las pantallas o interfaces de ese
+               producto. Es decir, un wireframe es el boceto de cómo serán cada una de las pantallas de
+               una web o app. Pero uno sin colores, logos o tipografías. Porque lo que importa en el
+               wireframing no es el aspecto visual, sino cuál es el orden, qué tipo de contenido irá en cada
+               bloque y a dónde lleva cada botón.
+
+               Un wireframe es el esquema de lo que se ve en la pantalla de una web o una app.
+               La clave de un buen wireframe es poner el foco en la estructura y jerarquía de los
+               elementos. De ahí que pueda diseñarse incluso a bolígrafo en la hoja de una libreta.
+               Imaginá que fueras a amueblar un salón vacío. Primero decidirías dónde va el sofá y dónde
+               la tele y luego, una vez definida la distribución, sería el turno de elegir esos muebles. Pues
+               el wireframing es algo parecido. En primer lugar, se decide el orden y el tipo de
+               contenidos, y a continuación se definen las características concretas de cada elemento.
+
+
+
+               Precisamente para centrarnos en la estructura, los wireframes suelen realizarse con
+               elementos lo más neutrales posibles. En blanco o negro o con diferentes tonalidades de
+               gris, sin imágenes ni textos de ejemplo, y también sin logo.]]></page><page Index="8"><![CDATA[Wireframe a mano (Sketch).
+
+
+
+
+
+               Un wireframe a mano es un boceto de baja fidelidad que se realiza a mano para representar
+               la estructura de una aplicación móvil:
+                   ●   Se trata de una representación visual básica y bidimensional.
+                   ●   Es un adelanto del diseño final que muestra cómo se relacionan los elementos entre
+                       sí.
+                   ●   Se utiliza para definir el contenido, los bloques y su ubicación.
+                   ●   Se puede hacer en papel.
+                   ●   Es la forma más sencilla y económica de crear wireframes.]]></page><page Index="9"><![CDATA[Wireframe Digital.
+
+
+
+               Se trata de modelos digitales muy simplificados, casi esqueléticos en su falta de detalle,
+               para que nada distraiga del objetivo principal: probar la estructura de trabajo, su arquitectura
+               y funcionalidad. Disponer de estos elementos sin ningún diseño o contenido real ayuda a
+               comprender las relaciones entre ellos y si funcionan de forma lógica y práctica para ofrecer
+               resultados al usuario.
+
+
+               Al ser digital nos permite agregar un poco más de detalles y prolijidad que en el wireframe a
+               mano, pero sigue siendo un boceto de los elementos que forman la interfaz.]]></page><page Index="10"><![CDATA[Tendencias en prototipado.
+
+
+
+               Prototipado con Inteligencia Artificial (IA): la IA está transformando la manera de crear
+               prototipos, permitiendo automatizar tareas repetitivas y así acelerar el proceso de creación,
+               impulsando la productividad. Esto también ha facilitado que personas con poca experiencia
+               técnica hoy puedan realizar prototipos avanzados.
+
+
+               Diseño centrado en la accesibilidad: prototipar teniendo en cuenta a usuarios con
+               discapacidades, desde las primeras etapas del diseño, está siendo crucial. Las mejores
+               prácticas incluyen crear prototipos que permitan simular interacciones accesibles, como
+               navegación con teclado o lectores de pantalla.
+
+
+               Prototipado colaborativo en tiempo real: hoy existen varias herramientas que permiten a
+               múltiples diseñadores, desarrolladores y stakeholders trabajar en el mismo prototipo de
+               forma simultánea, agilizando los ciclos de retroalimentación y mejorando la comunicación
+               dentro de los equipos.
+
+
+               Prototipos responsivos y adaptables: con la multiplicidad de dispositivos existentes, los
+               prototipos que se adaptan a pantallas de diferentes tamaños se han vuelto esenciales.
+               Crear diseños responsivos desde el principio ayuda a los equipos a visualizar cómo se
+               verán y comportarán los productos en una variedad de contextos (dispositivos móviles, de
+               escritorio y relojes inteligentes).
+
+
+               Prototipado low-code/no-code: esta tendencia está permitiendo que personas sin
+               conocimientos de programación puedan crear prototipos funcionales y MVP sin necesidad
+               de escribir código.]]></page><page Index="11"><![CDATA[Testeo remoto y a escala: las herramientas de prototipado ahora se integran con
+               plataformas de testeo remoto, permitiendo pruebas de usuario escalables y rápidas. Así, los
+               equipos pueden ejecutar tests de usabilidad con usuarios reales de forma remota,
+               analizando su comportamiento sin necesidad de estar físicamente presentes.
+
+
+
+               Prototipado de experiencias de voz: con la creciente popularidad de dispositivos de voz
+               como Alexa, Google Assistant o Siri, las herramientas de prototipado están empezando a
+               incluir funcionalidades para diseñar y probar experiencias de usuario basadas en comandos
+               de voz.
+
+
+
+               Ejercicios prácticos:
+
+
+
+
+               Wireframe a mano.
+
+
+
+               Realizá el boceto del Wireframe a mano del “Happy Path”, es decir el camino feliz que
+               recorre el usuario para solucionar su problema en nuestra app.
+               Empieza por Registrarse en la app, llega a la Home, y luego las siguientes pantallas para
+               completar el happy path.
+
+
+               Wireframe Digital.
+
+
+
+               Luego de tener todos los bocetos de las pantallas a mano y usándolos de referencia
+               haremos los Wireframes Digitales.
+               Los wireframes digitales van a estar en Fidelidad Baja, es decir, en escala de grises, sin el
+               contenido de texto específico, ni imágenes aplicadas.
+
+
+                   Acá podrás encontrar un ejemplo de resolución]]></page><page Index="12"><![CDATA[]]></page></pages></Search>
