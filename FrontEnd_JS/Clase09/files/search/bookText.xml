@@ -1,77 +1,31 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="11"><page Index="1"><![CDATA[«Talento Tech»
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="10"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase N° 09: Introducción a
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      Front End
-
-
-
-
-
-
-
-
-
-      Js
-
-
-
-
-
-
-
-
-
-       CLASE 9]]></page><page Index="2"><![CDATA[Clase N° 09: Introducción a
 
 
                JavaScript
 
 
-
-
-                   1. Introducción a JavaScript
-                          ○   ¿Qué es JavaScript?
-                          ○   Características de JavaScript
-                          ○   Versiones de ECMAScript
-                   2. Primeros Pasos con JavaScript
-                          ○   Incorporación de JavaScript en HTML
-                          ○   Uso de la Consola del Navegador
-                          ○   Comentarios en JavaScript
-                   3. Variables y Constantes en JavaScript
-                          ○   Declaración de Variables
-                          ○   Reglas para Nombrar Variables
-                          ○   Modificación de Variables
-                          ○   Declaración de Constantes
-                   4. Tipos de Datos en JavaScript
-                          ○   Tipos de Datos Primitivos
-                          ○   El Objeto Number
-                          ○   Conversión Numérica
-                   5. Operadores
-                          ○   Operadores Aritméticos y de Asignación
-                          ○   Concatenación de Cadenas]]></page><page Index="3"><![CDATA[1. Introducción a JavaScript
+                   1.  Introducción a JavaScript
+                          ○  ¿Qué es JavaScript?
+                          ○  Características de JavaScript
+                          ○  Versiones de ECMAScript
+                   2.  Primeros Pasos con JavaScript
+                          ○  Incorporación de JavaScript en HTML
+                          ○  Uso de la Consola del Navegador
+                          ○  Comentarios en JavaScript
+                   3.  Variables y Constantes en JavaScript
+                          ○  Declaración de Variables
+                          ○  Reglas para Nombrar Variables
+                          ○  Modificación de Variables
+                          ○  Declaración de Constantes
+                   4.  Tipos de Datos en JavaScript
+                          ○  Tipos de Datos Primitivos
+                          ○  El Objeto Number
+                          ○  Conversión Numérica
+                   5.  Operadores
+                          ○  Operadores Aritméticos y de Asignación
+                          ○  Concatenación de Cadenas]]></page><page Index="3"><![CDATA[1. Introducción a JavaScript
 
 
                ¿Qué es JavaScript?
@@ -79,78 +33,82 @@
                                        JavaScript, o, para los amigos, JS, es lo que le da vida a una
                                        página web.
 
+
                                        Si HTML es el esqueleto y CSS la apariencia, JavaScript es el
                                        alma que permite que las cosas interactúen. Gracias a este
                                        lenguaje podés hacer que un botón muestre una alerta, que un
                                        formulario envíe datos sin recargar la página, o que cambie el
                                        contenido cuando movés el mouse.
 
-
                Principales Características de JavaScript
 
-                   ●   Lenguaje del lado del cliente: se ejecuta directamente en el navegador del usuario.
-                   ●   Orientado a objetos: aunque no sea 100% orientado a objetos como otros
+
+                   ●  Lenguaje del lado del cliente: se ejecuta directamente en el navegador del usuario.
+                   ●  Orientado a objetos: aunque no sea 100% orientado a objetos como otros
                        lenguajes, JS te permite trabajar con objetos.
-                   ●   Tipado débil: no tenés que especificar el tipo de dato (número, string, etc.) al
+                   ●  Tipado débil: no tenés que especificar el tipo de dato (número, string, etc.) al
                        declarar variables.
-                   ●   Interpretado: no necesita compilación; el navegador se encarga de ejecutarlo al
+                   ●  Interpretado: no necesita compilación; el navegador se encarga de ejecutarlo al
                        vuelo.
 
-               Versiones de ECMAScript
 
+               Versiones de ECMAScript
 
                JavaScript evoluciona a través de algo llamado ECMAScript (o ES). Cada versión trae
                nuevas funcionalidades, más fácil de usar y más potente.
 
-
-                   ●   ES5 (2009): añadió cosas útiles como métodos de arrays y objetos, y el famoso "use
+                   ●  ES5 (2009): añadió cosas útiles como métodos de arrays y objetos, y el famoso "use
                        strict".
-                   ●   ES6/ES2015: esta es la "revolución" de JS. Añadió cosas como let, const,
+                   ●  ES6/ES2015: esta es la "revolución" de JS. Añadió cosas como let, const,
                        funciones flecha y clases.
-                   ●   ES2020/ES2021: trajo nuevas herramientas como BigInt (números gigantes),
-                       promesas más sencillas, y operadores lógicos más eficientes.]]></page><page Index="4"><![CDATA[2. Primeros Pasos con JavaScript
+                   ●  ES2020/ES2021: trajo nuevas herramientas como BigInt (números gigantes),
+                       promesas más sencillas, y operadores lógicos más eficientes.
 
+               2. Primeros Pasos con JavaScript
 
                Incorporación de JavaScript en HTML
 
+
                Podés agregar JavaScript a una página de varias maneras:
 
-                   ●   Directamente en el head (aunque no se usa mucho porque bloquea el
+                   ●  Directamente en el head (aunque no se usa mucho porque bloquea el
                        renderizado):
 
                <script>
 
 
-                      console.log("Hola desde el head!");
+                    console.log("Hola desde el head!");]]></page><page Index="4"><![CDATA[</script>
 
 
-               </script>
-
-                   ●   En el body, antes del cierre de </body>:
-
+                   ●  En el body, antes del cierre de </body>:
 
                <body>
 
-                   <p>Ejemplo de texto.</p>
+
+                  <p>Ejemplo de texto.</p>
+
+                  <script>
 
 
-                   <script>
+                    console.log("Hola desde el body!");
 
-                      console.log("Hola desde el body!");
-
-
-                   </script>
-
-                 </body>
+                  </script>
 
 
-                   ●   Usando un archivo externo, la mejor práctica:
+                </body>
+
+                   ●  Usando un archivo externo, la mejor práctica:
 
                <script src="mi-script.js"></script>
 
 
                Este último método es el más usado porque separa el código JS del HTML, manteniendo
-               todo más organizado.]]></page><page Index="5"><![CDATA[Uso de la Consola del Navegador
+               todo más organizado.
+
+
+
+
+               2. Uso de la Consola del Navegador
 
 
                La consola del navegador es tu mejor amiga cuando estás trabajando con JS. Ahí podés ver
@@ -159,29 +117,13 @@
 
                Para abrir la consola:
 
-                   ●   Windows/Linux: Ctrl + Shift + J
-                   ●   Mac: Cmd + Option + J
+                   ●  Windows/Linux: Ctrl + Shift + J
+                   ●  Mac: Cmd + Option + J
 
                Ejemplo:
 
 
-               console.log("¡Hola Mundo!");
-
-
-
-
-
-
-
-
-
-
-
-
-
-               console.log(2 + 2); // Imprime 4
-
-
+               console.log("¡Hola Mundo!");]]></page><page Index="5"><![CDATA[console.log(2 + 2); // Imprime 4
 
 
 
@@ -194,24 +136,27 @@
 
                Comentarios en JavaScript
 
+
                Para hacer tu código más entendible o desactivar partes mientras probás, podés usar
                comentarios.
 
-                   ●   Comentario de una sola línea:
+                   ●  Comentario de una sola línea:
+
+               // Esto es un comentario
 
 
-               // Esto es un comentario]]></page><page Index="6"><![CDATA[Comentario de varias líneas:
-
+                   ●  Comentario de varias líneas:
 
                /*
 
-                   Esto es un comentario
+                  Esto es un comentario
 
 
-                   de varias líneas
+                  de varias líneas
 
 
                */
+
 
                3. Variables y Constantes en JavaScript
 
@@ -220,10 +165,10 @@
 
                En JS tenés tres maneras de declarar variables: var, let y const.
 
-                   ●   var: la vieja confiable, pero con algunos problemas de alcance (scope). No la uses
+                   ●  var: la vieja confiable, pero con algunos problemas de alcance (scope). No la uses
                        mucho si no es necesario.
-                   ●   let: la opción moderna y segura.
-                   ●   const: como su nombre indica, es para valores que no van a cambiar.
+                   ●  let: la opción moderna y segura.
+                   ●  const: como su nombre indica, es para valores que no van a cambiar.
 
                Ejemplos:
 
@@ -232,18 +177,14 @@
 
                let edad = 30;
 
-               const PI = 3.1416;
 
+               const PI = 3.1416;]]></page><page Index="6"><![CDATA[Reglas para Nombrar Variables
 
+                   1.  Las variables empiezan con una letra, guion bajo (_) o signo de dólar ($).
+                   2.  Son case sensitive, o sea que nombre y Nombre son diferentes.
+                   3.  Se usa camelCase para variables compuestas (primerNombre).
 
-
-
-               Reglas para Nombrar Variables
-
-
-                   1. Las variables empiezan con una letra, guion bajo (_) o signo de dólar ($).
-                   2. Son case sensitive, o sea que nombre y Nombre son diferentes.
-                   3. Se usa camelCase para variables compuestas (primerNombre).]]></page><page Index="7"><![CDATA[Modificación de Variables
+               Modificación de Variables
 
 
                Podés cambiar el valor de las variables, a menos que sean const.
@@ -253,16 +194,15 @@
 
                iva = 10.5;
 
-               console.log(iva);       // Imprime 10.5
-
+               console.log(iva);  // Imprime 10.5
 
 
 
 
                Declaración de Constantes
 
-
                const es para cuando querés que algo nunca cambie.
+
 
                const IVA = 21;
 
@@ -272,30 +212,28 @@
 
 
 
-
                4. Tipos de Datos en JavaScript
+
 
 
                En JS, tenés varios tipos de datos:
 
-                   ●   Undefined: cuando una variable no tiene valor.
-                   ●   Boolean: verdadero (true) o falso (false).
-                   ●   Number: números, tanto enteros como decimales.
-                   ●   String: cadenas de texto.
-                   ●   Null: ausencia intencionada de un valor.
-                   ●   BigInt: para trabajar con números grandes.
-                   ●   Symbol: para crear valores únicos.
+                   ●  Undefined: cuando una variable no tiene valor.
+                   ●  Boolean: verdadero (true) o falso (false).
+                   ●  Number: números, tanto enteros como decimales.
+                   ●  String: cadenas de texto.
+                   ●  Null: ausencia intencionada de un valor.
+                   ●  BigInt: para trabajar con números grandes.
+                   ●  Symbol: para crear valores únicos.
 
                El Objeto Number
 
-
-               Podés trabajar con números de dos maneras:]]></page><page Index="8"><![CDATA[●   Como literales:
-
+               Podés trabajar con números de dos maneras:]]></page><page Index="7"><![CDATA[●  Como literales:
 
                let numero = 123;
 
-                   ●   Usando el constructor Number():
 
+                   ●  Usando el constructor Number():
 
                let numObjeto = new Number(123);
 
@@ -309,64 +247,62 @@
 
                let numero = parseInt("42");
 
-
                console.log(numero); // Imprime 42
+
 
                También podés convertir usando diferentes bases:
 
-
                let numBinario = parseInt("11101", 2); // Base binaria
+
 
                console.log(numBinario); // Imprime 29
 
 
 
 
-
-
                5. Operadores
+
 
                Operadores Aritméticos y de Asignación
 
+
                JS te permite hacer todas las operaciones matemáticas básicas:
 
-                   ●   Suma (+): suma dos números o concatena cadenas.
-                   ●   Resta (-): resta dos números.
-                   ●   Multiplicación (*): multiplica dos números.
-                   ●   División (/): divide dos números.
-                   ●   Módulo (%): da el resto de una división.
-                   ●   Incremento (++) y Decremento (--): suma o resta 1.]]></page><page Index="9"><![CDATA[let x = 10;
-
-               x += 5;     // x ahora es 15
-
-
-               x++;        // x ahora es 16
+                   ●  Suma (+): suma dos números o concatena cadenas.
+                   ●  Resta (-): resta dos números.
+                   ●  Multiplicación (*): multiplica dos números.
+                   ●  División (/): divide dos números.
+                   ●  Módulo (%): da el resto de una división.
+                   ●  Incremento (++) y Decremento (--): suma o resta 1.
 
 
 
 
+               let x = 10;
 
-               Concatenación de Cadenas
+               x += 5;  // x ahora es 15
+
+               x++;     // x ahora es 16]]></page><page Index="8"><![CDATA[Concatenación de Cadenas
 
                El operador + también une cadenas de texto:
 
 
                let saludo = "Hola, " + "Mundo!";
 
-               console.log(saludo);        // Imprime "Hola, Mundo!"
+               console.log(saludo);  // Imprime "Hola, Mundo!"
 
 
-
-
-
-               Con esta base sólida de JavaScript, podés empezar a darle interactividad a tus proyectos.
+               Con esta base de JavaScript, podés empezar a darle interactividad a tus proyectos.
                Recordá que cuanto más practiques, más sentido te va a hacer todo.
+
+
+
 
                Ejercicio práctico #1:
 
 
-
                Operaciones con Variables y Tipos de Datos
+
 
                Crear un programa que reciba dos números como entrada, realice varias operaciones
                aritméticas con ellos y muestre los resultados en la consola del navegador. Además, se
@@ -375,10 +311,10 @@
 
                Tips:
 
-
                  1.    Validación de entradas: asegurate de que los usuarios ingresen números válidos.
                        Utilizá isNaN() para verificar que las entradas no sean texto u otros valores no
-                       numéricos.]]></page><page Index="10"><![CDATA[2.    Uso de parseFloat() y parseInt(): dependiendo del ejercicio, recomendá que
+                       numéricos.
+                 2.    Uso de parseFloat() y parseInt(): dependiendo del ejercicio, recomendá que
                        utilicen parseFloat() si los números pueden tener decimales, o parseInt() si solo
                        aceptan números enteros.
                  3.    Descomposición del problema: recordá que podés dividir el problema en partes
@@ -386,9 +322,7 @@
                        último verificá los resultados.
                  4.    Consola del navegador: mostrá los resultados usando console.log() para que los
                        estudiantes puedan ver los cálculos en la consola del navegador. Es una excelente
-                       herramienta para debuggear.
-
-               Ejercicio práctico #2:
+                       herramienta para debuggear.]]></page><page Index="9"><![CDATA[Ejercicio práctico #2:
 
 
 
@@ -397,7 +331,6 @@
                Crear un programa que reciba el nombre y la edad de una persona, los concatene en una
                frase y luego convierta la edad de string a número para verificar si la persona es mayor de
                edad.
-
 
                Tips:
 
@@ -414,4 +347,4 @@
                        esperabas.
                  5.    Pruebas con datos diferentes: probá el programa con diferentes nombres y
                        edades (incluyendo casos límite como menores de edad o números cercanos a 18)
-                       para verificar que la lógica del programa sea robusta.]]></page><page Index="11"><![CDATA[]]></page></pages></Search>
+                       para verificar que la lógica del programa sea robusta.]]></page><page Index="10"><![CDATA[]]></page></pages></Search>
