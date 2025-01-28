@@ -1,0 +1,838 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="27"><page Index="1"><![CDATA[Iniciación a la
+
+     Programación con
+
+
+
+
+
+
+     Python
+        Diseño UI
+
+
+
+
+
+
+
+
+
+              Clase 08
+                Clase 05]]></page><page Index="2"><![CDATA[Clase 5: Pautas de Diseño
+
+
+
+
+               Índice
+
+
+                   1.  Guidelines o pautas de diseño
+                   2.  Google Material Design
+                   3.  Leyes de UX
+                   4.  Reflexión Final
+                   5.  Ejercicios
+                   6.  Materiales y Recursos Adicionales
+                   7.  Preguntas para Reflexionar
+                   8.  Próximos Pasos
+
+
+
+
+
+
+               Objetivos de la Clase
+
+
+                   ●  Comprender las pautas de diseño establecidas por Google Material Design
+                   ●  Conocer las Leyes de UX  y otros principios de UX para crear interfaces
+                       coherentes y fáciles de usar.
+                   ●  Fomentar el pensamiento crítico para identificar oportunidades de mejora.
+                   ●  Realizar ejercicios prácticos]]></page><page Index="3"><![CDATA[Guidelines o pautas de diseño
+
+
+               Las guidelines o pautas de diseño son un conjunto de reglas, principios y
+               recomendaciones que establecen los estándares de diseño para un producto o
+               plataforma específica. Estas pautas sirven como una guía para garantizar la
+               coherencia visual, la facilidad de uso y la experiencia del usuario a lo largo de todo
+               el producto.
+
+
+               Imagina las guidelines como un manual de estilo para diseñadores. Este manual
+               define cómo deben verse y comportarse los elementos de una interfaz, desde los
+               botones hasta las tipografías, pasando por los colores y el espaciado.
+
+
+               ¿Por qué son importantes las pautas de diseño?
+
+
+
+               Garantizan que todos los elementos de un producto tengan un aspecto y un
+               comportamiento consistente, lo que facilita la navegación y la comprensión por parte
+               del usuario, generando coherencia. Además, al establecer estándares predefinidos,
+               se agiliza el proceso de diseño y desarrollo, siendo este más eficiente. A su vez,
+               permiten que un producto se expanda y evolucione de manera coherente a lo largo
+               del tiempo, permitiendo escalabilidad en él. Por otra parte, muchas pautas de
+               diseño incluyen consideraciones de accesibilidad, asegurando que el producto
+               pueda ser utilizado por personas con diferentes capacidades. Por último, facilitan la
+               colaboración entre equipos de diseño y desarrollo, al proporcionar un lenguaje
+               común y un marco de referencia compartido.
+
+
+               Ejemplos de pautas de diseño
+
+
+                   ●  Google Material Design: un sistema de diseño completo que proporciona
+                       componentes, guías de estilo y herramientas para crear interfaces de usuario
+                       atractivas y funcionales.
+
+                   ●  Apple Human Interface Guidelines: las pautas de diseño de Apple se
+                       centran en la simplicidad, la elegancia y la facilidad de uso.]]></page><page Index="4"><![CDATA[●  Microsoft Fluent Design System: un sistema de diseño que busca crear
+                       experiencias más naturales e intuitivas, inspiradas en el mundo físico.
+
+
+               Componentes comunes de las pautas de diseño
+
+
+
+                   ●  Tipografía: define las fuentes y tamaños de texto a utilizar.
+
+                   ●  Color: establece la paleta de colores y su uso.
+
+                   ●  Espaciado: determina las distancias entre los elementos.
+
+
+                   ●  Iconografía: define el estilo y el uso de los iconos.
+
+                   ●  Componentes: especifica la apariencia y el comportamiento de los elementos
+                       de la interfaz, como botones, formularios y menús.
+
+                   ●  Animaciones: establece las pautas para las animaciones y transiciones.
+
+
+                   ●  Responsividad: define cómo se adaptará el diseño a diferentes tamaños de
+                       pantalla; es una versión inicial y simplificada de un producto digital.
+
+
+
+               Google Material Design
+
+
+
+
+
+                                                          Material Design es un concepto, una
+                                                          filosofía, unas pautas enfocadas al diseño
+                                                          utilizado en Android, pero también en la web
+                                                          y en cualquier plataforma
+
+                                                          Recibe su nombre por estar basado en
+                                                          objetos materiales. Piezas colocadas en un
+                                                          espacio (lugar) y con un tiempo
+                                                          (movimiento) determinado.]]></page><page Index="5"><![CDATA[Es un diseño donde la profundidad, las superficies, los bordes, las sombras y los
+               colores juegan un papel principal.
+
+
+
+               Precisamente este diseño basado en objetos es una manera de intentar
+               aproximarse a la realidad, algo que en un mundo donde todo es táctil y virtual es
+               difícil. Material Design quiere guiarse por las leyes de la física, donde las
+               animaciones sean lógicas, los objetos se superpongan pero no puedan atravesarse
+               el uno al otro y demás.
+
+
+
+               Al combinar las Guidelines de Material Design con los patrones específicos del
+               Material 3 Design Kit para Android, estamos buscando lograr una experiencia de
+               usuario (UX) óptima y consistente en dispositivos Android.
+
+
+
+               ¿Por qué es importante la combinación de Material Design y Android
+               Design Kit ?
+
+
+                   ●  Coherencia: al seguir las pautas de Material Design, aseguramos que
+                       nuestra aplicación se vea y se sienta parte de un ecosistema más amplio,
+                       ofreciendo una experiencia familiar a los usuarios de Android.
+
+
+                   ●  Adaptabilidad: el Material 3 Design Kit proporciona componentes y
+                       herramientas específicas para Android, lo que nos permite adaptar nuestra
+                       interfaz a las características únicas de este sistema operativo (por ejemplo,
+                       gestos, notificaciones, etc.).
+
+                   ●  Innovación: Material Design está en constante evolución, y el Kit de Material
+                       3 incorpora las últimas tendencias y mejores prácticas en diseño de
+                       interfaces.]]></page><page Index="6"><![CDATA[¿Cómo integrar Material Design y Android Design Kit?
+
+
+                   1.  Comprender los fundamentos: familiarízate con los principios básicos de
+                       Material Design, como la jerarquía visual, el espacio, la tipografía y el color.
+
+                   2.  Utilizar los componentes del Kit: el Material 3 Design Kit ofrece una amplia
+                       gama de componentes prediseñados (botones, tarjetas, listas, etc.) que
+                       cumplen con las pautas de Material Design. Utilizalos como base para
+                       construir tu interfaz.
+
+                   3.  Personalizar: aunque los componentes son prediseñados, podés
+                       personalizarlos para que se ajusten a la identidad visual de tu aplicación. Sin
+                       embargo, evitá desviarte demasiado de las pautas establecidas.
+
+                   4.  Considerar las guías de Android: además de Material Design, consultá las
+                       guías de diseño específicas de Android para asegurarte de que tu aplicación
+                       se comporte de manera adecuada en diferentes versiones del sistema
+                       operativo.
+
+
+                   5.  Priorizar la accesibilidad: asegurate de que tu diseño sea accesible para
+                       todos los usuarios, siguiendo las pautas de accesibilidad de Android.
+
+
+
+
+
+               Leyes de UX
+
+
+
+               Las Leyes de UX son un conjunto de principios y heurísticas basadas en la
+               psicología cognitiva y el comportamiento humano que guían el diseño de interfaces
+               de usuario. Estas leyes nos ayudan a comprender cómo las personas interactúan
+               con los productos digitales y nos permiten crear diseños más intuitivos y eficientes.
+
+
+               ¿Por qué son importantes?
+
+
+               Al aplicar estas leyes en el diseño, podemos:
+
+
+                   ●  Mejorar la usabilidad: facilitar la navegación y la interacción con el producto.]]></page><page Index="7"><![CDATA[●  Reducir la curva de aprendizaje: hacer que los usuarios se adapten
+                       rápidamente a la interfaz.
+
+                   ●  Aumentar la satisfacción del usuario: crear experiencias más agradables y
+                       memorables.
+
+
+                   ●  Optimizar la conversión: conseguir que los usuarios realicen las acciones
+                       deseadas.
+
+
+
+
+               Ley de Pregnancia
+
+
+               La ley de Pregnancia o también llamada Ley de la Buena Forma afirma que las
+               personas tendemos a percibir las formas más sencillas primero y que en un impacto
+               visual compuesto por más formas tendemos a descomponer y reconocer las formas
+               o figuras más simples primero.
+
+               Las personas vamos a tratar de reducir el esfuerzo de análisis de las cosas con la
+               intención de no gastar recursos energéticos y cognitivos. Es por eso que daremos
+               una interpretación sencilla a las imágenes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Ejemplo: dados cuatro puntos, veremos un cuadrado, en lugar de otros esquemas
+                                                visuales más complejos.]]></page><page Index="8"><![CDATA[Un ejemplo habitual en UX donde aplica esta ley suele darse en el diseño de iconos.
+               Donde lo óptimo es crear iconografía con las formas más sencillas posibles, de
+               manera que los usuarios sean capaces de reconocerla y entenderla lo más
+               fácilmente posible.
+
+
+               Ley de Hick.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Cuantas más opciones haya y más complejidad se añade a un diseño, más le
+               costará al usuario entender qué está haciendo y escoger qué debe hacer.
+
+               A su vez cuantas menos opciones haya disponibles mejor, porque habrá menos
+               probabilidad de error.
+
+
+               Cuando en una página mostramos distintos estímulos para el usuario: no sabrá qué
+               decisión debe tomar y probablemente no hará nada.]]></page><page Index="9"><![CDATA[Por este motivo es recomendable dividir procesos largos en distintas etapas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Un ejemplo para visualizar esta ley es en los videojuegos. La primera vez que una
+               persona utilice un juego le costará mucho entender todo lo que tiene que hacer,
+               mientras que otra que lleve mucho tiempo jugando lo hará todo mucho más deprisa
+               y de forma fluida.]]></page><page Index="10"><![CDATA[Ley de Tesler.
+
+
+               También conocida como Ley de Conservación de la Complejidad, establece que
+               para cualquier sistema existe una cierta cantidad de complejidad que no se puede
+               reducir.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Siempre debemos intentar simplificar todos los elementos y funcionalidades, como
+               marcan los principios de usabilidad de Nielsen. Pero también debemos ser
+               conscientes que hay ciertas funcionalidades que son indispensables e inmutables.
+               No debemos intentar modificar esos mínimos que nos garantizan la funcionalidad
+               mínima de nuestro producto.]]></page><page Index="11"><![CDATA[Veamos este caso:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               En el proceso de reserva de Airbnb no se pueden reducir las opciones, pero se
+               pueden separar para ir completándolas una a una.]]></page><page Index="12"><![CDATA[Ley de Proximidad.
+
+
+               La ley de proximidad aplicada a la experiencia de usuario (UX) se centra en la
+               relación entre los elementos de diseño en función de la distancia entre ellos, por lo
+               que cuanto más cerca estén, más relacionados parecerán. Puedes utilizar esta ley
+               para reunir elementos con el fin de crear un grupo que el cerebro interpretará como
+               una imagen completa o utilizarla para organizar el contenido de un sitio.
+
+
+               Veamos este caso:]]></page><page Index="13"><![CDATA[Un ejemplo es la muestra de productos de una tienda online al organizar de una
+               manera más próxima los elementos como la valoración, la imagen de producto, el
+               precio, el botón… Esto consigue generar un componente formado por diferentes
+               elementos próximos entre sí.
+
+
+
+
+
+               Efecto Posición Serial.
+
+
+               El efecto de posición en serie define la tendencia de las personas a retener y
+               recordar mejor la información que aparece al principio y al final de una agrupación
+               de elementos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Este sesgo se apoya y se produce debido a dos sesgos de la memoria, estos son el
+               efecto de primacía (cuando se recuerdan los primero elementos de una lista) y el
+               efecto de actualidad o recencia (que es la tendencia a recordar mejor los últimos
+               elementos o palabras de una lista).]]></page><page Index="14"><![CDATA[]]></page><page Index="15"><![CDATA[Ley de Fitts.
+
+
+
+               El tiempo que se requiere para llegar a un objeto es proporcional a la distancia a la
+               que se encuentra y su tamaño. Según esta ley, los movimientos más rápidos hacia
+               objetivos más pequeños dan una mayor tasa de error.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Siempre debemos tener en cuenta el tamaño, la posición y la distancia de los
+               elementos que queremos que nuestros usuarios cliqueen en nuestro producto
+               digital.]]></page><page Index="16"><![CDATA[Ley de Parkinson.
+
+
+               Establece que el trabajo se expande hasta que ocupa por completo el tiempo
+               destinado para su realización. Lo que significa que cualquier tarea se va a demorar
+               más en el tiempo, cuanto más tiempo le demos al usuario para realizarla. Por eso,
+               es importante intentar reducir el tiempo para las tareas de los usuarios para
+               que tengan una mayor satisfacción y mejore el tiempo en tarea.]]></page><page Index="17"><![CDATA[Efecto Von Restorff.
+
+
+               Este efecto conocido como el efecto de aislamiento, predice que cuando múltiples
+               objetos similares se encuentran presentes, el único que es diferente del resto es el
+               que con mucha probabilidad será recordado.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Esta ley se utiliza cuando se quiere destacar un elemento o funcionalidad por
+               encima de las demás, dirigiendo la atención de la persona.
+
+               Por ejemplo, si estamos comparando los diferentes planes de precios, se puede
+               resaltar una columna para centrar la atención sobre esa opción]]></page><page Index="18"><![CDATA[Principio de Pareto
+
+
+               El principio de Pareto dice que una minoría de causas produce la mayoría de los
+               efectos. La aplicación de este principio aconseja que la mayoría de los esfuerzos
+               deben enfocarse a las áreas que puedan proporcionar los mayores beneficios a la
+               mayoría de los usuarios.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Durante los procesos iniciales de los proyectos, siempre definir de manera
+               totalmente clara los objetivos del producto digital, para que la mayoría de los
+               esfuerzos vayan enfocados a la obtención de estos resultados]]></page><page Index="19"><![CDATA[Al centrarse en el 20% de las cosas con el potencial de hacer la mayor diferencia en
+               su uso , se asegura de utilizar menos recursos para obtener los máximos beneficios
+               en su estrategia.
+
+               Efecto Zeigarnik
+
+               Este efecto establece que si una actividad ha sido interrumpida, es más probable
+               que las personas las recuerden más que aquellas que se han completado. El motivo
+               de esta retención de la información podría ser la tensión cognitiva que se genera, ya
+               que inconscientemente nuestro cerebro espera completar la tarea en algún
+               momento.
+               Este efecto se ve potenciado si somos conscientes de que no se ha terminado
+               (porque estamos viendo una barra de progreso) y estamos en un punto intermedio,
+               por ende, es más probable que terminemos la tarea.]]></page><page Index="20"><![CDATA[Ley de Miller
+
+               La Ley de Miller como principio psicológico determina que una persona adulta es
+               capaz de recordar en la memoria a corto plazo un máximo de 7 elementos de
+               manera simultánea.
+
+               Se permite igualmente una variación de + o - 2 en la cantidad de elementos, es decir
+               de entre 5 a 9 elementos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Un ejemplo es con los prefijos correspondientes a los números de celular. Son
+               muchos números, uno tras otro, siendo difícil recordarlos todos seguidos. La
+               separación hace que sea más fácil procesar y recordar el número completo.
+               Pasando de 675789645 a 675-789-645.]]></page><page Index="21"><![CDATA[Ley de Jakob
+
+               Nos dice que los usuarios prefieren sitios similares a los que suelen frecuentar o ya
+               conocen.
+               Nos aconseja usar patrones en el diseño para facilitar la experiencia del usuario.
+               Generar familiaridad permite definir funcionamientos para cosas específicas. Los
+               usuarios usamos el conocimiento que ya tenemos del pasado al interactuar con algo
+               nuevo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Un ejemplo es la forma inusual de la sección “Añadir amigos” en Snapchat.]]></page><page Index="22"><![CDATA[Reflexión Final
+
+
+
+               Hemos explorado un conjunto de herramientas y principios fundamentales para
+               crear interfaces de usuario que sean no solo visualmente atractivas, sino también
+               intuitivas y eficientes.
+
+               Las Guidelines y las Leyes de UX nos recuerdan que el diseño debe siempre girar
+               en torno a las necesidades y expectativas de los usuarios. Al comprender cómo
+               piensan y se comportan las personas, podemos crear productos digitales que sean
+               verdaderamente útiles y satisfactorios.
+
+               El mundo digital está en constante cambio, y las tendencias en diseño también
+               evolucionan. Material Design es un excelente ejemplo de cómo las pautas de diseño
+               pueden adaptarse a las nuevas tecnologías y a las expectativas de los usuarios.
+
+
+               Un diseño coherente es esencial para crear una experiencia de usuario positiva. Al
+               seguir las Guidelines y aplicar las Leyes de UX, garantizamos que nuestros diseños
+               sean consistentes en todos los dispositivos y plataformas.
+
+               Las Guidelines no son reglas rígidas, sino guías que nos ayudan a tomar mejores
+               decisiones de diseño. La creatividad sigue siendo fundamental para crear diseños
+               innovadores y diferenciados.
+
+
+
+
+
+
+               Materiales y Recursos Adicionales
+
+
+               Para complementar los contenidos de esta clase, hemos seleccionado recursos
+               útiles que te ayudarán a profundizar en los conceptos trabajados:
+
+
+                          ○  Material Design 3 Design Kit
+                              https://www.figma.com/community/file/1035203688168086460/material
+                              -3-design-kit
+
+                          ○  Material Design
+                              https://m3.material.io/]]></page><page Index="23"><![CDATA[○  Leyes de UX
+                              https://welcometoux.com/categoria/leyes-ux/
+
+
+                          ○  "No me hagas Pensar" de Steve Krug
+                              Este libro es fundamental para entender los principios básicos de
+                              usabilidad en el diseño UX. Krug ofrece consejos prácticos para
+                              mejorar la experiencia de los usuarios de forma sencilla y efectiva.
+
+
+               Estos recursos están diseñados para reforzar los conceptos fundamentales y
+               preparar el terreno para el trabajo práctico en el proyecto final. ¡Exploralos y llevá tu
+               aprendizaje al siguiente nivel!
+
+
+
+
+
+               Preguntas para Reflexionar
+
+
+                   ●  ¿Cómo pueden aplicar lo aprendido en mi proyecto?
+
+                   ●  ¿Qué desafíos enfrentan al diseñar interfaces de usuario y cómo pueden
+                       superarlos?
+
+
+                   ●  ¿Cuáles son las últimas tendencias en diseño de interfaces?
+
+
+
+
+               Situación en TalentoLab
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Vamos a repasar el progreso del proyecto                                              y]]></page><page Index="24"><![CDATA[asegurarnos de que vamos por el buen camino.
+
+
+
+               Resumen de las tareas que ya te fueron asignadas por el equipo:
+
+
+                   ●  Selección del proyecto: elegiste un proyecto de UX específico para trabajar.
+                   ●  Wireframes a mano: se crearon los primeros bocetos de la interfaz, a mano,
+                       para visualizar la estructura básica.
+                   ●  Wireframes digitales en Figma: los bocetos a mano se trasladaron a la
+                       herramienta digital Figma para obtener una representación más precisa y
+                       detallada.
+                   ●  Organización en grilla: se organizaron los elementos de la interfaz en una
+                       estructura de grilla para lograr un diseño más ordenado y equilibrado.
+                   ●  Aplicación de patrones de diseño: se implementaron los patrones de
+                       diseño de navegación e interacción para garantizar una experiencia de
+                       usuario coherente y efectiva.
+
+
+               Es importante que vayas realizando el proceso de forma ordenada y siguiendo las
+               indicaciones.
+               Si lo culminaste podes pasar por el after class y ajustar detalles con tu instructor/a
+               del equipo de Talentos.
+
+
+               Si no lograste cumplir con el plazo establecido, es importante que intentes
+               completar tus asignaciones de tareas dentro del tiempo estipulado, ya que esto
+               también es parte del proceso de aprender a trabajar en equipo y respetar los
+               tiempos pautados.
+
+
+               ¡Sigamos adelante!]]></page><page Index="25"><![CDATA[Ejercicios Prácticos
+
+
+
+
+               ¡Atención Talentos!
+
+               Esta semana Max te solicita las siguientes
+               tareas y te comparte un ejemplo de guía de
+               cómo debería ser presentado como informe
+               posterior a aplicarlo en los wireframes con
+               patrones.
+
+
+
+
+
+
+
+
+               Tarea para el Proyecto: Guidelines
+
+               Para Max es muy importante que analices tu proyecto al momento y apliques las
+               Leyes de UX y que también, de a poco, vayas incorporando las Guidelines o
+               Pautas de diseño de Android = “Material Design”, cuidando de respetar la estética,
+               valores y pilares de la marca Android.
+
+               Para ello investigaremos:
+                   ●  Qué tipo de botones usan.
+
+                   ●  Cuántos colores permiten.
+                   ●  Cómo son los iconos.
+                   ●  Qué tipografía recomienda.
+                   ●  Es un diseño Flat = chato o con volumen y sombras.
+               Max solicita que realices un breve informe donde reúnas esta información, que
+               será clave para continuar con este proyecto.
+
+               Tiempo estipulado (1 semana)
+               Cualquier duda, sabes que tu instructor/a, te acompañará en todo el recorrido.]]></page><page Index="26"><![CDATA[Ejemplo:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Próximos Pasos
+
+
+               En preparación para la siguiente clase:
+
+                   ●  Investigá más sobre leyes de UX y cómo se utilizan en diferentes disciplinas
+                       del diseño.
+
+
+                   ●  Explorá Figma, experimenta con las herramientas y funcionalidades que
+                       ofrece la plataforma.
+
+                   ●  Intentá aplicar las guidelines a tus pantallas]]></page><page Index="27"><![CDATA[]]></page></pages></Search>

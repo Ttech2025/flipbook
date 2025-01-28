@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="22"><page Index="1"><![CDATA[Iniciación a la
+
+     Programación con
+
+
+
+
+
+
+     Python
+        Diseño UI
+
+
+
+
+
+
+
+
+
+              Clase 08
+                Clase 03]]></page><page Index="2"><![CDATA[Clase 3: Sistema de Grilla
+
+
+
+
+
+               Índice
+
+
+                   1.  La disposición equilibrada de elementos
+                   2.  Columnas, calles y márgenes
+                   3.  Sistema de grilla: columnas y cuadrículas
+                   4.  Reflexión Final
+                   5.  Ejercicios
+                   6.  Materiales y Recursos Adicionales
+                   7.  Preguntas para Reflexionar
+                   8.  Próximos Pasos
+
+
+
+
+
+               Objetivos de la Clase.
+
+
+
+
+                   ●  Comprender la importancia de una disposición equilibrada en el diseño visual
+                   ●  Explorar principios como la alineación, el contraste y la jerarquía visual
+                   ●  Analizar Columnas, Calles y Márgenes
+                   ●  Realizar ejercicios prácticos]]></page><page Index="3"><![CDATA[La disposición equilibrada de elementos
+
+
+
+               Introducción a la Composición
+
+
+
+               La composición es un aspecto fundamental en el diseño visual, ya que se refiere a
+               la manera en que los elementos se organizan en una página o espacio. Una
+               disposición equilibrada no solo hace que un diseño sea estéticamente agradable,
+               sino que también mejora la usabilidad y la comprensión del contenido. Cuando los
+               elementos están bien distribuidos, el espectador puede navegar por la información
+               de manera más intuitiva, lo que facilita la comunicación del mensaje.
+
+
+
+               La disposición equilibrada se puede lograr a través de diferentes técnicas, como el
+               uso de simetría, asimetría y la regla de los tercios. Cada una de estas técnicas tiene
+               su propio impacto en la percepción del diseño. Por ejemplo, un diseño simétrico
+               puede transmitir estabilidad y orden, mientras que un diseño asimétrico puede
+               generar dinamismo y movimiento.
+
+
+
+
+
+               Principios de Diseño
+
+
+                   ●  Alineación: se refiere a la disposición de los elementos en relación unos con
+                       otros. Una buena alineación crea una conexión visual y organiza el contenido
+                       de manera que sea más fácil de seguir. Ayuda a que el diseño se vea más
+                       ordenado y profesional.
+
+                   ●  Contraste: es fundamental para destacar elementos importantes y crear
+                       interés visual. Podés utilizar diferencias en color, tamaño, forma o textura
+                       para hacer que ciertos elementos resalten. Por ejemplo, un texto oscuro
+                       sobre un fondo claro es más legible y atrae la atención.]]></page><page Index="4"><![CDATA[●  Jerarquía Visual: organiza los elementos de un diseño según su
+                       importancia. Esto se puede lograr mediante el uso de diferentes tamaños,
+                       colores y tipografías. Un título grande y destacado atraerá más atención que
+                       un texto más pequeño, guiando al espectador a través del contenido de
+                       manera lógica.
+
+                   ●  Espacio en Blanco: o espacio negativo, es el área vacía alrededor de los
+                       elementos. No solo ayuda a evitar que un diseño se vea abarrotado, sino que
+                       también permite que los elementos respiren y se destaquen. Un uso
+                       adecuado del espacio en blanco puede mejorar la legibilidad y la estética
+                       general.
+
+                   ●  Repetición: La repetición implica usar elementos similares a lo largo de un
+                       diseño para crear cohesión y unidad. Esto puede incluir el uso de colores,
+                       formas o tipografías consistentes. La repetición ayuda a que el diseño se
+                       sienta más organizado y profesional.
+
+                   ●  Proporción y Escala: se refieren a la relación de tamaño entre los diferentes
+                       elementos del diseño. Jugar con la escala puede crear interés visual y
+                       enfatizar ciertos elementos. Por ejemplo, un elemento grande puede atraer la
+                       atención, mientras que uno más pequeño puede servir como un detalle.
+
+                   ●  Balance: se refiere a la distribución visual del peso de los elementos en un
+                       diseño. Puede ser simétrico (donde los elementos están distribuidos de
+                       manera uniforme) o asimétrico (donde los elementos están distribuidos de
+                       manera que crean un sentido de equilibrio sin ser idénticos). Un buen balance
+                       ayuda a que el diseño se sienta estable y armonioso.]]></page><page Index="5"><![CDATA[Columnas, calles y márgenes
+
+
+
+
+                                                 Columnas: son divisiones verticales en un diseño
+                                                 que ayudan a organizar el contenido. Al utilizar
+                                                 columnas, puedes estructurar la información de
+                                                 manera que sea más fácil de leer y seguir. Por
+                                                 ejemplo, en un diseño de revista, las columnas
+                                                 permiten que el texto fluya de manera ordenada y
+                                                 que el lector pueda escanear la información
+                                                 rápidamente. Las columnas también pueden ayudar
+                                                 a crear un ritmo visual en la página.
+
+
+                                                  Calles: son los espacios en blanco que se
+                                                  encuentran entre las columnas. Actúan como
+                                                  separadores y ayudan a que el contenido no se
+                                                  sienta abarrotado. Las calles son importantes
+                                                  porque proporcionan un respiro visual, lo que facilita
+                                                  la lectura y la comprensión del contenido. Un buen
+                                                  uso de las calles puede mejorar la estética general
+                                                  del diseño y hacer que se vea más limpio y
+                                                  organizado.
+
+
+
+                                                  Márgenes: son los espacios en blanco que rodean
+                                                  el contenido en los bordes de una página o diseño.
+                                                  Al igual que las calles, los márgenes ayudan a crear
+                                                  un espacio visual que evita que el contenido se
+                                                  sienta apretado. Los márgenes también son
+                                                  importantes para la impresión, ya que aseguran que
+                                                  no se corte información en los bordes. Un margen
+                                                  adecuado puede hacer que el diseño se vea más
+                                                  profesional y equilibrado.]]></page><page Index="6"><![CDATA[En resumen, las columnas, calles y márgenes son elementos clave en el diseño que
+               ayudan a organizar el contenido, mejorar la legibilidad y crear una composición
+               visualmente atractiva. Al prestar atención a estos aspectos, puedes lograr un diseño
+               más efectivo y agradable
+
+
+
+
+
+               Sistema de grilla: columnas y cuadrículas
+
+
+
+
+               Un sistema de grilla es una estructura
+               que utiliza líneas verticales y
+               horizontales para dividir el espacio en
+               secciones más pequeñas. Esto
+               permite a los/as diseñadores alinear
+               elementos de manera ordenada y
+               crear una jerarquía visual clara. Las
+               grillas son especialmente útiles en el
+               diseño de páginas web, revistas,
+               carteles y cualquier otro tipo de
+               material visual.
+
+
+               Las grillas ayudan al ojo humano a seguir un ritmo, apoyan la jerarquía del
+               contenido y le dicen nuestro cerebro donde esperar que se encuentren las cosas,
+               ayudando a crear consistencia incluso en el diseño responsivo entre dispositivos de
+               diferentes tamaños, contribuyendo a la proporción de los elementos entre una
+               página y que finalmente todo siga una estructura de lectura que agrade al ojo.]]></page><page Index="7"><![CDATA[Columnas y cuadrícula
+
+
+               Columnas
+
+
+               Las columnas son divisiones verticales dentro de la grilla. Dependiendo del
+               diseño, puedes tener un número variable de columnas (por ejemplo, 2, 3, 4 o más).
+               Las columnas ayudan a organizar el contenido en secciones que son fáciles de leer
+               y seguir. Al utilizar columnas, puedes distribuir texto, imágenes y otros elementos de
+               manera equilibrada, lo que mejora la experiencia del usuario.
+
+
+               Cuadrículas
+
+               Las cuadrículas son una extensión del concepto de columnas. En lugar de solo
+               tener líneas verticales, las cuadrículas incluyen tanto líneas verticales como
+               horizontales, creando una serie de celdas o bloques. Esto permite una mayor
+               flexibilidad en la disposición de los elementos, ya que puedes alinear contenido no
+               solo en columnas, sino también en filas. Las cuadrículas son especialmente útiles
+               para diseños más complejos, donde se necesita un mayor control sobre la
+               disposición de los elementos.
+
+
+
+
+
+               Beneficios del Sistema de Grilla
+
+                   ●  Consistencia: Ayuda a mantener un diseño coherente a lo largo de diferentes
+                       páginas o secciones.
+                   ●  Facilidad de lectura: Mejora la legibilidad al organizar el contenido de manera
+                       clara.
+                   ●  Flexibilidad: Permite experimentar con diferentes disposiciones sin perder la
+                       estructura general.
+                   ●  Ahorro de tiempo: Facilita el proceso de diseño al proporcionar una guía
+                       visual.]]></page><page Index="8"><![CDATA[El sistema de grilla, con sus columnas y cuadrículas, es una herramienta poderosa
+               para cualquier diseñador. Al utilizarlo, puedes crear composiciones más efectivas y
+               atractivas, asegurando que tu contenido se presente de la mejor manera posible.
+
+
+
+
+
+
+               Sistema de Grilla en Figma
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               A continuación abordaremos una guía paso a paso para crear un sistema de grilla
+               en Figma
+
+
+               Paso 1: Crear un nuevo archivo
+
+
+               1. Abrí Figma y creá un nuevo archivo o proyecto.
+
+
+               2. Seleccioná el marco (Frame) donde deseas aplicar la grilla. Podés usar un marco
+               existente o crear uno nuevo.]]></page><page Index="9"><![CDATA[Paso 2: Configurar el marco
+
+
+               1. Seleccioná el marco en el que deseas trabajar.
+               2. En el panel de la derecha, buscá la sección de "Layout Grid" (Grilla de diseño).
+               3. Hacé clic en el icono de "+" para añadir una nueva grilla.]]></page><page Index="10"><![CDATA[Paso 3: Elegir el tipo de grilla
+
+
+               1. Una vez que hayas añadido la grilla, verás que aparece una cuadrícula por
+               defecto.
+               2. Hacé clic en el tipo de grilla (que por defecto es "Grid") para cambiarlo a
+               "Columns" (Columnas) o "Rows" (Filas) según lo que necesites.
+               3. Si elegís "Columns", podrás ajustar el número de columnas, el ancho y el espacio
+               entre ellas.]]></page><page Index="11"><![CDATA[Paso 4: Ajustar las propiedades de la grilla
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               1. En el panel de propiedades de la grilla, podés ajustar:
+
+               - Count: El número de columnas que deseas.
+               - Gutter: El espacio entre las columnas.
+               - Margin: El margen exterior de la grilla.
+               - Width: El ancho total de la grilla.]]></page><page Index="12"><![CDATA[2. Si deseas una cuadrícula, podés añadir otra grilla y seleccionar "Grid" para tener
+               una cuadrícula de celdas.
+
+
+               Paso 5: Personalizar la apariencia
+
+
+               1. Podés cambiar el color y la opacidad de las líneas de la grilla para que se
+               adapten mejor a tu diseño.
+               2. Para hacerlo, seleccioná la grilla y ajustá las propiedades de color y opacidad en
+               el panel de la derecha.]]></page><page Index="13"><![CDATA[Paso 6: Usar la grilla en tu diseño
+
+
+               1. Ahora que tenés tu grilla configurada, podés comenzar a añadir elementos
+               (textos, imágenes, botones, etc.) y alinearlos con las columnas y filas de la grilla.
+
+               2. Utilizá las guías de la grilla para asegurarte de que todo esté alineado.]]></page><page Index="14"><![CDATA[Revisión de conceptos (Figma)
+
+               Count: Es el número de columnas: 4, 8 ó 12.
+               Color: El color que queramos darle a las columnas.
+               Type: Es el tipo, generalmente usamos Stretch o Center (tiene también a la derecha
+               o a la izquierda).
+               Width: Es el ancho de la columna, será automático.
+               Margin: Es el espacio exterior (16 ó 24).
+               Gutter: Es el espaciado entre las columnas (16 ó 24).
+
+
+               *Rows → Serían las filas horizontales. Se pueden ir añadiendo los sistemas que
+               queramos a nivel capas.
+
+
+               *Grid → Sería la cuadrícula. Y simplemente se indica el tamaño.
+
+
+
+
+               Estándares
+
+
+               Si no queres crear un conflicto entre diseñadores y desarrolladores, lo ideal es que
+               te ajustes a los estándares definidos por Android con el Material Design
+
+
+               Te adelantamos algunos:
+
+                   ●  Sistema de grillas 4 columnas máximo.
+                   ●  Márgenes de 16 dp  (Android)
+                   ●  Mínimo de Calles de 8 dp (Android)
+                       (si necesito más grande deben ser múltiplos de esa medida).
+                   ●  Medida recomendada para los elementos que pueden ser tocados por los
+                       usuarios: 48 dp (Android)
+                   ●  Los elementos más pequeños deben medir como mínimo 24 dp x 24dp.]]></page><page Index="15"><![CDATA[Por último ¿qué son los DP?
+
+
+               Los DP (Density Independent Pixels) también llamados píxeles de densidad
+               independiente, son unidades de medida que se utilizan para diseñar interfaces de
+               usuario (UI) de manera flexible y uniforme en diferentes pantallas.
+
+               Es decir, los DP son una herramienta que permite a los/as diseñadores y
+               desarrolladores comunicarse de manera más sencilla, ya que definen un tamaño
+               independiente del factor multiplicador de cada dispositivo.
+
+
+               En Android, un DP equivale a un píxel en una pantalla con una densidad de
+               píxeles de 160. Para calcular los DP se utiliza la fórmula: dp = (ancho en píxeles *
+               160) / densidad de la pantalla.
+
+
+
+
+
+
+
+               Reflexión Final
+
+
+               Al finalizar la clase, es fundamental que reconozcan cómo una disposición
+               equilibrada no solo mejora la estética de un diseño, sino que también facilita la
+               comunicación del mensaje. Fomentar la práctica constante y la reflexión sobre sus
+               propios trabajos les ayudará a internalizar estos conceptos y aplicarlos de manera
+               efectiva en sus futuros proyectos.]]></page><page Index="16"><![CDATA[Materiales y Recursos Adicionales
+
+
+               Para complementar los contenidos de esta clase, hemos seleccionado recursos
+               útiles que te ayudarán a profundizar en los conceptos trabajados:
+
+                          ○  Gamma UX. La importancia de la jerarquía en el diseño de
+                              interfaces. 2021.
+                              https://www.gammaux.com/blog/la-importancia-de-la-jerarquia-en-el-di
+                              seno-de-interfaces/
+
+
+                          ○  Filipiuk, M. UI Design Principles. (eBook)
+                              https://michaelfilipiuk.gumroad.com/l/uiguide
+
+                          ○  Campos, M. La importancia de las grillas en diseño web y UX.
+                              2019.
+                              https://medium.com/ux-ripley/la-importancia-de-las-grillas-en-dise%C3
+                              %B1o-web-y-ux-27abf06be8f
+
+
+                          ○  “Sistemas de retículas” Josef Muller-Brockmann
+                              Este libro explica todo lo que necesitas para dominar correctamente
+                              las retículas: cómo componerlas, cómo distribuir cajas de texto e
+                              imágenes, etc.
+
+                          ○  “Diseñar con y sin retícula” Timothy Samara
+                              Planteado como un curso de maquetación, Diseñar con y sin retícula
+                              está dividido en dos partes: la primera analiza la retícula tradicional y
+                              su utilización, mientras que la segunda muestra cómo deconstruirla o,
+                              simplemente, cómo trabajar sin ella.
+
+                          ○  "No me hagas Pensar" Steve Krug
+                              Este libro es fundamental para entender los principios básicos de
+                              usabilidad en el diseño UX. Krug ofrece consejos prácticos para
+                              mejorar la experiencia de los usuarios de forma sencilla y efectiva.]]></page><page Index="17"><![CDATA[Estos recursos están diseñados para reforzar los conceptos fundamentales y
+               preparar el terreno para el trabajo práctico en el proyecto final. ¡Explóralos y llevá tu
+               aprendizaje al siguiente nivel!
+
+
+
+
+               Preguntas para Reflexionar
+
+
+                   ●   ¿Cómo afecta la disposición equilibrada de los elementos a la percepción
+                       general de un diseño?
+
+
+                   ●  ¿Qué papel juegan las columnas, calles y márgenes en la creación de un
+                       diseño visualmente atractivo?
+
+                   ●  ¿De qué manera el uso de un sistema de grilla puede facilitar el proceso de
+                       diseño?
+
+
+                   ●  - Piensa en cómo la estructura puede ayudar a organizar tus ideas y
+                       elementos visuales.
+
+                   ●  ¿Cómo puedes aplicar lo aprendido sobre la disposición equilibrada en tus
+                       proyectos futuros?
+
+                   ●  ¿Qué ejemplos de diseño equilibrado o desequilibrado has visto en tu entorno
+                       cotidiano?]]></page><page Index="18"><![CDATA[Situación en TalentoLab
+
+
+
+
+
+
+
+
+
+
+                                                       La semana pasada, Sofía Gómez, la Jefa de
+                                                       Prototipado de Talento Labo, te asignó tus
+                                                       primeras tareas (wireframe manual y wireframe
+                                                       digital) y también te proporcionó ejemplos
+                                                       visuales como referencia.
+                                                       Si lo culminaste, podés pasar por el after class
+                                                       y ajustar detalles con tu instructor/a del equipo
+                                                       de Talentos.
+               Si no lograste cumplir con el plazo establecido, es importante que intentes
+               completar tus asignaciones de tareas dentro del tiempo estipulado, ya que esto
+               también es parte del proceso de aprender a trabajar en equipo y respetar los
+               tiempos pautados.
+
+
+               ¡Sigamos adelante!
+
+
+
+
+
+               Ejercicios Prácticos
+
+
+
+               ¡Atención Talentos!
+
+               Esta semana Max, el director de UI, te solicita
+               las siguientes tareas y te deja un ejemplo de
+               guía de cómo debería ser presentado como
+               informe además de aplicarlos en los wireframe
+               digitales.]]></page><page Index="19"><![CDATA[Tarea para el Proyecto: Grilla
+
+               Agregá al diseño de pantallas digitales (solicitado por Sofia Gomez) las grillas y
+               ordená los elementos de cada pantalla de acuerdo a estas, cuidando de que si
+               ampliamos la imagen sea “pixel perfect”, es decir, conseguir que la alineación y el
+               espaciado sean los correctos. Así como una consistencia de criterios respecto a
+               márgenes y tamaños.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Para ello realizaremos las siguientes tareas:
+
+
+                   ●  Elegir el sistema de grillas que necesita mi diseño, 1, 2, 3 o 4 columnas
+                       máximo.
+                   ●  Márgenes de 16 dp (Android)
+                   ●  Mínimo de Calles de 8 dp para Android (si necesito más grande deben ser
+                       múltiplos de esa medida).
+                   ●  Medida recomendada para los elementos que pueden ser tocados por los
+                       usuarios: 48 dp para Android
+                   ●  Los elementos más pequeños deben medir como mínimo 24 dp x 24dp.]]></page><page Index="20"><![CDATA[Aclaración: Recordá utilizar la Grilla de Columnas para el orden vertical y la
+                       Grilla de Cuadrícula para el orden horizontal
+
+
+               Tiempo estipulado (1 semana)
+               Cualquier duda sabes que tu instructor/a, te acompañará en todo el recorrido.
+
+
+
+
+               Ejemplo:]]></page><page Index="21"><![CDATA[Próximos Pasos
+
+
+               En preparación para la siguiente clase:
+
+                   ●  Investigá más sobre sistemas de grilla y cómo se utilizan en diferentes
+                       disciplinas del diseño.
+
+
+                   ●  Explorá Figma, experimenta con las herramientas y funcionalidades que
+                       ofrece la plataforma.
+
+                   ●  Intentá reflexionar cómo planeas aplicar estos conocimientos en tus futuros
+                       proyectos.]]></page><page Index="22"><![CDATA[]]></page></pages></Search>

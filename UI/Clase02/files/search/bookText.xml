@@ -1,22 +1,25 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="22"><page Index="1"><![CDATA[Fundamentos del
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="20"><page Index="1"><![CDATA[Iniciación a la
 
-
-
-     Diseño UX
-
-
+     Programación con
 
 
 
 
 
 
+     Python
+        Diseño UI
 
 
 
 
 
-              Clase 02]]></page><page Index="2"><![CDATA[Clase 2: Prototipado.
+
+
+
+
+              Clase 08
+                Clase 02]]></page><page Index="2"><![CDATA[Clase 2: Prototipado.
 
 
 
@@ -219,8 +222,6 @@
                gris, sin imágenes ni textos de ejemplo, y también sin logo.]]></page><page Index="8"><![CDATA[Wireframe a mano (Sketch)
 
 
-
-
                Un wireframe a mano es un boceto de baja fidelidad que se realiza a mano para representar
                la estructura de una aplicación móvil:
                    ●  Se trata de una representación visual básica y bidimensional.
@@ -253,20 +254,17 @@
 
 
 
-
-
-
-
                Wireframe Digital
 
                Se trata de modelos digitales muy
-               simplificados, casi esqueléticos en su falta
-               de detalle, para que nada distraiga del
-               objetivo principal: probar la estructura de
-               trabajo, su arquitectura y funcionalidad.
-               Disponer de estos elementos sin ningún
-               diseño o contenido real ayuda a]]></page><page Index="9"><![CDATA[comprender las relaciones entre ellos y si funcionan de forma lógica y práctica para ofrecer
-               resultados al usuario.
+               simplificados, casi esqueléticos en su
+               falta de detalle, para que nada distraiga
+               del objetivo principal: probar la
+               estructura de trabajo, su arquitectura y
+               funcionalidad. Disponer de estos
+               elementos sin ningún diseño o
+               contenido real ayuda a comprender las]]></page><page Index="9"><![CDATA[relaciones entre ellos y si funcionan de forma lógica y práctica para ofrecer resultados al
+               usuario.
 
 
 
@@ -335,9 +333,6 @@
 
 
 
-
-
-
                Características:
 
 
@@ -345,9 +340,9 @@
                        sitios web y otros productos digitales. Podés diseñar desde wireframes hasta
                        interfaces completamente detalladas.
                    ●  Colaboración en Tiempo Real: una de las características más destacadas de
-                       Figma es que múltiples usuarios pueden trabajar en el mismo archivo]]></page><page Index="11"><![CDATA[simultáneamente. Esto significa que los equipos pueden ver los cambios en tiempo
-                       real, lo que mejora la comunicación y la eficiencia.
-                   ●  Basado en la Nube: al ser una herramienta basada en la web, no necesitás
+                       Figma es que múltiples usuarios pueden trabajar en el mismo archivo
+                       simultáneamente. Esto significa que los equipos pueden ver los cambios en tiempo
+                       real, lo que mejora la comunicación y la eficiencia.]]></page><page Index="11"><![CDATA[●  Basado en la Nube: al ser una herramienta basada en la web, no necesitás
                        descargar software ni preocuparte por la compatibilidad de sistemas operativos. Solo
                        necesitas un navegador y conexión a internet.
                    ●  Prototipado Interactivo: Figma permite crear prototipos interactivos que simulan la
@@ -363,7 +358,6 @@
 
                Crear una cuenta: primero, ingresá a la página de Figma y registrate. Podés usar la versión
                gratuita, que es bastante completa.
-
 
                Crear una cuenta en Figma es muy sencillo. Seguí los pasos:
 
@@ -388,10 +382,12 @@
 
 
 
+
                Interfaz de trabajo: familiarizate con la interfaz. A la izquierda, encontrarás la barra de
                herramientas y las capas; en el centro, el área de diseño; y a la derecha, las propiedades
                del objeto seleccionado.]]></page><page Index="13"><![CDATA[Herramientas de diseño: usá las herramientas de forma (rectángulos, círculos, etc.) para
                crear tus elementos. También podés importar imágenes y usar texto.
+
 
 
 
@@ -523,27 +519,31 @@
 
                Estos recursos están diseñados para reforzar los conceptos fundamentales y preparar el
                terreno para el trabajo práctico en el proyecto final. ¡Exploralos y llevá tu aprendizaje al
-               siguiente nivel!]]></page><page Index="17"><![CDATA[Preguntas para Reflexionar
+               siguiente nivel!
 
 
 
 
+               Preguntas para Reflexionar
 
 
                    ●  ¿Qué es un prototipo y por qué crees que es importante en el proceso de diseño?
 
                    ●  ¿De qué manera el ejercicio de wireframing a mano fomentó tu creatividad y rapidez
-                       en la conceptualización de ideas?
-
-                   ●  Wireframing Digital: ¿Qué diferencias notaste entre el wireframing a mano y el
+                       en la conceptualización de ideas?]]></page><page Index="17"><![CDATA[●  Wireframing Digital: ¿Qué diferencias notaste entre el wireframing a mano y el
                        wireframing digital en Figma? ¿Cuál prefieres y por qué?
 
 
                    ●  ¿Qué funcionalidades de Figma te parecieron más útiles o interesantes? ¿Cómo
                        crees que estas herramientas pueden mejorar tu proceso de diseño?
 
-                   ●  ¿Qué aprendiste sobre vos a través de esta clase? ¿Hubo algo que te sorprendió?]]></page><page Index="18"><![CDATA[Situación en TalentoLab
 
+                   ●  ¿Qué aprendiste sobre vos a través de esta clase? ¿Hubo algo que te sorprendió?
+
+
+
+
+               Situación en TalentoLab
 
 
 
@@ -560,28 +560,20 @@
                ¡Llegó el gran día! Hoy es tu primer día como talento en el equipo de TalentoLab.
 
 
-                                                       A continuación, se te asignarán tus primeras
-                                                       tareas. Es importante que intentes resolverlas en el
-                                                       tiempo estipulado (1 semana); esto también se
-                                                       trata de aprender a trabajar con los tiempos de un
-                                                       equipo de trabajo.
+                                                      A continuación, se te asignarán tus primeras tareas.
+                                                      Es importante que intentes resolverlas en el tiempo
+                                                      estipulado (1 semana); esto también se trata de
+                                                      aprender a trabajar con los tiempos de un equipo de
+                                                      trabajo.
 
 
-                                                       Recordá que tenés que tomar como base uno de
-                                                       los proyectos de experiencia de usuario (UX)
-                                                       propuestos en la Clase 1.
+                                                      Recordá que tenés que tomar como base uno de los
+                                                      proyectos de experiencia de usuario (UX)
+                                                      propuestos en la Clase 1.
 
 
-                                                       ¡Adelante! ¡Es hora de empezar a trabajar
-                                                       juntos/as y dejar una huella en el mundo digital!
-
-
-
-
-
-
-               Ejercicios Prácticos
-
+                                                      ¡Adelante! ¡Es hora de empezar a trabajar juntos/as
+                                                      y dejar una huella en el mundo digital!]]></page><page Index="18"><![CDATA[Ejercicios Prácticos
 
 
                ¡Atención Talentos!
@@ -589,7 +581,11 @@
 
                Sofía Gómez  la Jefa de Prototipado que es dinámica y muy detallista, te solicita las
                siguientes tareas y te deja ejemplos de guía.
-               Cualquier duda sabes que tu instructor/a, te acompañará en todo el recorrido.]]></page><page Index="19"><![CDATA[Tarea para el Proyecto: Wireframe a mano.
+               Cualquier duda sabes que tu instructor/a, te acompañará en todo el recorrido.
+
+
+               Tarea para el Proyecto: Wireframe a mano.
+
 
 
                Realizá el boceto del Wireframe a mano del “Happy Path”, es decir el camino feliz que
@@ -597,24 +593,82 @@
                Empieza por Registrarse en la app, llega a la Home, y luego las siguientes pantallas para
                completar el happy path.
 
+               Ejemplo:
 
-               Ejemplo:]]></page><page Index="20"><![CDATA[Tarea para el Proyecto: Wireframe Digital.
 
 
-               Luego de tener todos los bocetos de las pantallas a mano y usándolos de referencia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Tarea para el Proyecto: Wireframe Digital.]]></page><page Index="19"><![CDATA[Luego de tener todos los bocetos de las pantallas a mano y usándolos de referencia
                haremos los Wireframes Digitales.
                Los wireframes digitales van a estar en Fidelidad Baja, es decir, en escala de grises, sin el
                contenido de texto específico, ni imágenes aplicadas.
 
 
-               Ejemplo:]]></page><page Index="21"><![CDATA[Próximos Pasos
+               Ejemplo:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Próximos Pasos
 
 
                En preparación para la siguiente clase:
 
                    ●  Asegurate dedicar tiempo a crear wireframes en diferentes contextos
-
                    ●  Explorá Figma, experimenta con las herramientas y funcionalidades que ofrece la
                        plataforma.
 
-                   ●  Intentá reflexionar sobre el proceso creativo.]]></page><page Index="22"><![CDATA[]]></page></pages></Search>
+                   ●  Intentá reflexionar sobre el proceso creativo.]]></page><page Index="20"><![CDATA[]]></page></pages></Search>

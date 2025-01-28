@@ -1,0 +1,1 @@
+﻿var ols=[{caption:"Técnicas creativas de naming. ",page:"8",url:"",level:"1",children:[]},{caption:" ",page:"12",url:"",level:"1",children:[]},{caption:"Combinando los sombreros: ",page:"12",url:"",level:"1",children:[]},{caption:"​Crear logos no te convierte en diseñador gráfico ",page:"16",url:"",level:"1",children:[]}];

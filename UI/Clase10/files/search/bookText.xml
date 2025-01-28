@@ -1,0 +1,884 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="25"><page Index="1"><![CDATA[Iniciación a la
+
+     Programación con
+
+
+
+
+
+
+     Python
+        Diseño UI
+
+
+
+
+
+
+
+
+
+              Clase 08
+                Clase 10]]></page><page Index="2"><![CDATA[Clase 10: Logo + herramientas de IA
+
+
+
+
+
+
+               Índice
+
+
+                   1.  Naming
+                   2.  Logotipo, Isotipo, Imagotipo, Isologo
+                   3.  Función de un logo.
+                   4.  Herramientas de creación con IA
+                   5.  Reflexión Final
+                   6.  Ejercicios
+                   7.  Materiales y Recursos Adicionales
+                   8.  Preguntas para Reflexionar
+                   9.  Próximos Pasos
+
+
+
+
+
+               Objetivos de la Clase
+
+
+                   ●  Comprender los fundamentos del naming y el diseño de logotipos, así como
+                       su importancia en la construcción de una marca sólida.
+                   ●  Desarrollar habilidades prácticas para crear nombres y logotipos efectivos y
+                       originales, utilizando tanto herramientas tradicionales como innovadoras
+                       basadas en inteligencia artificial.
+                   ●  Aplicar los conocimientos adquiridos en la creación de propuestas de
+                       identidad visual para completar el diseño de la aplicación en desarrollo.
+                   ●  Realizar ejercicios prácticos]]></page><page Index="3"><![CDATA[Naming.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Es un proceso creativo y estratégico que consiste en darle un nombre a una marca,
+               producto o servicio. Es mucho más que elegir una palabra al azar; el naming busca
+               encontrar el nombre perfecto que capture la esencia de una marca y la distinga de la
+               competencia.
+
+
+               El naming se basa en técnicas de marketing, psicología y sociología. El objetivo es
+               crear un nombre que diferencie la marca del resto y que sea coherente con sus
+               valores.
+
+
+               ¿Por qué es importante el naming?
+
+
+                   1.  Identidad: Un buen nombre es la primera impresión que una marca causa y
+                       define su personalidad.
+                   2.  Memorabilidad: Un nombre fácil de recordar facilita que los consumidores
+                       identifiquen y recuerden la marca.
+                   3.  Diferenciación: Un nombre único ayuda a destacar entre la competencia y a
+                       posicionarse en la mente del consumidor.
+                   4.  Relevancia: El nombre debe estar relacionado con los valores, productos o
+                       servicios de la marca.
+                   5.  Evocación: Idealmente, el nombre debe evocar emociones o sensaciones
+                       positivas asociadas a la marca.]]></page><page Index="4"><![CDATA[¿Cómo se realiza un buen naming?
+
+
+
+                   ●  Investigación: Se analiza el mercado, la competencia, la audiencia y los
+                       valores de la marca.
+                   ●  Brainstorming: Se generan una gran cantidad de ideas y posibles nombres.
+                   ●  Evaluación: Se evalúan los nombres según criterios como originalidad,
+                       memorabilidad, relevancia y pronunciabilidad.
+                   ●  Selección: Se elige el nombre más adecuado y se registran los derechos
+                       correspondientes.
+
+               ¿Qué cualidades debe tener un buen nombre de marca?
+
+
+               Memorable: Fácil de recordar y pronunciar.
+               Relevante: Relacionado con los productos o servicios
+               de la marca.
+               Único: Distintivo y diferente de la competencia.
+               Evocativo: Capaz de generar emociones y
+               asociaciones positivas.
+               Adaptable: Flexible para adaptarse a diferentes
+               contextos y mercados.
+
+               Registrable: Disponible para su registro como marca
+               comercial.]]></page><page Index="5"><![CDATA[Tipos de Naming.
+
+
+
+               1. Descriptivo:
+               Describe de forma clara y concisa lo que la marca o producto hace.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               2. Sugerente:
+               Evoca una imagen o sensación relacionada con el producto o servicio.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               3. Evocativo:
+               Despierta emociones o sentimientos positivos asociados a la marca.]]></page><page Index="6"><![CDATA[4. Abstracto:
+               Utiliza palabras que no tienen un significado literal directo, pero que transmiten un
+               concepto o idea.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               5. Acrónimo:
+               Se forma a partir de las iniciales de varias palabras.
+               "NASA" (National Aeronautics and Space Administration)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               6. Neologismo:
+               Se crea una palabra nueva a partir de raíces existentes o inventando una
+               completamente nueva.]]></page><page Index="7"><![CDATA[7. Geográfico:
+               Se utiliza un lugar o región para nombrar la marca.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               8. Patronímico:
+               Se utiliza el nombre de una persona, generalmente el fundador.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               9. Simbólico:
+               Utiliza símbolos o metáforas para representar la marca.
+               "Apple" (la manzana representa el conocimiento)]]></page><page Index="8"><![CDATA[Técnicas creativas de naming.
+
+
+               1. Palabras aleatorias
+
+
+               El binomio fantástico de Gianni Rodari, concebido originalmente para la creación
+               literaria, puede ser una herramienta muy poderosa para el naming, especialmente
+               cuando buscamos nombres originales y memorables para marcas o productos.
+
+
+               Se trata de combinar dos conceptos aparentemente aleatorios para crear una nueva
+               idea.
+
+
+
+
+                                                          Por ejemplo, si combinamos "nube" y
+                                                          "caballo", podríamos obtener nombres
+                                                          como:
+
+
+
+
+
+
+
+
+
+                   ●  NubeCaballo: Simple y directo, evoca imágenes de un caballo galopando
+                       entre las nubes.
+
+                   ●  CaballoNube: Invierte el orden y cambia ligeramente la connotación.
+
+                   ●  Nubocaballo: Una fusión de las dos palabras, creando un nuevo término.
+
+
+                   ●  Caballunube: Un diminutivo que añade un toque de ternura o ligereza.]]></page><page Index="9"><![CDATA[Ejemplos de binomios fantásticos para apps y sus posibles nombres:
+
+
+
+
+                   ●  Bosque + Tecnología:
+                          ○  ForestalApp
+                          ○  TecnoBosque
+                          ○  RaícesDigitales
+                          ○  ArbolesWiFi
+
+
+
+
+
+
+
+
+
+                   ●  Sueño + Ciudad:
+                          ○  UrbeOnírica
+                          ○  SueñoMetrópoli
+                          ○  CiudadDeLosSueños
+                          ○  Noctámbula
+
+
+
+
+
+
+                   ●  Música + Océano:
+                          ○  OndasMelódicas
+                          ○  MarMelódico
+                          ○  SinfoníaMarina
+                          ○  CantosDeSirena]]></page><page Index="10"><![CDATA[●  Color + Tiempo:
+                          ○  Cromonología
+                          ○  TiempoIris
+                          ○  HoraArcoíris
+                          ○  InstanteColor
+
+
+
+
+
+
+                   ●  Comida + Deporte:
+                          ○  GymSándwich
+                          ○  EnergíaFitness
+                          ○  NutriDeporte
+                          ○  BiteRun
+
+
+
+
+
+
+               Beneficios de utilizar el binomio fantástico en naming:
+
+
+                   ●  Nombres originales y memorables: Al combinar elementos inesperados, se
+                       crean nombres que destacan y se quedan en la mente de los consumidores.
+                   ●  Creatividad y diferenciación: Esta técnica fomenta la creatividad y ayuda a
+                       crear nombres únicos que te diferencian de la competencia.
+                   ●  Conexión emocional: Los nombres resultantes pueden evocar emociones y
+                       crear una conexión más profunda con el consumidor.
+                   ●  Nuevas perspectivas: El binomio fantástico te obliga a pensar fuera de la caja
+                       y a explorar nuevas perspectivas sobre tu producto o servicio.
+
+
+               Esta herramienta  es un creador de palabras aleatorias en español, con él puedes
+               crear palabras al azar para ejercicios de creatividad, memorización, etc.]]></page><page Index="11"><![CDATA[2. Seis sombreros para pensar
+
+
+
+               Esta técnica de Edward de Bono sirve
+               para la toma de decisiones y, al fin y al
+               cabo, el naming consiste en decidir. Es
+               útil sobre todo cuando el proceso se
+               realiza en equipo. Así, cada persona
+               adopta una forma distinta de
+               pensamiento, que equivale a un
+               sombrero de un color determinado. La
+               gracia del juego es que los sombreros se
+               intercambian, con lo que la persona que
+               primero muestra una actitud negativa, un minuto después puede pasarse al lado
+               contrario y comentar lo positivo de una decisión.
+
+
+
+
+
+
+               Cada sombrero representa un punto de vista diferente:
+
+
+                   ●  Sombrero Blanco: Datos objetivos y hechos. Buscamos nombres claros,
+                       concisos y descriptivos. Ejemplos: "Pensamiento6",
+                       "Herramienta6Sombreros", "AppDeLos6Sombreros".
+
+                   ●  Sombrero Rojo: Emociones y intuiciones. Buscamos nombres que evoquen
+                       sentimientos positivos, como creatividad, innovación o colaboración.
+                       Ejemplos: "MentesCreativas", "SinergiaMental", "InnovaConmigo".
+
+                   ●  Sombrero Negro: Crítico y lógico. Evaluamos la viabilidad y los posibles
+                       problemas. Buscamos nombres que sean sólidos, confiables y profesionales.
+                       Ejemplos: "DecidirMejor", "Solución6", "PensamientoEstratégico".]]></page><page Index="12"><![CDATA[●  Sombrero Amarillo: Positivo y optimista. Buscamos nombres que transmitan
+                       confianza y beneficios. Ejemplos: "IdeasIluminadas", "PotencializaTuMente",
+                       "ÉxitoEnEquipo".
+
+                   ●  Sombrero Verde: Creativo e innovador. Buscamos nombres originales, fuera
+                       de lo común y que estimulen la imaginación. Ejemplos: "MentesEnNube",
+                       "CajaDeIdeasInfinita", "LaberintoMental".
+
+                   ●  Sombrero Azul: Control y organización. Buscamos nombres que reflejen
+                       estructura y claridad. Ejemplos: "OrganizaTusIdeas", "PensamientoClaro",
+                       "LiderazgoInteligente".
+
+
+
+
+
+
+               Combinando los sombreros:
+
+
+
+               Podemos combinar diferentes sombreros para obtener resultados más ricos y
+               completos. Por ejemplo:
+               Blanco + Rojo: "DatosConCorazón" (conciso, descriptivo y evoca emociones).
+               Negro + Amarillo: "SoluciónPositiva" (evalúa críticamente y transmite optimismo).
+               Verde + Azul: "InnovaciónOrganizada" (fomenta la creatividad dentro de un marco
+               estructurado).
+
+
+               3. Brainstorming
+
+
+
+               El brainstorming, o tormenta de ideas, es una técnica
+               creativa que consiste en generar una gran cantidad
+               de ideas en un tiempo determinado, sin censurar
+               ninguna. Es una herramienta muy útil para
+               desarrollar nombres originales y memorables para tu
+               app.]]></page><page Index="13"><![CDATA[¿Cómo funciona el brainstorming para un naming?
+
+
+
+               Imaginá que queres crear una app de recetas saludables. Podrías empezar
+               haciendo una lluvia de ideas con palabras relacionadas con comida, salud, nutrición,
+               cocina, etc.
+
+
+               Palabras clave: saludable, receta, comida, nutrición, cocina, sabor, fácil, rápido,
+               ingredientes, dieta, bienestar.
+
+
+
+                                               Asociaciones: verde, fresco, natural, casero,
+                                               equilibrado, energía, vitalidad.
+
+                                               Metáforas: recetario mágico, cocina creativa, jardín
+                                               comestible.
+
+
+                                               A partir de estas palabras y asociaciones, podrías
+                                               generar una lista de posibles nombres:
+
+
+                                               Nombres descriptivos: RecetasSaludables,
+                                               CocinaSaludable, NutriciónFácil.
+
+
+
+                                               Nombres evocadores: SaboresNaturales,
+                                               CocinaVerde, RecetasConEncanto.
+
+
+
+                                               Nombres creativos: ElHuertoDeTusRecetas,
+                                               LaCocinaMágica, RecetasParaVivir.]]></page><page Index="14"><![CDATA[Consejos para un brainstorming efectivo:
+
+
+
+                   ●  Crea un ambiente relajado: Busca un lugar tranquilo y libre de distracciones.
+                   ●  No juzgues las ideas: Anota todas las ideas que se te ocurran, sin importar lo
+                       locas que parezcan.
+                   ●  Colabora con otros: Invita a otras personas a participar en el brainstorming
+                       para obtener diferentes perspectivas.
+                   ●  Utiliza herramientas visuales: Un pizarrón o un mapa mental pueden ayudarte
+                       a organizar las ideas y a visualizar las conexiones entre ellas.
+
+
+
+
+
+
+               Logotipo, Isotipo, Imagotipo, Isologo
+
+
+
+
+
+
+
+
+
+                                                        ¿Qué es un “logo”?
+
+
+                                                        De manera habitual se le llama logo al
+                                                        elemento gráfico que identifica a una
+                                                        empresa, un proyecto, una institución, un
+                                                        producto, etc.
+
+
+
+                                                        Logo viene de logotipo, que es un símbolo
+                                                        que se caracteriza por estar compuesto de
+                                                        imágenes, símbolos y/o letras para
+                                                        representar a una institución, marca, persona
+                                                        o sociedad.]]></page><page Index="15"><![CDATA[Alrededor del año 1800 empezaron a surgir los primeros logotipos. Se trataban de
+               símbolos y colores muy rudimentarios, pero que pretendían servir de identificador
+               entre los propietarios de productos y captar mayor atención por parte de los
+               incipientes compradores. Posteriormente, los logotipos han ido adaptándose a las
+               diferentes épocas, convirtiéndose en una referencia de identificación por parte de
+               las marcas a las que representan.
+
+
+
+
+
+
+
+               Logotipo
+               Es la representación visual de un nombre o palabra, diseñado con una tipografía y
+               estilo específicos.
+               Ejemplo: Coca-Cola, Google, Netflix.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Isotipo
+               Es un símbolo gráfico que representa una marca, sin la necesidad de incluir el
+               nombre.]]></page><page Index="16"><![CDATA[Imagotipo
+               Es la combinación de un logotipo (texto) y un isotipo (símbolo), donde ambos
+               elementos funcionan de manera independiente
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Isologo
+               Es la unión inseparable de un logotipo y un isotipo, formando una sola unidad visual.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Crear logos no te convierte en diseñador gráfico
+
+
+
+
+                                           Los diseñadores de logos son diseñadores gráficos
+                                           profesionales que crean imágenes personalizadas únicas
+                                           para la marca del cliente o empresa que los contrata.
+
+
+
+                                           Los diseñadores de logos pueden ser independientes
+                                           (freelancers) o empleados de una agencia de diseño o
+                                           publicidad. La mayoría de los diseñadores profesionales
+                                           tienen un título en diseño gráfico.]]></page><page Index="17"><![CDATA[Si buscas contratar a un diseñador de logos, hay que tener en cuenta que el
+               proceso de diseño tomará más tiempo que si lo crearas usando un “creador de
+               logos” en línea, pero al elegir usar los servicios de un diseñador de logos
+               profesional, estás garantizando que el logo sea totalmente único, que cumpla con su
+               función y que tenga la calidad necesaria para que una marca se vea profesional y
+               confiable.
+
+
+
+               Para ser diseñador ux/ui no es necesario ser diseñador gráfico, es por eso que para
+               salir del apuro hasta que puedas acudir con un profesional (de tu equipo o externo)
+               que diseñe el logo de tu cliente, o como en este caso, si necesitas un logo rápido de
+               ejemplo para ver como quedaría aplicado en el prototipo te dejo algunas
+               herramientas online con las que puedes crear logos de forma rápida y gratuita:
+               Creador de logos de Zyro. Visme. Oberlo. Canva. FreeLogoDesign. LogoMakr.
+
+               DesignEvo. Namecheap.
+
+
+
+
+               Función de un logo
+
+
+
+                                                       Tiene como objetivo ser la representación
+                                                       gráfica de un producto o servicio. Se utiliza
+                                                       para dar a conocer e identificar por un amplio
+                                                       periodo de tiempo, de tal forma que los
+                                                       usuarios asocien a esa empresa los productos
+                                                       o servicios ofrecidos por ella.
+
+
+                                                       Para tener una identidad de marca exitosa o
+                                                       branding tienes que contar una historia que
+                                                       influya en las emociones de los clientes.
+
+                                                       Tu logo estará presente en todos los
+                                                       materiales de tu marca (membretes, tarjetas,
+                                                       páginas web, aplicación, redes sociales etc.) y
+               crearán una identidad de marca concreta y comercializable.]]></page><page Index="18"><![CDATA[Características
+
+
+
+                   ●  Sencillo: debe ser fácil de recordar. Es recomendable evitar degradados y
+                       utilizar una tipología fácilmente reconocible y un máximo de dos o tres
+                       colores.
+                   ●  Adaptable: con la llegada de las nuevas tecnologías es importante que un
+                       logotipo se adapte a cualquier soporte. Debe ser escalable a cualquier
+                       tamaño para utilizarlo en el soporte que se precise.
+                   ●  Legible: Una de las características a tener en cuenta es que pueda leerse sin
+                       problemas.
+                   ●  Atemporal: Esta característica es de suma importancia porque las modas
+                       cambian de forma continua. Por lo tanto, tener un logotipo que permanezca
+                       en el tiempo y en el recuerdo del público es muy relevante.
+                   ●  Original: El logotipo debe ser único y original como la empresa a la que
+                       representa. Hay que investigar los logotipos del mercado al que pertenece la
+                       firma para marcar diferencia.
+
+
+
+
+
+
+
+               ¿Cuándo usar cada tipo de logo?
+
+
+                   ●  Logotipo: Ideal para marcas que quieren enfatizar su nombre.
+                   ●  Isotipo: Perfecto para marcas muy reconocidas donde el símbolo sólo es
+                       suficiente.
+                   ●  Imagotipo: Útil cuando se busca flexibilidad, pudiendo usar el texto y el
+                       símbolo juntos o por separado.
+                   ●  Isologo: Ideal para marcas que quieren una identidad visual fuerte y
+                       unificada.]]></page><page Index="19"><![CDATA[Herramientas de creación con IA
+
+               Las herramientas de generación de logotipos con IA han revolucionado la forma en
+               que diseñamos marcas. Estas plataformas utilizan algoritmos de inteligencia artificial
+               para crear logotipos personalizados y únicos en cuestión de minutos.
+
+
+
+                   1.  Looka: Genera logotipos personalizados a partir de tus preferencias.
+                   2.  Uizard: Permite crear diseños a partir de bocetos o imágenes.
+                   3.  Midjourney: Genera imágenes a partir de descripciones de texto.
+                   4.  Canva: Aunque es más conocida como una herramienta de diseño gráfico en
+                       general, Canva también tiene una función para crear logotipos con IA.
+                   5.  Adobe Sensei: Integrado en las aplicaciones de Adobe Creative Cloud, ofrece
+                       funciones de generación de logotipos y otras herramientas de diseño asistido
+                       por IA.
+
+
+
+               ¿Cómo funcionan?
+
+
+                   ●  Entrada del usuario: Vos proporcionas información básica como el nombre
+                       de tu aplicación, la industria a la que pertenece, y algunos adjetivos que
+                       describan tu marca (por ejemplo, "moderno", "elegante", "divertido").
+                   ●  Generación de opciones: La IA analiza esta información y genera una
+                       variedad de opciones de logotipos, cada uno con diferentes estilos, colores y
+                       tipografías.
+                   ●  Personalización: Puedes ajustar los resultados según tus preferencias,
+                       modificando colores, formas y tipografías.
+                   ●  Descarga: Una vez que estés satisfecho con el resultado, puedes descargar
+                       el logotipo en diferentes formatos.]]></page><page Index="20"><![CDATA[Ventajas de utilizar herramientas de IA:
+
+
+
+                   ●  Rapidez: Obtienes múltiples opciones de diseño en pocos minutos.
+                   ●  Facilidad de uso: No necesitas conocimientos avanzados de diseño gráfico.
+                   ●  Asequibilidad: Muchas de estas herramientas son gratuitas o tienen planes
+                       muy accesibles.
+                   ●  Personalización: Puedes ajustar los diseños para que se adapten a tu marca.
+
+
+
+
+
+
+               Reflexión Final
+
+
+
+               Hemos explorado los fundamentos del naming y el diseño de logotipos, dos pilares
+               fundamentales en la construcción de una marca sólida. Hemos aprendido que un
+               nombre bien elegido y un logotipo cautivador tienen el poder de transmitir la esencia
+               de una marca, conectar con el público objetivo y generar un impacto duradero.
+
+
+               Al inicio de esta clase  quizás veías el diseño de un logotipo como un simple
+               ejercicio estético. Sin embargo, ahora comprendes que es un proceso mucho más
+               profundo que implica una cuidadosa consideración de factores como la identidad de
+               marca, el público objetivo, los valores y la competencia.
+
+
+
+               Hemos explorado diferentes herramientas y técnicas, desde las más tradicionales
+               hasta las innovadoras basadas en inteligencia artificial. Cada una de ellas nos ha
+               brindado nuevas perspectivas y posibilidades creativas. Lo importante es
+               comprender que la tecnología es una herramienta al servicio del diseño, pero nunca
+               debe reemplazar la creatividad y la intuición del diseñador.]]></page><page Index="21"><![CDATA[Materiales y Recursos Adicionales
+
+
+
+               Para complementar los contenidos de esta clase, hemos seleccionado recursos
+               útiles que te ayudarán a profundizar en los conceptos trabajados:
+
+                          ○  Generador de palabras random en español
+                              https://www.generadoraleatorio.com/palabras/
+
+
+                          ○  Looka
+                              https://looka.com/?gad_source=1&gclid=Cj0KCQiAv628BhC2ARIsAIJIi
+                              K92KBA2gsJGoo5pK7qNPp8f1Mnet9pdbaDPOp9gSPhc09EbdMm8I_
+                              0aAga1EALw_wcB
+
+
+                          ○  Uizard
+                              https://uizard.io/
+
+
+                          ○  Adobe Sensei
+                              https://www.adobe.com/es/sensei/generative-ai.html
+
+                          ○  Canva
+                              https://www.adobe.com/es/sensei/generative-ai.html
+
+               Estos recursos están diseñados para reforzar los conceptos fundamentales y
+               preparar el terreno para el trabajo práctico en el proyecto final. ¡Exploralos y llevá tu
+               aprendizaje al siguiente nivel!
+
+
+
+
+               Preguntas para Reflexionar
+
+
+                   ●  ¿Qué aspectos del diseño de logotipos te resultan más desafiantes y cuáles
+                       más gratificantes?
+
+
+                   ●  ¿Cómo aplicarás los conocimientos adquiridos en tu proyecto?
+
+                   ●  ¿Cuáles son las tendencias del diseño de logotipos que más te interesan y
+                       por qué?]]></page><page Index="22"><![CDATA[●  ¿Qué nuevas herramientas o técnicas te gustaría explorar en el futuro?
+
+
+
+
+
+               Situación en TalentoLab
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     Seguimos sumando desafíos al proyecto semana
+                                                     a semana.
+                                                     Es importante que vayas realizando el proceso
+                                                     de forma ordenada y siguiendo las indicaciones.
+                                                     Si lo culminaste podes pasar por el after class y
+                                                     ajustar detalles con tu instructor/a del equipo de
+                                                     Talentos.
+
+
+
+
+
+               Si no lograste cumplir con el plazo establecido, es importante que intentes
+               completar tus asignaciones de tareas dentro del tiempo estipulado, ya que esto
+               también es parte del proceso de aprender a trabajar en equipo y respetar los
+               tiempos pautados.
+
+
+               ¡Sigamos adelante!]]></page><page Index="23"><![CDATA[Ejercicios Prácticos:
+
+
+
+               ¡Atención Talentos!
+
+                                                                Esta semana y luego de  haber
+                                                                completado la tarea anterior sobre la
+                                                                voz y el tono de tus textos en la app
+                                                                vamos a trabajar la identidad visual,
+                                                                es decir la representación gráfica de la
+                                                                marca
+
+
+
+
+
+
+
+
+
+
+
+
+               Tarea para el Proyecto: Logo
+
+               Crear un logo para la aplicación que venís desarrollando.
+
+
+
+               Requisitos del logo:
+
+
+
+                   ●  Que se relacione con la temática.
+                   ●  Que tenga fondo transparente (PNG).
+                   ●  Que tenga buena calidad (Que no se vea pixelado o borroso).
+                   ●  Que respete la paleta de colores (que no tenga colores que no pertenecen a
+                       la paleta).
+                   ●  Si es con texto que sea legible en tamaño muy pequeño.
+                   ●  Si es con texto que se comprenda la tipografía y que se relacione con la
+                       temática.
+                   ●  Que se relacione con las tres palabras elegidas para el moodboard.]]></page><page Index="24"><![CDATA[Realizar un breve informe sobre el logo, que tipo de logo es, como se relaciona a
+               su proyecto, qué elementos tiene y por qué, ¿qué mensaje envía a los usuarios de
+               esa marca?
+
+
+
+               Aplicar el logo al prototipo
+
+
+
+
+
+               Próximos Pasos
+
+
+               En preparación para la siguiente clase:
+
+                   ●  Desarrollá diversas opciones de logotipos para establecer la identidad de tu
+                       app.
+                   ●  Explorá las últimas tendencias en diseño de logotipos
+
+
+                   ●  Intentá encontrar la personalidad de tu aplicación.]]></page><page Index="25"><![CDATA[]]></page></pages></Search>

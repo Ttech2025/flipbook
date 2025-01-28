@@ -1,0 +1,850 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="24"><page Index="1"><![CDATA[Iniciación a la
+
+     Programación con
+
+
+
+
+
+
+     Python
+        Diseño UI
+
+
+
+
+
+
+
+
+
+              Clase 08
+                Clase 06]]></page><page Index="2"><![CDATA[Clase 6: Prototipo Funcional
+
+
+
+
+               Índice
+
+
+                   1.  Wireframes en media
+                   2.  Modelo Interactivo
+                   3.  Gestos
+                   4.  Prototipo Funcional
+                   5.  Reflexión Final
+                   6.  Ejercicios
+                   7.  Materiales y Recursos Adicionales
+                   8.  Preguntas para Reflexionar
+                   9.  Próximos Pasos
+
+
+
+
+
+               Objetivos de la Clase
+
+
+                   ●  Definir qué es un modelo interactivo y su importancia en el proceso de
+                       diseño.
+                   ●  Construir prototipos funcionales que simulen la experiencia del usuario lo más
+                       fielmente posible.
+                   ●  Aplicar estos conocimientos para resolver problemas de diseño de interfaces
+                       de usuario y mejorar la experiencia del usuario.
+                   ●  Realizar ejercicios prácticos]]></page><page Index="3"><![CDATA[Wireframes en fidelidad media.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Un wireframe de fidelidad media es una representación visual intermedia entre un
+               boceto de baja fidelidad y un diseño de alta fidelidad. A diferencia de los wireframes
+               de baja fidelidad, que son esquemas básicos, los de fidelidad media incluyen más
+               detalles sobre la interfaz, como:
+
+
+
+                   ●  Elementos de diseño: botones, campos de texto, imágenes, etc.
+
+                   ●  Espaciado y alineación: cómo se distribuyen los elementos en la pantalla.
+
+                   ●  Tipografía básica: el tipo de fuente y el tamaño del texto.
+
+                   ●  Aún no tengo imagenes en mi prototipo.
+
+
+                   ●  Colores: diferenciamos los elementos aplicando escala de grises.]]></page><page Index="4"><![CDATA[Sin embargo, a diferencia de los diseños de alta fidelidad, los wireframes de
+               fidelidad media no incluyen detalles gráficos finales como iconos personalizados,
+               imágenes detalladas o estilos de diseño específicos.
+
+               ¿Qué son los patrones en los wireframes?
+
+
+
+               Los patrones en los wireframes son elementos o componentes reutilizables que se
+               utilizan a lo largo de una interfaz. Estos patrones ayudan a crear una experiencia de
+               usuario consistente y a acelerar el proceso de diseño. Algunos ejemplos comunes
+               de patrones son:
+
+
+                   ●  Patrones de navegación: menús, barras de búsqueda, paginación.
+                   ●  Patrones de formularios: campos de texto, botones de envío, mensajes de
+                       error.
+                   ●  Patrones de contenido: listas, tarjetas, carruseles.
+
+               Los wireframes de fidelidad media con patrones son una herramienta valiosa para
+               diseñadores y desarrolladores. Al combinar la claridad de los wireframes con la
+               eficiencia de los patrones, se pueden crear interfaces de usuario más consistentes,
+
+               atractivas y fáciles de usar.
+
+
+
+               Modelo Interactivo
+
+
+               Un modelo interactivo de wireframe es una versión más avanzada de un wireframe
+               tradicional. Mientras que un wireframe estático ofrece una representación visual
+               básica de la estructura de una página o pantalla, un modelo interactivo va un paso
+               más allá al permitir simular la interacción del usuario con la interfaz.
+
+
+
+               Imaginá un prototipo básico: es como una maqueta de una casa, pero en lugar de
+               madera y cartón, está hecha de elementos digitales que podés manipular; podés
+               hacer clic en botones, llenar formularios y navegar entre diferentes pantallas, todo
+               dentro de un entorno simulado.]]></page><page Index="5"><![CDATA[¿Por qué son importantes?
+
+
+
+                   ●  Validación temprana: permiten identificar y solucionar problemas de
+
+                       usabilidad antes de invertir tiempo y recursos en el desarrollo completo de
+
+                       una aplicación o sitio web.
+
+                   ●  Comunicación efectiva: facilitan la comunicación entre diseñadores,
+
+                       desarrolladores y clientes, ya que ofrecen una representación tangible de
+                       cómo se verá y funcionará la interfaz final.
+
+
+                   ●  Mejor toma de decisiones: ayudan a tomar decisiones informadas sobre el
+
+                       diseño y la funcionalidad de la interfaz, al permitir visualizar y experimentar
+
+                       diferentes opciones.
+
+
+
+
+               Características clave de un modelo interactivo:
+
+                   ●  Interactividad: los elementos de la interfaz son clicables y responden a las
+                       acciones del usuario.
+
+                   ●  Simulación de la experiencia del usuario: se puede simular el flujo de
+                       navegación y las diferentes acciones que puede realizar un usuario.
+
+
+                   ●  Visualización de transiciones: se pueden mostrar las transiciones entre
+                       diferentes pantallas o estados de la interfaz.
+
+                   ●  Integración de datos dinámicos: en algunos casos, se pueden incluir datos
+                       reales o simulados para mostrar cómo se actualizará la interfaz.]]></page><page Index="6"><![CDATA[Gestos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Los gestos en UX/UI son acciones físicas realizadas por el usuario en una pantalla
+               táctil para interactuar con un dispositivo o aplicación. Estos movimientos, como
+               deslizar, pellizcar, rotar o hacer doble clic, han revolucionado la forma en que nos
+               comunicamos con nuestros dispositivos.
+
+
+               Cada vez se fabrican más teléfonos sin teclados visibles de forma permanente. Los
+               gestos son, por tanto, parte integrante de la forma en que los usuarios
+               interactúan y navegan por el dispositivo y de la calidad general de experiencia
+               del usuario móvil. Esto le ofrece tanto oportunidades como desafíos.
+
+
+               La ausencia de botones y teclas en la pantalla le proporciona más espacio en esta
+               zona limitada. Esto significa que podés hacer un contenido más atractivo e
+               impactante sin la limitación de trabajar alrededor de los elementos de navegación.
+
+
+               Los usuarios tienen que realizar menos acciones para desplazarse.]]></page><page Index="7"><![CDATA[Los gestos son más amplios y menos sensibles a la precisión que las teclas o los
+               botones. ¿Cuántas veces te has equivocado al pulsar un botón y has acabado
+               donde no querías? Es más difícil equivocarse con los gestos.
+
+
+               Las interacciones de los usuarios son más animadas, naturales y atractivas. Iniciar
+               un vídeo o ampliar la pantalla es mucho más fácil y (a la larga) más intuitivo.
+
+
+               El inconveniente obvio de todo esto es que los usuarios no necesariamente
+               conocerán o entenderán todos los gestos. Afortunadamente, la disponibilidad de
+               técnicas alternativas facilita ese aprendizaje. Se pueden producir animaciones de
+               formación que expliquen e ilustren los gestos disponibles, cómo se realizan y qué
+               hacen. También pueden ser interactivas para que los usuarios puedan practicar los
+               movimientos y familiarizarse con su funcionamiento. Además, se pueden incorporar
+               programas de ayuda en el uso cotidiano. Esto significa que, cuando los usuarios se
+               acercan a las áreas en las que hay gestos disponibles, se les indica y se les instruye
+               sobre cómo utilizarlos. De este modo, se refuerzan los gestos más utilizados y se
+               mejora la experiencia del usuario.
+
+               Los gestos faciales han empezado a utilizarse en este contexto y parecen ser el
+               futuro. Funcionan sobre la base del reconocimiento facial de la expresión o el
+               movimiento y la traducción de la intención a partir de ellos. La tecnología es
+               relativamente nueva y está lejos de ser perfecta. Sin embargo, la cantidad limitada
+               de gestos que pueden interpretarse actualmente está aumentando y ampliándose.
+               Se prevé que acabe convirtiéndose en el modo estándar de interacción con los
+               dispositivos móviles.
+
+
+
+
+
+               ¿Por qué son importantes los gestos en UX/UI?
+
+
+                   ➔  Intuitividad: los gestos imitan acciones del mundo real, lo que los hace más
+                       intuitivos y fáciles de aprender.
+
+                   ➔  Eficiencia: permiten realizar múltiples acciones con un solo movimiento,
+                       agilizando las tareas.]]></page><page Index="8"><![CDATA[➔  Experiencia de usuario más rica: al ofrecer una interacción más natural, los
+                       gestos hacen que las aplicaciones sean más agradables de usar.
+
+
+                   ➔  Mayor inmersión: los gestos pueden crear una sensación de mayor
+                       inmersión en la experiencia digital.
+
+
+
+               Tipos comunes de gestos:
+
+                   ●  Tap (pinchar / pulsar):
+                       Movimiento básico de tocar la pantallas con la punta del dedo. Se utiliza igual
+                       que si pulsáramos un botón de forma física, es decir para activar un control.
+
+
+                   ●  Double tap (pulso doble):
+                       Pinchar o pulsar dos veces de forma rápida la pantalla. Comunmente se
+                       utiliza para acercar zoom o alejar el zoom.
+
+                   ●  Long press (presión larga):
+                       Pulsar y mantener presionado el área pulsada en la pantalla. Permite acceder
+                       a funcionalidades extras como desplegar un submenú o lo más común que es
+                       seleccionar el elemento sobre el que se mantiene pulsado.
+
+                   ●  Flick / Scroll & Pan (movimiento panorámico):
+                       Movimiento rápido con el que se ejerce poca presión en la pantalla como si
+                       lanzáramos rápidamente el contenido. Puede ser de forma vertical llamado
+                       scroll, de forma horizontal lo que se llama pan o la mezcla que sería de forma
+                       diagonal. Se utiliza para navegar y movernos por dentro del espacio de la
+                       página que estemos viendo.
+
+                   ●  Swipe (deslizar):
+                       Deslizar uno, dos o incluso tres dedos. Normalmente será un solo dedo ya
+                       que es lo que la gente espera, pero puede aumentar en caso de que nos
+                       falten comandos. Se hace siempre de un lado para otro y es una metáfora de
+                       como si lanzáramos la pantalla. Con un dedo el significado suele pasar a la
+                       pantalla anterior si es a la izquierda o a la siguiente si es a la derecha. Con 3
+                       dedos en iOS suele ser: deshacer (izquierda), rehacer (derecha).]]></page><page Index="9"><![CDATA[●  Drag (arrastrar):
+                       Es un movimiento de dos pasos. Primero agarraríamos un elemento que sea
+                       agarrable con una presión larga, es decir, manteniendo presionado sobre él y
+                       luego deslizaríamos el elemento para poder moverlo de un lado a otro de la
+                       pantalla arrastrando el dedo. Precisamente, el uso del drag es arrastrar un
+                       elemento para cambiarlo de posición, por ejemplo para reordenar las apps
+                       del dispositivo móvil.
+
+                   ●  Pinch (pinzar / pellizcar):
+                       Implica darle un pellizco a la pantalla como si intentáramos agarrarlo con
+                       unas pinzas. Este movimiento tiene dos posibilidades pellizcar hacia dentro o
+                       hacia fuera, lo que sería el equivalente a soltar lo pinzado. El uso que se le
+                       da es principalmente para ampliar o alejar el zoom aunque también se puede
+                       usar para abrir contenedores. En cualquier caso, el concepto es el mismo.
+
+
+                   ●  Rotate (rotar):
+                       Consiste en tocar la pantalla con dos dedos y girarlos. De este modo rotamos
+                       el elemento rotable en la dirección en la que giremos los dedos y tantos
+                       grados como movimiento hagamos. Se deduce por tanto, que la utilidad de
+                       este gesto es el de hacer que los elementos de la pantalla giren sobre sí
+                       mismos. Normalmente el punto de giro estará en el centro del elemento, pero
+                       también puede estar definido en otro punto del elemento o incluso podemos
+                       establecerlo nosotros con la colocación del primer dedo.
+
+                   ●  Shake (agitar):
+                       El shake consiste en agarrar el teléfono y agitarlo como si de un batido se
+                       tratara. Algunas de las actividades que se atribuyen a este gesto son la de
+                       deshacer una acción que acabamos de hacer (por tanto sería igual que el
+                       swipe de 3 dedos a la izquierda) o también se puede vincular con reiniciar o
+                       con características como activar cámara por ejemplo.
+
+                   ●  Compound gestures (gestos compuestos):
+                       Los compound gestures no serían un gesto en sí pero sí son la suma o
+                       composición de varios de los gestos anteriores creando un movimiento de
+                       súperfluidez. Como gesto compuesto más común tal vez podríamos tener la
+                       suma del pinch y el rotate que nos permitiría hacer esos dos movimientos sin
+                       tener que separar los dedos de la pantalla, es decir de una sola vez.]]></page><page Index="10"><![CDATA[Reglas y consejos para hacer buenas animaciones
+
+
+               Una vez conocidos los gestos permitidos a los usuarios, vamos a ver una serie de
+               reglas y buenas prácticas que nos indica Google en las guías de Material de cara a
+               las interacciones móvil:
+
+
+                   1.  Utilizar los gestos ya normalizados de forma predeterminada.
+
+                   2.  Evitar el uso de gestos normalizados para realizar acciones no
+                       normalizadas, es decir usar cada gesto para lo que se espera que haga y no
+                       intercambiarlos entre ellos.
+
+                   3.  Evitar contradecir o interferir los comandos básicos del sistema.
+
+
+                   4.  Ajustar la interacción al movimiento, es decir que la acción avance o
+                       retroceda según si el gesto avanza o retrocede y que la duración de la
+                       transición sea igual a la del movimiento.
+
+                   5.  Facilitar la visibilidad de los gestos, por ejemplo mostrando una flecha de
+                       la que tirar.
+
+                   6.  Facilitar el resultado de la acción, por ejemplo, mostrando el icono de
+                       eliminar al empezar a hacer swipe a la derecha.
+
+                   7.  Encajar la dirección de la animación y del movimiento. No tiene sentido
+                       que si el usuario estire a la derecha, el movimiento vaya a la izquierda. Por
+                       ello, la dirección debe ser la misma.
+
+
+               La usabilidad móvil es esencial en un mundo cada vez más centrado en los
+               dispositivos móviles. Las empresas comprenden que ofrecer una experiencia de
+               usuario intuitiva es clave para atraer y retener a los usuarios. Los gestos en
+
+               dispositivos móviles desempeñan un papel fundamental en esta ecuación.]]></page><page Index="11"><![CDATA[Prototipo Funcional
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Un prototipo funcional es una representación interactiva de un producto digital que
+               simula la experiencia del usuario final. A diferencia de un wireframe o un mockup,
+               que  son  representaciones  estáticas,  un  prototipo  funcional  permite a los usuarios
+               interactuar con la interfaz de una manera similar a como lo harían con el producto
+               final.
+
+               Imaginá un prototipo funcional como una versión beta de una aplicación: podés
+               abrirla, navegar por las diferentes pantallas, hacer clic en los botones y ver cómo
+               responde la interfaz. Sin embargo, a diferencia de una versión beta, un prototipo
+               funcional puede no tener todas las funcionalidades implementadas y puede estar
+               construido con herramientas de prototipado especializadas.]]></page><page Index="12"><![CDATA[¿Para qué sirve un prototipo funcional?
+
+
+                   ●  Validación de ideas: permite validar si la idea original es viable y si satisface
+                       las necesidades del usuario.
+
+                   ●  Identificación de problemas: ayuda a identificar posibles problemas de
+                       usabilidad y diseño antes de que el desarrollo esté demasiado avanzado.
+
+                   ●  Comunicación efectiva: facilita la comunicación entre diseñadores,
+                       desarrolladores y clientes, ya que todos pueden ver y experimentar el
+                       producto de manera tangible.
+
+
+                   ●  Toma de decisiones: permite tomar decisiones informadas sobre el diseño y
+                       la funcionalidad del producto.
+
+                   ●  Pruebas de usabilidad: se pueden realizar pruebas de usabilidad con
+                       usuarios reales para obtener feedback valioso.
+
+
+
+               Características de un prototipo funcional:
+
+                   ➔  Interactividad: los elementos de la interfaz son clicables y responden a las
+                       acciones del usuario.
+
+                   ➔  Simulación de la experiencia del usuario: se puede simular el flujo de
+                       navegación y las diferentes acciones que puede realizar un usuario.
+
+
+                   ➔  Visualización de transiciones: se pueden mostrar las transiciones entre
+                       diferentes pantallas o estados de la interfaz.
+
+                   ➔  Integración de datos dinámicos: en algunos casos, se pueden incluir datos
+                       reales o simulados para mostrar cómo se actualizará la interfaz.
+
+
+
+
+               Una vez diseñadas las pantallas de nuestro prototipo debemos conectarlas
+               para indicar la dirección y secuencia de las mismas, para que el usuario pueda
+               recorrerlas, ir y venir por donde desee.]]></page><page Index="13"><![CDATA[A través de un prototipo funcional se comprende y representa la interacción entre
+               humano y máquina y cómo debería de responder el sistema y cada uno de los
+               elementos que lo componen.
+
+
+               Esta parte es indispensable para realizar las pruebas de usabilidad con
+               usuarios reales.
+
+               Disparador, Acción y Destino
+
+
+               Imaginá una interfaz como una obra de teatro. El disparador es la línea que inicia la
+               escena, la acción es el desarrollo de la escena y el destino es el desenlace. En el
+               mundo del diseño UX, estos elementos trabajan en conjunto para crear una
+               interacción fluida y significativa.
+
+                   ➔  Disparador: es el elemento que inicia una interacción; puede ser un botón,
+                       un enlace, una imagen o incluso un gesto del usuario (como tocar, deslizar o
+                       hacer zoom). El disparador actúa como una invitación para que el usuario
+                       realice una acción específica.
+
+                   ➔  Acción: es la respuesta del sistema a un disparador; puede ser una
+                       transición a otra pantalla, la apertura de un menú desplegable, la
+                       reproducción de un video o cualquier otra acción que el sistema realice en
+                       respuesta a la acción del usuario.
+
+
+                   ➔  Destino: es el resultado final de la acción; puede ser una nueva pantalla, un
+                       mensaje de confirmación, la actualización de una página o cualquier otro
+                       estado final de la interfaz.
+
+
+
+
+               Cómo implementar Disparadores, Acciones y Destinos en Figma
+
+
+               Figma ofrece una amplia gama de herramientas para crear prototipos interactivos
+               que incorporan estos elementos de manera efectiva.
+
+                   ●  Identificá los disparadores: determiná qué elementos de tu interfaz
+                       actuarán como disparadores; esto puede incluir botones, enlaces, áreas
+                       clicasbles, o incluso el desplazamiento del usuario.]]></page><page Index="14"><![CDATA[●  Definí las acciones: decidí qué sucederá cuando se active un disparador.
+                       ¿Se abrirá un modal? ¿Se cambiará de pantalla? ¿Se reproducirá una
+                       animación?
+
+                   ●  Configurá los destinos: establecé a dónde llevará la acción del usuario;
+                       puede ser otra pantalla, un componente, o incluso una URL externa.
+
+
+                   ●  Conectá los elementos: utilizá las herramientas de interacción de Figma
+                       para conectar los disparadores con las acciones y los destinos; esto puede
+                       involucrar la creación de enlaces, el uso de triggers y la configuración de
+                       transiciones.
+
+
+               Ejemplo Práctico: Un Botón de "Comprar Ahora"
+
+                   ❖  Disparador: el botón "Comprar Ahora".
+
+                   ❖  Acción: al hacer clic en el botón, se inicia una transición a una nueva
+                       pantalla.
+
+
+                   ❖  Destino: la nueva pantalla muestra los detalles del producto, opciones de
+                       envío y un formulario de pago.
+
+               ¿Cómo hacer un prototipo con Figma?
+
+
+
+               En el lado derecho de la interfaz de Figma tienes una columna que tiene tres
+               elementos: Design, Prototype e Inspect. Si haces clic en Prototype verás que no
+               cambia nada en la interfaz del programa, pero sí varía el contenido de la columna:
+               allí podrás configurar las características del prototipo.
+
+               Device: te permite seleccionar con qué dispositivo quieres que se visualice el
+               prototipo. Podés escoger entre diferentes modelos de Android, definir unas medidas
+               personalizadas o no utilizar nada.
+               Si seleccionas cualquier dispositivo podrás escoger el modelo y el color.
+               Importante; para este momento  todas las pantallas deben “entrar” en el modelo de
+               dispositivo elegido. Chequeen porque sino van a continuar diseñando en el espacio
+               incorrecto.]]></page><page Index="15"><![CDATA[Background: te permite escoger qué fondo de pantalla querés que acompañe al
+               prototipo (si es un móvil, tendrás espacio a ambos lados de la pantalla).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Para enlazar pantallas necesitás estar en la pestaña Prototype]]></page><page Index="16"><![CDATA[Cuando  muevas  el  cursor  encima  de  los  diferentes  Frames  verás  que  aparecen
+               marcados con un borde azul que tiene una pequeña bola blanca a la derecha: esto
+               es un nodo y es lo que te permitirá enlazar un elemento con otro.
+
+
+
+
+               Como resultado quedan unidas por una flecha azul.
+
+
+
+
+
+                                           Con este enlazado básico, si haces clic en el icono de
+                                           Play, situado al lado del botón de Share, podrás visualizar
+                                           el prototipo.
+
+                                           Podrás observar que si haces clic en un sitio en el que no
+                                           hay ningún enlace definido se verán brevemente unos
+                                           rectángulos azules: estos te indican siempre donde existe
+                                           una interacción para guiarte.
+
+
+                                           Voy  seleccionando  los  elementos  que  necesite  enlazar
+                                           (con cuidado de seleccionar el elemento y no el texto o el
+                                           ícono que contengan) y me aparecerá una pequeña bolita
+                                           que es de donde nace la flecha azul.]]></page><page Index="17"><![CDATA[]]></page><page Index="18"><![CDATA[Nos aparecen las siguientes opciones:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Disparador y Acción.]]></page><page Index="19"><![CDATA[Reflexión Final
+
+
+
+               Hemos explorado a fondo los conceptos de wireframes, modelos interactivos, gestos
+               y prototipos funcionales. Cada uno de estos elementos juega un papel crucial en el
+               proceso de diseño de experiencias de usuario (UX) y el desarrollo de productos
+               digitales.
+
+               Recapitulando:
+
+
+                   -  Wireframes: son las primeras representaciones visuales de una interfaz,
+                       sirviendo como un esqueleto para construir una experiencia de usuario; nos
+                       permiten visualizar la estructura y el flujo de la interfaz sin entrar en detalles
+                       de diseño.
+
+
+                   -  Modelos Interactivos: son versiones más avanzadas de los wireframes que
+                       permiten simular la interacción del usuario con la interfaz; estos modelos nos
+                       ayudan a identificar problemas de usabilidad y a validar nuestras decisiones
+                       de diseño.
+
+                   -  Gestos: son acciones físicas realizadas por el usuario en una pantalla táctil
+                       para interactuar con un dispositivo o aplicación; los gestos hacen que las
+                       interfaces sean más intuitivas y eficientes.
+
+                   -  Prototipos Funcionales: son versiones interactivas de un producto que
+                       simulan la experiencia del usuario final; nos permiten evaluar la usabilidad y
+                       la funcionalidad de la interfaz antes de desarrollar el producto completo.
+
+
+
+
+
+
+               Materiales y Recursos Adicionales
+
+
+               Para complementar los contenidos de esta clase, hemos seleccionado recursos
+               útiles que te ayudarán a profundizar en los conceptos trabajados:
+
+
+                          ○  Gestos
+                              https://m2.material.io/design/interaction/gestures.html#principles]]></page><page Index="20"><![CDATA[○  Como crear prototipo interactivos en Figma
+                              https://help.figma.com/hc/en-us/articles/360040315773-Create-inte
+                              ractions
+
+
+                          ○  Material Design 3 Design Kit
+                              https://www.figma.com/community/file/1035203688168086460/mat
+                              erial-3-design-kit
+
+                          ○  Material Design
+                              https://m3.material.io/
+
+
+                          ○  "No me hagas Pensar" de Steve Krug
+                              Este libro es fundamental para entender los principios básicos de
+                              usabilidad en el diseño UX. Krug ofrece consejos prácticos para
+                              mejorar la experiencia de los usuarios de forma sencilla y efectiva.
+
+
+               Estos recursos están diseñados para reforzar los conceptos fundamentales y
+               preparar el terreno para el trabajo práctico en el proyecto final. ¡Exploralos y llevá tu
+               aprendizaje al siguiente nivel!
+
+
+
+
+
+               Preguntas para Reflexionar
+
+
+                   ●  ¿Cómo balancear la fidelidad de un wireframe? ¿Cuándo es suficiente un
+                       wireframe de baja fidelidad y cuándo se necesita uno de media o alta
+                       fidelidad?
+
+                   ●   ¿Cuál es el papel de los prototipos funcionales en la comunicación con los
+                       desarrolladores? ¿Cómo se pueden utilizar para garantizar que la
+                       implementación final sea fiel al diseño?
+
+
+                   ●  ¿Cómo se pueden evaluar la eficacia y la usabilidad de los gestos? ¿Qué
+                       métodos de investigación se pueden utilizar?]]></page><page Index="21"><![CDATA[●  ¿Cuál es el nivel de detalle ideal para un modelo interactivo? ¿Qué tan
+                       realista debe ser la interacción para obtener resultados significativos?
+
+
+
+
+
+
+
+
+
+               Situación en TalentoLab
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     Seguimos sumando desafíos al proyecto semana
+                                                     a semana.
+                                                     Es importante que vayas realizando el proceso
+                                                     de forma ordenada y siguiendo las indicaciones.
+                                                     Si lo culminaste podes pasar por el after class y
+                                                     ajustar detalles con tu instructor/a del equipo de
+                                                     Talentos.
+
+
+
+                                                     Si no lograste cumplir con el plazo establecido,
+               es importante que intentes completar tus asignaciones de tareas dentro del
+               tiempo estipulado, ya que esto también es parte del proceso de aprender a
+               trabajar en equipo y respetar los tiempos pautados.
+
+
+               ¡Sigamos adelante!]]></page><page Index="22"><![CDATA[Ejercicios Prácticos
+
+
+
+               ¡Atención Talentos!
+
+               Esta semana Max, director de UI, te solicita las
+               siguientes tareas y te comparte un ejemplo de guía
+               de cómo debería ser presentado como informe,
+               además de aplicarlos en los wireframe digitales.
+
+
+
+
+
+               Tarea para el Proyecto: Prototipo Funcional
+
+               Una vez diseñadas las pantallas del “Happy Path” con los Patrones de diseño,
+               vamos a convertir el prototipo en un Prototipo Funcional conectando el camino que
+               va a recorrer el usuario, para poder realizar las pruebas de usabilidad.
+
+
+
+               Para este punto tendremos previamente hechos los:
+
+
+                   ●  Wireframes a mano
+                   ●  Wireframes digitales
+                   ●  Wireframes con patrones de diseño
+
+
+               Aclaraciones: Ahora que haremos el prototipo funcional pasaremos a una Fidelidad
+               media, es decir, continuamos en escala de grises, con pantallas diseñadas con
+               patrones. Ya tenemos las pantallas diseñadas para Android con las medidas de uno
+               de los modelos de celular que ofrece Figma, con partes del texto específico de mi
+               proyecto (lo que permita comprender y ubicar al usuario en una prueba de
+               usabilidad) y sin imágenes.
+
+
+               Tiempo estipulado (1 semana)
+               Cualquier duda  ya sabes que tu instructor/a, te acompañará en todo el recorrido.]]></page><page Index="23"><![CDATA[Ejemplo Prototipo Interactivo:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Prototipo en este enlace
+
+
+
+
+
+
+               Próximos Pasos
+
+
+
+               En preparación para la siguiente clase:
+
+                   ●  Desarrollá modelos interactivos que simulen la experiencia del usuario
+
+
+                   ●  Explorá Figma y construí prototipos funcionales que puedan ser evaluados e
+                       iterados.
+
+                   ●  Intentá reflexionar cómo planeas aplicar estos conocimientos en tus futuros
+                       proyectos.]]></page><page Index="24"><![CDATA[]]></page></pages></Search>
