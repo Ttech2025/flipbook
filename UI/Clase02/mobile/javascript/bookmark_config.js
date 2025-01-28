@@ -1,0 +1,1 @@
+﻿var ols=[{caption:"Objetivos de la Clase. ",page:"2",url:"",level:"1",children:[]},{caption:"Prototipo ",page:"3",url:"",level:"1",children:[]},{caption:"Wireframing ",page:"7",url:"",level:"1",children:[{caption:"Tendencias en prototipado ",page:"9",url:"",level:"2",children:[]}]},{caption:"Figma ",page:"10",url:"",level:"1",children:[]}];

@@ -1,0 +1,1 @@
+﻿var ols=[{caption:"Esta tabla resume de manera clara las diferencias entre listas, tuplas y diccionarios, ayudándote a elegir la estructura adecuada según el tipo de datos que necesites manejar. ",page:"6",url:"",level:"1",children:[]},{caption:"Ruta de avance ",page:"13",url:"",level:"1",children:[]},{caption:"Ejercicio práctico. ",page:"14",url:"",level:"1",children:[]}];
