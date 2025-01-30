@@ -1,0 +1,778 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="23"><page Index="1"><![CDATA[Iniciación a la
+
+     Programación con
+
+
+
+
+
+
+     Python
+        Diseño UI
+
+
+
+
+
+
+
+
+
+              Clase 08
+                Clase 12]]></page><page Index="2"><![CDATA[Clase 12: Accesibilidad
+
+
+
+
+
+               Índice
+
+
+                   1.  La accesibilidad relacionada con la usabilidad
+                   2.  A11y y WCAG
+                   3.  Plugins de Figma para crear diseños más accesibles
+                   4.  Reflexión Final
+                   5.  Ejercicios
+                   6.  Materiales y Recursos Adicionales
+                   7.  Preguntas para Reflexionar
+                   8.  Próximos Pasos
+
+
+
+
+
+
+               Objetivos de la Clase
+
+                   ●  Comprender los principios de la accesibilidad, por qué es importante y cómo
+                       se relaciona con la usabilidad.
+                   ●  Conocer las pautas de accesibilidad WCAG y su importancia para garantizar
+                       la accesibilidad de las interfaces digitales.
+                   ●  Utilizar herramientas de diseño accesibles y otras herramientas para crear
+                       diseños que cumplan con los estándares de accesibilidad.
+                   ●  Evaluar la accesibilidad de los diseños para identificar y corregir problemas
+                       en sus diseños.
+                   ●  Crear interfaces inclusivas que sean accesibles para personas con diversas
+                       discapacidades.
+                   ●  Realizar ejercicios prácticos]]></page><page Index="3"><![CDATA[La accesibilidad relacionada con la usabilidad
+
+
+
+               Accesibilidad
+               La accesibilidad es hacer que las
+               interfaces sean perceptibles, operables y
+               comprensibles para personas con
+               distintos tipos de capacidades.
+
+
+               Abarca todo tipo de discapacidad o
+               diversidad funcional, incluyendo
+               discapacidades visuales, auditivas,
+               físicas, cognitivas, neurológicas y de
+               habla, así como situaciones temporales,
+               como cuando te rompes un brazo o
+               perdés los lentes
+
+
+               La accesibilidad también hace los productos más usables para personas que se
+               encuentran en gran variedad de situaciones. Las limitaciones situacionales surgen
+               de las circunstancias, entornos y condiciones en las que está el usuario y pueden
+               afectar a cualquiera
+
+
+
+               La accesibilidad de la interfaz de usuario puede plantearse desde la usabilidad.]]></page><page Index="4"><![CDATA[La Organización Internacional de Normalización (iso) 9241-11 define la usabilidad
+               como la medida en la cual un producto puede ser usado por determinados
+               usuarios para conseguir objetivos específicos con efectividad, eficiencia y
+               satisfacción en un contexto de uso específico.
+
+
+               La accesibilidad considera a las personas con discapacidad como los usuarios
+               específicos  y una amplia variedad de situaciones como el contexto de uso
+               específico.
+
+
+               Una forma de empezar a observar la distinción entre los accesibilidad y usabilidad
+               es categorizar los problemas de interfaz:
+
+
+                       Los problemas de usabilidad afectan a todos los usuarios por igual,
+                       Los problemas de accesibilidad disminuyen el acceso a una app por parte de
+                       personas con discapacidad. Cuando una persona con discapacidad está en
+                       desventaja, se trata de un problema de accesibilidad.
+
+
+
+               Beneficios
+
+
+               La accesibilidad también mejora el acceso para:
+
+
+                   ●  Personas mayores
+                   ●  Personas que no dominan el idioma.
+                   ●  Personas con conexiones a Internet de bajo ancho de banda y aquellas que
+                       utilizan tecnologías más antiguas
+                   ●  Usuarios web nuevos y poco frecuentes
+
+
+
+
+
+
+
+
+
+               A11y y WCAG.]]></page><page Index="5"><![CDATA[El Proyecto A11y ha sido creado por la propia comunidad de desarrolladores y
+               diseñadores que promueve la creación y diseño de páginas web y aplicaciones que
+
+               sean accesibles.
+
+
+
+               La World Content Accessibility Guidelines (WCAG) busca definir las pautas que
+               debe cumplir cualquier producto digital para ser considerado accesible.
+
+
+
+               Cada pauta del WCAG tiene definidos tres niveles: A (mínimo), AA (medio) y AAA
+               (alto).
+
+
+
+               Se considera “estándar” el nivel AA.
+
+               ¿Qué dice Material Design?]]></page><page Index="6"><![CDATA[https://m3.material.io/foundations/overview/principles
+
+
+               Veamos algunos principios básicos que declaran
+
+
+
+                                               Claro.
+                                               Ayude a los usuarios a navegar por su aplicación
+                                               diseñando diseños claros con distintos llamados a la
+                                               acción. Cada botón, imagen y línea de texto
+                                               agregados hace que la pantalla sea más complicada.
+                                               Simplifica la interfaz de usuario de tu aplicación con:
+
+                                               Elementos claramente visibles
+                                               Contraste y tamaño suficientes
+                                               Una jerarquía clara de importancia
+                                               Información clave discernible de un vistazo
+
+
+
+
+                                              Robusto.
+                                              Diseñe su aplicación para adaptarse a una variedad de
+                                              usuarios. Un usuario puede tener poca capacidad de
+                                              atención, ser nuevo o usar un lector de pantalla de solo
+                                              texto (un programa que usa un sintetizador de voz para
+                                              leer texto en voz alta o cinestésicamente usando una
+                                              pantalla braille). La aplicación debe facilitarle a cada
+                                              usuario lo siguiente:
+
+
+
+               Navegar: brindar a los usuarios la confianza de saber dónde se encuentran en su
+               aplicación y qué es importante.
+
+
+
+               Comprender tareas importantes: reforzar la información importante a través de
+               múltiples señales visuales y textuales. Utilizando colores, formas, texto y movimiento
+               para comunicar lo que está sucediendo.]]></page><page Index="7"><![CDATA[Específico.
+               Admitir tecnologías de asistencia
+               específicas para la plataforma, del
+               mismo modo que se admiten los
+               métodos de entrada táctil, teclado y
+               mouse. Por ejemplo, asegúrese de que
+               su aplicación de Android funcione con el
+               lector de pantalla de Google, TalkBack .
+
+
+               La tecnología de asistencia ayuda a
+               aumentar, mantener o mejorar las
+               capacidades funcionales de las
+               personas con discapacidades, a través de dispositivos como lectores de pantalla,
+               dispositivos de aumento, sillas de ruedas, audífonos o ayudas para la memoria.
+
+
+                                                        Jerarquía.
+                                                        Cada botón, imagen y línea de texto agregado
+                                                        aumenta la complejidad de una interfaz de
+                                                        usuario.
+                                                        Puedes simplificar cómo se entiende tu UI
+                                                        usando:
+
+
+
+                                                           ●  Elementos claramente visibles
+                                                           ●  Contraste y tamaño suficientes
+                                                           ●  Una jerarquía clara de importancia
+                                                           ●  Información clave que se puede
+                                                        discernir de un vistazo]]></page><page Index="8"><![CDATA[Al colocar acciones importantes en la parte superior de la pantalla, se les da más
+               importancia en la jerarquía.
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                   Correcto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Cuando acciones importantes están integradas en otro contenido, es posible que no
+               quede claro cuáles son los elementos más importantes de la página.
+
+
+
+
+
+
+
+
+
+                                                                                 Incorrecto]]></page><page Index="9"><![CDATA[Para permitir que el lector de pantalla lea el contenido en el orden previsto, es
+               importante verificar el orden correcto como para que lectores de pantalla interpreten
+               los diseños.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            Correcto                                              Incorrecto
+
+
+
+
+
+
+
+               Orden de enfoque.
+
+
+
+               El foco de entrada que sigue el orden del
+               diseño visual generalmente fluye desde la
+               parte superior hacia la parte inferior de la
+               pantalla. Puede atravesar desde el
+               elemento más importante al menos
+               importante.]]></page><page Index="10"><![CDATA[Para ayudar a determinar sus puntos de enfoque y movimientos, considere:
+
+
+                   ●  El orden en el que los elementos reciben el foco.
+                   ●  La forma en que se agrupan los elementos.
+                   ●  Dónde se mueve el foco cuando el elemento enfocado desaparece
+
+
+
+               Los puntos de enfoque se pueden expresar mediante una combinación de
+               indicadores visuales y texto de accesibilidad.
+
+
+
+               Los círculos negros indican el orden en el que se pueden enfocar los elementos en
+               pantalla.
+
+
+
+               Agrupamiento.
+               Los elementos se pueden agrupar bajo títulos que
+               comunican cuáles son las agrupaciones. Estos
+               grupos organizan el contenido espacialmente.
+
+
+
+
+
+
+
+
+
+
+               Transiciones: El cruce de enfoque entre pantallas y tareas mejora la experiencia
+               del usuario cuando es continuo. Si una tarea se interrumpe y luego se reanuda,
+               puede ser útil volver a centrarse en el elemento en el que se centró anteriormente
+
+
+
+               Los círculos verdes indican el orden en el que se deben enfocar los elementos en
+               pantalla.
+
+
+
+               Color más accesible: El color puede ayudar a comunicar el estado de ánimo, el
+               tono y la información crítica. Se pueden seleccionar colores primarios, secundarios y
+               de acento para respaldar la usabilidad.]]></page><page Index="11"><![CDATA[Un contraste de color suficiente entre los elementos puede ayudar a los usuarios
+               con baja visión a ver y utilizar su aplicación.
+
+               Relaciones de contraste: Las relaciones de contraste representan qué tan
+               diferente es un color de otro color, comúnmente escrito como 1:1 o 21:1. Cuanto
+               mayor sea la diferencia entre los dos números en la relación, mayor será la
+               diferencia en la luminancia relativa entre los colores.
+
+               La relación de contraste entre un color y su fondo varía de 1 a 21 según su
+               luminancia (la intensidad de la luz emitida) según el World Wide Web Consortium
+               (W3C).
+
+               El contraste se calcula analizando la diferencia de luminosidad entre el fondo y la
+               forma, que va desde 1:1 (blanco sobre blanco) a 21:1 (negro sobre blanco).
+               Se recomienda un contraste mínimo de 4.5:1, con dos excepciones:
+               Si es un texto grande, como un encabezado, se permite un contraste de 3:1
+               Los logotipos no están obligados a cumplir ningún ratio
+
+
+                                           Herramienta sugerida Contraste.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               En este ejemplo, el párrafo de la izquierda cumple con el ratio. En el caso del
+               párrafo de la derecha, este color solo podría utilizarse en el titular, porque supera el
+               3:1. Para el párrafo de texto sería necesario oscurecer un poco más el color.]]></page><page Index="12"><![CDATA[Los íconos u otros elementos críticos también deben considerar el uso de las
+               relaciones de contraste recomendadas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Otras señales visuales: Para los usuarios daltónicos o que no ven diferencias de
+               color, otros elementos de diseño pueden ayudar a expresar la misma cantidad de
+               información. Debido a que el daltonismo adopta diferentes formas (incluido el
+               rojo-verde, el azul-amarillo y el monocromático), múltiples señales visuales ayudan a
+               comunicar estados importantes. Elementos como trazos, indicadores, patrones,
+               textura o texto pueden describir acciones y contenidos.]]></page><page Index="13"><![CDATA[Al diseñar los diferentes estados de los campos de un formulario o los avisos de
+               error, éxito e información, a menudo solo se utiliza el color. Como ves, con solo
+               añadir un icono para dar feedback facilitas mucho la comprensión del estado del
+               campo del formulario.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Tocar objetivos: Para la mayoría de las plataformas, hacer objetivos táctiles de al
+               menos 48 x 48 dp. Un objetivo táctil de este tamaño da como resultado un tamaño
+               físico de aproximadamente 9 mm, independientemente del tamaño de la pantalla.
+               El tamaño objetivo recomendado para los elementos de la pantalla táctil es de 7 a
+               10 mm.  Puede ser apropiado utilizar objetivos táctiles más grandes para dar cabida
+               a un espectro más amplio de usuarios.
+
+                                                     Los tamaños de destino de Android son 48 x 48
+                                                     dp.
+                                                     Avatar: 40dp
+                                                     Icono: 24dp
+                                                     Objetivo táctil en ambos: 48dp]]></page><page Index="14"><![CDATA[Objetivos de puntero: Los objetivos
+               táctiles separados por 8 dp de espacio o
+               más promueven una densidad de
+               información y una usabilidad equilibradas.
+               Altura del objetivo táctil: 48 dp
+               Altura del botón: 36 dp
+
+
+
+
+               Agrupar elementos: Los elementos relacionados se pueden agrupar uno cerca del
+               otro para mejorar la legibilidad
+
+
+               Texto de accesibilidad: El texto de accesibilidad se refiere al texto que utiliza el
+               software de accesibilidad del lector de pantalla, como TalkBack de Google en
+               Android.
+
+               Los lectores de pantalla leen en voz alta el texto y los elementos en pantalla incluye
+               tanto texto visible (incluidas etiquetas para elementos de la interfaz de usuario, texto
+               en botones, enlaces y formularios como descripciones no visibles que no aparecen
+               en la pantalla (como texto alternativo para imágenes)
+
+               Hay veces que, por el motivo que sea, diseñamos pequeños titulares utilizando
+               mayúsculas. Y, aunque no lo parezca, esto crea diferentes casuísticas en cuanto a
+               la accesibilidad:
+               Algunos lectores de pantalla leen estos textos letra por letra en lugar de las
+               palabras.
+
+               Se ralentiza la lectura en un 10%, según un estudio de Jacob Nielsen.
+
+               Son textos que serán más difíciles de leer: como todas las letras parecen
+               rectángulos del mismo alto y ancho, eliminamos la diferenciación visual que
+               encontramos en las letras en minúscula.]]></page><page Index="15"><![CDATA[Subtítulos, texto adyacente y texto incrustado: El texto dentro y alrededor de las
+               imágenes debe considerar la accesibilidad porque presenta información clave sobre
+               las imágenes.
+
+
+
+
+
+
+
+                                                                        1. Imagen
+                                                                        2. Pie de foto
+                                                                        3. Texto adyacente]]></page><page Index="16"><![CDATA[Texto incrustado en imágenes:
+
+               Los lectores de pantalla no pueden leer el
+               texto incrustado en imágenes. Si hay
+               información esencial incrustada como texto
+               en la imagen, incluya la información esencial
+               en el texto alternativo.
+
+               Velocidad de lectura: Los usuarios de
+               lectores de pantalla escuchan cada
+               elemento de la interfaz de usuario leído en
+               voz alta. Cuanto más corto sea el texto, más
+               rápido podrá navegar el usuario del lector de
+               pantalla.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Visibilidad del texto: Para cada conjunto de texto en la app, se recomienda que el
+               contraste de color (o la diferencia en el brillo percibido entre el color del texto y el
+               color del fondo detrás del texto) supere un umbral específico.
+
+               Si el texto tiene un tamaño inferior a 18 puntos o si está en negrita y tiene un
+               tamaño inferior a 14 puntos, debes establecer la proporción de contraste de color
+               en, al menos, 4.5:1.
+
+               Para el resto del texto, establece la proporción de contraste de color en, al menos,
+               3:1.]]></page><page Index="17"><![CDATA[Indicar elementos por acción:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Movimiento: Habilite el contenido que se
+               mueve, se desplaza o parpadea
+               automáticamente para pausarlo, detenerlo u
+               ocultarlo si dura más de cinco segundos.
+               Limite el contenido que parpadea a tres
+               veces en un período de un segundo para
+               cumplir con los umbrales de parpadeo y
+               parpadeo rojo.
+               Evite parpadear grandes regiones centrales
+               de la pantalla
+
+
+
+               Plugins de Figma para crear diseños más
+
+
+               accesibles
+
+
+               Able
+
+
+               Está pensado para comprobar contraste de color y daltonismo entre capas y
+               elementos con los que estemos trabajando. Una de sus ventajas es que se va
+               actualizando a medida que cambiamos los elementos seleccionados.]]></page><page Index="18"><![CDATA[A11y – Color Contrast Checker
+
+               Es la sigla utilizada internacionalmente para referirse a la accesibilidad. Este
+               complemento nos permite verificar la legibilidad de nuestros textos de acuerdo a las
+               directrices de la WCAG.
+
+
+               Color Blind
+
+
+               Este plugin nos permite comprobar cómo se verán nuestros diseños en los 8 tipos
+               de deficiencias de visión del color. Basta con seleccionar los elementos y Color Blind
+               creará 8 versiones con los colores de acuerdo a cada tipo de daltonismo que puede
+               tener una persona.
+
+
+
+               Text Resizer
+
+               Nos permite simular cómo pueden variar o modificarse nuestras interfaces al
+               cambiar el tamaño de los textos. Es importante recordar que ofrecer esta alternativa
+               es una de las exigencias de la WCAG para asegurar mínimos de accesibilidad web.
+
+
+               A11y Focus Orderer
+
+               Nos permite ordenar los elementos que están presentes en nuestra interfaz,
+               pensando especialmente en aquellos usuarios que utilizan tecnologías de
+               asistencia, como los lectores de pantalla, o que navegan a través del teclado.
+               También permite organizar la navegación para el diseño en dispositivos móviles,
+
+               tanto en Android como en iOS.]]></page><page Index="19"><![CDATA[Reflexión Final
+
+
+               La accesibilidad en el diseño digital es más que una tendencia; es un imperativo.
+               A lo largo de esta clase, hemos explorado cómo la usabilidad y la accesibilidad van
+               de la mano, y cómo herramientas como Figma y estándares como WCAG nos
+               permiten crear experiencias digitales más inclusivas.
+
+
+
+
+               Puntos Clave a Destacar:
+
+                   ●  Accesibilidad y Usabilidad: Un Dúo Dinámico: Hemos visto que la
+                       accesibilidad no solo se trata de cumplir con normas, sino de crear
+                       experiencias de usuario más satisfactorias para todos. Al hacer un diseño
+                       accesible, también estamos mejorando la usabilidad para todos los usuarios.
+
+
+                   ●  A11y y WCAG: Los Fundamentos: Las pautas WCAG nos proporcionan un
+                       marco sólido para garantizar que nuestros diseños sean accesibles. Entender
+                       estos principios es esencial para crear productos digitales inclusivos.
+
+
+                   ●  Figma y la Accesibilidad: Figma se ha convertido en una herramienta
+                       poderosa para diseñadores, y los plugins que hemos explorado nos permiten
+                       incorporar la accesibilidad en nuestro flujo de trabajo.]]></page><page Index="20"><![CDATA[Materiales y Recursos Adicionales
+
+
+               Para complementar los contenidos de esta clase, hemos seleccionado recursos
+               útiles que te ayudarán a profundizar en los conceptos trabajados:
+                          ○  Herramienta para chequear contraste
+                              https://contrasteapp.com/
+
+                          ○  A11Y
+                              https://www.a11yproject.com/
+
+                          ○  Pautas de Accesibilidad para el Contenido Web
+                              https://www.w3.org/WAI/standards-guidelines/wcag/es
+
+                          ○  Manual de Accesibilidad - Jacob Nielsen
+                              https://drive.google.com/file/d/1ZGAUVRJZxVKXAylhAINX3GG99uFb4
+                              6KX/view?usp=sharing
+
+
+                          ○  Usabilidad - Daniel Torres Buriel
+                              https://drive.google.com/file/d/1gK-WRK16ZuGEBPSz7FRFnqXt3Qg97
+                              lE9/view?usp=sharing
+
+               Estos recursos están diseñados para reforzar los conceptos fundamentales y
+               preparar el terreno para el trabajo práctico en el proyecto final. ¡Exploralos y llevá tu
+
+               aprendizaje al siguiente nivel!
+
+
+
+
+               Preguntas para Reflexionar
+
+
+                   ●  ¿Cómo podemos hacer que la accesibilidad sea una prioridad en todas las
+                       etapas del proceso de diseño?
+
+
+                   ●  ¿Qué papel juegan las personas con discapacidades en el proceso de
+                       diseño?
+
+
+                   ●  ¿Cómo podemos medir el éxito de nuestras iniciativas de accesibilidad?]]></page><page Index="21"><![CDATA[Situación en TalentoLab
+
+
+
+
+
+
+
+
+
+
+                                                 Seguimos sumando desafíos al proyecto semana a
+
+                                                 semana.
+
+
+                                                 Es importante que vayas realizando el proceso de
+                                                 forma ordenada y siguiendo las indicaciones.
+                                                 Si lo culminaste podes pasar por el after class y
+                                                 ajustar detalles con tu instructor/a del equipo de
+                                                 Talentos.
+
+
+
+               Si no lograste cumplir con el plazo establecido, es importante que intentes
+               completar tus asignaciones de tareas dentro del tiempo estipulado, ya que esto
+               también es parte del proceso de aprender a trabajar en equipo y respetar los
+               tiempos pautados.
+
+
+               ¡Sigamos adelante!
+
+
+
+
+
+
+               Ejercicios Prácticos
+
+
+
+
+
+
+                                               ¡Atención Talentos!
+
+                                               Esta semana el equipo de Talento Lab tiene un nuevo
+                                               desafío para compartirte.]]></page><page Index="22"><![CDATA[Tarea para el Proyecto:
+
+
+               Accesibilidad
+               Para ir continuando con el Proyecto que desarrollamos durante todo este curso:
+
+
+               Vamos realizar el chequeo de accesibilidad de nuestra app por medio de la
+               Checklist de Accesibilidad  presentado en el Congreso Latinoamericano de
+               accesibilidad (CLAU)
+
+
+               Una vez culminado realizar un informe de resultados y aplicar las iteraciones al
+               prototipo
+
+
+               Para realizar esta tarea utilizaremos:
+
+
+
+                   ●  La checklist de accesibilidad
+                   ●  El prototipo en alta definición
+
+
+               Tengan en cuenta que es una tarea que conlleva dedicación.
+
+
+
+
+
+               Próximos Pasos
+
+
+
+               En preparación para la siguiente clase:
+
+                   ●  Desarrollá una redacción inclusiva y libre de sesgos.
+
+                   ●  Explorá pautas de accesibilidad para Android.
+
+
+                   ●  Intentá implementar las pautas de accesibilidad en tu prototipo.]]></page><page Index="23"><![CDATA[]]></page></pages></Search>

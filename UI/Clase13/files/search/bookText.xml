@@ -1,0 +1,644 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="22"><page Index="1"><![CDATA[Iniciación a la
+
+     Programación con
+
+
+
+
+
+
+     Python
+        Diseño UI
+
+
+
+
+
+
+
+
+
+              Clase 08
+                Clase 13]]></page><page Index="2"><![CDATA[Clase 13: UX Motion
+
+
+
+
+
+               Índice
+
+
+                   1.  Principios de UX en Motion
+                   2.  Anatomía de las transiciones
+                   3.  Microinteracciones
+                   4.  Interacciones en Figma
+                   5.  Reflexión Final
+                   6.  Ejercicios
+                   7.  Materiales y Recursos Adicionales
+                   8.  Preguntas para Reflexionar
+                   9.  Próximos Pasos
+
+
+
+
+
+
+               Objetivos de la Clase
+
+                   ●  Comprender qué es el UX en Motion y su importancia en el diseño de
+                       interfaces.
+                   ●  Explorar los principios de diseño que guían la creación de animaciones y
+                       transiciones
+                   ●  Entender cómo las transiciones pueden comunicar jerarquía y relación entre
+                       elementos.
+                   ●  Definir qué es una microinteracción y su papel en el diseño de interfaces.
+                   ●  Realizar ejercicios prácticos]]></page><page Index="3"><![CDATA[Principios de UX en Motion
+
+
+
+               ¿Qué es Motion?
+
+               Es la animación de la interfaz de usuario (del inglés Motion - Movimiento) es el arte
+               de usar el movimiento de las animaciones dentro de una interfaz para ayudar a guiar
+               la experiencia del usuario y comunicar: una secuencia, el siguiente paso, una
+               transición o una acción para un producto digital.
+
+
+               En el diseño UX/UI, la animación no es solo una forma de deleitar a las personas
+               que utilizan nuestros productos, sino una herramienta funcional que hace que las
+               experiencias sean fáciles, dinámicas y divertidas. Es una mejora de la usabilidad.
+
+
+
+               Existe una rama de diseño UX que se especializa en optimizar esta relación entre el
+               usuario y el producto: el Diseño de Interacción (Interaction Design o IxD)]]></page><page Index="4"><![CDATA[Beneficios de su aplicación.
+
+
+               Cuando diseñamos una interfaz estática, no se termina de comunicar la interacción
+               que tendrá la misma. Para ello, necesitamos crearla a partir de un prototipo
+               dinámico que nos ayudará a:
+
+
+                   ●  Orientar a los usuarios
+                   ●  Dar feedback sobre el estado de una acción
+                   ●  Educar y hacer foco en lo específico
+
+
+               Al volverla dinámica con animaciones, ya no dependemos de la imaginación de
+               quien navegue nuestro prototipo para presentar cómo se verá finalmente nuestro
+               diseño.
+
+
+
+
+
+
+               Los 12 principios de UX en Motion.
+
+
+               Los Doce principios básicos de la animación fueron presentados en 1981 por los
+               animadores Ollie Johnston y Frank Thomas de Walt Disney Animation Studio en su
+               libro The Illusion of Life: Disney Animation. Muchos animadores llaman a este libro
+               la “biblia de la animación” y en 1999 fue votado como el mejor de los libros de
+               animación de todos los tiempos.
+
+
+               El objetivo de documentar estos principios fue crear guías para producir
+               animaciones más realistas que se apegan un poco más a las leyes básicas de la
+               física, aunque también se tratan temas más abstractos, como la sincronización
+               emocional y el atractivo de un personaje.]]></page><page Index="5"><![CDATA[Issara Willenskomer.
+
+
+
+               Issara Willenskomer es uno de los diseñadores pioneros al hablar de motion UX,
+               publica “UX in motion” dónde agrupa en 12 principios, el movimiento en el diseño de
+               interacción desde el punto de vista de la usabilidad.
+
+
+               Los principios que se desarrollan nos sirve como base para aplicar y fundamentar el
+               movimiento dentro del diseño y centrar su uso en el usuario.
+
+
+               La mayoría de los principios recaen en cómo el movimiento proporciona contexto,
+               continuidad, referencia visual o naturalidad a nuestro diseño para darle mayor
+               control al usuario.]]></page><page Index="6"><![CDATA[Los 12 principios de UX en Motion.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Facilitación (Easing).
+
+
+               Este principio se cumple cuando el comportamiento de los componentes se alinean
+               con las expectativas del usuario para dotarlos de una sensación de continuidad a la
+               interfaz. La animación debería ser un “aporte invisible”: que el usuario vea con
+               naturalidad el movimiento y no le suponga una distracción que lo aleje de sus
+               objetivos.]]></page><page Index="7"><![CDATA[Compensación y retraso (Offset & Delay).
+
+
+               Este principio relaciona y jerarquiza la introducción de nuevos elementos a una
+               escena dentro de la interfaz. No es lo mismo cuando cambiamos de pantalla que
+               nos aparezcan todos los elementos de golpe a que nos aparezcan siguiendo una
+               jerarquía que ayude al usuario a entender lo que tiene en pantalla.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Parentesco (Parenting).
+
+
+               En este caso, nos centramos en la relación de los objetos
+               cuando el usuario interactúa con ellos directamente sobre la
+               interfaz. Se denomina “crianza” o “parentesco” por la
+               vinculación que se da entre los objetos, equiparándola a la
+               relación de un padre con su hijo.
+
+
+
+
+
+
+               Transformación (transformation)
+
+
+               Aunque principalmente la transformación de un objeto en otro nos
+               sirve para llamar la atención de nuestro usuario, también podemos
+               contarle una historia a través de ella que le haga comprender un
+               determinado proceso.]]></page><page Index="8"><![CDATA[Cambio de Valor (Value Change).
+
+
+               Este principio trata de darnos una base a partir de
+               la cual mostrar de una forma eficiente un cambio
+               de valor.
+
+
+               Según este principio lo ideal es contarle al usuario
+               “la realidad” que ocurre detrás de los datos, para
+               conectar con él. Evitar mostrar datos como campos
+               estáticos.
+
+
+               Máscara (Masking).
+
+
+               Este recurso proporciona transiciones que dotan de mayor continuidad a nuestro
+               diseño sin que el usuario vea interrumpido su proceso manteniendo un flujo
+               narrativo. Se trata de ocultar o mostrar objetos en función de un contenedor que los
+               delimita.
+
+
+
+
+
+
+               Superposición (Overlay).
+
+
+               Cuando superponemos un objeto dependiente de otro
+               situado en un plano inferior a través del movimiento de
+               interacción, permitimos al usuario acceder a información
+               que no está en un primer plano.
+
+
+                  Habría que contemplar hasta qué punto mejora la
+               usabilidad componentes que están ocultos. El usuario
+               tendría que poder reconocer previamente qué acciones
+               puede realizar en la pantalla, por lo que no siempre es
+               recomendable.]]></page><page Index="9"><![CDATA[Clonación (Cloning).
+
+
+               Este recurso, muy utilizado en los floating action
+               buttons (FAB). Es muy útil para informar al usuario
+               que acciones nacen de otras. Se generan “x”
+               objetos a partir de una interacción creando una
+               jerarquía dentro de la pantalla.]]></page><page Index="10"><![CDATA[Oscurecer (Obscuration).
+
+
+               Oscurecemos o desenfocamos el fondo para darle mayor protagonismo a una nueva
+               capa accionada por el usuario, sin que este pierda la referencia. Con esto logramos
+               comunicar al usuario que dispone de un mundo detrás de la acción que tiene
+               delante.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Parallax.
+
+
+               A través del Parallax hacemos que el
+               usuario se centre en las acciones y el
+               contenido primario sin perder la integridad
+               del diseño en un proceso gradual.
+               Acercamos al usuario determinados
+               objetos, arrastrando al resto que tiene en
+               la pantalla hacia atrás.
+
+
+               Dimensionalidad (Dimensionality).]]></page><page Index="11"><![CDATA[Las personas tienden a usar marcos espaciales para desenvolverse en el mundo
+               real y, por tanto, las trasladan a la hora de navegar por el mundo digital. Con la
+               dimensionalidad, proporcionamos referencias de origen y partida dentro de la
+               interfaz, ayudando a reforzar los modelos mentales dentro de la experiencia de
+               usuario
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Dolly y Zoom.
+
+
+
+               Ambos recursos son movimientos de cámara que acercan o
+               alejan objetos al usuario. Esto le da profundidad al diseño,
+               permitiendo al usuario indagar en áreas o contenidos
+               adicionales profundizando en su experiencia.
+
+
+
+
+
+
+
+
+               Recorrido interactivo de los principios de UX en Motion:]]></page><page Index="12"><![CDATA[https://motion.zajno.com/
+
+
+
+               Anatomía de las transiciones
+
+
+
+
+               Las animaciones y transiciones de los elementos de la UI se clasifican como:
+
+
+
+                   1.  Persistentes: el elemento permanece visible todo el tiempo pero cambia de
+                       forma
+                   2.  Salientes: se difumina hasta que desaparecen.
+                   3.  Entrantes: aparecen en la pantalla desde una difuminación.
+                   4.  Estáticas: la transición no afecta al elemento]]></page><page Index="13"><![CDATA[Microinteracciones.
+
+
+
+               Las microinteracciones son elementos sutiles de diseño que transmiten el estado de
+               un producto digital. Su propósito principal es proporcionar una respuesta visual e
+               instantánea creando un momento agradable y sorprendente para el usuario. Se
+               encuentran presentes en toda la aplicación.
+
+
+
+               Es habitual que las microinteracciones funcionen siguiendo los siguientes pasos:
+
+
+
+                   ●  Se inician mediante un disparador o trigger.
+                   ●  Se ponen en marcha una vez que se cumplen ciertos requisitos
+                       predeterminados.
+                   ●  Proporcionan un feedback al usuario sobre qué está sucediendo
+
+
+               Principales Ventajas:
+
+               En términos de UX, el uso de microinteracciones proporcionan una experiencia más
+               comprensible y visual, contribuyendo positivamente a la apariencia del producto o
+               servicio.
+
+
+
+               Las principales ventajas de las microinteracciones son:
+
+
+
+                   ●  Aumentan el engagement con la marca.
+                   ●  Muestran el estado del sistema.
+                   ●  Previenen posibles errores entre el usuario y el proceso.
+                   ●  Conseguir que el usuario interactúe con el contenido.
+
+
+
+               Además, el reducido tamaño de los elementos hace que los tiempos de carga no
+               sufran y permiten que el usuario se sienta emocionalmente conectado con la
+               interfaz.]]></page><page Index="14"><![CDATA[Consejos para diseñarlas
+
+
+               El diseño de microinteracciones es el trabajo que se centra en los detalles de una
+               aplicación y como todo proceso de diseño se deben tener en cuenta unas reglas:
+
+
+
+                   ●  Identifica el problema y establece un objetivo: piensa en el objetivo de las
+                       mismas, en el tipo de animación y no hagas uso de ellas si no es necesario.
+
+                   ●  No te excedas en su uso: si utilizamos demasiadas interacciones el usuario
+                       puede verse abrumado o distraerse del proceso que está realizando, por eso
+                       deben ser siempre controladas y pensadas para su finalidad.
+
+
+                   ●  Usa interacciones naturales: si usamos una transición no adecuada,
+                       podemos hacer que el usuario no se sitúe o no entienda lo que está pasando,
+                       y por lo tanto no pueda llegar a su objetivo de uso.
+
+                   ●  Simplicidad y sutileza: debemos evitar que el usuario se pregunte qué ha
+                       pasado o en qué pantalla está. Esta desorientación hará que el usuario no
+                       termine el proceso y se quede frustrado.
+
+                   ●  El tiempo adecuado: existen muchísimos tipos de interacción y debemos
+                       establecer el tiempo que deben durar para que el usuario no se distraiga ni
+                       pierda el foco. No es lo mismo una transición entre pantallas, que una carga
+                       de datos, que un efecto al hacer scroll.
+
+               Varias empresas han creado sus propios principios de animación y forma de abordar
+               este contenido y, para establecer estos límites, el motion se suele incluir dentro de
+               los parámetros de un sistema de diseño. De esta forma nace el término UI Motion
+               Design. Tomemos de ejemplo Material Design en su apartado “Understanding
+               Motion”.]]></page><page Index="15"><![CDATA[Ejemplos de Microinteracciones:]]></page><page Index="16"><![CDATA[¿Qué dice Material Design?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   ●  https://m3.material.io/styles/motion/overview
+                   ●  https://m2.material.io/design/iconography/animated-icons.html#usage
+                   ●  https://m2.material.io/design/motion/customization.html#applying-customizatio
+                       ns
+
+
+
+
+
+               Interacciones en Figma.
+
+
+
+               Debemos evitar que el usuario se pregunte qué ha pasado o en qué pantalla está.
+               Esta desorientación hará que el usuario no termine el proceso y se quede frustrado.
+
+
+
+
+               Los softwares de diseño de interfaces tienen la ventaja de permitir animaciones
+               dentro del prototipado.
+
+
+
+               Dedicar tiempo al diseño de interacciones nos ayudará a que la presentación visual
+               de nuestra aplicación se entienda de manera correcta.
+
+               Veamos interacciones en Figma]]></page><page Index="17"><![CDATA[Reflexión Final
+
+
+               La clase ha sido un viaje apasionante por el mundo del UX en Motion. Hemos
+               explorado cómo el movimiento, las transiciones y las microinteracciones pueden
+               transformar una interfaz estática en una experiencia dinámica y memorable.
+
+               Recapitulando los puntos clave:
+
+
+               El movimiento como lenguaje: Hemos descubierto cómo el movimiento puede
+               comunicarse de manera efectiva, guiando al usuario, estableciendo jerarquías y
+               creando conexiones emocionales.
+
+               La anatomía de las transiciones: Entendimos que las transiciones no son solo
+               adornos, sino elementos clave para crear flujos de usuario coherentes y
+               satisfactorios.
+
+
+               El poder de las microinteracciones: Vimos cómo las pequeñas interacciones pueden
+               marcar una gran diferencia en la experiencia del usuario, proporcionando feedback
+               inmediato y haciendo que la interfaz se sienta más viva.
+
+               Figma como herramienta: Exploramos las capacidades de Figma para prototipar y
+               diseñar interfaces interactivas, permitiéndonos llevar nuestras ideas a la vida.]]></page><page Index="18"><![CDATA[Materiales y Recursos Adicionales
+
+
+               Para complementar los contenidos de esta clase, hemos seleccionado recursos
+               útiles que te ayudarán a profundizar en los conceptos trabajados:
+
+                          ○  UX Design for Animators - A Chat with Issara Willenskomer
+                              https://youtu.be/WvrAJiPBAkg?si=sTZZvQp8J_atMp4Z
+
+
+                          ○  Interacciones en Figma
+                              https://www.figma.com/file/BMEHAIxSFCOZBx8JcjkiZu/Microinteraccio
+                              nes.-Clase-Motion--avanzado?type=design&node-id=16%3A6&mode=
+                              design&t=aWvobPNAOVEIwTFC-1
+
+
+                          ○  Recorrido interactivo de los principios de UX en Motion
+                              https://motion.zajno.com/
+
+
+                          ○  Material Design - Motion
+                              https://m3.material.io/styles/motion/overview
+
+
+               Estos recursos están diseñados para reforzar los conceptos fundamentales y
+               preparar el terreno para el trabajo práctico en el proyecto final. ¡Exploralos y llevá tu
+               aprendizaje al siguiente nivel!
+
+
+
+
+               Preguntas para Reflexionar
+
+
+                   ●  ¿Cuál fue el concepto de UX en Motion que más te impactó?
+
+
+                   ●  ¿Cómo planeas aplicar estos conocimientos en tu proyecto?
+
+
+                   ●  ¿Qué herramientas o recursos adicionales te gustaría explorar?]]></page><page Index="19"><![CDATA[Situación en TalentoLab.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                       Seguimos sumando desafíos al proyecto
+                                                       semana a semana.
+                                                       Es importante que vayas realizando el proceso
+                                                       de forma ordenada y siguiendo las
+                                                       indicaciones.
+                                                       Si lo culminaste podes pasar por el after class
+                                                       y ajustar detalles con tu instructor/a del equipo
+                                                       de Talentos.
+
+
+
+               Si no lograste cumplir con el plazo establecido, es importante que intentes
+               completar tus asignaciones de tareas dentro del tiempo estipulado, ya que esto
+               también es parte del proceso de aprender a trabajar en equipo y respetar los
+               tiempos pautados.
+
+
+               ¡Sigamos adelante!]]></page><page Index="20"><![CDATA[Ejercicios Prácticos.
+
+
+
+                                               ¡Atención Talentos!
+
+                                               Esta semana el equipo de Talento Lab tiene un nuevo
+                                               desafío para compartirte.
+
+
+                                               Tarea para el Proyecto:
+
+
+
+                                               Motion
+                                               Para seguir avanzando con el proyecto vamos a
+                                               incorporar animaciones (y/o microinteracciones)
+               siguiendo los 12 principios de motion.
+
+
+               Las animaciones deben cumplir con alguno de los siguientes puntos:
+
+
+                   ●  Orientar a los usuarios
+                   ●  Dar feedback sobre las interacciones
+                   ●  Hacer foco en algo específico
+                   ●  Ocultar el tiempo de carga o espera
+
+
+               Mostrar con imágenes los desgloses de las animaciones y microinteracciones
+               incorporadas al prototipo e indicar con qué puntos cumple
+
+
+
+               Tené en cuenta que es una tarea que conlleva dedicación, práctica y mucho
+               compromiso.]]></page><page Index="21"><![CDATA[Próximos Pasos.
+
+
+               En preparación para la siguiente clase:
+
+                   ●  Desarrollá una redacción inclusiva y libre de sesgos.
+
+
+                   ●  Explorá pautas de accesibilidad para Android.
+
+                   ●  Intentá implementar las pautas de accesibilidad en tu prototipo.]]></page><page Index="22"><![CDATA[]]></page></pages></Search>

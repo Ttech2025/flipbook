@@ -1,0 +1,1 @@
+﻿var ols=[{caption:"¿Qué es un módulo y para qué sirve? ",page:"4",url:"",level:"1",children:[]},{caption:"Ventajas de usar módulos en Python ",page:"4",url:"",level:"1",children:[]},{caption:"¿Cómo dividir tu código en diferentes archivos? ",page:"5",url:"",level:"1",children:[{caption:"Tabla de funciones comunes del módulo random ",page:"13",url:"",level:"2",children:[]}]}];

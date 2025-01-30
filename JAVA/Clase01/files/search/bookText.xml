@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="14"><page Index="1"><![CDATA[Iniciación a la
+
+     Programación con
+
+
+        Back-End
+
+
+        Java
+     Python
+
+
+
+
+
+
+
+
+
+              Clase 08
+                Clase 01]]></page><page Index="2"><![CDATA[Clase 1: Introducción al curso y
+
+               herramientas de trabajo
+
+
+
+
+
+               Índice
+
+
+                   1.  Objetivos de la clase.
+                   2.  Situación inicial en TechLab.
+                   3.  Instalación y configuración de herramientas
+                          ○  Java Development Kit (JDK).
+                          ○  IntelliJ IDEA o Eclipse como IDE.
+                          ○  Git para control de versiones.
+                   4.  Configuración del entorno de desarrollo.
+                   5.  Tu primer programa en Java: "Hola Mundo."
+                   6.  Reflexión final.
+                   7.  Bienvenida a TechLab.
+
+
+                 Objetivos de la clase
+
+
+
+                   ●  Presentar el curso y nuestra metodología de trabajo.
+                   ●  Instalar y configurar las herramientas de desarrollo   necesarias:
+                          ○  Java Development Kit (JDK).
+                          ○  IntelliJ IDEA o Eclipse como IDE.
+                          ○  Git para el control de versiones.
+                   ●  Configurar el entorno de desarrollo para nuestros proyectos.
+                   ●  Crear y ejecutar tu primer programa en Java: "Hola Mundo".]]></page><page Index="3"><![CDATA[Instalación y configuración de herramientas
+
+
+               Java Development Kit (JDK)
+
+
+               Para desarrollar aplicaciones en Java, es indispensable instalar el JDK, que incluye
+               las herramientas necesarias para compilar y ejecutar programas en Java.
+
+                   1.  Descargar el JDK:
+
+
+                          ○  Visitá el sitio oficial de Oracle: Descarga de JDK.
+
+                          ○  Seleccioná la versión más reciente de Java SE Development Kit.
+
+                   2.  Instalar el JDK:
+
+                          ○  Ejecutá el instalador descargado.
+
+                          ○  Seguí los pasos de instalación predeterminados.
+
+
+                          ○  Aceptá los términos y condiciones.
+
+                   3.  Configurar las variables de entorno (opcional pero recomendado):
+
+                          ○  Esto permite que el sistema operativo reconozca los comandos de
+                              Java desde cualquier directorio.
+
+
+                          ○  Agregá la ruta C:\Program Files\Java\jdk-11.0.x\bin a la
+                              variable de entorno PATH en Windows o exportá la variable en
+                              macOS/Linux.]]></page><page Index="4"><![CDATA[IntelliJ IDEA o Eclipse como IDE.
+
+
+               Un IDE facilita la escritura, organización y depuración de código.
+
+
+               Opción 1: IntelliJ IDEA
+
+
+
+
+
+
+
+
+
+
+
+
+                   1.  Descargar IntelliJ IDEA:
+                          ○  Visitá IntelliJ IDEA.
+                          ○  Descargá la versión Community, que es gratuita.
+                   2.  Instalar IntelliJ IDEA:
+                          ○  Ejecutá el instalador y seguí los pasos indicados.
+                          ○  Configurá las opciones iniciales según tus preferencias.
+
+               Opción 2: Eclipse
+
+
+
+
+
+
+
+
+
+
+                   1.  Descargar Eclipse:
+                          ○  Visitá Eclipse Downloads.
+                          ○  Descargá "Eclipse IDE for Java Developers".
+                   2.  Instalar Eclipse:
+                          ○  Descomprimí el archivo descargado.
+                          ○  Ejecutá el archivo eclipse.exe en Windows o el equivalente en
+                              macOS/Linux.]]></page><page Index="5"><![CDATA[Git para control de versiones.
+
+
+
+
+
+
+
+
+
+
+
+               En TechLab utilizamos Git para el control de versiones, lo que nos permite colaborar
+               eficientemente entre distintas personas que trabajan en el mismo proyecto. A su vez, esta
+               herramienta nos permite mantener un historial de cambios en el código.
+
+               Instalación:
+
+
+                   1.  Descargar Git:
+                          ○  Visitá Git Downloads.
+                          ○  Seleccioná tu sistema operativo y descargá el instalador.
+                   2.  Instalar Git:
+                          ○  Ejecutá el instalador y seguí los pasos.
+                          ○  Podés dejar las opciones predeterminadas.
+
+               Configuración Inicial:
+
+               Abrí una terminal y configurá tu nombre de usuario y correo electrónico:
+
+               git config --global user.name "Tu Nombre"
+
+               git config --global user.email "tucorreo@example.com"]]></page><page Index="6"><![CDATA[Configuración del entorno de desarrollo
+
+
+               Ahora que tenemos las herramientas instaladas, vamos a configurar nuestro entorno
+               para comenzar a desarrollar.
+
+
+               Crear un nuevo proyecto en el IDE
+
+               En IntelliJ IDEA:
+
+
+                   1.  Abrir IntelliJ IDEA.
+
+                   2.  Crear un nuevo proyecto:
+
+                          ○  En la pantalla de bienvenida, seleccioná "New Project".
+
+                   3.  Seleccionar el SDK de Java:
+
+
+                          ○  Asegurate de que el JDK esté seleccionado en la lista de SDKs.
+
+                          ○  Si no aparece, hacé clic en "New..." y navegá hasta la ruta donde
+                              instalaste el JDK.
+
+                   4.  Seleccionar el tipo de proyecto:
+
+                          ○  Podés elegir "Java" y dejar las demás opciones por defecto.
+
+
+                   5.  Configurar el nombre y ubicación del proyecto:
+
+                          ○  Asigná un nombre al proyecto, por ejemplo, "ProyectoEcommerce".
+
+                          ○  Elegí la ubicación donde se guardará el proyecto en tu computadora.
+
+                   6.  Finalizar:
+
+
+                          ○  Hacé clic en "Finish" para crear el proyecto.]]></page><page Index="7"><![CDATA[En Eclipse:
+
+                   1.  Abrir Eclipse.
+                   2.  Crear un nuevo proyecto Java:
+                          ○  Seleccioná "File" > "New" > "Java Project".
+                   3.  Configurar el nombre y ubicación del proyecto:
+                          ○  En "Project Name", escribí "ProyectoEcommerce".
+                          ○  Podés dejar las demás configuraciones por defecto.
+                   4.  Seleccionar el JRE:
+                          ○  Asegurate de que esté seleccionado el JRE correspondiente a tu JDK
+                              instalado.
+                   5.  Finalizar:
+                          ○  Hacé clic en "Finish" para crear el proyecto.
+
+
+
+
+               Crear la estructura de paquetes y clases
+
+
+               Para mantener una buena organización del código, crearemos un paquete y una
+               clase principal.
+
+               En IntelliJ IDEA:
+
+                   1.  Crear un paquete:
+                          ○  En el panel "Project", hacé clic derecho sobre "src" > "New" >
+                              "Package".
+
+                          ○  Nombrá el paquete como com.techlab.inicio.
+                   2.  Crear una clase Java:
+                          ○  Hacé clic derecho sobre el paquete recién creado
+                              com.techlab.inicio > "New" > "Java Class".
+                          ○  Nombrá la clase como HolaMundo.]]></page><page Index="8"><![CDATA[En Eclipse:
+
+                   1.  Crear un paquete:
+                          ○  En el "Package Explorer", hacé clic derecho sobre "src" > "New" >
+                              "Package".
+                          ○  Nombrá el paquete como com.techlab.inicio.
+                   2.  Crear una clase Java:
+                          ○  Hacé clic derecho sobre el paquete com.techlab.inicio > "New"
+
+                              > "Class".
+                          ○  Nombrá la clase como HolaMundo.
+
+
+
+
+
+               Tu primer programa en Java: "Hola Mundo"
+
+
+               Es hora de escribir y ejecutar nuestro primer programa para verificar que todo esté
+               funcionando correctamente.
+
+
+               Escribir el código
+
+                   1.  Abrir la clase HolaMundo:
+
+                          ○  En tu IDE, abrí el archivo HolaMundo.java que creaste en el paso
+                              anterior.
+
+               Escribir el código del programa:
+
+               package com.techlab.inicio;
+               public class HolaMundo {
+
+                   public static void main(String[] args) {
+                       System.out.println("¡Hola Mundo desde TechLab!");
+                   }
+               }]]></page><page Index="9"><![CDATA[Ejecutar el programa
+
+                   ●  En IntelliJ IDEA:
+                          ○  Hacé clic derecho sobre el archivo HolaMundo.java.
+
+                          ○  Seleccioná "Run 'HolaMundo.main()'".
+                   ●  En Eclipse:
+                          ○  Hacé clic derecho sobre el archivo HolaMundo.java.
+                          ○  Seleccioná "Run As" > "Java Application".
+
+
+
+
+               Resultado esperado
+
+
+               En la consola, deberías ver:
+
+
+               ¡Hola Mundo desde TechLab!
+
+
+
+
+               Reflexión final
+
+
+               ¡Felicitaciones! Has configurado tu entorno de desarrollo, creado un proyecto y
+               ejecutado tu primer programa en Java. Este es el primer paso fundamental para el
+               éxito de nuestro proyecto. A partir de ahora, tenemos la preparación suficiente para
+               enfrentar los desafíos que se presenten, desarrollando una API robusta y eficiente
+               para nuestro cliente de e-commerce.]]></page><page Index="10"><![CDATA[¡Talento Lab te está esperando!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Imaginá que recibís una invitación para participar en el proceso de selección de
+               Talento Lab una startup ubicada en Buenos Aires.
+               ¿Cuál sería el reto? Completar una pasantía de aprendizaje que pondrá a prueba
+               todas tus habilidades y aprendizaje.
+               A partir de este momento un equipo de expertos te guiarán en este emocionante
+               viaje.
+
+
+
+               Acerca de TalentoLab.
+
+
+               En TechLab, convertimos ideas en herramientas digitales innovadoras y confiables,
+               ofreciendo servicios de desarrollo backend con un enfoque en la calidad y eficiencia.
+               Nuestro compromiso es desarrollar soluciones que optimicen procesos y potencien
+               negocios, combinando creatividad, tecnología de punta y un compromiso absoluto
+               con la satisfacción de nuestros clientes. Tu éxito es nuestra prioridad, y nuestras
+               soluciones están diseñadas para marcar la diferencia.]]></page><page Index="11"><![CDATA[Equipo TechLab:
+
+
+                                         Silvia
+                                                                                  Luis
+                                    Product Owner                           Diseñador UX UI
+
+
+
+
+
+
+
+                                         Matias                                  Sabrina
+                                     Desarrollador                           Desarrolladora
+
+
+
+
+
+
+
+
+               Situación inicial en TechLab.
+
+
+                                                        En TechLab, hemos recibido un nuevo
+                                                        proyecto de un cliente llamado “Sibelius” el
+                                                        cual es una reconocida cadena de tiendas
+                                                        gourmet especializadas en café y té de origen
+                                                        que requiere una aplicación backend robusta
+                                                        para gestionar su tienda en línea de manera
+               eficiente. Matías y Sabrina, del equipo de desarrollo, están listos para comenzar,
+               pero enfrentan un desafío inicial: necesitan preparar sus entornos de desarrollo para
+               trabajar en Java, asegurando que todas las herramientas estén correctamente
+               instaladas y configuradas. Este primer paso es crucial para garantizar que el equipo
+               pueda colaborar de manera efectiva y desarrollar una API funcional que soporte el
+               frontend del e-commerce del cliente.]]></page><page Index="12"><![CDATA[Ejercicios prácticos:
+
+
+
+               Preparar el entorno de desarrollo para trabajar en Java, asegurando que todas las
+               herramientas estén correctamente instaladas y configuradas.
+
+
+                   1.  Instalación del IDE para la próxima clase:
+                          ○  Objetivo: Asegurarte de que tenés instalado y configurado
+                              correctamente tu IDE (IntelliJ IDEA o Eclipse).
+                          ○  Tareas:
+                                 ■  Completá la instalación del IDE que elegiste.
+                                 ■  Abrí el IDE y familiarizate con su interfaz.
+                                 ■  Configurá el JDK en el IDE.
+                   2.  Salida de texto por consola:
+                          ○  Objetivo: Practicar la creación y ejecución de programas en Java.
+                          ○  Tareas:
+                                 ■  Creá una nueva clase Java llamada SaludoPersonalizado dentro
+
+                                     del paquete com.techlab.inicio.
+                                 ■  Escribí un programa que imprima una frase diferente a "Hola Mundo",
+                                     por ejemplo: "¡Bienvenides al mundo de Java!".
+                                 ■  Ejecutá el programa y verificá que el mensaje se muestre
+                                     correctamente en la consola
+
+               Código ejemplo:
+
+               package com.techlab.inicio;
+
+               public class SaludoPersonalizado {
+                   public static void main(String[] args) {
+
+                       System.out.println("¡Bienvenides al mundo de Java!");
+                   }
+               }]]></page><page Index="13"><![CDATA[Materiales y recursos adicionales.
+
+
+                   ●  Documentación oficial de Java: Oracle Java Documentation
+                   ●  Tutorial de Git: Git - Libro Oficial
+                   ●  Videos recomendados:
+                          ○  Descarga e Instalación de INTELLIJ IDEA + JDK | Windows | Tutorial Paso a
+                              Paso, para Principiantes ✅
+                          ○  Tutorial de GIT para principantes! - Usando la linea de comandos en Git
+
+
+
+
+
+                Preguntas para reflexionar.
+
+
+                   ●  ¿Cómo creés que el manejo adecuado de estas herramientas facilitará nuestro
+                       trabajo en equipo?
+                   ●  ¿Qué desafíos anticipás al iniciar el desarrollo en Java y cómo podríamos afrontarlos
+                       de forma conjunta con el equipo?
+
+
+
+
+
+               Próximos pasos.
+
+
+                   ●  Asegurate de tener todas las herramientas instaladas y funcionando correctamente.
+                   ●  Explorá el IDE que elegiste para familiarizarte con sus características.
+                   ●  Intentá modificar el mensaje del programa "Hola Mundo" para mostrar tu propio
+                       saludo personalizado.]]></page><page Index="14"><![CDATA[]]></page></pages></Search>
