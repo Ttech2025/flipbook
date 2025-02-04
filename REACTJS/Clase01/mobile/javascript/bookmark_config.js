@@ -1,0 +1,1 @@
+﻿var ols=[{caption:"Configuración del entorno con Vite y Node.js ",page:"6",url:"",level:"1",children:[]},{caption:"Introducción a JSX y creación de componentes funcionales  ",page:"7",url:"",level:"1",children:[]}];

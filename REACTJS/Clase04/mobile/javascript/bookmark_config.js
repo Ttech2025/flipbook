@@ -1,0 +1,1 @@
+﻿var ols=[{caption:"Introducción al manejo del estado local con useState ",page:"3",url:"",level:"1",children:[]},{caption:"Comprensión y manejo de eventos en React (clics, formularios) ",page:"4",url:"",level:"1",children:[]},{caption:"Reflexión final ",page:"7",url:"",level:"1",children:[]}];
