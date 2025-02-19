@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="6"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase N° 16 |  Entrega Final
+
+
+
+
+               Temario:
+
+
+                   ●  Entrega de Proyecto Final
+                   ●  Muestra y comparación de proyectos
+
+
+
+
+
+
+
+
+
+
+                Objetivos de la clase
+
+
+
+                   ●  Entregar trabajos finales.
+                   ●  Comparar las ideas entre los compañeros de clase.
+                   ●  Reflexionar sobre nuestro avance y cómo continuar.]]></page><page Index="3"><![CDATA[Reflexionemos
+
+
+
+               Game Design:
+
+
+                   1.  Curva de dificultad y feedback al jugador
+                          ○  ¿Cómo equilibraron la progresión del juego para que no fuera ni demasiado
+                              fácil ni demasiado difícil?
+                          ○  ¿Implementaron ajustes dinámicos de dificultad?
+                          ○  ¿Qué tipo de señales visuales, sonoras o hápticas usaron para informar al
+                              jugador sobre su estado o progreso?
+                   2.  Diseño de mecánicas y niveles
+                          ○  ¿Cómo estructuraron los niveles o el entorno de juego para guiar al jugador?
+                          ○  ¿Qué decisiones tomaron respecto a la exploración, los desafíos o los
+                              objetivos?
+                          ○  ¿Hubo inspiración en juegos existentes o innovaron en algún aspecto
+                              particular?
+
+               Programación:
+
+                   1.  Uso de Events y Delegates
+                          ○  ¿Qué eventos implementaron en el juego? (Ejemplo: detección de enemigos,
+                              recolección de ítems, cambios de estado)
+                          ○  ¿Cómo ayudaron los Delegates a organizar mejor el código?
+                   2.  Implementación de Corutinas
+                          ○  ¿En qué situaciones usaron corutinas? (Ejemplo: cooldowns, transiciones,
+                              animaciones por tiempo)
+                          ○  ¿Qué ventajas encontraron al usar corutinas en lugar de Update()?
+                   3.  Aplicación de Object Pools
+                          ○  ¿Cómo implementaron la reutilización de objetos en el juego? (Ejemplo:
+                              proyectiles, enemigos, partículas)
+                          ○  ¿Notaron mejoras en el rendimiento gracias al Object Pooling?
+                   4.  Uso de PlayerPrefs
+                          ○  ¿Qué datos guardaron usando PlayerPrefs? (Ejemplo: puntuaciones,
+                              configuraciones, progresos de nivel)
+                          ○  ¿Cómo aseguraron que los datos se recuperaran correctamente al volver a
+                              jugar?
+                   5.  Stacks y Queues en la implementación del juego
+                          ○  ¿Usaron estructuras de datos como Stacks o Queues en alguna mecánica?
+                              (Ejemplo: sistema de historial de acciones)
+                          ○  ¿Les resultó útil en términos de optimización o estructura del código?]]></page><page Index="4"><![CDATA[El Gran Día: Presentación del Proyecto Final de
+
+               Nexus
+
+
+
+               Después  de  semanas  de  trabajo,  investigación  y  desafíos,  el  equipo  de  TalentoLab  ha
+                                                       llegado  a  un  momento  crucial:  la  entrega  del
+
+                                                       proyecto  final.  Nexus  ha  evolucionado  desde  un
+                                                       simple  concepto  hasta  un  juego  funcional,  con
+
+                                                       mecánicas  pulidas,  un  diseño  de  niveles  bien
+                                                       pensado  y  sistemas  implementados  con  lógica  y
+                                                       creatividad.
+
+
+                  "Hoy no solo presentamos un juego, sino el reflejo de todo lo aprendido. Cada decisión
+               de  diseño,  cada  línea  de  código,  cada  detalle  gráfico  cuenta  una  historia de esfuerzo y
+
+               crecimiento. Este es el resultado de un proceso que simuló el desarrollo en un entorno real,
+               enfrentando  desafíos  y  buscando  soluciones  como  verdaderos  profesionales  de  la
+
+               industria."
+
+
+               Reflexionando sobre el Camino Recorrido
+
+
+                   Durante  este  trayecto,  nos  enfrentamos  a  distintos  retos,  desde  la  construcción  de
+               mecánicas  básicas  hasta  la  implementación  de  sistemas  más  avanzados,  como  Event
+
+               Manager, Object Pools y el uso de PlayerPrefs para guardar progreso. Aprendimos a
+               adaptar nuestro juego a distintas plataformas, ajustamos la jugabilidad y comprendimos la
+
+               importancia del Game Design para ofrecer una experiencia de calidad.
+
+               Cada integrante del equipo aportó una visión única, transformando Nexus en algo más que
+               un simple ejercicio académico: una demostración de creatividad, aprendizaje y dedicación.]]></page><page Index="5"><![CDATA[Próximos pasos.
+
+
+
+               ¡Lo hiciste! ¡Ya estás acá! Ya estás listo para elegir un nuevo camino de exploración en el
+               mundo del Diseño y Programación de VideoJuegos. Gracias por dejarnos acompañarte en
+               esta aventura. ¡Te deseamos un sendero de progreso! Hasta la próxima…]]></page><page Index="6"><![CDATA[]]></page></pages></Search>

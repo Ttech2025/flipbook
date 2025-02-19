@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="12"><page Index="1"><![CDATA[Iniciación a la
+        Business
+     Programación con
+
+
+
+
+
+
+     Python
+        Intelligence
+
+
+
+
+
+
+
+
+
+              Clase 08
+                Clase 08]]></page><page Index="2"><![CDATA[Clase N° 08 |  Infor mes y Repor tes I
+
+
+
+
+
+               Temario:
+
+
+                   ●  Creación de informes efectivos en Google Sheets. Formato condicional.
+                   ●  Introducción a Looker Studio
+                   ●  Diseño y estructura de informes
+
+
+
+
+
+               Objetivos de la clase:
+
+
+                   ●  Explorar la importancia de informes y reportes en el ámbito de la
+                       inteligencia de negocios.
+                   ●  Evaluar las diferencias, ventajas y desventajas entre ambas  herramientas.
+                   ●  Aprender a crear informes y dashboards efectivos utilizando Google Sheets
+                       y Looker Studio.]]></page><page Index="3"><![CDATA[1. Informes, reportes y dashboards en BI Consulting
+               Los  informes,  reportes  y  dashboards  son  herramientas  clave  en  el  campo  de  la
+               inteligencia de negocios.
+                   ●  Un informe es un documento que presenta información de manera detallada
+                       y  estructurada  sobre  un  tema  específico.  Su  objetivo  es  analizar  datos  y
+                       proporcionar un análisis en profundidad, permitiendo a los usuarios obtener
+                       una comprensión clara de la situación.
+                   ●  Un reporte es más breve y se enfoca en presentar datos relevantes de forma
+                       concisa. Los reportes suelen ser más rápidos de elaborar y están diseñados
+                       para facilitar la toma de decisiones inmediatas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Diferencias
+
+                   ●  Extensión:  Los  informes  son  más  extensos  y  profundos,  mientras que los
+                       reportes son más breves.
+                   ●  Objetivo:  Los  informes  ofrecen  un  análisis  detallado,  en  tanto  que  los
+                       reportes presentan datos esenciales y conclusiones rápidas.
+                   ●  Uso:  Los  informes  son  útiles  para  estudios  exhaustivos  y  planificación
+                       estratégica,  mientras  que  los  reportes  son  ideales  para  el  seguimiento  de
+                       métricas en el día a día.]]></page><page Index="4"><![CDATA[Ventajas y Desventajas
+               Ambas herramientas tienen sus ventajas y desventajas.
+
+
+                                             Ventajas                                 Desventajas
+
+                                 ●  Proporcionan un análisis                ●  Su elaboración puede ser más
+                                     detallado que permite tomar                laboriosa y consumir tiempo.
+                                     decisiones informadas.                 ●  Pueden ser demasiado extensos
+                Informes
+                                 ●  Son útiles para auditar y realizar          para audiencias que necesitan
+                                     seguimientos profundos de un               información rápida.
+                                     tema.
+
+
+                                 ●  Suelen ser más rápidos de crear y       ●  Pueden carecer de profundidad,
+                                     fáciles de entender.                       lo que limita el análisis.
+                Reportes         ●  Permiten un seguimiento ágil de         ●  Es posible que se pase por alto
+                                     indicadores clave.                         información crítica.
+
+
+
+
+
+               ¿Cómo crear informes efectivos en Google Sheets?
+
+               Google Sheets es una herramienta accesible para crear informes. Para desarrollar
+               un informe efectivo, es fundamental seguir ciertos pasos:
+                   1.  Definición  de  Objetivos:  Antes  de  comenzar, necesitamos establecer qué
+                       información se desea comunicar y quién será la audiencia.
+                   2.  Recolección de Datos: Un informe se basa en datos. Debemos asegurarnos
+                       de  utilizar  fuentes  confiables  y  relevantes.  Podemos  importar  datos  desde
+                       otras hojas, bases de datos o archivos CSV.
+                   3.  Organización  de  la  Información:  Es  preciso  disponer  la  información  de
+                       manera lógica. Utilizaremos hojas separadas para diferentes tipos de datos y
+                       crearemos tablas que resuman la información más importante.
+                   4.  Visualización de Datos: Google Sheets permite crear gráficos que facilitan
+                       la  comprensión  de  los  datos.  Utilizaremos  gráficos  de  barras,  líneas  o
+                       circulares según sea apropiado para la información que presentaremos.]]></page><page Index="5"><![CDATA[5.  Análisis  y  Conclusiones:  Incluiremos  un  análisis  basado  en  los  datos
+                       presentados.  Esto  puede  involucrar  el  uso  de  fórmulas  para  calcular
+                       promedios, tendencias o variaciones.
+
+
+               Dashboards
+
+               Un  dashboard  es  una  herramienta  de  visualización  que
+               presenta  métricas  y  KPIs  (Indicadores  Clave  de
+               Desempeño) en un formato gráfico y fácil de entender. Su
+               principal  objetivo  es  ofrecer  información  relevante  de
+               manera rápida, lo que permite una toma de decisiones ágil
+               y fundamentada.
+
+               Importancia de los Dashboards
+               Los  dashboards  tienen  una  importancia  crucial  en  la  gestión  empresarial.
+               Gracias a su capacidad de mostrar información crítica de forma inmediata, permiten
+               un  visualización  rápida  de  los  datos.  Además,  facilitan  el  monitoreo  efectivo  de
+               indicadores en tiempo real, ayudando a identificar tendencias y anomalías. Esto se
+               traduce en una toma de decisiones más acertada y rápida, basada en datos claros y
+               accesibles.]]></page><page Index="6"><![CDATA[Tipos de Dashboards
+               Existen diferentes tipos de dashboards, cada uno con un propósito específico:
+                   1.  Dashboards Estratégicos: Están enfocados en la visión a largo plazo de la
+                       empresa y muestran KPIs de alto nivel y resultados generales.
+                   2.  Dashboards  Tácticos:  Ayudan  a  gestionar  actividades  a  medio  plazo,
+                       centrándose en la eficiencia operativa y el desempeño de departamentos.
+                   3.  Dashboards  Operativos:  Se  utilizan  para  mostrar  datos  en  tiempo  real  o
+                       casi en tiempo real, siendo útiles para el monitoreo diario de operaciones y
+                       procesos.
+
+               Componentes Clave de un Dashboard
+               Un     dashboard     eficaz  debe  contar  con  varios
+               componentes  clave.  En  primer  lugar,  debe  incluir
+               gráficos  y  visualizaciones que permitan interpretar los
+               datos  de  manera  clara.  Además,  hay  que  mostrar  los
+               KPIs que reflejan el rendimiento y el progreso en relación
+               con  los  objetivos.  También  es  fundamental  incorporar
+               filtros  e  interactividad,  lo  que  permite  a  los  usuarios
+               explorar  datos  y  centrarse  en  áreas  específicas.  Por
+               último, se recomienda añadir una narrativa (storytelling)
+               que explique las visualizaciones y proporcione contexto a
+               la información presentada.
+
+               Anexo: Formato Condicional en Google Sheets
+
+               El formato condicional es una función que permite resaltar celdas o contenidos en
+               función de criterios específicos. Esta herramienta permite identificar rápidamente
+               patrones o anomalías en los datos. Por ejemplo, podemos usar formato condicional
+               para:
+                   ●  Colorear celdas que superen un valor umbral.
+                   ●  Resaltar  automáticamente  las  celdas  que  cumplan  ciertos  criterios  (por
+                       ejemplo, ventas por encima del promedio).
+                   ●  Crear  escalas  de  color  que  muestren  visualmente  cómo  se  distribuyen los
+                       valores.]]></page><page Index="7"><![CDATA[Para  aplicar  formato  condicional,  seleccionamos  las  celdas  que  deseamos
+               formatear, vamos a "Formato" en la barra de menú y eligimos "Formato condicional".
+               Allí, podremos establecer las reglas que se aplicarán a las celdas seleccionadas.
+
+
+
+               2. Introducción a Looker Studio
+
+               Looker Studio es una plataforma de visualización de datos que
+               permite crear informes interactivos y dashboards. Su fortaleza
+               radica  en  la  capacidad  de  conectar  diversas  fuentes  de  datos  y
+               presentar la información de manera intuitiva.
+
+               Usar Looker Studio implica varios pasos clave:
+                   1.  Conexión de Datos: Puedes conectar Looker Studio a Google Sheets,
+                       Google Analytics, bases de datos SQL y otras fuentes de datos.
+                   2.  Construcción de Informes: Utiliza arrastrar y soltar para crear
+                       visualizaciones atractivas y personalizadas. Puedes incluir gráficos, tablas y
+                       mapas que se actualizan automáticamente con los datos.
+                   3.  Interactividad: Una de las mayores ventajas de Looker Studio es la
+                       posibilidad de crear informes interactivos, donde los usuarios pueden filtrar y
+                       explorar los datos en tiempo real.]]></page><page Index="8"><![CDATA[Diseño y Estructura de Informes en Looker Studio
+               El  diseño  y  la  estructura  de  un  informe  en  Looker  Studio deben asegurar que la
+               información sea fácilmente comprensible. Un buen diseño debe incluir:
+                   ●  Declaración de Objetivos: El propósito del informe debe figurar en la parte
+                       superior.
+                   ●  Tabla de Contenidos: Facilita la navegación si el informe es extenso.
+                   ●  Visualizaciones Claras: Cada gráfico o tabla debe tener títulos descriptivos
+                       y leyendas que expliquen qué datos se están mostrando.
+                   ●  Conclusiones  y  Recomendaciones:  El  informe  termina  con  un  resumen
+                       claro de las conclusiones más importantes y, si es relevante, sugerencias con
+                       las acciones a seguir.
+
+               Reflexión final
+                   ●  La elaboración de informes, dashboards y reportes es
+                       fundamental en BI Consulting. Para ello, nos valemos
+                       de  herramientas  como  Google  Sheets  y  Looker
+                       Studio.
+                   ●  Una buena comunicación de datos puede transformar
+                       la toma de decisiones en las organizaciones.
+
+
+
+               Materiales y recursos adicionales
+
+                   ●  KPIs: Su importancia y cómo utilizarlos (PDF)
+                   ●  Looker Studio
+                          ○  Visualizaciones
+                          ○  Galería de reportes
+
+
+               Próximos pasos
+
+                   ●  Integración de Google Sheets con Looker Studio
+                   ●  Automatización de informes con Looker Studio]]></page><page Index="9"><![CDATA[Ejercicios prácticos:
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Actividad 1: Creación de Informes Ejecutivos
+
+
+                             Contexto
+                             Como parte del equipo de aspirantes de Datawise Consulting, Silvia, tu
+                             mentora  en  esta  actividad  te  asignó  la  tarea  de  crear  un  informe
+                             ejecutivo para presentar a un cliente potencial sobre el desempeño de
+                             su negocio en el último trimestre.
+
+               Objetivos
+                   ●  Aprender a recopilar y analizar datos relevantes.
+                   ●  Desarrollar habilidades para crear informes claros y concisos.
+                   ●  Introducir el uso de gráficos y visualizaciones en Google Sheets para facilitar
+                       la comprensión de los datos.
+
+               Ejercicio práctico
+               Utilizando un conjunto de datos que incluye ventas, costos y beneficios de un cliente
+               durante el último trimestre, deberás:
+                   ●  Crear un informe ejecutivo que resuma la información de los 3 artículos más
+                       vendidos, y el artículo menos vendido.
+                   ●  Incluir al menos dos gráficos que representen visualmente los datos de los
+                       gastos vs. los beneficios que dejaron esos productos.
+                   ●  Aplicar formato condicional para resaltar las celdas que superan el umbral de
+                       15 millones en las ventas y beneficios.]]></page><page Index="10"><![CDATA[¿Por qué importa esto en DataWise Consulting?
+               Un informe ejecutivo es clave para la toma de decisiones en cualquier negocio. Los
+               informes claros y visuales no solo comunican información importante a los clientes
+               directos, sino que también demuestran la capacidad de DataWise para transformar
+               datos  en  insights  útiles.  Esta  tarea te enseñará a sintetizar información compleja,
+               algo fundamental en el mundo de la consultoría.
+
+               Actividad 2: Desarrollo de un Dashboard Interactivo
+
+
+                            Contexto
+                            Como  parte  de  tu  pasantía  en  Datawise  Consulting,  ahora  estás  bajo  la
+                            supervisión  de  Luis,  el  Analista  de  BI.  Tu  tarea  es  crear  un  dashboard
+                            interactivo  en  Google  Sheets  que  permita  al  equipo  de  Datawise  y  a  sus
+                            clientes monitorizar KPIs clave de rendimiento en tiempo real.
+
+               Objetivos
+                   ●  Familiarizarte  con  el  diseño  de  dashboards  y  su  importancia  para  la
+                       visualización de datos.
+                   ●  Aprender  a  utilizar  diferentes  funciones  de  Google  Sheets  para  crear
+                       interactividad.
+                   ●  Comprender  la  relevancia  de  los  KPIs  en  la  toma  de  decisiones
+                       empresariales.
+
+               Ejercicio práctico
+               Utilizando los mismos datos proporcionados, desarrollá un dashboard que incluya:
+                   ●  Un resumen de los ingresos y costos totales.
+                   ●  Dos gráficos interactivos que muestren las tendencias de ventas y costos a lo
+                       largo del tiempo.
+                   ●  Filtros que permitan visualizar los datos por periodo y producto.
+                   ●  Implementa formato condicional para destacar los KPIs cuando se alcancen
+                       los objetivos establecidos.]]></page><page Index="11"><![CDATA[¿Por qué importa esto en DataWise Consulting?
+               Los dashboards son herramientas críticas en BI, ya que permiten a los usuarios interactuar
+               con  los  datos  y  tomar  decisiones  basadas  en  información  actualizada  y  relevante.  Esta
+               actividad te capacita en el uso de herramientas de visualización que son esenciales en el
+               campo de la consultoría y demuestran el valor que DataWise brinda a sus clientes al ofrecer
+               soluciones personalizadas y efectivas.
+
+
+
+                ⛔  Estos  ejercicios  son  una  simulación  de  cómo  se  podría  resolver  el
+                problema  en  este  contexto  específico.  Las  soluciones  encontradas  no
+                aplican de ninguna manera a todos los casos.
+                Recuerda que las soluciones dependen de los sets de datos, el contexto y
+                los requerimientos específicos de los stakeholders y las organizaciones.]]></page><page Index="12"><![CDATA[]]></page></pages></Search>

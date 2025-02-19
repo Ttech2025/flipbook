@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="10"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[CLASE 10: Dashboards I
+
+
+
+
+
+               Temario:
+
+                   ●  Repaso de concepto y utilidad de los dashboards
+                   ●  Diseño de un dashboard en Looker Studio
+                   ●  Profundización: Elementos clave de un dashboard efectivo
+
+
+
+
+
+               Objetivos de la Clase
+
+                   ●  Reforzar y profundizar en conceptos y procesos para crear un Dashboard.
+                   ●  Aprender a crear un Dashboard básico en Looker Studio]]></page><page Index="3"><![CDATA[1. Repaso de Dashboards
+
+               En  clases  anteriores,  presentamos  los  dashboards,  o
+               paneles    de   control,  como   herramientas    visuales   que
+               agrupan    y   presentan   información   clave  de  una  manera
+
+               accesible. Estas herramientas permiten sintetizar grandes
+               volúmenes de datos en visualizaciones claras y concisas.
+               A continuación, vamos a repasar y profundizar en algunos
+               conceptos relacionados con los dashboards.
+
+
+               Utilidad de los Dashboards
+
+
+               En cuanto a su utilidad, los dashboards ofrecen varias ventajas:
+                   ●  Primero,  facilitan  el  monitoreo  en  tiempo  real, lo cual permite visualizar datos
+                       actualizados y detectar problemas y oportunidades de manera ágil.
+
+                   ●  Además, son     fundamentales    para  la  toma  de  decisiones  informadas, ya que
+                       ayudan  a  los  gerentes  y  ejecutivos  a  basar  sus  decisiones  en  datos
+                       concretos.
+                   ●  También     simplifican   la   comunicación   efectiva,  al  hacer  que  los  datos
+                       complejos sean más comprensibles para diversas audiencias.
+                   ●  Por  último,   ayudan   en   la   gestión   de   objetivos,  permitiendo  rastrear  el
+                       progreso hacia metas específicas como ingresos o rendimiento de equipos.
+
+               Características de un Dashboard Efectivo
+
+               Respecto  a  las   características   de   un   dashboard   efectivo,  hay  varios  aspectos  a
+               considerar:
+
+                   ●  Un buen dashboard debe tener claridad visual, es decir, debe ser fácil de leer
+                       y comprender, evitando la sobrecarga de información.
+                   ●  Además,  la   accesibilidad  es  clave:  los  datos  deben  estar  disponibles  para
+                       todos los usuarios relevantes, sin importar su nivel técnico.
+                   ●  También  es  importante  que  sean       interactivos;  los  dashboards  efectivos
+                       permiten  a  los  usuarios  filtrar  y  profundizar  en  la  información  según  sea
+                       necesario.
+                   ●  Otra  característica  es  la   actualización   en   tiempo   real:  idealmente,  un
+
+                       dashboard  debe  reflejar  datos  actuales  o  casi  actuales  para  mantenerse
+                       relevante.
+                   ●  Por  último,  no  debemos  olvidar  la   personalización;  los  dashboards  deben
+                       adaptarse a las necesidades específicas de los diferentes usuarios o grupos
+                       dentro de la organización.]]></page><page Index="4"><![CDATA[Tipos de Dashboards
+
+
+               Existen diferentes tipos de dashboards:
+
+
+                DASHBOARDS ESTRATÉGICOS                 Centrados en los objetivos a largo plazo y en
+                                                        los  indicadores  clave  de  rendimiento (KPIs)
+                                                        para la alta dirección
+
+
+                DASHBOARDS TÁCTICOS                     Enfocados en desempeños intermedios y en
+                                                        la  gestión  de  proyectos,  sirviendo  para
+                                                        monitorear  el  rendimiento  de  equipos  y
+                                                        procesos
+
+
+                DASHBOARDS OPERATIVOS                   Se  utilizan  para  seguir  las  operaciones
+                                                        diarias  de  una  organización,  mostrando
+                                                        datos  en  tiempo  real  y  alertas  sobre
+                                                        problemas inmediatos]]></page><page Index="5"><![CDATA[Consideraciones  y  Elementos  Clave  de  un  Dashboard
+               Efectivo
+
+               Al diseñar un dashboard efectivo, es importante tener en
+               cuenta  ciertas  consideraciones  y  elementos  clave.
+               Primero,  es  fundamental  definir  los  objetivos  del
+               dashboard;  antes  de  comenzar  el  diseño,  es  crucial
+               entender qué se quiere lograr con él, ya que esto guiará
+               el  diseño  y  la  selección  de  métricas.  También  hay que
+               seleccionar KPIs relevantes, eligiendo indicadores que
+               realmente  aporten  valor  y  estén  alineados  con  los
+               objetivos establecidos. Organizar la información es otra
+               clave:  debe  disponerse  de  manera  que  los  elementos  más  importantes  estén  al
+               frente, utilizando un diseño jerárquico. Optimizar las visualizaciones es igualmente
+               necesario;  esto  implica  usar  gráficos  y  tablas  adecuadas  para cada tipo de dato,
+               como  gráficos  de  líneas  para  mostrar  tendencias  y  gráficos  de  barras  para
+               comparaciones.  Por  último,  incluir  elementos  interactivos  como  filtros  y
+               segmentaciones  permitirá  a  los  usuarios  explorar  los  datos  de  manera  más
+               profunda.
+
+               2. Diseño de un Dashboard en Looker Studio
+
+               Looker  Studio  es  una  herramienta  poderosa  para crear dashboards interactivos y
+               visuales.
+
+                   ●  El  proceso  para  diseñar  un  dashboard  en  esta  plataforma  se  inicia
+                       conectando  las  fuentes  de  datos  necesarias,  como  Google  Sheets  o
+                       BigQuery.
+                   ●  A  continuación,  será  necesario  definir  el  objetivo  del  dashboard,
+                       estableciendo qué métricas y objetivos se desean seguir. Por ejemplo, si se
+                       trata de un dashboard de ventas, habría que incluir métricas como ingresos,
+                       número de ventas y comparaciones con períodos anteriores.
+                   ●  Luego,  se  debe  seleccionar  las  visualizaciones  adecuadas  utilizando
+                       diferentes tipos de gráficos y tablas según el tipo de datos, como gráficos de
+                       líneas para tendencias, gráficos de barras para comparaciones y tablas para
+                       datos específicos.
+
+
+
+               La  organización  del  diseño  es  esencial;  se
+               deben  distribuir  los  elementos  visuales  de
+               manera  que  los  más  importantes  estén  bien
+               visibles en la parte superior y el espacio se use
+               eficientemente,     para     que    no     se    vea
+               sobrecargado.]]></page><page Index="6"><![CDATA[Incorporar  interactividad  es  clave  también,  agregando  filtros  que  permitan  a  los
+               usuarios segmentar la información según sus necesidades, ya sea por fecha, región
+               o producto.
+
+               Además,  se  puede  permitir  la  opción  de  “drill-down”  para  que  los  usuarios
+               profundicen en datos más específicos, utilizando métricas opcionales. En el ejemplo,
+               se puede observar la cantidad de impresiones diarias desde el 7 de enero hasta el 3
+               de febrero, y al aplicar el desglose por mes, la gráfica toma un aspecto diferente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Finalmente,  es  crucial  revisar  el  dashboard  para  asegurar  que  todas  las
+               visualizaciones  y  métricas  sean  precisas.  Una  vez  que  estés  satisfecho/a  con  el
+               resultado, podrás compartir el dashboard con tu equipo o públicos objetivos.
+
+               Reflexión final
+
+
+               Los   dashboards  son  herramientas  clave  que  facilitan  la
+               visualización  y  el  análisis  de  datos  de  manera  efectiva.
+               Para  lograr  un  dashboard exitoso, es necesario tener en
+               cuenta      las     características     y     consideraciones
+               fundamentales que aseguran su efectividad. Looker Studio
+               se  presenta  como  una opción accesible para la creación
+               de  dashboards  interactivos  que  pueden  adaptarse  a  las
+               necesidades específicas de cada organización.
+
+               Materiales y recursos adicionales
+
+                   ●  Página de ayuda de Looker Studio – Actualización 2025
+                   ●  Guía de visualización de datos, Generalitat de Catalunya.
+
+               Próximos Pasos]]></page><page Index="7"><![CDATA[●  Métricas de marketing digital
+                   ●  Indicadores clave de rendimiento (KPIs)
+
+                   ●  Fuentes de datos combinados: Repaso SQL JOINS
+
+               Ejercicios Prácticos
+
+
+
+
+
+
+
+
+
+
+
+
+               Actividad 1: Creación de un Dashboard de Ventas
+
+
+               Contexto
+                           Como  parte  de  tu  proceso  de  selección  para  la  pasantía en Datawise
+                           Consulting,  recibirás  la  tarea  de  crear  un  dashboard  que  resuma  el
+                           rendimiento de las ventas de uno de los productos principales de uno de
+                           nuestros clientes. Tu mentor para esta tarea será Luis, el Analista de BI,
+               quien te guiará a través de los pasos para que comprendas el valor de los datos en
+               la toma de decisiones estratégicas.
+
+               Objetivos
+
+                   ●  Aprender a conectar y visualizar datos utilizando Looker Studio.
+                   ●  Crear un dashboard efectivo que muestre métricas clave de ventas y la
+                       evolución de las mismas.
+
+               Ejercicio Práctico
+
+                    1.  Utilizá  el  conjunto  de  datos  proporcionado: Este conjunto de datos contiene
+                      información       sobre     ventas      mensuales,       incluyendo      columnas
+                      como Mes, Producto, Ventas Totales y Costo.
+
+                    2.  Creá un dashboard en Looker Studio que contenga:
+
+                          ●  Un gráfico de barras que muestre las Ventas Totales por Producto de
+                              los  3  productos  más  vendidos  y  otro  gráfico  para  los  3  productos
+                              menos vendidos.
+                          ●  Un gráfico de líneas que ilustre la evolución de las Ventas Totales a lo
+                              largo de los meses del producto más y el menos vendido.
+                          ●  Una  tabla  que  detalle  las  métricas  de Costo y Ganancia por Mes,
+                              ordenado de manera descendente por Ganancia. Colorear la fila si ese
+                              mes se registraron ganancias menores a 50 millones.]]></page><page Index="8"><![CDATA[3.  Describí   el   propósito   de   cada   visualización:  Para  cada  gráfico  y  tabla,
+                      proporcioná  una  breve  descripción  sobre  cómo  ayuda  a  entender  el
+                      rendimiento de ventas.
+
+               Dataset:
+
+                   ●  Venta apps - Costo.csv
+               ¿Por qué importa esto en DataWise Consulting?
+
+               Crear un dashboard efectivo nos permite tomar decisiones informadas basadas en
+               datos  relevantes.  En  Datawise  Consulting,  visualizamos  la  importancia  de  las
+               métricas  para  optimizar  las  estrategias  comerciales  y  ofrecer  soluciones  más
+               efectivas  a  nuestros  clientes.  Tu  contribución  en  esta  actividad  demuestra  tu
+               capacidad para entender y utilizar herramientas de BI.
+
+
+
+               Actividad 2: Análisis de la Satisfacción del Cliente
+
+
+               Contexto
+                           En  esta  segunda  actividad,  serás  guiado  por Sabrina,  la  Consultora
+                           Estratégica  de  Datawise  Consulting.  El  objetivo  aquí  es  analizar  la
+                           satisfacción  del  cliente  para  implementar  mejoras  en  los  productos  o
+                           servicios.
+
+
+               Objetivos
+
+                   ●  Entender cómo los datos pueden proporcionar insights en la experiencia del
+                       cliente.
+                   ●  Crear visualizaciones que permitan identificar áreas de mejora.
+
+               Ejercicio Práctico
+
+                    1.  Utilizá el conjunto de datos de satisfacción del cliente.
+
+                    2.  Creá un dashboard en Looker Studio que contenga:
+
+                          ●  Un  gráfico  de  barras  mostrando  la Puntuación promedio  de
+                              satisfacción por Cliente.
+                          ●  Un      gráfico   de     líneas    que    muestre      la   evolución     de
+                              la Puntuación promedio a lo largo de los meses.
+                          ●  Una tabla que resuma los Comentarios y Sugerencias más frecuentes
+                              de los clientes.
+                    3.  Describí  el  propósito  de  cada  visualización: En este caso, explica cómo cada
+                      visualización puede ayudar a identificar patrones en la satisfacción del cliente
+                      y posibles áreas para mejorar.]]></page><page Index="9"><![CDATA[Sets de datos
+
+                   ●  satis_clientes.csv
+
+
+               ¿Por qué importa esto en DataWise Consulting?
+
+               Analizar la satisfacción del cliente es esencial para ofrecer un servicio superior. En
+               Datawise Consulting, valoramos cada feedback como una oportunidad para crecer y
+               adaptarnos  a  las  necesidades  del  cliente.  Tu  habilidad para crear visualizaciones
+               que encapsulen estos datos muestra tu potencial como un futuro profesional en BI.
+
+
+
+               ⛔ Estos ejercicios son una simulación de cómo se podría resolver el problema en
+
+               este  contexto  específico.  Las  soluciones  encontradas  no  aplican  de  ninguna
+               manera a todos los casos.
+
+               Recuerda  que  las  soluciones  dependen  de  los  sets  de  datos,  el  contexto y los
+               requerimientos específicos de los stakeholders y las organizaciones.]]></page><page Index="10"><![CDATA[]]></page></pages></Search>
