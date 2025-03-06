@@ -4,7 +4,7 @@
 				<meta name="robots" content="all"/>
         <meta name="description" content="description">
         <meta name="keywords" content="">
-        <title>Page 7 - REACT - Clase 14</title>
+        <title>Page 7 - REACTJS - Clase 14</title>
 <style type="text/css">
 <!--
 body {
@@ -141,7 +141,7 @@ function MM_swapImage() { //v3.0
   </div>
   <div id="content">
      <div id="content-top">
-        <div id="content-top1">Page 7 - REACT - Clase 14</div>
+        <div id="content-top1">Page 7 - REACTJS - Clase 14</div>
         <div id="content-top2">P. 7</div>
      </div>
      <div id="content-middle">
@@ -152,60 +152,57 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Nueva Tarea en Talento Lab
+    <pre style="white-space:pre-line"><code>Implementación de un Paginador en la vista de
+
+
+               productos
 
 
 
 
+               Cuando se manejan grandes cantidades de productos en una tienda, mostrarlos todos en
+               una sola página puede afectar la performance y la experiencia del usuario. La paginación
+               permite dividir la lista de productos en páginas más pequeñas, cargando solo una parte a la
+               vez.
+
+               Beneficios de la paginación:
+
+
+                   ●  Mejora el rendimiento, cargando solo los productos necesarios.
+                   ●  Hace que la navegación sea más organizada y fácil de usar.
+                   ●  Permite a los usuarios explorar los productos de manera más eficiente.
+
+               ¿Cómo implementarlo en React:?
+
+
+                   1.  Dividir los productos en páginas: Determinar cuántos productos se mostrarán por
+                       página.
+                   2.  Crear botones de navegación: Permitir moverse entre páginas.
+                   3.  Actualizar la vista dinámicamente: Renderizar solo los productos de la página
+                       actual.
+
+               Código de Ejemplo: Implementación de Paginador
 
 
 
 
+               import { useState } from "react";
 
+               const AllProductos = ({ productos }) =&gt; {
+                 const productosPorPagina = 6; // Cantidad de productos a mostrar por
+               página
+                 const [paginaActual, setPaginaActual] = useState(1);
 
+                 // Calcular el índice de los productos a mostrar en la página actual
+                 const indiceUltimoProducto = paginaActual * productosPorPagina;
+                 const indicePrimerProducto = indiceUltimoProducto -
+               productosPorPagina;
+                 const productosActuales = productos.slice(indicePrimerProducto,
+               indiceUltimoProducto);
 
-
-
-
-
-                                     El cliente de Talento Lab ha solicitado un enfoque avanzado para
-                                     mejorar la experiencia visual e interactiva de la aplicación, con un
-
-                                     énfasis en la optimización para dispositivos móviles y la mejora de la
-                                     usabilidad general. La aplicación debe ser completamente responsiva
-
-                                     y ofrecer una experiencia de usuario fluida y accesible, manteniendo
-               una apariencia atractiva en diferentes tamaños de pantalla.
-
-
-               Objetivos:
-
-
-                   ●  Aplicar el enfoque mobile-first para asegurar que la aplicación sea completamente
-                       responsiva en todos los dispositivos.
-
-                   ●  Implementar mejoras de UX/UI utilizando las mejores prácticas de diseño para hacer
-                       la interfaz más accesible y fácil de usar.
-
-                   ●  Mejorar la interactividad de la aplicación integrando herramientas como React Icons
-                       y React Toastify para optimizar la navegación y proporcionar retroalimentación
-                       visual.
-
-                   ●  Optimizar el SEO de la aplicación utilizando React Helmet, asegurando que la
-                       aplicación sea fácilmente indexada por los motores de búsqueda.
-                   ●  Preparar la aplicación para su despliegue, asegurando la compatibilidad con todos
-
-                       los dispositivos y optimizando los tiempos de carga.
-
-
-               Requerimientos:
-
-
-                   1.  Optimización Responsiva con Bootstrap y Styled-components:
-
-                          ○  Utiliza el sistema de grillas de Bootstrap para organizar los componentes de
-                              manera responsiva, adaptando la distribución de los productos y otros
-                              elementos a diferentes tamaños de pantalla (móviles, tablets, escritorios).</code></pre>
+                 // Cambiar de página
+                 const totalPaginas = Math.ceil(productos.length /
+               productosPorPagina);</code></pre>
      	</div>
     
      </div>
@@ -215,7 +212,7 @@ function MM_swapImage() { //v3.0
            <tr>
              <td width="22%" height="44"><a href="page6.html"><img src="images/previous.png" width="26" height="19" id="Image2" onmouseover="MM_swapImage('Image2','','images/previous2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
              <td width="43%">
-             	&nbsp;&nbsp;&nbsp;<a href="page2.html">2</a>&nbsp;&nbsp;&nbsp;<a href="page3.html">3</a>&nbsp;&nbsp;&nbsp;<a href="page4.html">4</a>&nbsp;&nbsp;&nbsp;<a href="page5.html">5</a>&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>
+             	&nbsp;&nbsp;&nbsp;<a href="page2.html">2</a>&nbsp;&nbsp;&nbsp;<a href="page3.html">3</a>&nbsp;&nbsp;&nbsp;<a href="page4.html">4</a>&nbsp;&nbsp;&nbsp;<a href="page5.html">5</a>&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>
              </td>
              <td width="35%"><a href="page8.html"><img src="images/next.png" width="26" height="19" id="Image1" onmouseover="MM_swapImage('Image1','','images/next2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
            </tr>

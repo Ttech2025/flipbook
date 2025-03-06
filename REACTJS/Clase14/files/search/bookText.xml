@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="10"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase N° 14: Diseño Responsivo y UX
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="13"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase N° 14: Diseño Responsivo y UX
 
 
 
@@ -9,6 +9,7 @@
                    ●  Mejores Prácticas de Diseño UI/UX.
 
                    ●  Revisión de la Aplicación para Mejorar la Experiencia de Usuario.
+                   ●  Implementación de un Paginador en la vista de productos.
 
 
 
@@ -17,17 +18,22 @@
 
 
                    ●  Aplicar el enfoque mobile-first para mejorar la adaptabilidad de la aplicación en
+
                        distintos dispositivos.
 
 
                    ●  Aplicar las mejores prácticas de diseño UI/UX para crear interfaces atractivas, fáciles
-
                        de usar y que proporcionen una experiencia positiva al usuario.
 
-                   ●  Revisar la aplicación y hacer ajustes que optimicen la interacción del usuario,
 
+                   ●  Revisar la aplicación y hacer ajustes que optimicen la interacción del usuario,
                        asegurando que la aplicación sea funcional y agradable tanto en dispositivos móviles
-                       como en escritorios.]]></page><page Index="3"><![CDATA[Diseño Mobile-First y Adaptabilidad de la
+                       como en escritorios.
+
+
+                   ●  Agregar paginación en el componente AllProductos para optimizar la carga y
+
+                       visualización de los productos.]]></page><page Index="3"><![CDATA[Diseño Mobile-First y Adaptabilidad de la
 
 
                Aplicación
@@ -79,7 +85,7 @@
                    </div>
 
                  </div>
-               </div>]]></page><page Index="4"><![CDATA[   Explicación:
+               </div>]]></page><page Index="4"><![CDATA[Explicación:
 
                ✔  En móviles, los productos ocupan toda la pantalla (col-12).
 
@@ -88,15 +94,12 @@
                ✔  En escritorio, los productos se distribuyen en 3 columnas (col-lg-4).
 
 
-                        Prueba de adaptabilidad:
+               Prueba de adaptabilidad:
 
 
                    ●  Cambia el tamaño de la pantalla en DevTools (F12 > Ctrl + Shift + M).
                    ●  Usa col-sm, col-md, col-lg, col-xl para ajustar el diseño según el tamaño de
                        la pantalla.
-
-
-
 
 
 
@@ -108,35 +111,33 @@
                ¿Por qué es importante la experiencia del usuario (UX)?
 
 
-               UX se refiere a cómo se siente el usuario al interactuar con la aplicación. Un diseño
 
+               UX se refiere a cómo se siente el usuario al interactuar con la aplicación. Un diseño
                deficiente puede frustrar y alejar a los usuarios, mientras que una interfaz clara y bien
+
                organizada mejora la conversión y retención.
 
+               Principios clave de UX/UI:
 
-                  Principios clave de UX/UI:
+
                ✔  Simplicidad: Diseñar interfaces sin elementos innecesarios.
-
 
                ✔  Consistencia: Mantener el mismo estilo en botones, tipografías y colores.
                ✔  Accesibilidad: Garantizar que la aplicación sea fácil de usar para todos.
 
+
                ✔  Feedback visual: Mostrar estados de carga, confirmaciones y errores.
-
-
 
                ✅ Botones y Formularios Más Accesibles
 
+
                Los botones deben ser grandes y fáciles de presionar en pantallas táctiles.
-
-
-
 
                Ejemplo:
 
                <button className="btn btn-primary btn-lg w-100">
-                 Comprar Ahora
 
+                 Comprar Ahora
                </button>]]></page><page Index="5"><![CDATA[Mejoras en Formularios:
                Los formularios deben ser claros, con etiquetas bien definidas y suficiente espaciado.
 
@@ -184,17 +185,17 @@
 
 
 
-               Antes de finalizar la aplicación, es importante probarla en diferentes dispositivos.
 
+               Antes de finalizar la aplicación, es importante probarla en diferentes dispositivos.
 
                   Herramientas para Pruebas Responsivas:
 
 
-                  Modo Responsive de Chrome: F12 (DevTools) > Ctrl + Shift + M
-                  Simuladores online:
+                   ●  Modo Responsive de Chrome: F12 (DevTools) > Ctrl + Shift + M
 
-                  Responsinator
-                  Google Mobile-Friendly Test
+                   ●  Simuladores online:
+                          ○  Responsinator
+                          ○  Google Mobile-Friendly Test
 
 
                ✅ Accesibilidad y Etiquetas ARIA
@@ -207,7 +208,114 @@
 
                <button className="btn btn-primary" aria-label="Agregar al carrito">
                     Agregar
-               </button>]]></page><page Index="7"><![CDATA[Nueva Tarea en Talento Lab
+               </button>]]></page><page Index="7"><![CDATA[Implementación de un Paginador en la vista de
+
+
+               productos
+
+
+
+
+               Cuando se manejan grandes cantidades de productos en una tienda, mostrarlos todos en
+               una sola página puede afectar la performance y la experiencia del usuario. La paginación
+               permite dividir la lista de productos en páginas más pequeñas, cargando solo una parte a la
+               vez.
+
+               Beneficios de la paginación:
+
+
+                   ●  Mejora el rendimiento, cargando solo los productos necesarios.
+                   ●  Hace que la navegación sea más organizada y fácil de usar.
+                   ●  Permite a los usuarios explorar los productos de manera más eficiente.
+
+               ¿Cómo implementarlo en React:?
+
+
+                   1.  Dividir los productos en páginas: Determinar cuántos productos se mostrarán por
+                       página.
+                   2.  Crear botones de navegación: Permitir moverse entre páginas.
+                   3.  Actualizar la vista dinámicamente: Renderizar solo los productos de la página
+                       actual.
+
+               Código de Ejemplo: Implementación de Paginador
+
+
+
+
+               import { useState } from "react";
+
+               const AllProductos = ({ productos }) => {
+                 const productosPorPagina = 6; // Cantidad de productos a mostrar por
+               página
+                 const [paginaActual, setPaginaActual] = useState(1);
+
+                 // Calcular el índice de los productos a mostrar en la página actual
+                 const indiceUltimoProducto = paginaActual * productosPorPagina;
+                 const indicePrimerProducto = indiceUltimoProducto -
+               productosPorPagina;
+                 const productosActuales = productos.slice(indicePrimerProducto,
+               indiceUltimoProducto);
+
+                 // Cambiar de página
+                 const totalPaginas = Math.ceil(productos.length /
+               productosPorPagina);]]></page><page Index="8"><![CDATA[const cambiarPagina = (numeroPagina) =>
+               setPaginaActual(numeroPagina);
+
+                 return (
+                   <div className="container">
+                     <h2 className="my-4">Todos los Productos</h2>
+                     <div className="row">
+                       {productosActuales.map((producto) => (
+                         <div key={producto.id} className="col-12 col-md-6 col-lg-4">
+                           <div className="card">
+                             <img src={producto.imagen} className="card-img-top"
+               alt={producto.nombre} />
+                             <div className="card-body">
+                               <h5 className="card-title">{producto.nombre}</h5>
+                               <p className="card-text">${producto.precio}</p>
+                               <button className="btn btn-primary w-100">Agregar al
+               carrito</button>
+                             </div>
+                           </div>
+                         </div>
+                       ))}
+                     </div>
+
+                     {/* Paginador */}
+                     <div className="d-flex justify-content-center my-4">
+
+                       {Array.from({ length: totalPaginas }, (_, index) => (
+                         <button
+                           key={index + 1}
+                           className={`btn mx-1 ${paginaActual === index + 1 ?
+               "btn-primary" : "btn-outline-primary"}`}
+                           onClick={() => cambiarPagina(index + 1)}
+                         >
+                           {index + 1}
+                         </button>
+                       ))}
+                     </div>
+                   </div>
+                 );
+               };
+
+               export default AllProductos;]]></page><page Index="9"><![CDATA[El código implementa una paginación en el componente AllProductos.jsx para mejorar
+
+               la experiencia del usuario y optimizar el rendimiento de la aplicación. En lugar de cargar
+
+               todos los productos a la vez, se muestran en grupos de seis por página. Esto se logra
+               calculando los índices de los productos visibles según la página actual y usando .slice()
+               para extraer solo los correspondientes. Además, se genera dinámicamente un conjunto de
+
+               botones de paginación que permiten navegar entre páginas, resaltando el botón activo con
+               una clase visual.
+
+
+               Con este enfoque, la aplicación se mantiene fluida y organizada, evitando listas demasiado
+
+               largas que dificulten la navegación. Además, la paginación ayuda a que la interfaz sea más
+               accesible y funcional en diferentes dispositivos, alineándose con las mejores prácticas de
+               UX/UI.   
 
 
 
@@ -216,79 +324,78 @@
 
 
 
+               Nueva Tarea en Talento Lab
 
 
+                                                     El cliente de Talento Lab nos ha solicitado una mejora
+                                                     en la experiencia de navegación dentro de la
+                                                     aplicación. Además de optimizar la interfaz para
 
-
-
-
-
-                                     El cliente de Talento Lab ha solicitado un enfoque avanzado para
-                                     mejorar la experiencia visual e interactiva de la aplicación, con un
-
-                                     énfasis en la optimización para dispositivos móviles y la mejora de la
-                                     usabilidad general. La aplicación debe ser completamente responsiva
-
-                                     y ofrecer una experiencia de usuario fluida y accesible, manteniendo
-               una apariencia atractiva en diferentes tamaños de pantalla.
+                                                     dispositivos móviles y mejorar la usabilidad general,
+                                                     debemos agregar una funcionalidad de paginación en
+               la vista de productos.
 
 
                Objetivos:
 
 
+
                    ●  Aplicar el enfoque mobile-first para asegurar que la aplicación sea completamente
                        responsiva en todos los dispositivos.
-
                    ●  Implementar mejoras de UX/UI utilizando las mejores prácticas de diseño para hacer
-                       la interfaz más accesible y fácil de usar.
 
+                       la interfaz más accesible y fácil de usar.
                    ●  Mejorar la interactividad de la aplicación integrando herramientas como React Icons
                        y React Toastify para optimizar la navegación y proporcionar retroalimentación
-                       visual.
 
-                   ●  Optimizar el SEO de la aplicación utilizando React Helmet, asegurando que la
+                       visual.]]></page><page Index="10"><![CDATA[●  Optimizar el SEO de la aplicación utilizando React Helmet, asegurando que la
                        aplicación sea fácilmente indexada por los motores de búsqueda.
-                   ●  Preparar la aplicación para su despliegue, asegurando la compatibilidad con todos
 
+                   ●  Preparar la aplicación para su despliegue, asegurando la compatibilidad con todos
                        los dispositivos y optimizando los tiempos de carga.
+                   ●  Asegurar que la paginación sea intuitiva y accesible para los usuarios.
+
 
 
                Requerimientos:
 
 
                    1.  Optimización Responsiva con Bootstrap y Styled-components:
-
                           ○  Utiliza el sistema de grillas de Bootstrap para organizar los componentes de
-                              manera responsiva, adaptando la distribución de los productos y otros
-                              elementos a diferentes tamaños de pantalla (móviles, tablets, escritorios).]]></page><page Index="8"><![CDATA[○  Aplica styled-components para crear un diseño personalizado y modular,
-                              mejorando la claridad y mantenibilidad del código.
 
+                              manera responsiva, adaptando la distribución de los productos y otros
+                              elementos a diferentes tamaños de pantalla (móviles, tablets, escritorios).
+                          ○  Aplica styled-components para crear un diseño personalizado y modular,
+
+                              mejorando la claridad y mantenibilidad del código.
                    2.  Interactividad Mejorada con React Icons y React Toastify:
+
                           ○  Instala React Icons y agrega iconos en los botones de acción, como en la
                               barra de navegación (por ejemplo, el icono de carrito en el botón de compra).
-
                           ○  Integra React Toastify para mostrar notificaciones visuales al usuario, como
-                              mensajes de éxito cuando un producto es agregado al carrito de compras.
 
+                              mensajes de éxito cuando un producto es agregado al carrito de compras.
                    3.  Mejora de la Accesibilidad y SEO:
                           ○  Utiliza etiquetas ARIA en botones y enlaces para mejorar la accesibilidad.
-                          ○  Usa React Helmet para modificar las etiquetas <title> y <meta>,
 
+                          ○  Usa React Helmet para modificar las etiquetas <title> y <meta>,
                               mejorando el SEO de la aplicación y asegurando que sea fácilmente
 
                               indexada por los motores de búsqueda.
                    4.  Pruebas y Preparación para el Despliegue:
-                          ○  Realiza pruebas en diferentes dispositivos para garantizar la compatibilidad.
 
+                          ○  Realiza pruebas en diferentes dispositivos para garantizar la compatibilidad.
                           ○  Revisa que todos los elementos de la interfaz se comporten correctamente
                               en pantallas pequeñas y grandes, asegurando tiempos de carga rápidos y
+
                               una experiencia de usuario fluida.
 
 
+                       5.  Paginación en AllProductos:
 
+                          ○  Implementa una paginación funcional para mostrar los productos en páginas
 
-
-               Reflexión final
+                              separadas.]]></page><page Index="11"><![CDATA[Reflexión final
 
 
 
@@ -312,14 +419,19 @@
 
 
                    1.  ¿Cómo mejora la experiencia del usuario al aplicar el enfoque mobile-first en el
-                       desarrollo de una aplicación?]]></page><page Index="9"><![CDATA[2.  ¿Qué elementos visuales y funcionales consideras más importantes para garantizar
-                       una navegación intuitiva?
+                       desarrollo de una aplicación?
+                   2.  ¿Qué elementos visuales y funcionales consideras más importantes para garantizar
 
+                       una navegación intuitiva?
                    3.  ¿Cómo podrías evaluar si la accesibilidad de tu aplicación es adecuada para todos
+
                        los usuarios?
                    4.  ¿Qué estrategias podrías implementar para seguir mejorando la experiencia del
-
                        usuario en futuras versiones de la aplicación?
+
+                   5.  ¿Cómo podrías mejorar aún más la funcionalidad del paginador para que sea más
+                       eficiente y accesible?
+
 
 
 
@@ -327,29 +439,21 @@
 
                Materiales y Recursos Adicionales:
 
-
                    ★  Bootstrap
                    ★  styled-components
 
                    ★  React Icons
                    ★  React Toastify
-                   ★  Framer Motion
-
-
-
-
-
-
-               Preguntas para Reflexionar:
+                   ★  Framer Motion]]></page><page Index="12"><![CDATA[Preguntas para Reflexionar:
 
 
                    ●  ¿Cómo puedes asegurar que una aplicación React sea completamente responsiva
-                       utilizando Bootstrap y styled-components?
 
+                       utilizando Bootstrap y styled-components?
                    ●  En un proyecto con muchos componentes, ¿qué ventajas ofrece usar
                        styled-components frente a usar clases CSS tradicionales o Bootstrap?
-                   ●  ¿Qué aspectos de la experiencia del usuario mejoran al agregar iconos con React
 
+                   ●  ¿Qué aspectos de la experiencia del usuario mejoran al agregar iconos con React
                        Icons y notificaciones con React Toastify en una aplicación?
                    ●  ¿Cómo podría la implementación de React Helmet mejorar el SEO de una aplicación
 
@@ -359,7 +463,7 @@
 
                    Próximos Pasos:
 
-                   ●  Despliegue de la aplicación en plataformas como Vercel o Netlify.
 
+                   ●  Despliegue de la aplicación en plataformas como Vercel o Netlify.
                    ●  Pruebas de funcionamiento en el entorno de producción.
-                   ●  Revisión de los pasos de despliegue y configuración.]]></page><page Index="10"><![CDATA[]]></page></pages></Search>
+                   ●  Revisión de los pasos de despliegue y configuración.]]></page><page Index="13"><![CDATA[]]></page></pages></Search>

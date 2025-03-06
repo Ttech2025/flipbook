@@ -4,7 +4,7 @@
 				<meta name="robots" content="all"/>
         <meta name="description" content="description">
         <meta name="keywords" content="">
-        <title>Page 8 - REACT - Clase 14</title>
+        <title>Page 8 - REACTJS - Clase 14</title>
 <style type="text/css">
 <!--
 body {
@@ -141,7 +141,7 @@ function MM_swapImage() { //v3.0
   </div>
   <div id="content">
      <div id="content-top">
-        <div id="content-top1">Page 8 - REACT - Clase 14</div>
+        <div id="content-top1">Page 8 - REACTJS - Clase 14</div>
         <div id="content-top2">P. 8</div>
      </div>
      <div id="content-middle">
@@ -152,59 +152,48 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>○  Aplica styled-components para crear un diseño personalizado y modular,
-                              mejorando la claridad y mantenibilidad del código.
+    <pre style="white-space:pre-line"><code>const cambiarPagina = (numeroPagina) =&gt;
+               setPaginaActual(numeroPagina);
 
-                   2.  Interactividad Mejorada con React Icons y React Toastify:
-                          ○  Instala React Icons y agrega iconos en los botones de acción, como en la
-                              barra de navegación (por ejemplo, el icono de carrito en el botón de compra).
+                 return (
+                   &lt;div className="container"&gt;
+                     &lt;h2 className="my-4"&gt;Todos los Productos&lt;/h2&gt;
+                     &lt;div className="row"&gt;
+                       {productosActuales.map((producto) =&gt; (
+                         &lt;div key={producto.id} className="col-12 col-md-6 col-lg-4"&gt;
+                           &lt;div className="card"&gt;
+                             &lt;img src={producto.imagen} className="card-img-top"
+               alt={producto.nombre} /&gt;
+                             &lt;div className="card-body"&gt;
+                               &lt;h5 className="card-title"&gt;{producto.nombre}&lt;/h5&gt;
+                               &lt;p className="card-text"&gt;${producto.precio}&lt;/p&gt;
+                               &lt;button className="btn btn-primary w-100"&gt;Agregar al
+               carrito&lt;/button&gt;
+                             &lt;/div&gt;
+                           &lt;/div&gt;
+                         &lt;/div&gt;
+                       ))}
+                     &lt;/div&gt;
 
-                          ○  Integra React Toastify para mostrar notificaciones visuales al usuario, como
-                              mensajes de éxito cuando un producto es agregado al carrito de compras.
+                     {/* Paginador */}
+                     &lt;div className="d-flex justify-content-center my-4"&gt;
 
-                   3.  Mejora de la Accesibilidad y SEO:
-                          ○  Utiliza etiquetas ARIA en botones y enlaces para mejorar la accesibilidad.
-                          ○  Usa React Helmet para modificar las etiquetas &lt;title&gt; y &lt;meta&gt;,
+                       {Array.from({ length: totalPaginas }, (_, index) =&gt; (
+                         &lt;button
+                           key={index + 1}
+                           className={`btn mx-1 ${paginaActual === index + 1 ?
+               "btn-primary" : "btn-outline-primary"}`}
+                           onClick={() =&gt; cambiarPagina(index + 1)}
+                         &gt;
+                           {index + 1}
+                         &lt;/button&gt;
+                       ))}
+                     &lt;/div&gt;
+                   &lt;/div&gt;
+                 );
+               };
 
-                              mejorando el SEO de la aplicación y asegurando que sea fácilmente
-
-                              indexada por los motores de búsqueda.
-                   4.  Pruebas y Preparación para el Despliegue:
-                          ○  Realiza pruebas en diferentes dispositivos para garantizar la compatibilidad.
-
-                          ○  Revisa que todos los elementos de la interfaz se comporten correctamente
-                              en pantallas pequeñas y grandes, asegurando tiempos de carga rápidos y
-                              una experiencia de usuario fluida.
-
-
-
-
-
-               Reflexión final
-
-
-
-               En esta clase, optimizamos la responsividad y la experiencia de usuario, asegurando que la
-               aplicación sea intuitiva y accesible en distintos dispositivos. Aplicamos el enfoque
-
-               mobile-first, mejoramos la usabilidad con prácticas de UX/UI y realizamos una revisión final
-               para detectar y corregir posibles problemas. Estos ajustes no solo mejoran la apariencia,
-               sino que también hacen que la navegación sea más fluida y eficiente. Una aplicación bien
-
-               diseñada no solo funciona correctamente, sino que también ofrece una experiencia
-               agradable y profesional.
-
-
-
-
-
-
-               Preguntas para Reflexionar
-
-
-
-                   1.  ¿Cómo mejora la experiencia del usuario al aplicar el enfoque mobile-first en el
-                       desarrollo de una aplicación?</code></pre>
+               export default AllProductos;</code></pre>
      	</div>
     
      </div>
@@ -214,7 +203,7 @@ function MM_swapImage() { //v3.0
            <tr>
              <td width="22%" height="44"><a href="page7.html"><img src="images/previous.png" width="26" height="19" id="Image2" onmouseover="MM_swapImage('Image2','','images/previous2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
              <td width="43%">
-             	&nbsp;&nbsp;&nbsp;<a href="page3.html">3</a>&nbsp;&nbsp;&nbsp;<a href="page4.html">4</a>&nbsp;&nbsp;&nbsp;<a href="page5.html">5</a>&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>
+             	&nbsp;&nbsp;&nbsp;<a href="page3.html">3</a>&nbsp;&nbsp;&nbsp;<a href="page4.html">4</a>&nbsp;&nbsp;&nbsp;<a href="page5.html">5</a>&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>
              </td>
              <td width="35%"><a href="page9.html"><img src="images/next.png" width="26" height="19" id="Image1" onmouseover="MM_swapImage('Image1','','images/next2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
            </tr>

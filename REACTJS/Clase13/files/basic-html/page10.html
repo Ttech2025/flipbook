@@ -4,7 +4,7 @@
 				<meta name="robots" content="all"/>
         <meta name="description" content="description">
         <meta name="keywords" content="">
-        <title>Page 10 - REACT - Clase 13</title>
+        <title>Page 10 - REACTJS - Clase 13</title>
 <style type="text/css">
 <!--
 body {
@@ -141,7 +141,7 @@ function MM_swapImage() { //v3.0
   </div>
   <div id="content">
      <div id="content-top">
-        <div id="content-top1">Page 10 - REACT - Clase 13</div>
+        <div id="content-top1">Page 10 - REACTJS - Clase 13</div>
         <div id="content-top2">P. 10</div>
      </div>
      <div id="content-middle">
@@ -152,56 +152,57 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>4.  Asegurar que la aplicación sea completamente responsiva, adaptándose a diferentes
-                       tamaños de pantalla.
+    <pre style="white-space:pre-line"><code>Implementación de una barra de búsqueda en
 
-                   5.  Dejar la aplicación casi lista para su despliegue en un servidor, con los ajustes
-                       finales de SEO utilizando React Helmet.
-
-
-               Requerimientos:
-
-
-                   1.  Diseñar una interfaz responsiva con Bootstrap y styled-components:
-
-
-                          ○  Utiliza el sistema de grillas de Bootstrap para que los productos se muestren
-                              de manera eficiente en pantallas grandes, medianas y pequeñas.
-                          ○  Aplica estilos a los componentes utilizando styled-components para
-
-                              personalizar el diseño y hacer que el código sea más modular y limpio.
-
-
-                   2.  Integrar iconos con React Icons:
-                          ○  Instala React Icons y agrega iconos en botones y otros elementos
-                              interactivos. Por ejemplo, agrega un icono de carrito en la navbar para
-
-                              mejorar la claridad visual de la acción de compra.
-
-
-                   3.  Agregar notificaciones con React Toastify:
-                          ○  Integra React Toastify para mostrar notificaciones de manera elegante y no
-                              intrusiva. Por ejemplo, muestra un mensaje de éxito cuando un producto se
-
-                              agrega al carrito.
+               el eCommerce
 
 
 
-                   4.  Mejorar la accesibilidad y el SEO de la aplicación:
-                          ○  Utiliza React Helmet para mejorar el SEO de la aplicación. Modifica las
-
-                              etiquetas &lt;title&gt; y &lt;meta&gt; para asegurar que la aplicación sea fácilmente
-                              indexada por los motores de búsqueda.
 
 
-                   5.  Preparar la aplicación para su despliegue:
-                          ○  Asegúrate de que todos los estilos sean responsivos y de que la interfaz
+                                              Ahora que hemos mejorado la apariencia y la usabilidad de
+                                              la aplicación, vamos a agregar una funcionalidad clave: una
+                                              barra de búsqueda que permita a los usuarios filtrar
+                                              productos en tiempo real.
 
-                              funcione correctamente en diferentes dispositivos y tamaños de pantalla.
-                          ○  Revisa que la aplicación esté lista para su despliegue en un servidor,
-                              asegurando la optimización de los tiempos de carga y la experiencia del
 
-                              usuario en general.</code></pre>
+
+               Opciones de implementación
+
+               Podemos hacerlo de dos maneras:
+
+
+                   1.  Búsqueda con useState dentro del componente de       productos.
+                   2.  Búsqueda global utilizando Context API.
+
+
+
+
+               Método 1: Búsqueda con useState en el componente de
+
+               productos
+
+
+               Vamos a modificar AllProductos.jsx para agregar una barra de búsqueda y filtrar los
+               productos en tiempo real.
+
+
+               1 Agregar el estado del término de búsqueda
+                 ⃣
+               import { useState } from "react";
+
+               export default function AllProductos({ productos }) {
+                 const [busqueda, setBusqueda] = useState(""); // Estado para
+               almacenar el término de búsqueda
+
+                 // Filtrar productos según el término de búsqueda
+                 const productosFiltrados = productos.filter((producto) =&gt;
+                   producto.name.toLowerCase().includes(busqueda.toLowerCase())
+                 );
+
+                 return (
+                   &lt;&gt;
+                     &lt;input</code></pre>
      	</div>
     
      </div>
@@ -211,7 +212,7 @@ function MM_swapImage() { //v3.0
            <tr>
              <td width="22%" height="44"><a href="page9.html"><img src="images/previous.png" width="26" height="19" id="Image2" onmouseover="MM_swapImage('Image2','','images/previous2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
              <td width="43%">
-             	&nbsp;&nbsp;&nbsp;<a href="page5.html">5</a>&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>
+             	&nbsp;&nbsp;&nbsp;<a href="page5.html">5</a>&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>&nbsp;&nbsp;&nbsp;<a href="page14.html">14</a>&nbsp;&nbsp;&nbsp;<a href="page15.html">15</a>
              </td>
              <td width="35%"><a href="page11.html"><img src="images/next.png" width="26" height="19" id="Image1" onmouseover="MM_swapImage('Image1','','images/next2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
            </tr>

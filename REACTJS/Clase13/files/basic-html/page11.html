@@ -4,7 +4,7 @@
 				<meta name="robots" content="all"/>
         <meta name="description" content="description">
         <meta name="keywords" content="">
-        <title>Page 11 - REACT - Clase 13</title>
+        <title>Page 11 - REACTJS - Clase 13</title>
 <style type="text/css">
 <!--
 body {
@@ -141,7 +141,7 @@ function MM_swapImage() { //v3.0
   </div>
   <div id="content">
      <div id="content-top">
-        <div id="content-top1">Page 11 - REACT - Clase 13</div>
+        <div id="content-top1">Page 11 - REACTJS - Clase 13</div>
         <div id="content-top2">P. 11</div>
      </div>
      <div id="content-middle">
@@ -152,52 +152,36 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Reflexión final
+    <pre style="white-space:pre-line"><code>type="text"
+                       placeholder="Buscar productos..."
+                       className="form-control mb-3"
+                       value={busqueda}
+                       onChange={(e) =&gt; setBusqueda(e.target.value)}
+                     /&gt;
+
+                     {productosFiltrados.length &gt; 0 ? (
+                       productosFiltrados.map((producto) =&gt; (
+                         &lt;div key={producto.id} className="card product-card mx-2"&gt;
+                           &lt;img src={producto.img} className="card-img-top"
+               alt={producto.name} /&gt;
+                           &lt;div className="card-body text-center"&gt;
+                             &lt;h5 className="card-title"&gt;{producto.name}&lt;/h5&gt;
+                             &lt;p className="card-text"&gt;{producto.price}&lt;/p&gt;
+                             &lt;p className="card-text"&gt;{producto.description}&lt;/p&gt;
+                           &lt;/div&gt;
+                         &lt;/div&gt;
+                       ))
+                     ) : (
+                       &lt;p&gt;No hay productos que coincidan con la búsqueda.&lt;/p&gt;
+                     )}
+                   &lt;/&gt;
+                 );
+               }
 
 
 
-
-               En esta clase, optimizamos la apariencia y la funcionalidad de nuestra aplicación para que
-               esté lista para su despliegue. En la próxima clase, veremos cómo subirla a un servidor para
-
-               que cualquiera pueda acceder a ella. ¡Estamos cada vez más cerca del objetivo final!   
-
-
-
-
-                Materiales y Recursos Adicionales:
-
-
-                   ★  Bootstrap
-                   ★  styled-components
-
-                   ★  React Icons
-                   ★  React Toastify
-                   ★  Framer Motion
-
-
-
-               Preguntas para Reflexionar:
-
-                   ●  ¿Cómo puedes asegurar que una aplicación React sea completamente responsiva
-
-                       utilizando Bootstrap y styled-components?
-                   ●  En un proyecto con muchos componentes, ¿qué ventajas ofrece usar
-
-                       styled-components frente a usar clases CSS tradicionales o Bootstrap?
-                   ●  ¿Qué aspectos de la experiencia del usuario mejoran al agregar iconos con React
-                       Icons y notificaciones con React Toastify en una aplicación?
-
-                   ●  ¿Cómo podría la implementación de React Helmet mejorar el SEO de una aplicación
-                       React, y qué consideraciones debes tener al utilizarlo?
-
-
-               Próximos Pasos:
-
-                   ●  Diseño mobile-first y adaptabilidad de la aplicación.
-                   ●  Mejores prácticas de diseño UI/UX.
-
-                   ●  Revisión de la aplicación para mejorar la experiencia de usuario.</code></pre>
+               Con este código, cada vez que el usuario escriba en el input, se actualizará la lista de
+               productos mostrados en pantalla.</code></pre>
      	</div>
     
      </div>
@@ -207,7 +191,7 @@ function MM_swapImage() { //v3.0
            <tr>
              <td width="22%" height="44"><a href="page10.html"><img src="images/previous.png" width="26" height="19" id="Image2" onmouseover="MM_swapImage('Image2','','images/previous2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
              <td width="43%">
-             	&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>
+             	&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>&nbsp;&nbsp;&nbsp;<a href="page14.html">14</a>&nbsp;&nbsp;&nbsp;<a href="page15.html">15</a>&nbsp;&nbsp;&nbsp;<a href="page16.html">16</a>
              </td>
              <td width="35%"><a href="page12.html"><img src="images/next.png" width="26" height="19" id="Image1" onmouseover="MM_swapImage('Image1','','images/next2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
            </tr>

@@ -4,7 +4,7 @@
 				<meta name="robots" content="all"/>
         <meta name="description" content="description">
         <meta name="keywords" content="">
-        <title>Page 12 - REACT - Clase 13</title>
+        <title>Page 12 - REACTJS - Clase 13</title>
 <style type="text/css">
 <!--
 body {
@@ -141,7 +141,7 @@ function MM_swapImage() { //v3.0
   </div>
   <div id="content">
      <div id="content-top">
-        <div id="content-top1">Page 12 - REACT - Clase 13</div>
+        <div id="content-top1">Page 12 - REACTJS - Clase 13</div>
         <div id="content-top2">P. 12</div>
      </div>
      <div id="content-middle">
@@ -152,7 +152,56 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code></code></pre>
+    <pre style="white-space:pre-line"><code>Método 2: Búsqueda global con Context API
+
+
+
+               Si queremos que la búsqueda se pueda usar en diferentes partes de la app, podemos
+               almacenarla en Context API.
+
+
+                 ⃣
+               1 Crear el Contexto de Búsqueda
+                  context/SearchContext.jsx
+
+               import { createContext, useState, useContext } from "react";
+
+               const SearchContext = createContext();
+
+               export function SearchProvider({ children }) {
+                 const [busqueda, setBusqueda] = useState("");
+
+                 return (
+                   &lt;SearchContext.Provider value={{ busqueda, setBusqueda }}&gt;
+                     {children}
+                   &lt;/SearchContext.Provider&gt;
+
+                 );
+               }
+               export function useSearch() {
+                 return useContext(SearchContext);
+               }
+
+
+               2 Envolver la app con el SearchProvider
+                 ⃣
+                  App.jsx
+
+
+               import { SearchProvider } from "./context/SearchContext";
+               function App() {
+                 return (
+                   &lt;SearchProvider&gt;
+                     &lt;Router&gt;
+                       &lt;Navbar /&gt;
+                       &lt;Routes&gt;
+                         &lt;Route path="/" element={&lt;AllProductos /&gt;} /&gt;
+                         {/* Otras rutas */}
+                       &lt;/Routes&gt;
+                       &lt;Footer /&gt;
+                     &lt;/Router&gt;
+                   &lt;/SearchProvider&gt;
+                 );}</code></pre>
      	</div>
     
      </div>
@@ -162,9 +211,9 @@ function MM_swapImage() { //v3.0
            <tr>
              <td width="22%" height="44"><a href="page11.html"><img src="images/previous.png" width="26" height="19" id="Image2" onmouseover="MM_swapImage('Image2','','images/previous2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
              <td width="43%">
-             	&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>
+             	&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>&nbsp;&nbsp;&nbsp;<a href="page14.html">14</a>&nbsp;&nbsp;&nbsp;<a href="page15.html">15</a>&nbsp;&nbsp;&nbsp;<a href="page16.html">16</a>&nbsp;&nbsp;&nbsp;<a href="page17.html">17</a>
              </td>
-             <td width="35%"><a href=""><img src="images/next.png" width="26" height="19" id="Image1" onmouseover="MM_swapImage('Image1','','images/next2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
+             <td width="35%"><a href="page13.html"><img src="images/next.png" width="26" height="19" id="Image1" onmouseover="MM_swapImage('Image1','','images/next2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
            </tr>
          </table>
        </div>
@@ -177,7 +226,7 @@ function MM_swapImage() { //v3.0
   <p>&nbsp;</p>
   <p>&nbsp;</p>
   <p>&nbsp;</p>
-  <p><a href=""><img src="images/next_big.png" width="90" height="80" /></a></p>
+  <p><a href="page13.html"><img src="images/next_big.png" width="90" height="80" /></a></p>
 </div>
 
 
