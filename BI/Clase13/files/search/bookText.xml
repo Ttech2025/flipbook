@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="13"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase 13 | Stor ytelling con Datos
+
+
+
+
+
+               Temario:
+
+                   ●  Importancia del storytelling en BI. Los stakeholders.
+                   ●  Cómo estructurar una narrativa de datos
+                   ●  Casos de estudio efectivos de storytelling
+
+
+
+
+                 Objetivos de la Clase:
+                   ●  Analizar y comprender las necesidades y expectativas de los stakeholders
+                       en un proyecto de inteligencia de negocios.
+                   ●  Crear una narrativa de datos efectiva que presente los hallazgos y
+                       recomendaciones de manera clara y concisa.
+                   ●  Utilizar visualizaciones de datos para apoyar la narrativa y comunicar los
+                       resultados de manera efectiva.
+                   ●  Desarrollar habilidades para comunicar insights y recomendaciones a
+                       stakeholders no técnicos de manera efectiva.]]></page><page Index="3"><![CDATA[Storytelling
+
+
+               En  el  mundo  de  las  ciencias  de  datos,  la  capacidad  de
+               comunicar  insights  y  hallazgos  de  manera  efectiva  es
+               fundamental.  El storytelling es una herramienta poderosa
+               para  lograr  esto,  ya  que  permite  transformar  datos
+               complejos  en  narrativas  comprensibles  y  atractivas.
+               En esta clase, exploraremos el concepto de storytelling, su
+               importancia  en  el  ámbito  de  la  inteligencia  de  negocios
+               (BI),  cómo  estructurar  una  narrativa  de  datos  efectiva,  y
+               conoceremos a quienes orientan los objetivos de nuestro
+               trabajo: los stakeholders.
+
+
+               ¿Qué es Storytelling?
+
+
+
+               El storytelling es el arte de contar historias de manera que capturen la atención
+               y la imaginación del público. En el contexto de las ciencias de datos, el storytelling
+               se  refiere  a  la  capacidad  de  transformar  datos  complejos  en  narrativas
+               comprensibles  y  atractivas.  Esta  habilidad  permite  a  las  organizaciones  tomar
+               decisiones  informadas,  comunicar  hallazgos  de  manera  efectiva  y,  en  última
+               instancia, generar valor a partir de los datos.
+
+
+               Importancia del Storytelling en BI
+
+
+               En  un  mundo  donde  la  cantidad  de  información  disponible  es  abrumadora,  el
+               storytelling se transforma en una herramienta poderosa para los científicos de datos.
+               No  solo  se  trata  de  presentar  datos  en  bruto,  sino  de  convertir  esos  datos  en
+               relatos  que  conecten  emocionalmente  con  la  audiencia.  Una  narrativa  bien
+               estructurada  puede  resaltar  tendencias,  señalar  problemas  y proponer soluciones
+               que, de otro modo, podrían pasar desapercibidas en una simple tabla de números.
+               El storytelling permite:
+                   ●  Comunicar insights complejos de manera sencilla y accesible
+                   ●  Capturar la atención y la imaginación del público
+                   ●  Establecer una conexión emocional con el público
+                   ●  Incrementar la comprensión y la retención de la información]]></page><page Index="4"><![CDATA[Estructurando una Narrativa de Datos
+
+
+               Para estructurar una narrativa de datos efectiva, es importante seguir los siguientes
+               pasos:
+                    1. Definir el propósito: Clarificar el mensaje que se quiere transmitir y cómo los
+                      datos  apoyan  esta idea. ¿Qué es lo que se quiere comunicar? ¿Cuál es el
+                      objetivo de la narrativa?
+                    2. Identificar  al  público:  Es  fundamental  entender  quiénes  son  los
+                      stakeholders  involucrados  y  qué  esperan  obtener  de  la  información
+                      presentada.  ¿Quién  es  el  público  objetivo?  ¿Qué  son  sus  intereses  y
+                      necesidades?
+                    3. Seleccionar  los  datos:  No todos los datos son necesarios; elegir aquellos
+                      que son más significativos para el tipo de historia que se quiere contar. ¿Qué
+                      datos son relevantes para la narrativa? ¿Cómo se pueden utilizar para apoyar
+                      el mensaje?
+                    4. Crear  una  estructura:  Al igual que en cualquier historia, se debe tener un
+                      inicio,  desarrollo  y  cierre.  En  el  inicio,  se  debe  presentar  el  contexto  y  la
+                      problemática;  en  el  desarrollo,  se  expondrán los datos y hallazgos; y en el
+                      cierre, se proponen soluciones o reflexiones finales. ¿Cuál es la estructura de
+                      la narrativa? ¿Cómo se pueden organizar los datos para contar una historia
+                      coherente?
+                    5. Utilizar  visualizaciones:  Gráficos  y  otros  elementos  visuales  facilitan  la
+                      comprensión  y  hacen  la  historia  más  atractiva.  ¿Cómo  se  pueden  utilizar
+                      visualizaciones para comunicar los datos de manera efectiva?]]></page><page Index="5"><![CDATA[Casos de Estudio Efectivos de Storytelling
+
+
+               Existen numerosos casos de empresas que han utilizado el storytelling en sus
+               presentaciones  de  datos de manera exitosa. Por ejemplo, algunas organizaciones
+               han logrado presentar estadísticas de ventas a través de historias que destacan el
+               impacto  de  sus  productos  en  la  vida  de  sus  clientes.  Estas  narrativas  no  solo
+               comunican  los  números,  sino  que  también  crean  conexiones  emocionales  que
+               resuenan más allá de la cifra en sí.
+               Algunos ejemplos notables incluyen:
+                   ●  Hans  Rosling,  especialista  en  estadísticas  y  educador.  Utiliza  datos  y
+                       visualizaciones para contar la historia de la población y la salud global a lo
+                       largo del tiempo.
+                   ●  Nate  Silver,  un  estadístico  y  escritor  estadounidense.  Creador  de
+                       FiveThirtyEight, especilaista en análisis de procesos electorales y partidos de
+                       bésibol.
+
+
+
+               Stakeholders
+
+               Los  stakeholders,  o  partes  interesadas,  son  aquellos
+               individuos o grupos que tienen un interés en el resultado
+               de un proyecto o decisión empresarial. En el contexto de
+               BI  y  storytelling,  es  importante  entender  quiénes  son
+               estos stakeholders, ya que sus intereses pueden influir en
+               cómo se estructura la narrativa de datos.
+
+               Necesidades y Expectativas
+
+               Parte de nuestro trabajo radica en identificar y satisfacer las necesidades de los
+               stakeholders. Para ello, es fundamental entender sus expectativas y necesidades.
+               La identificación de necesidades y expectativas se realiza por medio de:
+                   ●  Entrevistas
+                   ●  Encuestas
+                   ●  Reuniones
+
+               Una de las herramientas más utilizadas para identificar y priorizar a los stakeholders
+               es la matriz de stakeholders. Esta matriz se construye incorporando cuatro datos
+               importantes:
+                   ●  Identificación: ¿Quiénes son y cómo se llaman?
+                   ●  Expectativas: ¿Qué buscan y qué esperan?
+                   ●  Obligaciones: ¿Qué derechos tienen? ¿Qué obligaciones tenemos con ellos?
+                   ●  Priorización: ¿Quiénes son los más importantes?]]></page><page Index="6"><![CDATA[Algunas de las necesidades y expectativas de los stakeholders incluyen:
+                   ●  Accionistas: obtener mayor valor de la empresa
+                   ●  Empleados: compensación y desarrollo
+                   ●  Clientes y consumidores: satisfacción y bienestar
+                   ●  Proveedores: desarrollo con mutuo beneficio
+                   ●  Autoridades: pago de impuestos y cumplimiento de normas
+                   ●  Sociedad: calidad de vida
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Métodos de Priorización
+
+
+               La  priorización  de  los  stakeholders  depende  de  cada  organización.  Para
+               establecer prioridades, debemos identificar los diferentes grupos de stakeholders y
+               evaluar su nivel de influencia y interés.
+
+               Existen varias formas de categorizar a los stakeholders:
+                    1. Stakeholders  primarios  y  secundarios:  Los  stakeholders  primarios  son
+                      aquellos  que  están  directamente  afectados  por  las  actividades  de  la
+                      organización,  mientras  que  los  stakeholders  secundarios  son  aquellos  que
+                      están indirectamente afectados.
+                    2. Stakeholders  clave,  estratégicos  y  del  entorno:  Los  stakeholders  clave
+                      son  esenciales  para  la  supervivencia  de  la  organización,  los  stakeholders
+                      estratégicos  están  relacionados  con  las  oportunidades  o  amenazas
+                      relevantes, y los stakeholders del entorno son aquellos que no están incluidos
+                      en las categorías anteriores.
+               Además, se pueden utilizar criterios como:
+                   ●  Urgencia:  La  relación  con  el  stakeholder  está marcada por el tiempo y es
+                       fundamental para la organización.
+                   ●  Legitimidad: El stakeholder tiene una capacidad de influencia moral o legal
+                       sobre el comportamiento de la organización.
+                   ●  Poder: El stakeholder puede influir en otros para tomar decisiones.]]></page><page Index="7"><![CDATA[Estos criterios permiten clasificar a los stakeholders en siete tipos:
+                   ●  Stakeholders latentes
+                   ●  Stakeholders demandados
+                   ●  Stakeholders optativos
+                   ●  Stakeholders dependientes
+                   ●  Stakeholders peligrosos
+                   ●  Stakeholders dominantes
+                   ●  Stakeholders definitivos]]></page><page Index="8"><![CDATA[Estrategias
+
+               Hay  diversas  estrategias  que  desarrolla  la  organización  con  los  stakeholders,  y
+               dependen de diversas relaciones:
+
+                   ●  Relación  poder  vs.  interés:  La  organización  debe  considerar  el  nivel  de
+                       poder e interés de cada stakeholder para desarrollar estrategias efectivas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   ●  Relación poder vs. influencia: La organización debe considerar el nivel de
+                       poder e influencia de cada stakeholder para desarrollar estrategias efectivas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   ●  Relación  impacto  vs.  influencia:  La  organización  debe  considerar  el
+                       impacto  potencial  de  cada  stakeholder  en  la  organización  y  desarrollar
+                       estrategias para mitigar o aprovechar ese impacto.]]></page><page Index="9"><![CDATA[El mapeo de stakeholders permite evitar:
+                   ●  Falsos positivos: Stakeholders que se consideran relevantes pero no lo son.
+                   ●  Fantasmas: Stakeholders que se consideran irrelevantes pero son de suma
+                       importancia.
+
+
+
+
+
+               Reflexión Final
+
+
+               El  storytelling  es  una  herramienta  poderosa  para
+               comunicar  insights  y  hallazgos  en  el  ámbito  de  las
+               ciencias  de  datos.  Al  entender  cómo  estructurar  una
+               narrativa  de  datos  efectiva  y  cómo  considerar  las
+               necesidades  e  intereses  de  los diferentes stakeholders,
+               podemos  aumentar  la  comprensión y la retención de
+               la información, y tomar decisiones más informadas.
+               El storytelling no es solo una técnica, sino una forma de
+               conectar  con  los  demás  y  transmitir  el  valor  y  la
+               importancia de los datos. La incorporación del storytelling
+               en  la  práctica  de  datos  hace  que  la  comunicación  sea
+               más  efectiva  y  mejora  la  influencia  del  liderazgo  en  la
+               organización.
+
+
+
+               Materiales y recursos adicionales
+
+                   ●  Hans Rosling's 200 Countries, 200 Years, 4 Minutes - The Joy of Stats - BBC
+                       (activar subtítulos)
+                   ●  Hans Rosling y el crecimiento de la población mundial  (subtitulado)
+                   ●  538, de Nate Silver
+                   ●  Nate Silver Introduces The 2020 Election Forecast
+
+               Próximos Pasos
+
+                   ●  Herramientas avanzadas.
+                   ●  Funciones avanzadas y fórmulas.
+                   ●  Colaboración y compartición de datos.]]></page><page Index="10"><![CDATA[Ejercicios Prácticos
+
+
+
+
+
+
+
+
+
+               Actividad  1:  Análisis  de  stakeholders  y  creación  de  una
+
+               narrativa de datos
+
+
+               Contexto
+
+                           Estás participando en el proceso de selección de Datawise Consulting y
+                           has sido asignado a trabajar con Silvia, Project Manager y Especialista
+                           en datos. Tu tarea consiste en analizar a los stakeholders de un proyecto
+                           de implementación de un sistema de inteligencia de negocios para una
+                           empresa de retail.
+
+
+               Objetivos:
+
+                   ●  Identificar y analizar a los stakeholders clave del proyecto.
+                   ●  Crear una narrativa de datos que presente los hallazgos y recomendaciones
+                       para la implementación del sistema.
+
+
+               Ejercicio práctico
+
+               La empresa de retail "ModaTendencias" está considerando implementar un sistema
+               de inteligencia de negocios para mejorar su toma de decisiones. Sin embargo, hay
+               varios  stakeholders  involucrados  en  el  proceso de implementación, cada uno con
+               sus propias necesidades y expectativas.
+
+               Tu tarea es analizar a los siguientes stakeholders y sugerir recomendaciones sobre
+               sistemas de BI que se podrían implementar:
+                   ●  El gerente general de ModaTendencias
+                   ●  El equipo de TI de ModaTendencias
+                   ●  Los clientes de ModaTendencias
+
+               Stakeholder             Cargo                   Necesidades             Expectativas
+
+               Gerente General         Gerente General         Mejorar  la  toma  de  Información  precisa]]></page><page Index="11"><![CDATA[decisiones              y oportuna
+               Equipo de TI            Analista de Datos       Integración        con  Solución escalable y
+                                                               sistemas existentes  segura
+
+               Clientes                Cliente                 Mejorar              la  Información
+                                                               experiencia         de  personalizada        y
+                                                               compra                  relevante
+
+
+               ¿Por qué importa esto en DataWise Consulting?
+
+
+
+               En  Datawise  Consulting, es fundamental entender las necesidades y expectativas
+               de  los  stakeholders  clave  en  un  proyecto  de  implementación  de  un  sistema  de
+               inteligencia  de  negocios.  Esto  nos  permite  crear  una  narrativa  de  datos  que  sea
+               relevante  y  efectiva  para  la  audiencia,  y  que  nos  ayude  a  tomar  decisiones
+               informadas  y  a  implementar  soluciones  que  satisfagan  las  necesidades  de  los
+               clientes.
+
+
+
+               Actividad 2: Creación de una narrativa de datos para una
+               presentación a stakeholders
+
+
+
+                            Contexto
+
+                            Estás trabajando con Luis, Analista de BI, en un proyecto de análisis de
+                            datos  para  una  empresa de servicios financieros. Tu tarea consiste en
+                            crear  una  narrativa  de  datos  que  presente  los  hallazgos  y
+               recomendaciones para una presentación a los stakeholders clave.
+
+
+               Objetivos
+                   ●  Crear  una  narrativa  de  datos  clara  y  concisa  que presente los hallazgos y
+                       recomendaciones
+                   ●  Utilizar visualizaciones de datos efectivas para apoyar la narrativa
+
+
+
+               Ejercicio práctico
+
+               La  empresa  de  servicios  financieros  "FinanzasPlus"  está  buscando  mejorar  su
+               proceso de toma de decisiones mediante el análisis de datos. Tu tarea es crear una
+               narrativa  de  datos  que  presente  los  hallazgos  y  recomendaciones  para  una
+               presentación a los stakeholders clave.
+               Los datos que debes analizar son:]]></page><page Index="12"><![CDATA[●  Información sobre las transacciones financieras de los clientes
+                   ●  Datos sobre el rendimiento de las inversiones
+                   ●  Información sobre los riesgos y oportunidades en el mercado
+
+               Luego de explorar lo datos necesarios:
+                   ●  Información sobre las transacciones financieras de los clientes (fecha, monto,
+                       tipo de transacción)
+                   ●  Datos sobre el rendimiento de las inversiones (rentabilidad, riesgo, plazo)
+                   ●  Información  sobre  los  riesgos  y  oportunidades  en  el  mercado  (tendencias,
+                       noticias, eventos)
+
+               Obtenemos el siguiente resumen:
+
+               Monto  Tipo de Transacción                 Rendimiento de la Inversión          Riesgo
+
+               1000      Compra de acciones               10%                                  Alto
+
+               500       Venta de bonos                   5%                                   Moderado
+
+               2000      Compra de fondos mutuos          8%                                   Bajo
+
+                    ¿Qué narrativa podrías crear para resumir la información de esta tabla?
+
+
+               ¿Por qué importa esto en DataWise Consulting?
+
+               En Datawise Consulting, es fundamental crear narrativas de datos claras y concisas
+               que  presenten  los  hallazgos  y  recomendaciones  de  manera  efectiva.  Esto  nos
+               permite comunicar nuestros hallazgos y recomendaciones a los stakeholders clave
+               de  manera  clara  y  convincente,  y  ayudar  a  los  clientes  a  tomar  decisiones
+               informadas.
+
+               ⛔ Estos ejercicios son una simulación de cómo se podría resolver el problema en
+               este  contexto  específico.  Las  soluciones  encontradas  no  aplican  de  ninguna
+               manera a todos los casos.
+               Recuerda  que  las  soluciones  dependen  de  los  sets  de  datos,  el  contexto y los
+               requerimientos específicos de los stakeholders y las organizaciones.]]></page><page Index="13"><![CDATA[]]></page></pages></Search>

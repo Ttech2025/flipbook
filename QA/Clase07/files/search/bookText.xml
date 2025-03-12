@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="9"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase 7: Estrategias de Cobertura y Uso
+
+
+               del Tiempo en QA
+
+
+
+
+               Temario:
+
+
+               Cobertura de pruebas:
+
+                   ●  ¿Cómo medir la cobertura?
+                   ●  Herramientas para asegurar un alto nivel de cobertura.
+
+               Priorización de pruebas:
+
+
+                   ●  Impacto y probabilidad de fallos.
+                   ●  Estrategias para optimizar el tiempo en QA.
+
+               Criterios de entrada, salida y fin de pruebas:
+
+                   ●  Definir cuándo se considera finalizada una prueba.
+                   ●  Indicadores clave de calidad.
+
+
+
+
+
+               Objetivo General
+
+
+               Evaluar la cobertura de pruebas dentro de un proyecto de desarrollo de software y
+               optimizar el tiempo dedicado a QA en cada fase del Software Development Life Cycle
+               (SDLC). Se abordarán estrategias para priorizar pruebas, minimizar reprocesos y definir
+               criterios de entrada, salida y finalización de las pruebas.]]></page><page Index="3"><![CDATA[Cobertura de Pruebas
+
+
+               La cobertura de pruebas es una métrica clave en
+               QA que mide qué porcentaje del sistema ha sido
+               validado mediante test cases.
+
+               ✔ ¿Cómo medir la cobertura?
+               Existen varias formas de medir la cobertura de
+               pruebas, dependiendo del tipo de pruebas aplicadas:
+
+                   ●  Cobertura de requerimientos: ¿Se han
+                       creado test cases para cada requerimiento
+                       funcional y no funcional?
+                   ●  Cobertura de código: ¿Qué porcentaje del
+                       código ha sido ejecutado en las pruebas?
+                       (Aplicable en pruebas automatizadas).
+                   ●  Cobertura de escenarios: ¿Se han probado todas las combinaciones posibles de
+                       datos y condiciones de uso?
+
+               ✔ Herramientas para medir la cobertura:
+
+
+                   ●  Test Management Tools: Jira, TestRail, Zephyr.
+                   ●  Herramientas de análisis de código: SonarQube, Jacoco (para pruebas
+                       automatizadas).
+
+
+               Ejemplo aplicado a la App del Hotel:
+               Para medir la cobertura del módulo de reservas, se debe asegurar que existen test cases
+               para:
+
+
+                   ●  Selección de fechas y habitaciones.
+                   ●  Validación de disponibilidad.
+                   ●  Confirmación y pago.
+
+
+               Si solo se han probado los test cases de selección de fechas y no los de confirmación y
+               pago, la cobertura es insuficiente.]]></page><page Index="4"><![CDATA[Tipos de Cobertura de Pruebas
+
+
+
+                   1)  Cobertura de Requisitos
+                          ●  Verifica que todas las especificaciones funcionales y no funcionales han sido
+                              probadas.
+                          ●  Se rastrea con una matriz de trazabilidad (requisitos vs. casos de prueba).
+                   2)  Cobertura de Código (usada en pruebas unitarias)
+                          ●  Cobertura de sentencias: Evalúa si cada línea de código ha sido ejecutada
+                          ●  Cobertura de ramas: Verifica si todas las condiciones en estructuras de
+                              decisión (if, switch) han sido evaluadas
+                          ●  Cobertura de caminos: Comprueba todas las posibles rutas de ejecución en
+                              el código.
+                   3)  Cobertura de Casos de Prueba: Asegura que los escenarios de prueba cubren las
+                       funcionalidades críticas del sistema. Se mide comparando el número de pruebas
+                       ejecutadas vs. el total planificado.
+                   4)  Cobertura de Datos de Prueba: Se evalúa si las pruebas consideran diferentes
+                       combinaciones de datos de entrada. Incluye validaciones con datos válidos,
+                       inválidos y bordes (equivalencia y partición).
+
+               ¿Cómo Medir la Cobertura de Pruebas?
+
+
+
+               Fórmula General:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Buenas Prácticas para Mejorar la Cobertura
+
+
+                   1.  Alinear las pruebas con los riesgos del negocio.
+                   2.  Usar técnicas como Partición de Equivalencia y Análisis de Valores Límite.
+                   3.  Incluir pruebas exploratorias para detectar escenarios no contemplados.
+                   4.  Automatizar pruebas para mayor alcance y repetitividad.
+                   5.  Usar métricas para identificar brechas en la cobertura.]]></page><page Index="5"><![CDATA[Priorización de Pruebas
+
+
+               La priorización de pruebas en QA es clave para optimizar el tiempo y los recursos
+               disponibles, asegurando que los aspectos más críticos del software sean validados primero
+
+                                                      ✔ Impacto y probabilidad de fallos
+                                                      Para optimizar el tiempo en QA, se deben priorizar
+                                                      las pruebas según:
+
+                                                          ●  Impacto: ¿Qué tan grave sería el fallo si
+                                                      ocurre en producción?
+                                                          ●  Probabilidad: ¿Qué tan probable es que el
+                                                      fallo ocurra?
+
+                                                      Las pruebas se pueden clasificar en Alta, Media o
+                                                      Baja prioridad:
+
+                                                          ●  Alta: Funcionalidades críticas (ejemplo:
+                                                      procesamiento de pagos en la App del Hotel).
+                                                          ●  Media: Funcionalidades secundarias
+                       (ejemplo: generación de QR para check-in).
+                   ●  Baja: Mejoras menores en la interfaz de usuario.
+
+
+               ✔ Estrategias para optimizar el tiempo en QA
+
+                   ●  Ejecutar primero los test cases de mayor impacto.
+                   ●  Automatizar pruebas repetitivas para reducir tiempos.
+                   ●  Reutilizar casos de prueba de regresión en cada sprint.
+
+               Ejemplo de priorización en un sprint ágil
+
+                   1.  Probar flujos críticos (registro, pagos, autenticación).
+                   2.  Ejecutar pruebas en módulos de alto riesgo o con cambios recientes.
+                   3.  Validar integraciones con otros sistemas clave.
+                   4.  Realizar pruebas exploratorias en áreas de incertidumbre.
+                   5.  Ejecutar regresión en las funciones principales antes del release.
+
+               Ejemplo aplicado a la App del Hotel:
+               La funcionalidad de pago en línea tiene alta prioridad porque un error impediría que los
+               clientes realicen reservas. En cambio, un ajuste estético en los colores del formulario tiene
+               baja prioridad.]]></page><page Index="6"><![CDATA[Criterios de Entrada, Salida y Fin de Pruebas
+
+
+               Los criterios de entrada, salida y fin de pruebas son fundamentales en QA para
+               garantizar que las pruebas comiencen y terminen en el momento adecuado, asegurando
+               calidad y eficiencia en el proceso.
+
+               ✔ Criterios de Entrada (cuándo iniciar las pruebas):
+               Son los requisitos previos que deben cumplirse antes de
+               ejecutar las pruebas. Condiciones mínimas para iniciar
+               las pruebas:
+
+
+                   ●  Requerimientos bien definidos.
+                   ●  Desarrollo del módulo completado.
+                   ●  Datos de prueba preparados.
+
+
+               ✔ Criterios de Salida (cuándo considerar que las
+               pruebas han finalizado): Definen cuándo una fase de
+               pruebas puede darse por terminada. Algunos criterios
+               comunes son:
+
+
+                   ●  Se ejecutaron todos los test cases planificados.
+                   ●  No quedan defectos críticos abiertos.
+
+
+               ✔ Criterios de Fin de Pruebas (cierre formal del proceso): Incluyen la finalización del
+               proceso de pruebas y la entrega de resultados. Ejemplos:
+
+                   ●  Reporte final con métricas de calidad y defectos detectados.
+                   ●  Validación de que los objetivos de prueba se cumplieron.
+                   ●  Revisión de lecciones aprendidas para mejorar futuros ciclos de prueba.
+                   ●  Firma de aceptación de pruebas por parte del equipo de desarrollo y negocio.
+
+
+               ✔ Indicadores clave de calidad:
+
+                   ●  % de cobertura de pruebas ejecutadas.
+                   ●  Número de defectos abiertos/cerrados en cada sprint.
+
+                 Importante: Los criterios deben definirse desde el inicio del proyecto y ajustarse según la
+               metodología de trabajo (ágil, waterfall, etc.).
+
+               Ejemplo aplicado a la App del Hotel:
+               Si el módulo de reservas tiene 5 defectos críticos abiertos, no se puede considerar
+               finalizado hasta que sean corregidos.]]></page><page Index="7"><![CDATA[Reflexión Final
+
+
+               "No es necesario probarlo todo, pero sí lo esencial."
+
+
+               En QA, no se trata de hacer más pruebas, sino de hacer las pruebas correctas en el
+               momento adecuado. La clave está en medir la cobertura, priorizar los esfuerzos y definir
+               criterios claros de finalización.
+
+
+
+
+
+               Material Complementario
+
+
+                   ●      ISTQB Foundation Level – Coverage-Based Testing.
+                   ●      Video: Cómo medir la cobertura de pruebas en un sprint ágil.]]></page><page Index="8"><![CDATA[Ejercicio Práctico
+
+
+
+               ¡Otro dia en Talento Lab!
+
+
+                                                 Durante la reunión de sprint, el equipo de QA de Talento
+                                                 Lab recibe feedback sobre las pruebas ejecutadas en el
+                                                 sprint anterior. Silvia explica que algunos defectos fueron
+                                                 detectados demasiado tarde en el proceso, generando
+                                                 retrasos.
+
+
+
+
+                                Matías les desafía a evaluar la cobertura de pruebas, priorizar los test
+                                cases más críticos y definir cuándo un módulo puede considerarse
+                                probado completamente.
+
+
+
+
+
+
+                            Ejemplo de: Evaluación de Cobertura
+
+
+
+
+
+               Actividades a realizar:
+
+               1) Evaluación de Cobertura
+
+                   ●  Medir qué porcentaje del módulo seleccionado de Talento Lab ha sido cubierto con
+                       test cases.
+                   ●  Identificar si hay funcionalidades sin pruebas.
+
+               2) Priorización de Pruebas
+
+
+                   ●  Seleccionar los 3 casos de prueba más críticos y justificar por qué son prioritarios.
+
+               3) Definir Criterios de Salida
+
+                   ●  Establecer cuándo se considera finalizada la prueba del módulo de reservas.
+
+
+                Entrega:
+
+                   ●  Hoja de cálculo con la evaluación de cobertura y los test cases priorizados.
+                   ●  Documento con los criterios de salida establecidos.]]></page><page Index="9"><![CDATA[]]></page></pages></Search>

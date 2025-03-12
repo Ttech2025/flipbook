@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="14"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase 11: Dashboards II
+
+
+
+
+
+               Temario:
+
+                   ●  Indicadores clave de rendimiento (KPIs)
+                   ●  Métricas de marketing digital.
+                   ●  Fuentes de datos combinados: Repaso SQL JOINS
+
+
+
+
+
+                 Objetivos de la Clase:
+
+                   ●  Conocer los KPI y  saber diferenciarlos de las métricas.
+                   ●  Explorar las principales métricas de marketing digital.
+                   ●  Aprender a combinar fuentes de datos en Looker Studio.]]></page><page Index="3"><![CDATA[Introducción
+
+
+               En el campo del marketing digital, el análisis de datos
+               no  ayuda  a  entender  la  efectividad  de  nuestras
+               campañas. Para ello, se utilizan diversos indicadores
+               y métricas que permiten evaluar el rendimiento de
+               nuestras  estrategias.  En  esta  clase,  abordaremos
+               qué  son  los KPIs,  sus  características  y  cómo  se
+               diferencian  de  las  métricas.  Luego,  exploraremos
+               diversas métricas específicas del marketing digital.
+
+
+
+               1. KPIs: ¿Qué son y por qué son importantes?
+
+
+               Los KPI (Key  Performance  Indicators)  son  indicadores  clave  de  rendimiento  que
+               ayudan  a  medir  el  éxito  de  una  organización  en  relación  con  sus  objetivos
+               estratégicos. Cada KPI tiene un propósito específico y, a menudo, se utilizan para
+               evaluar  el  progreso  a  largo  plazo.  Los  KPIs  permiten  a  las  empresas  tomar
+               decisiones sobre sus estrategias de marketing.
+
+               Ejemplos de KPIs
+                    1.  Costo   de   adquisición   de   cliente   (CAC):  Este  indicador  refleja  el  costo
+                      promedio que incurre una empresa para adquirir un nuevo cliente. Se calcula
+
+                      sumando  todos  los  costos  de  marketing  y  ventas  durante  un  período  y
+                      dividiéndolos  por  la  cantidad  de  nuevos  clientes  adquiridos  en  ese  mismo
+                      período.
+
+
+
+
+
+
+                    2.  Valor  de  vida  del  cliente  (CLV): El CLV estima el ingreso total que se espera
+                      generar  de  un  cliente  durante  toda  su  relación  con  la  empresa.  Este  KPI
+                      ayuda a entender cuántos recursos se pueden invertir en la adquisición de un
+                      cliente en función de su potencial valor.
+
+
+               CLV = (Promedio de ingresos por cliente × Duración esperada del cliente) −
+
+                                                Costo de adquisición]]></page><page Index="4"><![CDATA[3.  Retorno  sobre  la  inversión  (ROI): Este indicador mide la rentabilidad de una
+                      inversión. Se calcula con la fórmula:
+
+
+
+
+
+
+
+
+
+
+
+               Diferencias entre KPI y Métricas
+
+
+               Es  importante  diferenciar  entre  KPIs  y  métricas.  Las
+               métricas     son  simplemente  datos  cuantificables,
+               mientras que los KPIs son métricas que se consideran
+               críticas para el éxito de un negocio. En otras palabras,
+               todos  los  KPIs  son  métricas,  pero  no  todas  las
+               métricas son KPIs. Los KPIs se utilizan para medir el
+               rendimiento  respecto  a  los  objetivos  estratégicos,
+               mientras que las métricas pueden ser más generales y
+               no necesariamente relevantes para los objetivos a largo
+               plazo.
+
+               2. Métricas de Marketing Digital
+
+
+               Dentro  del  ámbito  del  marketing  digital,  existen  diversas  métricas  que  ayudan  a
+               evaluar la eficacia de nuestras campañas. A continuación, se describen algunas de
+               las métricas más relevantes:
+                   ●   ROAS    (Return   on   Advertising   Spend):  Mide  la  eficacia  de  una  campaña
+                       publicitaria,  calculando  cuántos  ingresos  genera  cada  peso  gastado.  Se
+                       calcula como:
+
+
+
+
+
+
+                   ●   CPA  (Costo  por  Adquisición): Refleja el costo promedio de adquirir un cliente
+                       y es parecido al CAC, pero se enfoca en el costo de una acción específica,
+                       como una conversión.
+                   ●   Número   de  conversiones: Se refiere a la cantidad de usuarios que realizan
+                       una acción deseada, como completar una compra o registrarse en un boletín.
+                   ●   CPC   (Costo   por   clic):  Es  el  costo  promedio  pagado  por  cada  clic  en  un
+                       anuncio.]]></page><page Index="5"><![CDATA[●   CPM   (Costo  por  mil  impresiones): Mide el costo de mostrar anuncios a mil
+                       usuarios. Es fundamental en campañas de branding.
+                   ●   Tasa  de  conversión: Mide el porcentaje de visitantes que realizan la acción
+                       deseada:
+
+
+
+
+
+
+                   ●   CTR  (Tasa  de  clics): Indica el porcentaje de personas que hicieron clic en un
+                       anuncio en relación con la cantidad de impresiones.
+
+
+
+
+
+
+
+                   ●   Número de impresiones: Refleja cuántas veces se ha mostrado un anuncio.
+                   ●   Valores   de   conversión:  Estos  son  los  ingresos  generados  por  las
+                       conversiones y pueden ayudar a medir la eficacia de las campañas.
+                   ●   Nivel  de  calidad: Es una métrica que utiliza Google Ads para medir la calidad
+                       de los anuncios, palabras clave y páginas de destino.
+                   ●   Sesiones: Se refiere a la cantidad de veces que un usuario visita una página
+                       web durante un período específico.
+
+
+               3. Fuentes de Datos Combinados
+
+
+               En  Looker  Studio,  combinar  datos  de  diferentes  fuentes  es  fundamental  para
+               obtener un análisis más completo. Para ello, se utilizan SQL        JOINS, que permiten
+               unir tablas a partir de una relación común. Empecemos por un tepaso de los tipos
+               de join de SQL:
+
+
+               Algunos tipos de JOINS
+
+                   ●   INNER JOIN: Devuelve filas que tienen coincidencias en ambas tablas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   ●   LEFT  JOIN: Devuelve todas las filas de la tabla izquierda y las coincidencias
+                       de la tabla derecha, mostrando NULL cuando no hay coincidencias.]]></page><page Index="6"><![CDATA[●   RIGHT   JOIN: Devuelve todas las filas de la tabla derecha y las coincidencias
+                       de la tabla izquierda.
+
+
+
+
+
+
+
+
+
+
+
+                   ●   FULL  OUTER     JOIN: Devuelve filas cuando hay una coincidencia en una de
+                       las tablas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Ejemplo Práctico:
+
+               Supongamos que tenemos los siguientes archivos de datos:
+
+               Tabla grades: contiene los niveles de estudio de cada alumno
+               | class_ID | student_id | grade |
+               |----------|------------|-------|
+               | 1        | 1          |  A    |
+               | 2        | 3          |  B    |
+               | 3        | 2          |  C    |
+
+               Tabla students: contiene los datos del alumno
+               | student_ID | student_name  |     email    | residencia  |
+               |------------|---------------|--------------|-------------|
+               | 1          | Juan Álvarez  | ja@mail.com  | CABA        |
+               | 2          | Susana Gómez  | sg@mail.com  | CABA        |
+               | 3          | Edith Panni   | ep@gmail.com | AMBA        |]]></page><page Index="7"><![CDATA[La  consulta  SQL  para  unir  ambas  tablas  y  obtener  los  alumnos  de  nivel  A  que
+               residen en CABA sería:
+
+               SELECT s.student_name, s.email, g.grade
+               FROM students AS s
+               INNER JOIN grade AS g ON s.student_ID = g.student_id
+               WHERE g.grade = 'A' AND s.residencia = 'CABA';
+
+               | student_name  |     email    | grade |
+               |---------------|--------------|-------|
+               | Juan Álvarez  | ja@mail.com  |  A    |
+
+
+
+               Combinando Datos en Looker Studio
+
+               En Looker Studio podemos combinar datos sin escribir código por medio del editor
+               de  combinación.  Esta  combinación  se  compone  de  al  menos  dos  tablas,  y cinco
+               tablas como máximo.
+
+                   1.  Tablas
+                   2.  Configuración de unión
+
+                   3.  Botón Unirse a otra tabla
+                   4.  Nombre de la combinación
+                   5.  Dimensiones y métricas incluidas
+                   6.  Agrega métricas, un período y filtros
+                   7.  Opción Ocultar campos de unión repetidos y botón GUARDAR]]></page><page Index="8"><![CDATA[Configuración de la unión
+
+               Una configuración de unión vincula pares de tablas en una combinación, que no son
+               otra cosa que los diferentes tipos de JOINS que repasamos en SQL .]]></page><page Index="9"><![CDATA[Reflexión final
+
+
+               Comprender  los  KPIs  y  métricas  esenciales  en marketing digital ayuda a medir y
+               optimizar el rendimiento de nuestras estrategias. Combinando fuentes de datos en
+               Looker Studio, podremos obtener una visión integral del desempeño en campañas
+               digitales.
+
+
+
+               Materiales y recursos adicionales
+
+                   ●  KPIs: Su importancia y cómo utilizarlos (PDF)
+                   ●  Looker Studio: Datos combinados
+
+
+
+               Próximos Pasos
+
+                   ●  Fundamentos de visualización de datos. Ejemplos que hicieron historia.
+                   ●  Tipos de gráficos y cuál usar
+
+                   ●  Errores comunes en visualización. El concepto de carga cognitiva.]]></page><page Index="10"><![CDATA[Ejercicios Prácticos
+
+
+
+
+
+
+
+
+
+               Actividad 1: Análisis de Métricas de Campañas
+
+               Publicitarias
+
+
+               Contexto
+
+                             En  esta  semana  como  pasante  en  Datawise  Consulting,  tu  mentor,
+                             Luis,  el  Analista  de  BI,  te  encargó  una  tarea  clave  para  evaluar  las
+                             campañas  publicitarias  del  último  trimestre.  Este  proyecto  ayudará  a
+                             los  clientes  a  entender  cómo  están  utilizando  su  presupuesto  de
+                             publicidad  y  qué  tan  efectivas  han  sido  sus  estrategias.  Te
+               proporcionaron  datos  recopilados  de  diferentes  fuentes  que  necesitan  ser
+               combinados para obtener un panorama claro.
+
+
+
+               Objetivos
+                   ●  Aprender a combinar múltiples conjuntos de datos en Looker Studio.
+                   ●  Entender  la  importancia  de  las  métricas  de  marketing  digital  como  CPC  y
+                       ROAS en la toma de decisiones.
+                   ●  Crear  un  dashboard  que  visualice  el  rendimiento  de  las  campañas
+
+                       publicitarias.
+
+
+
+
+               Ejercicio práctico
+
+               Te piden que combines dos conjuntos de datos: uno que contiene detalles sobre las
+               campañas publicitarias (incluyendo el gasto, número de clics y conversiones) y otro
+               que  detalla el retorno económico asociado a cada campaña. Deberás identificar y
+               visualizar las siguientes métricas en Looker Studio:
+
+                   1.  Costo por clic (CPC)
+                   2.  Retorno sobre la inversión publicitaria (ROAS)
+                   3.  Tasa de conversión.]]></page><page Index="11"><![CDATA[Generá un dashboard que pueda ser presentado a un cliente que desea saber cómo
+               optimizar su gasto en publicidad y cuáles son sus mejores rendimientos.
+
+               Sets de datos
+
+                   ●  campañas
+                          ○  campaign_id
+                          ○  ad_spent (gasto en publicidad)
+                          ○  clicks (número de clics)
+                          ○  conversions (número de conversiones)
+                   ●  rendimiento
+                          ○  campaign_id
+                          ○  revenue (ingresos generados)
+                          ○  date (fecha de la campaña)
+
+               ¿Por qué importa esto en DataWise Consulting?
+
+               El análisis de campañas publicitarias a través de métricas clave permite a Datawise
+               Consulting ofrecer recomendaciones precisas a sus clientes, ayudándoles a mejorar
+               su ROI y ajustar sus campañas para maximizar los resultados. Este ejercicio no solo
+
+               refuerza tus habilidades técnicas, sino que también contribuye al valor agregado que
+               Datawise brinda al mercado.
+
+
+
+               Actividad 2: Evaluación de KPIs de Clientes
+
+
+
+
+                            Contexto
+
+                            Para  esta  etapa  de  tu  pasantía,  te  asignaron  a  Silvia,  la  Project
+                            Manager  y  Especialista  en  datos,  para  trabajar  en  un  proyecto  que
+                            implica la revisión de los KPIs de varios clientes. Esta tarea es esencial
+                            para entender cómo están utilizando sus datos en el marketing digital.
+               Quieren  asegurarse  de  que  los  clientes  puedan  ver  claramente  su  progreso  y
+               rendimiento a través de un reporte visual en Looker Studio.
+
+
+               Objetivos
+
+                   ●  Aprender a combinar datos de diferentes clientes en Looker Studio.
+                   ●  Identificar KPIs relevantes para diferentes tipos de campañas de marketing.]]></page><page Index="12"><![CDATA[●  Crear  un  informe  visual  que  presente  la  información  de  manera  clara  y
+                       efectiva.
+
+
+
+               Ejercicio práctico
+
+
+               Silvia te proporcionó dos tablas: una con información demográfica de los clientes y
+               otra con los resultados de las campañas. Tu tarea es combinar estos conjuntos de
+               datos  para  calcular  y  visualizar  KPIs  relevantes  haciendo  foco  en  su
+               comportamiento respecto a la distribución demográfica:
+
+                   1.  Promedio de costo de adquisición de cliente (CAC).
+                   2.  Promedio Valores de vida del cliente (CLV).
+                   3.  Promedio de Tasa de retención.
+                   4.  Ingresos totales y promedio..
+                   5.  Desafío:  Investiga cómo ordenarlos de la siguiente manera:
+                          a.  Jóvenes 18-24 años
+                          b.  Jóvenes profesionales
+                          c.  Adultos 25-34 años
+                          d.  Adultos 35-44 años
+                          e.  Adultos mayores 45+
+
+               Para calcular el CLV te indicaron el siguiente procedimiento:
+                   1.  Agrupar las compras por cliente
+                   2.  Ajustar la duración esperada del cliente por la tasa de retención
+                   3.  Calcular el CLV
+
+               CLV  =  (Promedio  de  ingresos  por  cliente  ×  Duración  esperada  del  cliente)  −  Costo  de
+
+               adquisición
+
+               Por ejemplo, si partimos de estos datos:
+
+
+                client_id            revenue              retention_rat        acquisition_cos
+                                                          e                    t
+
+                A                    8000                 75%                  300
+
+                A                    5000                 75%                  300
+
+
+                   1.  Promedio de compras del cliente A :
+                                      (8000  +  5000) / 2  =  13000 / 2  =  6500
+
+                   2.  Duración esperada del cliente:            1
+                                                          1 − (                  −        )]]></page><page Index="13"><![CDATA[1     = 4   ñ    
+                                                    1 − 0.75
+
+                   3.  Calcular CLV: (6500    4)  −  300  = 25700
+
+               Esto indica que podemos esperar que el cliente A genere $25.700 de ingresos a lo
+               largo de los 4 años que se estimó que continuará siendo cliente.
+
+               Finalmente, deberás crear un informe que muestre estos KPIs, utilizando una página
+               por  cada  punto,  para  que  Silvia  pueda  presentarlo  en  la  próxima  reunión  con  el
+               equipo directivo.
+
+               Sets de datos
+                   ●  clientes.csv
+                          ○  client_id
+                          ○  demographics (información demográfica)
+                          ○  acquisition_cost (costo de adquisición)
+                   ●  campañas       Clase 11 BI - Actividad 2 - Data
+                          ○  client_id
+                          ○  revenue (ingresos generados)
+                          ○  retention_rate (tasa de retención)
+                          ○  campaign_date (fecha de la campaña)
+
+
+               ¿Por qué importa esto en DataWise Consulting?
+
+               Evaluar  KPIs  es  fundamental,  ya  que  permite  a  los clientes comprender mejor la
+               efectividad  de  sus  estrategias.  Cada  pasante  que aprende a manejar y visualizar
+               estos  datos  no  solo  se  convierte  en  un  recurso  valioso  para  el  equipo,  sino que
+               también  mejora  la  satisfacción  del  cliente  al  proporcionar  análisis  significativos  y
+               recomendaciones basadas en datos.
+
+
+               ⛔   Estos  ejercicios  son  una  simulación  de  cómo  se  podría resolver el problema en este
+               contexto  específico.  Las  soluciones  encontradas  no  aplican  de  ninguna  manera a todos
+               los casos.
+               Recuerda    que   las   soluciones   dependen   de   los   sets   de   datos,   el   contexto   y   los
+               requerimientos específicos de los stakeholders y las organizaciones.]]></page><page Index="14"><![CDATA[]]></page></pages></Search>
