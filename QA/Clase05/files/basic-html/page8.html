@@ -152,49 +152,60 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Pruebas manuales vs. automatizadas
-
-
-               ✔ Pruebas Manuales: Se ejecutan sin el uso de herramientas de automatización,
-               evaluando la experiencia del usuario.
-
-               ✔ Pruebas Automatizadas: Se implementan scripts para validar funcionalidades de
-               manera repetitiva y eficiente.
-
-               Ejemplo en la APP del Hotel:
-
-                   ●  Manual: Un tester reserva una habitación y verifica si recibe el correo de
-                       confirmación.
-                   ●  Automatizada: Un script de Selenium ejecuta 100 reservas simultáneamente para
-                       validar que el sistema no colapse.
+    <pre style="white-space:pre-line"><code>3. Pruebas por Enfoque
 
 
 
-
-               Pruebas Exploratorias
-
-
-               Las pruebas exploratorias permiten descubrir errores que no estaban contemplados en los
-               test cases.
-
-
-               ¿Cuándo aplicarlas?
-
-                   ●  Cuando no se dispone de documentación detallada.
-                   ●  Para evaluar funcionalidades nuevas en entornos ágiles.
-
-               Beneficios:
-
-
-                   ●  Permiten identificar defectos inesperados.
-                   ●  Mejoran la comprensión del software.
+       Tipo de Prueba         Descripción         Importancia         Caso de Uso          Ejemplo en la APP del
+                                                                                                    Hotel
 
 
 
+           Pruebas        Se ejecutan sin un    Descubrir          Evaluar nuevas        Un tester prueba
+        Exploratorias     plan predefinido      defectos no        funcionalidades sin   combinaciones no
+                          para identificar      contemplados       documentación         previstas en la función de
+                          errores inesperados.  en otros tests.    detallada.            check-out.
 
-               Ejemplo en la APP del Hotel:
-               Un tester explora la funcionalidad de check-out, probando combinaciones no previstas,
-               como intentar cerrar sesión mientras se finaliza una reserva.</code></pre>
+
+
+           Pruebas        Se diseñan según      Garantizar una     Verificar la correcta   Un usuario busca una
+         Basadas en       escenarios de uso     buena              ejecución del flujo   habitación, selecciona una
+        Casos de Uso      reales.               experiencia del    de reserva.           fecha y completa la
+                                                usuario final.                           reserva.
+
+
+
+           Pruebas        Evalúan la            Identificar        Testear               Probar pagos con distintas
+       Combinadas/De  interacción de            problemas en       combinaciones de      monedas y tarjetas de
+            Pares         diferentes            interacciones      tipos de habitación   crédito.
+                          combinaciones de      entre distintas    y métodos de pago.
+                          datos o               opciones del
+                          configuraciones.      sistema.
+
+
+
+               4. Pruebas por Frecuencia y Alcance
+
+
+
+          Tipo de         Descripción          Importancia          Caso de Uso           Ejemplo en la APP del
+          Prueba                                                                                   Hotel
+
+
+
+       Smoke Tests  Validan las             Detectar fallos     Probar si la           Asegurar que el usuario
+                       funciones básicas    críticos de         aplicación se inicia   pueda iniciar sesión y ver
+                       del sistema antes    inmediato.          correctamente y las    disponibilidad de
+                       de pruebas más                           funciones principales   habitaciones.
+                       exhaustivas.                             responden.
+
+
+
+        Pruebas de     Aseguran que         Evitar que nuevas  Repetir pruebas         Verificar que el flujo de
+         Regresión     cambios recientes    actualizaciones     después de una         reserva sigue funcionando
+                       no afecten           generen errores     actualización del      tras actualizar el sistema de
+                       funcionalidades      en otras partes     código.                pago.
+                       existentes.          del sistema.</code></pre>
      	</div>
     
      </div>

@@ -152,51 +152,52 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>2.  Test Set-002: Integración y Funcionalidades Clave en el Ambiente de
-                       Integración
+    <pre style="white-space:pre-line"><code>Casos de Prueba:
 
-                          ○  Pasos:
-                                 ■  Desplegar el build en el ambiente de integración.
-                                 ■  Realizar búsquedas de hoteles, simular un proceso de reserva y
 
-                                     cancelar una reserva.
-                                 ■  Veriﬁcar la integración con el sistema de pagos.
-                          ○  Resultado Esperado:
 
-                                 ■  Flujo de búsqueda, reserva y cancelación funciona sin problemas.
-                                 ■  Integración con la pasarela de pagos es correcta y segura.
-                   3.  Test Set-003: Validación de la Release en Ambiente de Producción
+               En el desarrollo de software, es fundamental
+               garantizar que la aplicación funcione correctamente
+               en diversas etapas de su ciclo de vida. Para el
+               sistema de reservas de una aplicación hotelera, se
+               han diseñado varios casos de prueba que permiten
+               validar funcionalidades críticas en diferentes
+               entornos, desde el desarrollo hasta la producción.
+               Estos casos de prueba están diseñados para
+               asegurar que el software no solo cumple con los
+               requisitos funcionales, sino que también proporciona
+               una experiencia de usuario fluida y sin errores.
 
-                          ○  Pasos:
-                                 ■  Desplegar el release candidate en el ambiente de producción o
-                                     staging.
+               La aplicación hotelera tiene como objetivo facilitar a
+               los usuarios la búsqueda y reserva de hoteles, así
+               como el manejo de sus reservas. Dado que la aplicación maneja información sensible y
+               transacciones financieras, es crucial realizar pruebas exhaustivas antes de lanzar nuevas
+               versiones. Los casos de prueba abarcan desde la validación del despliegue en el entorno de
+               desarrollo, pasando por la integración funcional en el entorno de pruebas, hasta la
+               validación de la release en producción y la verificación del manejo de incidencias.
 
-                                 ■  Ejecutar el test set completo que incluya búsquedas, reservas,
-                                     visualización de opiniones y procesos de pago.
-                                 ■  Conﬁrmar que se cumplen los criterios de aceptación deﬁnidos por
-                                     Silvia.
+               A continuación, se detallan los diferentes conjuntos de pruebas, incluyendo los pasos a
+               seguir y los resultados esperados para cada uno.
 
-                          ○  Resultado Esperado:
-                                 ■  Todas las funcionalidades operan según lo esperado, sin defectos
+               Test Set-001: Despliegue en Ambiente de Desarrollo
+               Pasos:
+                   ●  Desplegar el build de la app hotelera en el ambiente de desarrollo.
+                   ●  Acceder a la aplicación e iniciar sesión.
+                   ●  Verificar que la página principal muestre correctamente la lista de hoteles
+                       destacados.
+               Resultado Esperado:
+                   ●  Build desplegado sin errores.
+                   ●  Funcionalidad de login y visualización de la homepage operativas.
 
-                                     críticos.
-                                 ■  La release es aprobada para su lanzamiento.
-                   4.  Test Set-004: Validación de Mensajes de Error y Manejo de Incidencias
-                          ○  Pasos:
-
-                                 ■  Ingresar datos inválidos en el formulario de reserva (por ejemplo, una
-                                     fecha de check-out anterior al check-in).
-
-                                 ■  Probar el ingreso de un número de tarjeta de crédito erróneo en el
-                                     proceso de pago.
-                                 ■  Observar y registrar los mensajes de error generados.
-                          ○  Resultado Esperado:
-
-                                 ■  Los mensajes de error son claros, especíﬁcos y orientan al usuario
-                                     para corregir la información.
-
-                                 ■  Los errores se registran y clasiﬁcan adecuadamente en el sistema de
-                                     seguimiento de incidencias.</code></pre>
+               Test Set-002: Integración y Funcionalidades Clave en el Ambiente de Integración
+               Pasos:
+                   ●  Desplegar el build en el ambiente de integración.
+                   ●  Realizar búsquedas de hoteles, simular un proceso de reserva y cancelar una
+                       reserva.
+                   ●  Verificar la integración con el sistema de pagos.
+               Resultado Esperado:
+                   ●  Flujo de búsqueda, reserva y cancelación funciona sin problemas.
+                   ●  Integración con la pasarela de pagos es correcta y segura.</code></pre>
      	</div>
     
      </div>

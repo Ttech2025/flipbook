@@ -152,7 +152,16 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Pruebas No Funcionales (Evalúan cómo se comporta el sistema más allá de sus
+    <pre style="white-space:pre-line"><code>●  Validar que solo se aceptan fechas válidas (ejemplo: no permitir una fecha de salida
+                       anterior a la fecha de ingreso).
+                   ●  Confirmar que el sistema muestra un mensaje de error si faltan datos obligatorios.
+                   ●  Revisar que el botón "Reservar" solo se active cuando todos los campos sean
+                       completados correctamente.
+
+
+
+
+               Pruebas No Funcionales (Evalúan cómo se comporta el sistema más allá de sus
                funcionalidades básicas)
 
                    ●  Pruebas de rendimiento: Verificar que el formulario de reserva cargue en menos de
@@ -185,7 +194,6 @@ function MM_swapImage() { //v3.0
                        debe reportar como defecto.
 
                ✔ Escenario 3: Introducir caracteres inválidos en el campo de número de personas.
-
 
                    ●  Resultado esperado: El sistema debe permitir solo números.
                    ●  Resultado obtenido: Si permite ingresar letras, hay un error en la validación.</code></pre>

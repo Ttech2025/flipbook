@@ -152,62 +152,54 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Explicación Detallada Campo por Campo
+    <pre style="white-space:pre-line"><code>4)   Precondiciones: Son los requisitos previos que deben cumplirse antes de ejecutar
+                       la prueba.
+               ¿Por qué es importante?
+                   ●  Asegura que el entorno de prueba esté correctamente configurado.
+                   ●  Evita errores causados por condiciones incorrectas.
+               Ejemplo en la App del Hotel:
+                   ●  "El usuario debe estar logueado en la app."
+                   ●  "La base de datos debe contener habitaciones disponibles."
 
 
-                   1)  ID: Es un identificador único para cada Test Case, lo que permite rastrearlo
-                       fácilmente.
-
-                       ¿Por qué es importante?
-
-                          ●  Facilita la organización en planillas de test cases.
-                          ●  Permite referenciarlo en reportes de defectos.
-
-
-                       Ejemplo en la App del Hotel:
-
-                          ●  TC-FUNC-001: Test Case funcional para verificar reservas.
-                          ●  TC-NF-002: Test Case no funcional para medir tiempos de carga.
+                   5)  Pasos: Es una lista detallada de las acciones a seguir para ejecutar la prueba.
+               ¿Por qué es importante?
+                   ●  Asegura consistencia en la ejecución de pruebas.
+                   ●  Permite que cualquier tester pueda replicar el proceso.
+               Ejemplo en la App del Hotel:
+                   1.  Iniciar sesión en la app.
+                   2.  Seleccionar fechas de check-in y check-out.
+                   3.  Elegir una habitación disponible.
+                   4.  Completar los datos personales.
+                   5.  Confirmar la reserva.
 
 
+                   6)  Datos de Prueba: Son valores específicos que se ingresarán en la prueba.
+               ¿Por qué es importante?
+                   ●  Permite replicar la prueba con los mismos datos en diferentes entornos.
+                   ●  Asegura coherencia en la validación de resultados.
+               Ejemplo en la App del Hotel:
+                   ●  Check-in: 10/04/2024
+                   ●  Check-out: 15/04/2024
+                   ●  Tarjeta de crédito válida: 4111 1111 1111 1111
 
 
-                   2)  Título: Es un nombre descriptivo que indica qué funcionalidad se está probando.
+                   7)  Resultado Esperado: Es lo que debería ocurrir si el sistema funciona
+                       correctamente.
+               ¿Por qué es importante?
+                   ●  Sirve como criterio para determinar si la prueba fue exitosa o falló.
+                   ●  Facilita la detección de errores y desviaciones.
+               Ejemplo en la App del Hotel:
+                   ●  "La reserva se confirma y el usuario recibe un correo con los detalles."
+                   ●  "El sistema muestra un mensaje de error si la tarjeta es inválida."
 
-                       ¿Por qué es importante?
-
-                          ●  Permite identificar rápidamente de qué trata el Test Case.
-                          ●  Debe ser claro y preciso.
-
-                       Ejemplo en la App del Hotel:
-
-                          ●  "Reserva de habitación con datos válidos"
-                          ●  "Intento de pago con tarjeta inválida"
-
-
-
-                   3)  Descripción: Es una breve explicación del propósito del Test Case.
-
-
-                       ¿Por qué es importante?
-
-                          ●  Ayuda a otros testers a entender el objetivo de la prueba.
-                          ●  Sirve como referencia en revisiones de calidad.
-
-                       Ejemplo en la App del Hotel:
-
-                          ●  "Verificar que el usuario pueda completar una reserva exitosamente."
-                          ●  "Evaluar si el sistema muestra un error al ingresar una tarjeta inválida."
-
-
-
-                   4)   Precondiciones: Son los requisitos previos que deben cumplirse antes de
-                       ejecutar la prueba.
-
-                       ¿Por qué es importante?
-
-                          ●  Asegura que el entorno de prueba esté correctamente configurado.
-                          ●  Evita errores causados por condiciones incorrectas.</code></pre>
+                   8)  Resultado Obtenido: Es lo que realmente ocurrió al ejecutar el Test Case.
+               ¿Por qué es importante?
+                   ●  Permite comparar con el resultado esperado y detectar defectos.
+                   ●  Se usa para documentar fallos en caso de que algo no funcione correctamente.
+               Ejemplo en la App del Hotel:
+                   ●  "La reserva se confirmó correctamente. (Aprobado)"
+                   ●  "El sistema no mostró el error esperado. (Fallido)"</code></pre>
      	</div>
     
      </div>

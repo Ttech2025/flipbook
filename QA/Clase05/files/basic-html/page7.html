@@ -152,64 +152,48 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Pruebas en QA
-
-
-
-               Son un conjunto de procesos y metodologías utilizadas para
-               garantizar la calidad del software. Su objetivo es identificar
-               defectos, errores o problemas en un sistema antes de que
-               llegue a producción, asegurando que funcione
-               correctamente y cumpla con los requisitos definidos.
-
-
-
-
-               Clasificación de Pruebas
-
-
-
-               Para garantizar la calidad de una aplicación, es fundamental conocer los distintos tipos de
-               pruebas y aplicarlas de manera efectiva.
+    <pre style="white-space:pre-line"><code>Pruebas de      Determinan si el       Validar que el     Ejecutar pruebas  Un cliente simula una
+           Aceptación      sistema cumple con     software esté      basadas en         reserva para verificar que
+                           los requerimientos     listo para ser     escenarios reales  todo el proceso es intuitivo
+                           del usuario final.     lanzado.           del usuario.       y sin errores.
 
 
 
 
 
-               Pruebas funcionales vs. no funcionales
-
-               ✔ Pruebas Funcionales: Verifican que el software cumpla con los requerimientos
-               definidos, centrándose en las funcionalidades esperadas.
-
-               ✔ Pruebas No Funcionales: Evalúan aspectos como el rendimiento, la usabilidad, la
-               seguridad o la compatibilidad.
 
 
-               Ejemplo en la APP del Hotel:
-
-                   ●  Funcional: Verificar que los usuarios puedan registrarse y reservar una habitación
-                       con éxito.
-                   ●  No Funcional: Medir el tiempo de carga del sistema al procesar una reserva con
-                       múltiples habitaciones.
+               2. Pruebas por Objetivo
 
 
 
+          Tipo de Prueba        Descripción          Importancia      Caso de Uso       Ejemplo en la APP del
+                                                                                                 Hotel
 
-               Pruebas estáticas vs. dinámicas
 
 
-               ✔ Pruebas Estáticas: Se realizan sin ejecutar el código, como la revisión de
-               documentación o análisis de requerimientos.
+             Pruebas        Verifican que el       Asegurar que      Probar el flujo   Verificar que un usuario
+           Funcionales      software cumpla con  cada                de registro de   pueda registrarse y recibir
+                            los requerimientos     funcionalidad     usuarios.        un correo de confirmación.
+                            funcionales.           opere según lo
+                                                   esperado.
 
-               ✔ Pruebas Dinámicas: Se ejecuta el software para verificar su comportamiento en tiempo
-               real.
 
-               Ejemplo en la APP del Hotel:
 
-                   ●  Estática: Revisar la documentación de los requisitos del sistema antes de
-                       programar la funcionalidad de check-in online.
-                   ●  Dinámica: Ejecutar la funcionalidad de check-in online en distintos dispositivos para
-                       validar su correcto funcionamiento.</code></pre>
+            Pruebas No      Evalúan atributos      Garantizar una    Evaluar la       Medir la compatibilidad de
+           Funcionales      como seguridad,        experiencia de    interfaz de      la aplicación en diferentes
+                            usabilidad y           usuario           usuario en       dispositivos.
+                            compatibilidad.        eficiente.        distintos
+                                                                     navegadores.
+
+
+
+            Pruebas de      Miden la respuesta     Asegurar          Simular          Validar que el sistema
+           Rendimiento      del sistema bajo       tiempos de        múltiples        pueda procesar 500
+                            diferentes             respuesta         usuarios         reservas en 1 minuto sin
+                            condiciones de         adecuados.        realizando       fallar.
+                            carga.                                   reservas
+                                                                     simultáneas.</code></pre>
      	</div>
     
      </div>

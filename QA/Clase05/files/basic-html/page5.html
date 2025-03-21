@@ -152,63 +152,57 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Ejemplo en la App del Hotel:
+    <pre style="white-space:pre-line"><code>9)  Estado: Es el resultado final de la prueba.
+               Opciones Comunes:
+                       ✅ Aprobado: La prueba pasó sin errores.
+                       ❌ Fallido: Se encontró un error o comportamiento inesperado.
+                          Pendiente: La prueba aún no se ejecutó.
+               Ejemplo en la App del Hotel:
+                   ●  "La reserva se confirmó correctamente." → Estado: Aprobado ✅
+                   ●  "El sistema permitió pagar con una tarjeta inválida." → Estado: Fallido ❌
 
-                          ●  "El usuario debe estar logueado en la app."
-                          ●  "La base de datos debe contener habitaciones disponibles."
-
-
-
-                   5)  Pasos: Es una lista detallada de las acciones a seguir para ejecutar la prueba.
-
-
-                       ¿Por qué es importante?
-
-                          ●  Asegura consistencia en la ejecución de pruebas.
-                          ●  Permite que cualquier tester pueda replicar el proceso.
-
-                       Ejemplo en la App del Hotel:
-
-                          1.  Iniciar sesión en la app.
-                          2.  Seleccionar fechas de check-in y check-out.
-                          3.  Elegir una habitación disponible.
-                          4.  Completar los datos personales.
-                          5.  Confirmar la reserva.
+               Ejemplo:
 
 
+                    Campo                          Descripción                Ejemplo (App del Hotel)
+
+                      ID                Identificador único del Test Case.             TC-001
+
+                     Título             Nombre descriptivo del Test Case.      "Validar reserva con fechas
+                                                                                      correctas"
+
+                   Descripción     Explicación breve del objetivo del Test Case.   "Verificar que el usuario pueda
+                                                                                  completar la reserva
+                                                                              seleccionando fechas válidas"
+
+                 Precondiciones     Requisitos previos para ejecutar la prueba.   "El usuario debe estar logueado
+                                                                                      en la app"
+
+                     Pasos              Secuencia de acciones a realizar.       1. Seleccionar check-in y
+                                                                                      check-out.
+                                                                             2. Escoger habitación disponible.
+                                                                              3. Completar datos personales.
+                                                                                  4. Confirmar reserva.
+
+                 Datos de Prueba   Valores que se ingresarán durante la prueba.   Check-in: 12/04/2024
+                                                                                 Check-out: 15/04/2024
+
+                   Resultado        Lo que debería ocurrir si el sistema funciona   "La reserva debe completarse y el
+                                               correctamente.                    usuario debe recibir una
+                                                                                     confirmación"
+
+                    Estado               Indica si la prueba pasó o falló.        "Aprobado" / "Fallido"
 
 
-                   6)  Datos de Prueba: Son valores específicos que se ingresarán en la prueba.
-
-
-                       ¿Por qué es importante?
-
-                          ●  Permite replicar la prueba con los mismos datos en diferentes entornos.
-                          ●  Asegura coherencia en la validación de resultados.
-
-                       Ejemplo en la App del Hotel:
-
-                          ●  Check-in: 10/04/2024
-                          ●  Check-out: 15/04/2024
-                          ●  Tarjeta de crédito válida: 4111 1111 1111 1111
 
 
 
+               Conclusión
 
-
-                   7)  Resultado Esperado: Es lo que debería ocurrir si el sistema funciona
-                       correctamente.
-
-
-                       ¿Por qué es importante?
-
-                          ●  Sirve como criterio para determinar si la prueba fue exitosa o falló.
-                          ●  Facilita la detección de errores y desviaciones.
-
-                       Ejemplo en la App del Hotel:
-
-                          ●  "La reserva se confirma y el usuario recibe un correo con los detalles."
-                          ●  "El sistema muestra un mensaje de error si la tarjeta es inválida."</code></pre>
+               ¿Por qué es importante documentar correctamente los Test Cases?
+               ✔ Facilita la organización y ejecución de pruebas.
+               ✔ Permite replicar pruebas con consistencia.
+               ✔ Ayuda a identificar errores y mejorar la calidad del software.</code></pre>
      	</div>
     
      </div>

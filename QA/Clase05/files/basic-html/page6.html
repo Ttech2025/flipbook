@@ -152,50 +152,57 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>8)  Resultado Obtenido: Es lo que realmente ocurrió al ejecutar el Test Case.
-
-                       ¿Por qué es importante?
-
-                          ●  Permite comparar con el resultado esperado y detectar defectos.
-                          ●  Se usa para documentar fallos en caso de que algo no funcione
-                              correctamente.
-
-                       Ejemplo en la App del Hotel:
-
-
-                          ●  "La reserva se confirmó correctamente. (Aprobado)"
-                          ●  "El sistema no mostró el error esperado. (Fallido)"
+    <pre style="white-space:pre-line"><code>Pruebas en QA
 
 
 
-
-                   9)  Estado: Es el resultado final de la prueba.
-
-               Opciones Comunes:
-
-
-                       ✅ Aprobado: La prueba pasó sin errores.
-                       ❌ Fallido: Se encontró un error o comportamiento inesperado.
-                          Pendiente: La prueba aún no se ejecutó.
+               Son un conjunto de procesos y metodologías utilizadas para
+               garantizar la calidad del software. Su objetivo es identificar
+               defectos, errores o problemas en un sistema antes de que
+               llegue a producción, asegurando que funcione
+               correctamente y cumpla con los requisitos definidos.
 
 
-               Ejemplo en la App del Hotel:
+               Clasificación de Pruebas
 
-                   ●  "La reserva se confirmó correctamente." → Estado: Aprobado ✅
-                   ●  "El sistema permitió pagar con una tarjeta inválida." → Estado: Fallido ❌
+
+               Para garantizar la calidad de una aplicación, es fundamental conocer los distintos tipos de
+               pruebas y aplicarlas de manera efectiva.
 
 
 
 
+               1. Pruebas por Nivel
 
-               Conclusión
 
 
-               ¿Por qué es importante documentar correctamente los Test Cases?
 
-                       ✔ Facilita la organización y ejecución de pruebas.
-                       ✔ Permite replicar pruebas con consistencia.
-                       ✔ Ayuda a identificar errores y mejorar la calidad del software.</code></pre>
+         Tipo de Prueba        Descripción          Importancia        Caso de Uso        Ejemplo en la APP del
+                                                                                                  Hotel
+
+
+
+            Pruebas        Verifican el correcto   Detectar errores   Evaluar si una    Probar la función que
+            Unitarias      funcionamiento de      en una etapa       función de         calcula el costo total de
+                           componentes            temprana del       validación de      una reserva.
+                           individuales del       desarrollo.        datos opera
+                           código.                                   correctamente.
+
+
+
+           Pruebas de      Evalúan la             Asegurar que los  Verificar la        Comprobar que, tras
+           Integración     interacción entre      módulos del        conexión entre el  realizar un pago, la
+                           diferentes módulos     sistema se         sistema de         reserva se actualiza
+                           del software.          comuniquen         reservas y el      correctamente.
+                                                  correctamente.     sistema de pago.
+
+
+
+           Pruebas de      Evalúan el             Detectar           Probar todo el     Un usuario inicia sesión,
+            Sistema        comportamiento del     problemas en la    flujo de reserva,   busca una habitación,
+                           sistema completo.      funcionalidad      desde el registro   realiza la reserva y recibe
+                                                  global del         hasta el pago.     la confirmación.
+                                                  sistema.</code></pre>
      	</div>
     
      </div>

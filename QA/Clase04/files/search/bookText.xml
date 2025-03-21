@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="15"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase N° 4 | QA: Ambientes de trabajo y
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="19"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase N° 4 | QA: Ambientes de trabajo y
 
 
 
@@ -14,6 +14,9 @@
                    ●  Deﬁnición de Release
 
                    ●  Creación de Conjuntos de Pruebas a ejecutar en cada ciclo (Tests Sets)
+                   ●  Testing dentro del sprint vs. testing al final del sprint
+
+                   ●  Estrategias para evitar que QA sea un cuello de botella en Scrum
                    ●  Error, Defectos y Fallas.
 
 
@@ -22,13 +25,13 @@
                Objetivos de la clase
 
 
-
                En esta clase, exploraremos los ambientes de desarrollo y builds en un proyecto de software,
+
                comprendiendo su importancia en el ciclo de vida del desarrollo. También aprenderemos a
                deﬁnir y ejecutar conjuntos de pruebas (Test Sets) en cada ciclo, junto con la identiﬁcación y
                clasiﬁcación de fallos, errores y defectos, entendiendo sus diferencias. Finalmente,
-
                abordaremos la causa raíz de los defectos, los distintos tipos de defectos, su clasiﬁcación y el
+
                proceso adecuado para su reporte y documentación, ﬁnalizando con ejercicios prácticos para
                reforzar los conceptos.]]></page><page Index="3"><![CDATA[Ambientes comunes de desarrollo: ¡El detrás
 
@@ -250,37 +253,41 @@
 
 
 
+               Un Test Set es un conjunto organizado de casos de prueba diseñados para validar una
+               funcionalidad, un módulo o un conjunto de requisitos dentro de un software. Su objetivo es
+               estructurar la ejecución de pruebas de manera eﬁciente, asegurando una cobertura completa
+               del sistema.
+
+
                Imagina que una banda de rock está por lanzar su nuevo disco. Antes de enviarlo a las
                tiendas, subirlo a Spotify, iTunes, etc., quieren asegurarse de que todas las canciones suenan
+
                bien, que no hay errores de sonido, que todas las canciones se escuchen al mismo volumen,
                que los instrumentos no se escuchen más que la voz del cantante y que el disco en general es
-
                de buena calidad.
 
-               Para hacer esto, no escuchan el disco entero de una vez. Lo dividen en partes más pequeñas
 
+               Para hacer esto, no escuchan el disco entero de una vez. Lo dividen en partes más pequeñas
                y escuchan cada parte por separado. Por ejemplo, podrían escuchar primero todas las
+
                canciones lentas, luego todas las canciones rápidas, luego todas las canciones con solos de
                guitarra, etc.
 
 
                Un Test Set es como una de esas partes del disco que escuchan por separado. Es un grupo
                de "pruebas" que se realizan juntas para veriﬁcar que una parte del programa funciona
-
                correctamente.
 
 
                ¿Por qué necesitamos Test Sets?
 
 
-                                                    Los programas y aplicaciones son como un disco de
 
-                                                    música con muchas canciones diferentes. Para
-                                                    asegurarnos de que todo funciona bien, necesitamos
-                                                    probar muchas cosas diferentes. Si probamos cada
-                                                    cosa por separado, puede ser muy confuso y fácil
+                                                    Para asegurarnos de que todo funciona bien,
+                                                    necesitamos probar muchas cosas diferentes. Si
+                                                    probamos cada cosa por separado, puede ser muy
 
-                                                    olvidarnos de algo importante.
+                                                    confuso y fácil olvidarnos de algo importante.
 
                                                     Los Test Sets nos ayudan a mantener las pruebas
 
@@ -288,121 +295,275 @@
                                                     canciones para escuchar: una lista para las canciones
                                                     lentas, otra para las canciones rápidas, etc.]]></page><page Index="9"><![CDATA[¿Cómo se arma un Test Set?
 
+               El proceso de armar un Test Set incluye definir lo
+               que se quiere probar, escribir las pruebas
+               correspondientes para cada funcionalidad y luego
+               organizar esas pruebas en un conjunto. Esto
+               permite asegurarse de que todas las partes de la
+               aplicación se validen adecuadamente.
 
-                   1.  Pensar en las "canciones": Primero, pensamos en todas las cosas que queremos
-                       probar del programa. Por ejemplo, si estamos probando una aplicación para hacer
-
-                       compras online, querremos probar cosas como:
-                          ○  ¿Se pueden agregar productos al carrito?
-                          ○  ¿Se puede calcular el precio total correctamente?
-
-                          ○  ¿Funciona el pago con tarjeta de crédito?
-                   2.  Escribir las "pruebas": Para cada "canción", escribimos una "prueba". La "prueba"
-                       es como una instrucción que nos dice qué tenemos que hacer para veriﬁcar que esa
-
-                       "canción" funciona. Por ejemplo, para la "canción" de "agregar productos al carrito", la
-                       "prueba" podría ser:
-                          ○  "Ir a la página del producto."
-                          ○  "Hacer clic en el botón 'Agregar al carrito'."
-
-                          ○  "Veriﬁcar que el producto aparece en el carrito."
-                   3.  Juntar las "pruebas": Una vez que tenemos todas las "pruebas" escritas, las
-                       juntamos en un Test Set. Este Test Set es como nuestra lista de canciones para
-
-                       probar esa parte del programa.
+                   1.  Definir objetivos de prueba
+                       ("Canciones"):
+                          ○  Identificar las funcionalidades clave
+                              que se quieren probar en la aplicación. Ejemplos:
+                                 ■  Agregar productos al carrito.
+                                 ■  Calcular el precio total correctamente.
+                                 ■  Funcionamiento del pago con tarjeta de crédito.
+                   2.  Escribir pruebas específicas ("Pruebas"):
+                          ○  Para cada funcionalidad, definir instrucciones o acciones que se deben
+                              realizar para verificar que la funcionalidad esté funcionando como se espera.
+                              Ejemplo para "Agregar productos al carrito":
+                                 ■  Navegar a la página del producto.
+                                 ■  Hacer clic en el botón 'Agregar al carrito'.
+                                 ■  Verificar que el producto aparece en el carrito.
+                   3.  Consolidar las pruebas en un Test Set:
+                          ○  Reunir todas las pruebas en un único documento o conjunto que servirá
+                              como una lista de verificación para evaluar las funcionalidades específicas de
+                              la aplicación.
 
                Ejemplo:
 
-
                Veriﬁcar que los builds se desplieguen correctamente en cada ambiente (desarrollo,
                integración y producción) y que la release cumpla con los criterios de calidad para una app
-
-               hotelera, identiﬁcando y clasiﬁcando fallos, errores y defectos.
-
-               Casos de Prueba:
+               hotelera, identiﬁcando y clasiﬁcando fallos, errores y defectos.]]></page><page Index="10"><![CDATA[Casos de Prueba:
 
 
-                   1.  Test Set-001: Despliegue en Ambiente de Desarrollo
-                          ○  Pasos:
 
-                                 ■  Desplegar el build de la app hotelera en el ambiente de desarrollo.
-                                 ■  Acceder a la aplicación e iniciar sesión.
-                                 ■  Veriﬁcar que la página principal muestre correctamente la lista de
+               En el desarrollo de software, es fundamental
+               garantizar que la aplicación funcione correctamente
+               en diversas etapas de su ciclo de vida. Para el
+               sistema de reservas de una aplicación hotelera, se
+               han diseñado varios casos de prueba que permiten
+               validar funcionalidades críticas en diferentes
+               entornos, desde el desarrollo hasta la producción.
+               Estos casos de prueba están diseñados para
+               asegurar que el software no solo cumple con los
+               requisitos funcionales, sino que también proporciona
+               una experiencia de usuario fluida y sin errores.
 
-                                     hoteles destacados.
-                          ○  Resultado Esperado:
+               La aplicación hotelera tiene como objetivo facilitar a
+               los usuarios la búsqueda y reserva de hoteles, así
+               como el manejo de sus reservas. Dado que la aplicación maneja información sensible y
+               transacciones financieras, es crucial realizar pruebas exhaustivas antes de lanzar nuevas
+               versiones. Los casos de prueba abarcan desde la validación del despliegue en el entorno de
+               desarrollo, pasando por la integración funcional en el entorno de pruebas, hasta la
+               validación de la release en producción y la verificación del manejo de incidencias.
 
-                                 ■  Build desplegado sin errores.
-                                 ■  Funcionalidad de login y visualización de la homepage operativas.]]></page><page Index="10"><![CDATA[2.  Test Set-002: Integración y Funcionalidades Clave en el Ambiente de
-                       Integración
+               A continuación, se detallan los diferentes conjuntos de pruebas, incluyendo los pasos a
+               seguir y los resultados esperados para cada uno.
 
-                          ○  Pasos:
-                                 ■  Desplegar el build en el ambiente de integración.
-                                 ■  Realizar búsquedas de hoteles, simular un proceso de reserva y
+               Test Set-001: Despliegue en Ambiente de Desarrollo
+               Pasos:
+                   ●  Desplegar el build de la app hotelera en el ambiente de desarrollo.
+                   ●  Acceder a la aplicación e iniciar sesión.
+                   ●  Verificar que la página principal muestre correctamente la lista de hoteles
+                       destacados.
+               Resultado Esperado:
+                   ●  Build desplegado sin errores.
+                   ●  Funcionalidad de login y visualización de la homepage operativas.
 
-                                     cancelar una reserva.
-                                 ■  Veriﬁcar la integración con el sistema de pagos.
-                          ○  Resultado Esperado:
+               Test Set-002: Integración y Funcionalidades Clave en el Ambiente de Integración
+               Pasos:
+                   ●  Desplegar el build en el ambiente de integración.
+                   ●  Realizar búsquedas de hoteles, simular un proceso de reserva y cancelar una
+                       reserva.
+                   ●  Verificar la integración con el sistema de pagos.
+               Resultado Esperado:
+                   ●  Flujo de búsqueda, reserva y cancelación funciona sin problemas.
+                   ●  Integración con la pasarela de pagos es correcta y segura.]]></page><page Index="11"><![CDATA[Test Set-003: Validación de la Release en Ambiente de Producción
+               Pasos:
+                   ●  Desplegar el release candidate en el ambiente de producción o staging.
+                   ●  Ejecutar el test set completo que incluya búsquedas, reservas, visualización de
+                       opiniones y procesos de pago.
+                   ●  Confirmar que se cumplen los criterios de aceptación definidos por Silvia.
+               Resultado Esperado:
+                   ●  Todas las funcionalidades operan según lo esperado, sin defectos críticos.
+                   ●  La release es aprobada para su lanzamiento.
 
-                                 ■  Flujo de búsqueda, reserva y cancelación funciona sin problemas.
-                                 ■  Integración con la pasarela de pagos es correcta y segura.
-                   3.  Test Set-003: Validación de la Release en Ambiente de Producción
+               Test Set-004: Validación de Mensajes de Error y Manejo de Incidencias
+               Pasos:
+                   ●  Ingresar datos inválidos en el formulario de reserva (por ejemplo, una fecha de
+                       check-out anterior al check-in).
+                   ●  Probar el ingreso de un número de tarjeta de crédito erróneo en el proceso de pago.
+                   ●  Observar y registrar los mensajes de error generados.
+               Resultado Esperado:
+                   ●  Los mensajes de error son claros, específicos y orientan al usuario para corregir la
+                       información.
+                   ●  Los errores se registran y clasifican adecuadamente en el sistema de seguimiento
+                       de incidencias.
 
-                          ○  Pasos:
-                                 ■  Desplegar el release candidate en el ambiente de producción o
-                                     staging.
-
-                                 ■  Ejecutar el test set completo que incluya búsquedas, reservas,
-                                     visualización de opiniones y procesos de pago.
-                                 ■  Conﬁrmar que se cumplen los criterios de aceptación deﬁnidos por
-                                     Silvia.
-
-                          ○  Resultado Esperado:
-                                 ■  Todas las funcionalidades operan según lo esperado, sin defectos
-
-                                     críticos.
-                                 ■  La release es aprobada para su lanzamiento.
-                   4.  Test Set-004: Validación de Mensajes de Error y Manejo de Incidencias
-                          ○  Pasos:
-
-                                 ■  Ingresar datos inválidos en el formulario de reserva (por ejemplo, una
-                                     fecha de check-out anterior al check-in).
-
-                                 ■  Probar el ingreso de un número de tarjeta de crédito erróneo en el
-                                     proceso de pago.
-                                 ■  Observar y registrar los mensajes de error generados.
-                          ○  Resultado Esperado:
-
-                                 ■  Los mensajes de error son claros, especíﬁcos y orientan al usuario
-                                     para corregir la información.
-
-                                 ■  Los errores se registran y clasiﬁcan adecuadamente en el sistema de
-                                     seguimiento de incidencias.]]></page><page Index="11"><![CDATA[5.  Test Set-005: Prueba de Carga en Ambiente de Producción
-                          ○  Pasos:
-
-                                 ■  Simular la concurrencia de 50 usuarios realizando búsquedas y
-                                     reservas simultáneamente.
-                                 ■  Monitorear el rendimiento del sistema y los tiempos de respuesta.
-
-                                 ■  Identiﬁcar cualquier degradación en el desempeño o cuellos de botella.
-                          ○  Resultado Esperado:
-                                 ■  Tiempos de respuesta por debajo del umbral establecido (por ejemplo,
-
-                                     menos de 3 segundos).
-                                 ■  Sistema estable y sin caídas, incluso bajo alta demanda.
-
+               Test Set-005: Prueba de Carga en Ambiente de Producción
+               Pasos:
+                   ●  Simular la concurrencia de 50 usuarios realizando búsquedas y reservas
+                       simultáneamente.
+                   ●  Monitorear el rendimiento del sistema y los tiempos de respuesta.
+                   ●  Identificar cualquier degradación en el desempeño o cuellos de botella.
+               Resultado Esperado:
+                   ●  Tiempos de respuesta por debajo del umbral establecido (por ejemplo, menos de 3
+                       segundos).
+                   ●  Sistema estable y sin caídas, incluso bajo alta demanda.
 
                En resumen:
 
+               Un Test Set es como una lista de canciones para probar un programa. Nos ayuda a
+               mantener las pruebas organizadas y asegurarnos de que no nos olvidamos de nada
+               importante. Es una herramienta muy útil para los testers, que son las personas que se
+               encargan de probar los programas.]]></page><page Index="12"><![CDATA[Testing dentro del Sprint vs. Testing al Final
 
-               Un Test Set es como una lista de canciones para probar un programa. Nos ayuda a mantener
-               las pruebas organizadas y asegurarnos de que no nos olvidamos de nada importante. Es una
+               del Sprint
 
-               herramienta muy útil para los testers, que son las personas que se encargan de probar los
-               programas.]]></page><page Index="12"><![CDATA[¿Qué diferencias hay entre Error, Defecto y
+
+
+               Los Test Sets juegan un papel clave en la planificación y ejecución de pruebas dentro de
+               los Sprints, ayudando a que QA no se convierta en un cuello de botella y asegurando que
+               las pruebas se distribuyan de manera eficiente a lo largo del Sprint.
+
+               Testing dentro del Sprint (Pruebas Continuas en Agile)
+
+
+               En un entorno ágil, el testing no es una fase separada, sino que forma parte del ciclo de
+               desarrollo dentro del Sprint. Se adopta un enfoque "Shift Left", lo que significa que las
+               pruebas comienzan lo antes posible para detectar errores a tiempo. Cuando se ejecutan
+               pruebas dentro del Sprint, los Test Sets ayudan a organizar y priorizar los casos de prueba
+               de acuerdo con las funcionalidades desarrolladas.
+
+               Características:
+
+
+                        ✔ Se prueban pequeñas funcionalidades en cuanto están desarrolladas.
+                        ✔ Se realizan pruebas manuales y automatizadas durante todo el Sprint.
+                        ✔ Se colabora activamente con los desarrolladores para corregir errores
+                       rápidamente.
+                        ✔ Se ejecutan pruebas de regresión continuamente para asegurar estabilidad.
+
+               Ventajas:
+
+
+                   ●  Se detectan errores antes, reduciendo costos de corrección.
+                   ●  Se mejora la comunicación entre testers y desarrolladores.
+                   ●  Se garantiza que cada incremento del producto sea funcional al final del Sprint.
+
+
+               Ejemplo práctico: Un tester en un equipo Scrum revisa los criterios de aceptación de una
+               User Story antes de que los desarrolladores comiencen a programar. Luego, a medida que
+               se desarrolla la funcionalidad, ejecuta pruebas manuales y automatizadas para validar su
+               correcto funcionamiento.
+
+
+
+
+               Testing al Final del Sprint (Enfoque Tradicional dentro de Scrum)
+
+
+               Si las pruebas se dejan para el final del Sprint, QA debe validar todas las funcionalidades
+               juntas, lo que puede generar retrasos. En este caso, los Test Sets ayudan a organizar la
+               ejecución masiva de pruebas.]]></page><page Index="13"><![CDATA[Características:
+
+                        ✔ Se prueba todo el incremento de software una vez finalizado el desarrollo.
+
+
+                        ✔ No se realizan pruebas parciales antes de completar el Sprint.
+
+                        ✔ Se pueden acumular defectos que no se identificaron a tiempo.
+
+               Desventajas:
+
+
+                   ●  Aumenta el riesgo de no cumplir con la Definition of Done.
+                   ●  Si se encuentran errores al final, no hay suficiente tiempo para corregirlos.
+                   ●  Puede generar estrés en el equipo de QA y retrasos en la entrega del producto.
+
+
+               Ejemplo práctico: Un equipo de desarrollo trabaja en varias funcionalidades sin que se
+               realicen pruebas intermedias. Al final del Sprint, los testers encuentran fallos críticos que
+               requieren cambios de código, retrasando la entrega del producto.
+
+
+               Estrategias para evitar que QA sea un cuello de botella
+
+               en Scrum
+
+
+               Cuando QA se convierte en un cuello de botella, significa que las pruebas se acumulan y
+               retrasan la entrega del producto. Para evitarlo, es fundamental adoptar estrategias que
+               permitan la integración temprana del testing en el proceso de desarrollo.
+
+
+               Estrategias para optimizar el trabajo de QA en Scrum:
+
+                   1)  Automatización de pruebas
+
+
+               ✔ Implementar pruebas automatizadas en los flujos más críticos.
+               ✔ Ejecutar pruebas de regresión automáticas en cada nueva versión.
+               ✔ Usar herramientas como Selenium, Cypress o JUnit para pruebas automatizadas.
+
+               Ejemplo: Un equipo de QA automatiza las pruebas de login y checkout para evitar
+               probarlas manualmente en cada Sprint.
+
+                   2)  Definir criterios de aceptación claros y testables
+
+
+               ✔ QA debe participar en la definición de User Stories para garantizar que los criterios de
+               aceptación sean medibles y probables.
+                ✔ Se pueden utilizar técnicas como BDD (Behavior Driven Development) para escribir
+               criterios en lenguaje claro (Given, When, Then).]]></page><page Index="14"><![CDATA[Ejemplo:
+
+                   ●  User Story: Como usuario, quiero recibir un email de confirmación después
+                       de completar una compra.
+                   ●  Criterio de aceptación: El email debe enviarse automáticamente dentro de
+                       los 5 minutos posteriores a la compra.
+
+
+
+
+                   3)  Implementar pruebas en paralelo al desarrollo
+
+               ✔ Se pueden realizar pruebas en un entorno de desarrollo antes de que la funcionalidad
+               esté terminada.
+                ✔ Los testers pueden diseñar casos de prueba mientras los desarrolladores escriben
+               código.
+
+               Ejemplo: Mientras el equipo de desarrollo trabaja en la funcionalidad de "Filtrar productos
+               por categoría", QA redacta los casos de prueba y ejecuta pruebas en el backend.
+
+                   4)  Uso de entornos de integración continua (CI/CD)
+
+
+               ✔ Permite ejecutar pruebas automatizadas en cada nueva integración de código.
+                ✔ Se pueden usar herramientas como Jenkins, GitHub Actions o CircleCI para ejecutar
+               pruebas automáticamente.
+
+               Ejemplo: Un equipo configura un pipeline de CI/CD donde cada nueva funcionalidad pasa
+               automáticamente por pruebas unitarias y de regresión antes de integrarse en la versión
+               final.
+
+                   5)  Aplicar Testing Exploratorio
+
+
+               ✔ Mientras se automatizan casos de prueba, se pueden realizar pruebas exploratorias para
+               detectar defectos inesperados.
+                ✔ Permite a los testers descubrir fallos en la experiencia de usuario que las pruebas
+               automatizadas no detectan.
+
+
+               Ejemplo: Un tester explora la interfaz de una app móvil buscando inconsistencias en el
+               diseño y la navegación.]]></page><page Index="15"><![CDATA[Conclusión:
+
+               Los Test Sets son herramientas clave para organizar y optimizar las pruebas en Scrum,
+               evitando cuellos de botella y asegurando que las validaciones se realicen de manera
+               continua dentro del Sprint.
+
+               Si se utilizan correctamente, permiten a QA trabajar de forma más eficiente y garantizar la
+               calidad del software sin retrasar el desarrollo.
+
+
+
+
+
+               ¿Qué diferencias hay entre Error, Defecto y
 
                Fallo?
-
 
 
 
@@ -443,11 +604,7 @@
                             Fallo
                                                                             inesperadamente o muestra
                                                                             un mensaje de error,
-                                                                            impidiendo la reserva.
-
-
-
-                   ●  Error: Se trata de la equivocación cometida durante la creación del software, por
+                                                                            impidiendo la reserva.]]></page><page Index="16"><![CDATA[●  Error: Se trata de la equivocación cometida durante la creación del software, por
                        ejemplo, un fallo en la lógica del algoritmo que calcula la disponibilidad de
                        habitaciones.
                    ●  Defecto: Es la consecuencia directa del error, donde la app de hotel tiene una
@@ -455,7 +612,7 @@
                        disponibilidad.
                    ●  Fallo: Es lo que el usuario experimenta en tiempo real; por ejemplo, si al realizar una
                        reserva la app se bloquea o no procesa correctamente la información, se manifiesta
-                       el fallo del sistema.]]></page><page Index="13"><![CDATA[¡Trabajando en Talento Lab!
+                       el fallo del sistema.]]></page><page Index="17"><![CDATA[¡Trabajando en Talento Lab!
 
 
 
@@ -466,10 +623,12 @@
                                                       garantizar que nuestros builds se conviertan en
                                                       versiones sólidas del software.
 
-               Matías nos acompaña para definir qué es una Release, ese momento crucial en el que todo
-               se junta para lanzar una versión estable y funcional del producto. Además, aprenderemos a
-               crear y ejecutar Test Sets en cada ciclo, lo que nos permitirá identificar y clasificar fallos,
-               errores y defectos, y comprender la causa raíz de cada incidencia.
+                                 Matías nos acompaña para definir qué es una Release, ese momento
+                                 crucial en el que todo se junta para lanzar una versión estable y funcional
+                                 del producto. Además, aprenderemos a crear y ejecutar Test Sets en cada
+                                 ciclo, lo que nos permitirá identificar y clasificar fallos, errores y defectos, y
+                                 comprender la causa raíz de cada incidencia.
+
 
 
 
@@ -485,7 +644,6 @@
 
 
 
-
                Ejercicios Prácticos
 
 
@@ -494,7 +652,7 @@
                               prácticos anteriores para poder avanzar.
                           ○  Crear y relacionar los casos de pruebas creados con las user stories y
                               criterios de aceptación correspondientes.
-                          ○  Crear los conjuntos y ciclos de pruebas a ejecutar.]]></page><page Index="14"><![CDATA[Preguntas para Reflexionar
+                          ○  Crear los conjuntos y ciclos de pruebas a ejecutar.]]></page><page Index="18"><![CDATA[Preguntas para Reflexionar
 
 
 
@@ -519,9 +677,9 @@
 
 
                En la próxima clase, exploraremos en profundidad los problemas y defectos que pueden
+
                surgir durante el desarrollo de software, comprendiendo su origen, impacto y gestión.
                Analizaremos los conceptos de error, defecto y fallo, los tipos de defectos que se pueden
-
                encontrar, la importancia de identiﬁcar la causa raíz y los efectos de un defecto, cómo
                determinar la severidad y prioridad de un defecto, y cómo realizar un reporte de defectos
-               efectivo.]]></page><page Index="15"><![CDATA[]]></page></pages></Search>
+               efectivo.]]></page><page Index="19"><![CDATA[]]></page></pages></Search>
