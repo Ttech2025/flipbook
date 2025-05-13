@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="5"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase N°16 | Cier re de cursada
+
+
+
+               Temario
+
+
+                   ●  Repaso general del curso de Testing QA Manual
+                   ●  Revisión y presentación del proyecto final
+                   ●  Recomendaciones y próximos pasos en la carrera QA
+                   ●  Introducción al curso de Automatización de Pruebas
+                   ●  Cierre y palabras finales
+
+
+
+               Objetivos de la clase
+
+
+               En  esta  clase  final  del  curso  de  Testing  QA,  haremos  un  repaso  integral  del  camino
+               recorrido, reflexionaremos sobre los aprendizajes adquiridos y exploraremos los próximos
+               pasos posibles para quienes deseen continuar su desarrollo profesional, como el curso de
+               Automatización de Pruebas.
+
+
+               También  cerraremos  el  curso  revisando  los  proyectos  desarrollados,  reconociendo  el
+               progreso del grupo y compartiendo recomendaciones para seguir creciendo en el área de
+               calidad de software.]]></page><page Index="3"><![CDATA[Repaso general del recorrido
+
+               Durante  las  15  clases  anteriores,  abordamos  de  forma  progresiva  y  práctica  todos  los
+               aspectos fundamentales del Testing QA Manual. Aquí un breve repaso:
+
+                   ●  Clases 1 a 5: Fundamentos del testing, ciclo de vida del software, tipos de pruebas,
+                       metodologías ágiles y criterios de calidad.
+                   ●  Clases  6  a  8:  Planificación  de  pruebas,  métricas,  indicadores,  y  documentación
+                       (Test Plan, Test Case, Bug Report).
+                   ●  Clases  9 a 12: Introducción a API Testing, uso de Postman, validación de JSON,
+                       automatización básica de pruebas con Collection Runner, análisis de métricas con
+                       KPI.
+                   ●  Clases 13 a 15: Testing mobile vs desktop, herramientas como Appium, Zephyr y
+                       Jira, diseño de flujos ágiles, creación de tickets, test cases y gestión de bugs en un
+                       entorno Scrum.
+
+               Cada  uno  de  estos  contenidos  fue  acompañado  por  ejercicios  guiados,  simulaciones
+               realistas  en  Talento  Lab  y  múltiples  prácticas  para  aplicar  lo  aprendido  en  situaciones
+               concretas.
+
+
+
+               Próximo paso: Curso de Automatización QA
+
+                                          Para quienes deseen seguir formándose y avanzar hacia roles
+                                          más técnicos,  recomendamos el Curso de Automatización de
+                                          Pruebas,  diseñado  como  continuación  directa  de  este
+                                          programa.
+
+                                          Este curso se divide en cuatro módulos y permite dar el salto del
+                                          testing manual al mundo del código, las pruebas automáticas y
+                                          las integraciones modernas.
+
+                                          Módulo 1: Introducción y Fundamentos
+
+               En  este  primer  módulo,  nos  adentraremos  en  el  mundo  del  Automation  Testing: qué rol
+               cumple  dentro  de  un  equipo  de  desarrollo,  qué  herramientas  necesita  un  tester
+               automatizador  y  cómo  preparar  el  entorno  con  Python,  VS  Code  y  Git.  Además,  se
+               aprenden  los  fundamentos  de  programación:  variables, estructuras de control, funciones,
+               listas y manejo de errores.
+
+               Módulo 2: Selenium y Automatización Web
+
+               Aquí se trabaja con HTML, CSS y los elementos del DOM para identificar correctamente los
+               componentes  de  una  web.  Luego, se automatizan interacciones reales con el navegador
+               utilizando  Selenium  WebDriver:  abrir páginas, completar formularios, hacer clics y validar
+               resultados. También se aprende el patrón Page Object Model, clave para escalar pruebas
+               de forma ordenada y profesional.
+
+               Módulo 3: Técnicas Avanzadas de Automatización
+
+
+               Una vez dominadas las bases, este módulo introduce técnicas más sofisticadas: pruebas
+               con  datos  dinámicos,  lectura  de  archivos  CSV  o  JSON,  validaciones  más  complejas  y
+               automatización de APIs utilizando Requests. Se suman herramientas de reportes, logging y
+               captura de evidencia para documentar pruebas de forma robusta.]]></page><page Index="4"><![CDATA[Módulo 4: BDD, Integración Continua y Proyecto Final
+
+               En el cierre, se incorpora la metodología BDD (Behavior-Driven Development) con Gherkin
+               y Behave, permitiendo una comunicación clara entre QA, desarrollo y negocio. Además, se
+               introduce la integración continua (CI/CD) con GitHub Actions, y se cierra con un proyecto
+               integrador donde los alumnos aplican todo lo aprendido de punta a punta.
+
+                   Objetivo:  Formar  testers  capaces  de  diseñar,  codificar  y  ejecutar  pruebas
+               automatizadas web y API, integrando herramientas modernas de desarrollo ágil.
+
+                   Salida  laboral:  El  curso  está  alineado  con  roles  de  QA  Automation  Jr.  y  ofrece
+               herramientas aplicables a entornos reales de trabajo.
+
+
+
+
+               Revisión de proyectos y cierre
+
+               En esta última instancia del curso:
+
+                   ●  Revisaremos los entregables o simulaciones finales.
+                   ●  Compartiremos observaciones generales sobre el proceso de aprendizaje.
+                   ●  Escucharemos testimonios, aprendizajes personales y áreas de mejora.
+                   ●  Entregaremos recomendaciones personalizadas según el perfil y objetivos de cada
+                       estudiante.
+
+               Además, vamos a:
+
+
+                   ●  Compartir recursos adicionales: libros, cursos gratuitos, comunidades.
+                   ●  Responder  dudas  sobre  entrevistas,  salidas  laborales  o  desafíos  en  la  práctica
+                       profesional.
+                   ●  Invitar  formalmente  al  curso  de  Automation  para  quienes  estén  listos  para  el
+                       siguiente paso.
+
+               Queremos  felicitarte  por  haber  llegado  hasta  aquí.  Este  curso  ha  sido  una  simulación
+               realista del trabajo en QA, y tu compromiso ha sido clave. Si lograste llegar a esta clase, es
+               porque tenés las bases necesarias para seguir avanzando, ya sea como tester manual o
+               dando tus primeros pasos en el mundo de la automatización.
+
+               ¡Gracias por tu participación y nos vemos en la próxima etapa del camino!]]></page><page Index="5"><![CDATA[]]></page></pages></Search>
