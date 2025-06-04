@@ -721,24 +721,23 @@
                fuera de la función.
 
 
+               # Tupla original
+               numeros = (1, 2, 3)
 
+               def cambiar_tupla():
+                  # Creamos una nueva tupla, pero no modificamos la original
+                  nueva_tupla = (4, 5, 6)
+                  return nueva_tupla
 
-               frutas = ["manzana", "banana"]
+               # Llamamos a la función pero no reasignamos
+               cambiar_tupla()
 
-               def agregar_item():
-                  # Modifica el contenido sin necesidad de 'global'
-                  frutas.append("naranja")
-
-
-               agregar_item()
-               print(frutas)  # Salida: ['manzana', 'banana', 'naranja']
-
+               print(numeros)  # Salida: (1, 2, 3)
 
 
 
                En este caso, la tupla numeros no cambia fuera de la función porque, aunque se crea una
                nueva tupla dentro de la función, no se modifica la original.
-
 
                Recomendación
 
@@ -748,13 +747,11 @@
                ocurra, podés crear una copia del objeto antes de pasarlo a la función:
 
 
-
                def agregar_elemento(lista):
                   lista.append("nuevo elemento")
 
-               frutas = ["manzana", "banana"]
-
-               # Pasamos una copia de la lista]]></page><page Index="18"><![CDATA[agregar_elemento(frutas.copy())
+               frutas = ["manzana", "banana"]]]></page><page Index="18"><![CDATA[# Pasamos una copia de la lista
+               agregar_elemento(frutas.copy())
 
                print(frutas)  # Salida: ['manzana', 'banana']
 
@@ -773,6 +770,7 @@
                sin interferir con otras partes del programa. Por otro lado, las variables globales pueden ser
                útiles para datos que necesitan ser compartidos en varias funciones, pero deben usarse con
                cuidado para no generar confusión o errores inesperados.
+
 
                Siempre que sea posible, usá variables locales dentro de tus funciones. Las variables
                locales ayudan a que el código sea más modular, fácil de entender y mantener. Al limitar el
