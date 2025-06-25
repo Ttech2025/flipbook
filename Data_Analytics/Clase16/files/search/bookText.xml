@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="6"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase 16 | Cier re de cursada
+
+
+
+
+
+               Temario:
+
+                   ●  El próximo paso: El cientíﬁco de datos. Machine Learning. Demostración de
+                       regresión lineal
+                   ●  Tips de inserción laboral.
+
+
+
+
+               Objetivos de la Clase:
+
+                   ●  Conocer el siguiente paso en la ruta de aprendizaje de datos
+                   ●  Comprender el rol del cientíﬁco de datos y su diferencia con el analista.
+                   ●  Destacar la importancia del Machine Learning en la creación de modelos
+                       predictivos.
+                   ●  Entender qué es la regresión lineal.
+                   ●  Conocer estrategias efectivas para la inserción laboral como analista de
+                       datos.]]></page><page Index="3"><![CDATA[Cier re de cursada
+
+
+               ¡Felicitaciones por llegar al final del camino!
+
+               Llegamos  al  final  de  este  curso  intensivo  de  Data  Analytics  con  Python.
+               ¡Felicitaciones a todos por el esfuerzo y la dedicación! Las herramientas adquiridas
+               abren muchas puertas, pero, ¿cuál es el siguiente paso?
+
+
+
+               El próximo paso: El científico de datos
+
+
+               Una opción muy interesante es seguir profundizando en
+               el mundo del análisis de datos y convertirse en científico
+               de datos. El científico de datos es un perfil que va un
+               poco más allá del analista, ya que no solo se enfoca en
+               describir  los  datos,  sino  también  en  construir  modelos
+               predictivos  y  encontrar  patrones  ocultos  que  puedan
+               generar valor para las empresas.
+
+
+
+
+
+
+               Machine Learning: La magia de aprender de los datos
+
+               Una  de  las  herramientas  más  poderosas  que  tiene  un  científico  de  datos  es  el
+               Machine Learning (aprendizaje automático). El Machine Learning permite que las
+               computadoras  aprendan  de  los  datos  sin  necesidad  de  ser  programadas
+               explícitamente. Esto significa que podemos construir modelos que puedan predecir
+               el  comportamiento  de  los  clientes,  detectar  fraudes,  o  incluso  diagnosticar
+               enfermedades, todo ello basándose en los datos que les proporcionamos. Una de
+               las  herramientas  que  utilizamos  en  Machine  Learning  es  la  regresión  lineal:  un
+               método estadístico que modela la relación entre una variable continua y una o más
+               variables  independientes.  Esto  permite  predecir  cómo  se  comportará  la  variable
+               independiente, según el valor de la variable continua.]]></page><page Index="4"><![CDATA[Demostración de Regresión Lineal: Un ejemplo práctico
+
+               Veamos un ejemplo sencillo para entender lo que es una regresión lineal. Dijimos
+               que la regresión lineal es una técnica que nos permite encontrar la relación entre
+               dos variables. Por ejemplo, podríamos querer saber si existe una relación entre la
+               cantidad de dinero que invertimos en publicidad y las ventas que obtenemos.
+
+
+                import pandas as pd
+                import plotly.express as px
+
+                # Creamos un DataFrame con datos de ejemplo
+                data = {'Publicidad': [10, 20, 30, 40, 50],
+                        'Ventas': [20, 40, 50, 60, 80]}
+                df = pd.DataFrame(data)
+
+                # Creamos un gráfico de dispersión con Plotly
+                fig = px.scatter(df, x='Publicidad', y='Ventas',
+                                 title='Relación entre Publicidad y Ventas')
+
+                # Agregamos una línea de regresión lineal
+                fig.add_trace(px.line(df, x='Publicidad',
+                y=df['Publicidad']*1.5 + 5,
+                                      title='Regresión Lineal').data[0])
+
+                fig.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               En este ejemplo, estamos creando un DataFrame con datos de publicidad y ventas.
+               Luego, usamos Plotly para crear un gráfico de dispersión que muestra la relación
+               entre  estas  dos  variables.  Finalmente,  agregamos  una  línea  de regresión lineal]]></page><page Index="5"><![CDATA[que  representa  la  relación  que  encontramos  entre  la  publicidad  y  las  ventas.
+               Podemos ver que la correlación es importante. La línea de regresión lineal es y =
+               1.5x + 5, donde x es la inversión en publicidad e y son las ventas. Esto significa que
+               por cada peso que invertimos en publicidad, esperamos que las ventas aumenten
+               en 1.5 pesos, más un valor base de 5 pesos.
+
+               Aprender a calcular la fórmula de la recta de regresión lineal nos permitirá calcular
+               un estimado de las ventas, a partir de la inversión en publicidad.
+
+
+               Tips de inserción laboral para analistas de datos
+
+
+               Ahora  bien,  ¿cómo  hacemos  para  conseguir  trabajo  como  analistas  de  datos? A
+               continuación dejamos algunos consejos:
+                   ●  Armar un buen portfolio: Mostrar nuestros proyectos es la mejor forma de
+                       demostrar nuestras habilidades
+                   ●  LinkedIn  es  nuestro  amigo: Conectarse  con  otros  profesionales del área,
+                       participar en grupos y compartir contenido relevante.
+                   ●  Práctica: Seguir aprendiendo y practicando con datasets públicos.
+                   ●  No tener miedo de preguntar.
+                   ●  Networking: Ir  a  eventos  de la industria, conocer gente y hablar de lo que
+                       hacemos.
+
+
+
+
+               Reflexión final
+
+               Esperamos que este curso les haya servido para
+               mostrarles  el  potencial  que  tiene  el  análisis de
+               datos.  ¡Les  deseamos  mucho  éxito  en  sus
+               carreras  y esperamos que sigan aprendiendo y
+               creciendo en este apasionante mundo! ¡Éxitos!]]></page><page Index="6"><![CDATA[]]></page></pages></Search>
