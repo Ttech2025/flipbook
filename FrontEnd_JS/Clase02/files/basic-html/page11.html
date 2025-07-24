@@ -4,7 +4,7 @@
 				<meta name="robots" content="all"/>
         <meta name="description" content="description">
         <meta name="keywords" content="">
-        <title>Page 11 - FrontEnd_JS - Clase 02</title>
+        <title>Page 11 - FrontEnd_JS - Clase 2</title>
 <style type="text/css">
 <!--
 body {
@@ -141,7 +141,7 @@ function MM_swapImage() { //v3.0
   </div>
   <div id="content">
      <div id="content-top">
-        <div id="content-top1">Page 11 - FrontEnd_JS - Clase 02</div>
+        <div id="content-top1">Page 11 - FrontEnd_JS - Clase 2</div>
         <div id="content-top2">P. 11</div>
      </div>
      <div id="content-middle">
@@ -152,16 +152,61 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>○  Guarda el video en la misma carpeta y nombralo video.mp4.
-                          ○  Si el video no tiene subtítulos, puedes crear un archivo de
-                              subtítulos (.vtt) o utilizar uno disponible, y nombrarlo
+    <pre style="white-space:pre-line"><code>4. Etiqueta &lt;iframe&gt;
 
-                              subtitulos.vtt.
-                   3.  Incorporar la imagen y video en el HTML:
-                          ○  Inserta la imagen en el &lt;header&gt; utilizando la etiqueta &lt;img&gt;.
-                          ○  Inserta el video en el &lt;main&gt; utilizando la etiqueta &lt;video&gt; con el
-                              atributo controls, y asegurate de incluir los subtítulos con la
-                              etiqueta &lt;track&gt;.</code></pre>
+
+               ¿Qué es?
+                Inserta otro documento HTML dentro de la página actual.
+
+               ¿Qué hace?
+                Sirve para mostrar contenido externo, como videos, mapas, etc.
+
+
+               Atributos clave:
+
+                   ●  src: URL del contenido a insertar.
+                   ●  width y height: tamaño del iframe.
+                   ●  frameborder: grosor del borde (0 para sin borde).
+                   ●  allowfullscreen: permite pantalla completa.
+
+
+               Ejemplo:
+
+
+               &lt;iframe                   src="https://www.youtube.com/watch?v=oavMtUWDBTM"
+               width="560" height="315" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+
+               5. Etiqueta &lt;track&gt;
+
+
+               ¿Qué es?
+                Agrega subtítulos o pistas de texto a videos.
+
+               ¿Qué hace?
+                Permite mostrar subtítulos sincronizados para mejorar la accesibilidad.
+
+
+               Atributos clave:
+
+                   ●  src: archivo de subtítulos (.vtt).
+                   ●  kind: tipo de pista (subtitles para subtítulos).
+                   ●  srclang: idioma de los subtítulos.
+                   ●  label: nombre visible para elegir idioma.
+
+
+               Ejemplo:
+
+
+               &lt;track         src="subtitulos.vtt"            kind="subtitles"            srclang="es"
+               label="Español"&gt;
+
+               Se usa dentro de &lt;video&gt;.</code></pre>
      	</div>
     
      </div>
@@ -171,7 +216,7 @@ function MM_swapImage() { //v3.0
            <tr>
              <td width="22%" height="44"><a href="page10.html"><img src="images/previous.png" width="26" height="19" id="Image2" onmouseover="MM_swapImage('Image2','','images/previous2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
              <td width="43%">
-             	&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>
+             	&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>&nbsp;&nbsp;&nbsp;<a href="page14.html">14</a>&nbsp;&nbsp;&nbsp;<a href="page15.html">15</a>
              </td>
              <td width="35%"><a href="page12.html"><img src="images/next.png" width="26" height="19" id="Image1" onmouseover="MM_swapImage('Image1','','images/next2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
            </tr>

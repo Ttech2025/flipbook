@@ -152,7 +152,10 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>En este caso, cuando se haga clic en el botón, aparecerá una alerta. El método
+    <pre style="white-space:pre-line"><code>&lt;/script&gt;
+
+
+               En este caso, cuando se haga clic en el botón, aparecerá una alerta. El método
                addEventListener nos permite definir de manera limpia cómo reaccionar a distintos
                eventos.
 
@@ -160,17 +163,18 @@ function MM_swapImage() { //v3.0
 
 
                Diferencias entre eventos en atributos HTML, propiedades
+
                y addEventListener
 
 
                Hay varias formas de manejar eventos en JavaScript:
-
 
                Atributos HTML: Podés definir eventos directamente en el HTML, pero no es
                recomendable porque mezcla lógica con estructura.
                Ejemplo:
 
                &lt;button onclick="alert('¡Hiciste clic!')"&gt;Hacé clic&lt;/button&gt;
+
 
                Propiedades de los elementos: Podés asignar una función directamente a la propiedad
                del evento del elemento en JavaScript.
@@ -180,15 +184,17 @@ function MM_swapImage() { //v3.0
 
                boton.onclick = function() {
 
-
                   alert("¡Clic detectado!");
+
 
                 };
 
 
-                   ●  addEventListener: Es la forma recomendada, ya que permite adjuntar múltiples
-                       eventos al mismo elemento sin sobrescribir funciones anteriores. Además, es más
-                       flexible.
+
+                    addEventListener:  Es  la  forma  recomendada,  ya  que  permite  adjuntar  múltiples
+                eventos  al  mismo  elemento  sin  sobrescribir  funciones  anteriores.  Además,  es  más
+                flexible.
+
 
 
 
@@ -196,19 +202,11 @@ function MM_swapImage() { //v3.0
                Eventos con funciones flecha y eventos tradicionales
 
 
-               Podés usar tanto funciones normales como funciones flecha en tus eventos. La diferencia
-               principal es cómo manejan el contexto (this):
+               En JavaScript, this es una palabra reservada que apunta al objeto que está ejecutando
+               el código.
 
-               Ejemplo con función tradicional:
-
-
-               boton.addEventListener("click", function() {
-
-                  console.log(this);  // 'this' se refiere al elemento que disparó el
-               evento
-
-
-                });</code></pre>
+               En los eventos del DOM, normalmente apunta al elemento que dispara el evento (por
+               ejemplo un botón).</code></pre>
      	</div>
     
      </div>
@@ -218,7 +216,7 @@ function MM_swapImage() { //v3.0
            <tr>
              <td width="22%" height="44"><a href="page11.html"><img src="images/previous.png" width="26" height="19" id="Image2" onmouseover="MM_swapImage('Image2','','images/previous2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
              <td width="43%">
-             	&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>&nbsp;&nbsp;&nbsp;<a href="page14.html">14</a>&nbsp;&nbsp;&nbsp;<a href="page15.html">15</a>&nbsp;&nbsp;&nbsp;<a href="page16.html">16</a>
+             	&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>&nbsp;&nbsp;&nbsp;<a href="page14.html">14</a>&nbsp;&nbsp;&nbsp;<a href="page15.html">15</a>&nbsp;&nbsp;&nbsp;<a href="page16.html">16</a>&nbsp;&nbsp;&nbsp;<a href="page17.html">17</a>
              </td>
              <td width="35%"><a href="page13.html"><img src="images/next.png" width="26" height="19" id="Image1" onmouseover="MM_swapImage('Image1','','images/next2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
            </tr>

@@ -152,17 +152,37 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>En este ejemplo, nombre es el parámetro de la función. Cuando la llamás, tenés
-               que pasarle un argumento, que es el valor específico que querés usar:
+    <pre style="white-space:pre-line"><code>2. Parámetros de Entrada y Salida en Funciones
 
+
+               Cuando hablamos de funciones, no solo nos referimos a bloques de código que
+               hacen algo, sino que también pueden recibir información y devolver resultados. Acá
+               es donde entran en juego los parámetros y los argumentos. Entender cómo
+               funcionan es clave para aprovechar todo el potencial de las funciones.
+
+
+               Definición de Parámetros
+
+               Los parámetros son las "variables" que las funciones reciben al ser llamadas. Se
+               definen cuando se crea la función y representan los datos que la función necesita
+               para operar. Es como cuando le pedís a alguien que te alcance algo, y ese "algo"
+               sería el parámetro.
+
+
+               function saludar(nombre) {
+
+
+                  console.log("Hola " + nombre);}
+
+
+               En este ejemplo, nombre es el parámetro de la función. Cuando la llamás, tenés
+               que pasarle un argumento, que es el valor específico que querés usar:
 
                saludar("Juan"); // Esto imprimirá "Hola Juan"
 
 
 
-
                Tipos de Funciones Según los Parámetros
-
 
                Sin Parámetros: Una función que no recibe ningún dato. Simplemente realiza una
                tarea y no necesita ninguna información externa.
@@ -179,9 +199,6 @@ function MM_swapImage() { //v3.0
                saludar();  // Imprime: "Hola a todos"
 
 
-
-
-
                Con Parámetros: Estas funciones son más flexibles porque pueden trabajar con
                diferentes datos dependiendo de los argumentos que les pases.
 
@@ -191,14 +208,7 @@ function MM_swapImage() { //v3.0
                   console.log(a + b);
 
 
-               }
-
-
-               sumar(5, 10);  // Imprime: 15
-
-
-               En este segundo caso, la función sumar tiene dos parámetros (a y b) que, cuando
-               la llamamos, se reemplazan con los valores 5 y 10.</code></pre>
+               }</code></pre>
      	</div>
     
      </div>

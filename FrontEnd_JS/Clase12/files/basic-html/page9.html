@@ -185,9 +185,10 @@ function MM_swapImage() { //v3.0
                insertar HTML completo, no solo texto.
 
 
-               Nota importante: Aunque innerHTML es muy flexible, debés usarlo con cuidado cuando
-               estás manipulando contenido que proviene de los usuarios, porque puede ser una puerta de
-               entrada para ataques de XSS (Cross-Site Scripting).
+                  Aunque  innerHTML  es  muy  flexible,  debés  usarlo  con  cuidado  cuando  estás
+                manipulando  contenido  que proviene de los usuarios, porque puede ser una puerta de
+                entrada para ataques de XSS (Cross-Site Scripting).
+
 
                textContent: A diferencia de innerHTML, este método solo modifica el texto dentro de un
                elemento, sin interpretar etiquetas HTML. Es mucho más seguro si solo estás manejando
@@ -195,20 +196,18 @@ function MM_swapImage() { //v3.0
 
                Ejemplo:
 
-                  &lt;div id="contenido"&gt;
 
+                  &lt;div id="contenido"&gt;
 
                     &lt;p&gt;Texto inicial&lt;/p&gt;
 
-                  &lt;/div&gt;
 
+                  &lt;/div&gt;
 
                   &lt;script&gt;
 
-                    let div = document.getElementById("contenido");
 
-
-                    div.textContent = "Este es solo texto, sin HTML"; &lt;/script&gt;</code></pre>
+                    let div = document.getElementById("contenido");</code></pre>
      	</div>
     
      </div>

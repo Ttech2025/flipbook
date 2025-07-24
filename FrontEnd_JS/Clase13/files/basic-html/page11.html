@@ -152,7 +152,8 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>var li = document.createElement('li');
+    <pre style="white-space:pre-line"><code>var producto = carrito[i];
+                      var li = document.createElement('li');
                       li.textContent = producto.nombre + ' - $' + producto.precio;
                       listaCarrito.appendChild(li);
                     }
@@ -164,35 +165,50 @@ function MM_swapImage() { //v3.0
 
 
 
+                 Storytelling
 
 
-               Ejercicios Práctico 1:
+               Persistencia              de        datos         con         LocalStorage               y
+
+               SessionStorage
 
 
 
 
-               Guardar Preferencias de Usuario
 
 
-               Enunciado:
-
-               Crear una función que guarde y recupere las preferencias de un usuario, como su
-               nombre y el color de fondo preferido, utilizando LocalStorage.
 
 
-                   1.  La función debe permitir al usuario ingresar su nombre y seleccionar su color
-                       de fondo preferido desde una lista de opciones.
-                   2.  Los datos ingresados deben almacenarse en LocalStorage.
-                   3.  Cada vez que la página se recargue, las preferencias deben recuperarse de
-                       LocalStorage y aplicarse automáticamente (mostrar el nombre del usuario y
-                       cambiar el color de fondo).
 
-               Tips:
 
-                   ●  Uso de LocalStorage para almacenar el nombre y el color.
-                   ●  Manipulación del DOM para aplicar los cambios de color de fondo.
 
-                   ●  Uso de eventos como submit para guardar las preferencias.</code></pre>
+
+
+
+
+
+
+               Tomás (Desarrollador Senior)
+
+                            Chicos  y  chicas,  llegó  el  momento  de  dar  un  gran  salto:  aprender a
+                            guardar  información  en  el  navegador.  Esto  les  va  a  permitir  crear
+
+                            sitios  más  completos,  donde  las  preferencias  del  usuario  o  los
+                            productos de un carrito no desaparezcan al actualizar la página.
+
+               Hoy  vamos  a  trabajar  con  LocalStorage,  una  herramienta  súper  práctica  para
+               mantener datos persistentes entre sesiones, y aplicarla a casos reales.
+
+
+
+
+
+
+
+
+
+
+               Ejercicio práctico #1:</code></pre>
      	</div>
     
      </div>
@@ -202,7 +218,7 @@ function MM_swapImage() { //v3.0
            <tr>
              <td width="22%" height="44"><a href="page10.html"><img src="images/previous.png" width="26" height="19" id="Image2" onmouseover="MM_swapImage('Image2','','images/previous2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
              <td width="43%">
-             	&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>
+             	&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>&nbsp;&nbsp;&nbsp;<a href="page14.html">14</a>&nbsp;&nbsp;&nbsp;<a href="page15.html">15</a>&nbsp;&nbsp;&nbsp;<a href="page16.html">16</a>
              </td>
              <td width="35%"><a href="page12.html"><img src="images/next.png" width="26" height="19" id="Image1" onmouseover="MM_swapImage('Image1','','images/next2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
            </tr>

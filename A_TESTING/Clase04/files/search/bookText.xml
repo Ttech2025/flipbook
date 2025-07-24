@@ -32,17 +32,17 @@
                compartir el estado de las pruebas.]]></page><page Index="3"><![CDATA[Pytest
 
 
-                                          Pytest es el framework de testing más popular en Python. Se
-                                          utiliza para automatizar pruebas de software, especialmente
-                                          aquellas que validan funciones y comportamientos dentro de un
-                                          proyecto.
+                                            Pytest es el framework de testing más popular en Python. Se
+                                            utiliza para automatizar pruebas de software, especialmente
+                                            aquellas que validan funciones y comportamientos dentro de
+                                            un proyecto.
 
-                                          Hoy lo instalaremos, convertiremos nuestro módulo
-                                          calculadora.py en una mini‑suite de pruebas y
-                                          aprenderemos a usar fixtures, markers y parametrización para
-                                          mantener el código de tests limpio y escalable. Al final generarás
-                                          un reporte HTML que cualquiera podrá leer sin instalar nada
-                                          extra.
+                                            Hoy lo instalaremos, convertiremos nuestro módulo
+                                            calculadora.py en una mini‑suite de pruebas y
+                                            aprenderemos a usar fixtures, markers y parametrización para
+                                            mantener el código de tests limpio y escalable. Al final
+                                            generarás un reporte HTML que cualquiera podrá leer sin
+                                            instalar nada extra.
 
                ¿Para qué se usa?
 
@@ -63,26 +63,46 @@
 
                Asegurate de tener tu archivo calculadora.py con las funciones básicas.
 
-               Si no lo tenés podés copiarlo de aca:
-               https://github.com/emilianospinoso/pre-entrega-automation-testing/blob/main/calculadora.py
-
 
 
                Paso 2: Instalación
 
                Podés instalar Pytest (y opcionalmente el plugin para generar reportes HTML) usando pip:
 
-                pip install pytest pytest-html]]></page><page Index="4"><![CDATA[pytest-html es útil si querés compartir los resultados de los tests en formato visual
-               (HTML), por ejemplo al adjuntarlos en un Pull Request.
+                pip install pytest pytest-html
 
 
 
-               Paso 3: Estructura del proyecto recomendada.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               pytest-html es útil si querés compartir los resultados de los tests en formato visual
+               (HTML), por ejemplo al adjuntarlos en un Pull Request.]]></page><page Index="4"><![CDATA[Paso 3: Estructura del proyecto recomendada.
 
                Para que Pytest funcione correctamente, es importante organizar tu proyecto. Una
                estructura básica sería:
 
                    ●  Crea una carpeta tests/ y dentro un archivo test_calculadora.py.
+
+
+
+
 
 
                Creación de casos de prueba
@@ -103,7 +123,6 @@
                import pytest
 
                def test_sumar_positivo():
-
                  assert sumar(2, 3) == 5
 
                def test_sumar_negativo():
@@ -183,19 +202,17 @@
 
                Decoradores y aserciones
 
-
-               ¿Qué es un decorador?
-
                Los decoradores en Python son funciones que “envuelven” a otra para modificar su
                comportamiento sin tocar su código interno.
 
                Pytest se apoya en decoradores para tres tareas claves:
 
-                     Decorador                                 ¿Para qué sirve?
 
+                     Decorador                                 ¿Para qué sirve?
                                      Declarar ﬁxtures: piezas reutilizables que preparan datos u objetos antes del
                  @pytest.ﬁxture      test y, opcionalmente, los limpian después. Evitan código duplicado y
                                      centralizan la conﬁguración.
+
                                      Parametrizar un mismo test con varias combinaciones de datos. Pytest crea
                  @pytest.mark.para   un sub-test por cada ﬁla del parámetro, aumentando la cobertura sin
                  metrize
@@ -210,7 +227,6 @@
                Un fixture es una función especial (decorada con @pytest.fixture) que se ejecuta
                antes de tu prueba para preparar datos, objetos o estado, y, opcionalmente, después para
                limpiarlos. Reduce repetición y centraliza la configuración.
-
                @pytest.fixture
                def numeros_enteros():
                    """Prepara dos enteros comunes."""
@@ -218,7 +234,6 @@
 
                    ●  Esto crea una fixture que devuelve una tupla (20, 5).
                    ●  Sirve para evitar repetir estos datos en múltiples tests.
-
 
                Usamos la fixture así:
 
@@ -278,13 +293,13 @@
 
 
                Vamos ahora a realizar un ejemplo mucho mas avanzado con la misma calculadora que
-               tenemos. En él vamos a aplicar lo visto en los puntos 3, 4 y 5.
+               tenemos. En él vamos a aplicar lo visto en los puntos anteriores.
 
 
                Para realizar el ejemplo deberás crear un archivo pytest.ini en la raíz de tu proyecto
                para registrar las etiquetas personalizadas y evitar advertencias:
 
-               Link al archivo
+
 
                [pytest]
 
@@ -295,10 +310,9 @@
                    exception: casos que validan manejo de errores
 
 
-               Código
-
 
                Este es el nuevo archivo de pruebas que implementa todos los conceptos mencionados:
+
 
                Podés obtenerlo del repo:
                https://github.com/emilianospinoso/pre-entrega-automation-testing/blob/main/tests/test_calc
@@ -311,8 +325,8 @@
 
                a. Fixtures con @pytest.fixture
 
-
                Creamos dos fixtures:
+
 
                    ●  numeros_enteros: Devuelve una tupla con dos enteros (20, 5) que se pueden
                        usar en múltiples tests.
@@ -323,7 +337,6 @@
                reduciendo la duplicación de código.
 
                b. Parametrización con @pytest.mark.parametrize
-
 
                Implementamos tests parametrizados para las funciones sumar y restar. Cada
                combinación de parámetros crea un test independiente. Esto permite:
@@ -346,23 +359,19 @@
 
 
 
-
-
-
-
                Aserciones de precisión
 
 
-
                He utilizado pytest.approx() para realizar comparaciones con tolerancia:
+
 
                    ●  En test_multiplicar_preciso: Maneja la imprecisión inherente de multiplicar
                        números flotantes.
                    ●  En test_dividir_preciso: Maneja la imprecisión de representar un número
                        periódico.
 
-
                ¿Cómo ejecutar estos tests?
+
 
                Para ejecutar todos los tests:
 
@@ -393,13 +402,12 @@
 
                Para ejecutar solo los tests marcados como "smoke":
 
-               pytest -v -m smoke]]></page><page Index="10"><![CDATA[Para ejecutar solo los tests marcados como "exception":
-
-               pytest -v -m exception
+               pytest -v -m smoke
 
 
-               Para ver un reporte detallado de tests parametrizados:
+               Para ejecutar solo los tests marcados como "exception":
 
+               pytest -v -m exception]]></page><page Index="10"><![CDATA[Para ver un reporte detallado de tests parametrizados:
 
                pytest -v tests/test_calculadora_avanzado.py::test_sumar_varios
 
@@ -410,6 +418,9 @@
                    2.  Parametrización para múltiples casos de prueba
                    3.  Etiquetas para agrupar tests
                    4.  Aserciones avanzadas para comparaciones precisas
+
+
+
 
 
                Reporte HTML nativo
@@ -435,17 +446,52 @@
 
 
                Abre report.html con doble clic o arrastrándolo a tu navegador para revisar los
-               resultados y compártelo con tu equipo adjuntándolo en el Pull Request.
+               resultados y compártelo con tu equipo adjuntándolo en el Pull Request.]]></page><page Index="11"><![CDATA[Vas a ver algo como esto:
 
 
-               Vas a ver algo como esto:]]></page><page Index="11"><![CDATA[Preguntas para reflexionar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Preguntas para reflexionar
 
 
                    ●  ¿Cómo te ayuda un fixture a centralizar datos de prueba?
                    ●  ¿Qué beneficios aporta dividir tests en grupos (smoke, slow)?
                    ●  ¿Cuándo parametrizar tests ahorra mantenimiento?
-
-
 
 
                Próximos pasos
@@ -454,31 +500,17 @@
                En la Clase N° 5 profundizaremos en HTML y la estructura de páginas web.
                Estudiaremos la anatomía de un documento HTML, sus elementos principales (div, form,
                input, button) y aprenderemos a inspeccionar elementos con las DevTools del
-               navegador para preparar la automatización web con Selenium.
-
-
-
-
+               navegador para preparar la automatización web con Selenium.]]></page><page Index="12"><![CDATA[  Storytelling
 
                Automatizando en TalentoLab
 
 
 
+                             Talento Lab debe lanzar un microservicio de cálculo.
 
+                             Silvia (PO) necesita evidencia automatizada de que las operaciones básicas
+                             funcionan.
 
-
-
-
-
-
-
-
-
-
-                          Talento Lab debe lanzar un microservicio de cálculo.
-
-                          Silvia (PO) necesita evidencia automatizada de que las operaciones básicas
-                          funcionan.
 
 
 
@@ -486,7 +518,11 @@
 
                             "Cubrí todas las funciones de la calculadora, parametrizá la suma con
                             varios valores y marca las operaciones clave como smoke. El reporte
-                            HTML debe adjuntarse al Pull Request."]]></page><page Index="12"><![CDATA[Ejercicios prácticos
+                            HTML debe adjuntarse al Pull Request."
+
+
+
+               Ejercicios prácticos
 
 
 
@@ -512,8 +548,6 @@
 
                        Muestra cómo filtrar la ejecución:
                        pytest -m smoke        # solo tests “sumar”
-
-
                        pytest -m exception    # solo tests “dividir” con error
 
                    5.  Reporte HTML

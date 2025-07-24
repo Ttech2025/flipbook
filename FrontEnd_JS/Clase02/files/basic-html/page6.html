@@ -4,7 +4,7 @@
 				<meta name="robots" content="all"/>
         <meta name="description" content="description">
         <meta name="keywords" content="">
-        <title>Page 6 - FrontEnd_JS - Clase 02</title>
+        <title>Page 6 - FrontEnd_JS - Clase 2</title>
 <style type="text/css">
 <!--
 body {
@@ -141,7 +141,7 @@ function MM_swapImage() { //v3.0
   </div>
   <div id="content">
      <div id="content-top">
-        <div id="content-top1">Page 6 - FrontEnd_JS - Clase 02</div>
+        <div id="content-top1">Page 6 - FrontEnd_JS - Clase 2</div>
         <div id="content-top2">P. 6</div>
      </div>
      <div id="content-middle">
@@ -152,58 +152,61 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Elementos en bloque y en línea
+    <pre style="white-space:pre-line"><code>Rutas absolutas y relativas
 
 
 
-               Elementos en bloque (block)
+               Las rutas son esenciales para enlazar correctamente archivos, imágenes, estilos y scripts
+               en una página web. Existen dos tipos principales:
+
+               Ruta absoluta
 
 
-               Los elementos en bloque siempre empiezan en una nueva línea de código y ocupan todo el
-               ancho disponible. Estos elementos suelen usarse para estructurar secciones completas de
-               contenido. Veamos algunos casos:
-
-                   ●  Ejemplos comunes:
-                          ○  &lt;div&gt; Un contenedor genérico para agrupar elementos. No es tan
-                              recomendable su uso al no implicar la utilización de etiquetas semánticas.
-                          ○  &lt;h1&gt; - &lt;h6&gt;: Encabezados de diferentes niveles.
-                          ○  &lt;p&gt;: Define un párrafo.
-                          ○  &lt;ul&gt; y &lt;ol&gt;: Listas, sean ordenadas o desordenadas.
-
-               Elementos en línea (inline)
-
-
-               Los elementos en línea no implican un salto de línea en el código sino que sólo ocupan el
-               espacio que necesitan para desplegarse. Se utilizan para definir partes de un texto o
-               elementos pequeños.
-
-                   ●  Ejemplos comunes:
-                          ○  &lt;span&gt;: Un contenedor genérico para agrupar texto.
-
-                          ○  &lt;a&gt;: Enlaces.
-                          ○  &lt;strong&gt;: Aplica al texto el estilo negrita.
-                          ○  &lt;em&gt;: Aplica al texto el estilo cursiva.
-
-
-
-               Multimedia con HTML
-
-
-
-               Inserción de imágenes
-
-
-               Las imágenes se insertan en HTML utilizando la etiqueta &lt;img&gt;. Es fundamental siempre
-               proporcionar un texto alternativo con el atributo alt para mejorar la accesibilidad. ¿A qué
-               nos referimos con esto? Cuando las personas que accedan a nuestro sitio web apoyen el
-               cursor sobre nuestras imágenes podrán leer la descripción de la imagen gracias al atributo
-               alt, o incluso en caso de romperse, si se perdiera la imagen podrán visualizar el texto que
-               seleccionamos para ella.
+                   ●  Especifica la ubicación completa del archivo desde el inicio del servidor o una URL
+                       externa.
+                   ●  Suele comenzar con http:// o https://.
+                   ●  Útil para enlaces externos o recursos fuera del proyecto.
 
                Ejemplo:
 
-               &lt;img src="imagen.jpg" alt="Descripción de la imagen" width="600"
-               height="400"&gt;</code></pre>
+               &lt;a href="https://www.ejemplo.com/imagen.jpg"&gt;Ver imagen&lt;/a&gt;
+
+
+
+
+
+               Ruta relativa
+
+
+                   ●  Indica la ubicación del archivo en relación al archivo HTML actual.
+                   ●  Es más flexible ante cambios en carpetas.
+                   ●  Ideal para proyectos locales o que se moverán de servidor.
+
+
+               Ejemplo:
+
+               &lt;a href="imagenes/imagen.jpg"&gt;Ver imagen&lt;/a&gt;
+
+
+
+               Organización de archivos: buenas prácticas
+
+
+               Para mantener tu proyecto ordenado y profesional, se recomienda:
+
+
+               Crear carpetas específicas para cada tipo de archivo:
+
+                   ●  imagenes/ → para imágenes
+
+                   ●  css/ → para hojas de estilo
+
+                   ●  js/ → para scripts
+
+
+               Usar rutas relativas para facilitar la movilidad del proyecto en distintos entornos.
+
+               Mantener una estructura coherente de carpetas desde el principio.</code></pre>
      	</div>
     
      </div>

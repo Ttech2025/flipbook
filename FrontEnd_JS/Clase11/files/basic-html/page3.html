@@ -152,7 +152,18 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>1. Introducción a las Funciones
+    <pre style="white-space:pre-line"><code>Objetivo de la clase:
+
+               En esta clase vas a comprender cómo las funciones permiten estructurar y reutilizar el
+               código de manera más limpia y organizada. Aprenderás a definir funciones, a pasarles
+               parámetros de entrada y a recibir valores de salida, diferenciando además conceptos como
+               argumentos y alcance de variables (scope). También te vas a familiarizar con la idea de
+               programación modular, viendo cómo se relaciona y se complementa con las funciones para
+               construir programas más escalables y fáciles de mantener. Por último, conocerás las
+               funciones nativas que ofrece JavaScript y cuándo conviene aprovecharlas para simplificar
+               tareas cotidianas.
+
+               1. Introducción a las Funciones
 
 
                Las funciones son uno de los pilares más importantes
@@ -166,9 +177,8 @@ function MM_swapImage() { //v3.0
                Por ejemplo, si tuvieras que escribir varias veces un
                código para calcular el área de un rectángulo, sería
                mejor crear una función que lo haga por vos. Cada vez
-               que necesites calcular el área, simplemente invocas la
+               que necesites calcular el área, simplemente invocás la
                función en lugar de volver a escribir el código.
-
 
                Ejemplo simple:
 
@@ -180,33 +190,19 @@ function MM_swapImage() { //v3.0
 
                }
 
+
                console.log(calcularArea(5, 3)); // Devuelve 15
 
 
 
+                  ¡Recordá!
+                function calcularArea(a, b) {
+                   return a * b;
+                }
+                a y b son parámetros que la función espera recibir
 
-
-
-               2. Parámetros de Entrada y Salida en Funciones
-
-
-               Cuando hablamos de funciones, no solo nos referimos a bloques de código que
-               hacen algo, sino que también pueden recibir información y devolver resultados. Acá
-               es donde entran en juego los parámetros y los argumentos. Entender cómo
-               funcionan es clave para aprovechar todo el potencial de las funciones.
-
-               Definición de Parámetros
-
-
-               Los parámetros son las "variables" que las funciones reciben al ser llamadas. Se
-               definen cuando se crea la función y representan los datos que la función necesita
-               para operar. Es como cuando le pedís a alguien que te alcance algo, y ese "algo"
-               sería el parámetro.
-
-               function saludar(nombre) {
-
-
-                  console.log("Hola " + nombre);}</code></pre>
+                la función hace la multiplicación a * b
+                return entrega el resultado al lugar donde fue llamada</code></pre>
      	</div>
     
      </div>

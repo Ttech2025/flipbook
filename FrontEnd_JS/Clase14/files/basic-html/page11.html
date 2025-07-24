@@ -152,39 +152,52 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>&lt;p&gt;Precio: $${producto.price}&lt;/p&gt;
-                                    &lt;button
-
-               onclick="agregarAlCarrito(${producto.id})"&gt;Añadir al
-               carrito&lt;/button&gt;
-                                &lt;/div&gt;
-                            `;
-
-                    });
-                    actualizarCarrito();
-
-                  })
-                  .catch((error) =&gt; {
-                    console.error("Error al obtener productos:", error);
-                    contenedor.innerHTML = "&lt;p&gt;Hubo un problema al cargar los
-
-               productos.&lt;/p&gt;";
-                  });
-               });
+    <pre style="white-space:pre-line"><code>  Storytelling
 
 
-               function agregarAlCarrito(idProducto) {
-                let carrito = JSON.parse(localStorage.getItem("carrito")) ||
-               [];
+               Consumir  APIs  y  Carrito  Dinámico  con  Fetch  y
 
-                carrito.push(idProducto);
-                localStorage.setItem("carrito", JSON.stringify(carrito));
-                alert("Producto añadido al carrito");
+               LocalStorage
 
-                actualizarCarrito();
-               }
 
-               ______________________________________________________________</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Tomás (Desarrollador Senior)
+
+                            ¡Vamos por más! Ahora que ya tenés una buena base en JavaScript, es
+                            momento de dar un gran paso hacia la programación moderna: trabajar
+                            con  datos  externos  y  manejar  operaciones  asíncronas.  Esto  es clave
+                            para crear aplicaciones reales que se conectan a servicios en la nube.
+
+
+
+               Ejercicio práctico #1:
+
+
+               Consumir una API REST con fetch
+
+
+                              Lucía (Product Owner)
+
+                              Queremos  que  tu  tienda  online  muestre  productos  reales  obtenidos
+                              desde  una  API  pública.  Para  eso,  usarás  la  función  fetch()  para
+                              traer  los  datos,  mostrarlos en pantalla y manejar cualquier error que
+                              pueda aparecer.
+
+               Pasos a seguir:</code></pre>
      	</div>
     
      </div>
@@ -194,7 +207,7 @@ function MM_swapImage() { //v3.0
            <tr>
              <td width="22%" height="44"><a href="page10.html"><img src="images/previous.png" width="26" height="19" id="Image2" onmouseover="MM_swapImage('Image2','','images/previous2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
              <td width="43%">
-             	&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>&nbsp;&nbsp;&nbsp;<a href="page14.html">14</a>
+             	&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>&nbsp;&nbsp;&nbsp;<a href="page14.html">14</a>&nbsp;&nbsp;&nbsp;<a href="page15.html">15</a>&nbsp;&nbsp;&nbsp;<a href="page16.html">16</a>
              </td>
              <td width="35%"><a href="page12.html"><img src="images/next.png" width="26" height="19" id="Image1" onmouseover="MM_swapImage('Image1','','images/next2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
            </tr>

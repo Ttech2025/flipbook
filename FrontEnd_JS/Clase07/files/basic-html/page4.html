@@ -4,7 +4,7 @@
 				<meta name="robots" content="all"/>
         <meta name="description" content="description">
         <meta name="keywords" content="">
-        <title>Page 4 - FrontEnd_JS - Clase 07</title>
+        <title>Page 4 - FrontEnd_JS - Clase 7</title>
 <style type="text/css">
 <!--
 body {
@@ -141,7 +141,7 @@ function MM_swapImage() { //v3.0
   </div>
   <div id="content">
      <div id="content-top">
-        <div id="content-top1">Page 4 - FrontEnd_JS - Clase 07</div>
+        <div id="content-top1">Page 4 - FrontEnd_JS - Clase 7</div>
         <div id="content-top2">P. 4</div>
      </div>
      <div id="content-middle">
@@ -152,65 +152,47 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Ejemplo básico de Grid:
-
-               &lt;div class="grid-container"&gt;
-
-
-                  &lt;div class="header"&gt;Cabecera&lt;/div&gt;
-
-                  &lt;div class="menu"&gt;Menú&lt;/div&gt;
-
-
-                  &lt;div class="main"&gt;Contenido Principal&lt;/div&gt;
-
-                  &lt;div class="footer"&gt;Pie de página&lt;/div&gt;
-
-
-               &lt;/div&gt;
-
-
-
-
-               CSS básico para Grid:
+    <pre style="white-space:pre-line"><code>CSS básico para Grid:
 
                .grid-container {
-
-
-                  display: grid;
-
-                  grid-template-columns: 200px 1fr; /* Una columna de 200px y otra que
+               display: grid;
+               grid-template-columns:  200px  1fr;  /*  Una  columna  de  200px  y  otra  que
                ocupa el espacio restante */
-
-
-                  grid-template-rows: auto 1fr auto; /* Tres filas, la del medio es
+               grid-template-rows:  auto  1fr  auto;  /*  Tres  filas,  la  del  medio  es
                flexible */
-
-                  gap: 10px; /* Espacio entre los elementos */
-
-
+               gap: 10px; /* Espacio entre los elementos */
                }
 
                .header {
-
-
-                  grid-column: 1 / 3; /* La cabecera ocupa las dos columnas */
-
+               grid-column: 1 / 3; /* La cabecera ocupa las dos columnas */
                }
-
 
                .menu {
 
-
-                  grid-column: 1 / 2; /* El menú ocupa la primera columna */
-
+               grid-column: 1 / 2; /* El menú ocupa la primera columna */
                }
 
                .main {
+               grid-column: 2 / 3; /* El contenido principal ocupa la segunda columna
+               */ }
+
+               .footer {
+               grid-column: 1 / 3; /* El pie de página también ocupa las dos columnas
+               */
+               }
+
+               Explicación:
 
 
-                  grid-column: 2 / 3; /* El contenido principal ocupa la segunda
-               columna */ }</code></pre>
+                   ●  grid-template-columns:  define  cuántas  columnas  tiene  el  layout  y  el  tamaño de
+                       cada  una.  En el ejemplo, la primera columna tiene un tamaño fijo de 200px, y la
+                       segunda columna ocupa el espacio restante (1fr).
+                   ●  grid-template-rows: define el número de filas y su tamaño; la primera y la última fila
+                       (auto)  se  ajustan  automáticamente  al  contenido,  mientras  que  la  fila  del  medio
+                       (1fr) ocupa el espacio restante.
+                   ●  grid-column:  controla  en  qué  columnas  se  sitúa  un  elemento;  por  ejemplo,  la
+                       cabecera ocupa las dos columnas, mientras que el contenido principal ocupa solo
+                       una.</code></pre>
      	</div>
     
      </div>

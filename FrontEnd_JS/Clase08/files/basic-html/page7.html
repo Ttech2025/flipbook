@@ -4,7 +4,7 @@
 				<meta name="robots" content="all"/>
         <meta name="description" content="description">
         <meta name="keywords" content="">
-        <title>Page 7 - FrontEnd_JS - Clase 08</title>
+        <title>Page 7 - FrontEnd_JS - Clase 8</title>
 <style type="text/css">
 <!--
 body {
@@ -141,7 +141,7 @@ function MM_swapImage() { //v3.0
   </div>
   <div id="content">
      <div id="content-top">
-        <div id="content-top1">Page 7 - FrontEnd_JS - Clase 08</div>
+        <div id="content-top1">Page 7 - FrontEnd_JS - Clase 8</div>
         <div id="content-top2">P. 7</div>
      </div>
      <div id="content-middle">
@@ -152,52 +152,48 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Ejemplo: Crear y trabajar con ramas
+    <pre style="white-space:pre-line"><code>Eliminar una rama
+               git branch -d nombreRama
 
-               Crear una Nueva Rama: Cuando empezás a trabajar en una nueva funcionalidad o
-               en la corrección de un error, lo primero que hacés es crear una nueva rama. Esto te
-               permite aislar tus cambios y no afectar la rama principal hasta que estés seguro de
-               que todo funciona correctamente.
-               Comando para crear una nueva rama:
-               git checkout -b nombre-de-la-rama
+               ¡Ojo! No podés eliminar una rama si estás parado sobre ella. Primero cambiá a otra
+               rama.
 
-
-               git checkout -b crea una nueva rama y cambia automáticamente a esa rama.
+               Si necesitás forzar el borrado:
+               git branch -D nombreRama
 
 
-               Reemplazá nombre-de-la-rama con un nombre descriptivo para la rama, como
-               feature-nueva-funcionalidad o bugfix-corregir-bug.
 
+               Trabajar con Archivos en Ramas
 
-               Ejemplo:
-               git checkout -b feature-agregar-formulario-contacto
+               Creás una rama y te cambiás a ella:
+               git branch rama1
+               git checkout rama1
 
+               Agregás archivos:
+               touch archivo1.txt
+                       touch archivo2.txt
 
-               Ahora estás trabajando en una nueva rama llamada
-               feature-agregar-formulario-contacto.
-
-               Hacer Cambios en la Nueva Rama: Podés realizar todos los cambios necesarios
-               en esta rama sin afectar el resto del proyecto. Modifica el código, agregá archivos, y
-               asegurate de hacer commits regularmente para registrar tus cambios.
-
-
-               Ejemplo:
+               Registrás los cambios:
                git add .
+               git commit -m "Creación de archivos"
+
+               Ahora, si cambiás de rama, vas a ver que cada rama tiene sus propios archivos y cambios.
 
 
-               git commit -m "Agregado nuevo formulario de contacto"
+
+               Unir Ramas (Merge)
 
 
+               Reglas básicas antes de hacer merge:
 
 
-               Subir la Rama al Repositorio Remoto (GitHub): Una vez que estás listo para
-               compartir tu rama o realizar una revisión del código, podés subirla a GitHub.
-               Comando:
-               git push origin nombre-de-la-rama
-
+                   ●  Parate en la rama que querés actualizar (ej. main).
+                   ●  Mergeá desde la rama con los cambios.
 
                Ejemplo:
-               git push origin feature-agregar-formulario-contacto</code></pre>
+
+               git checkout main
+               git merge feature-contacto</code></pre>
      	</div>
     
      </div>

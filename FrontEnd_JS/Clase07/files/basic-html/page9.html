@@ -4,7 +4,7 @@
 				<meta name="robots" content="all"/>
         <meta name="description" content="description">
         <meta name="keywords" content="">
-        <title>Page 9 - FrontEnd_JS - Clase 07</title>
+        <title>Page 9 - FrontEnd_JS - Clase 7</title>
 <style type="text/css">
 <!--
 body {
@@ -141,7 +141,7 @@ function MM_swapImage() { //v3.0
   </div>
   <div id="content">
      <div id="content-top">
-        <div id="content-top1">Page 9 - FrontEnd_JS - Clase 07</div>
+        <div id="content-top1">Page 9 - FrontEnd_JS - Clase 7</div>
         <div id="content-top2">P. 9</div>
      </div>
      <div id="content-middle">
@@ -152,75 +152,62 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>2. Media Queries
+    <pre style="white-space:pre-line"><code>Breakpoints en Media Queries
 
-               ¿Qué son Media Queries?
-
-
-               Las Media Queries son una funcionalidad de CSS que permite aplicar estilos dependiendo
-               de las características del dispositivo, como el ancho o la orientación de la pantalla. Son
-               clave para implementar un diseño responsivo, asegurando que tu sitio web se vea y
-               funcione bien en todos los dispositivos, desde celulares hasta computadoras de escritorio.
+               Un  breakpoint  es  el  punto  en  el  que  se  aplican  estilos  diferentes  según  el  ancho  de
+               pantalla del dispositivo.
 
 
+               Esto permite que el diseño sea responsivo y se adapte bien a celulares, tablets, laptops y
+               monitores grandes.
 
 
+                Rango ancho pantalla                        Tipo de dispositivo aproximado
 
 
+                Hasta 600px                                 Celulares pequeños
 
 
+                600px – 768px                               Tablets en modo vertical (portrait)
 
 
-
-
-
+                768px – 992px                               Tablets en modo horizontal y laptops pequeñas
 
 
 
+                992px – 1200px                              Laptops y monitores estándar
 
-
-
+                Más de 1200px                               Monitores grandes
 
 
 
 
+               Veamos un ejemplo Práctico:
 
 
+               HTML (ESTRUCTURA)
+               &lt;section class="galeria"&gt;
+                 &lt;div class="card"&gt;Card 1&lt;/div&gt;
+                 &lt;div class="card"&gt;Card 2&lt;/div&gt;
+                 &lt;div class="card"&gt;Card 3&lt;/div&gt;
+                 &lt;div class="card"&gt;Card 4&lt;/div&gt;
+               &lt;/section&gt;
 
+               CSS (ESTILOS DE LA GALERÍA Y LAS TARJETAS)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               Implementación de Media Queries
-
-
-               Para implementar Media Queries, usamos la regla @media en CSS. Esta regla permite
-               establecer condiciones bajo las cuales ciertos estilos se aplicarán solo si esas condiciones
-               se cumplen.</code></pre>
+               .galeria {
+                 display: grid;
+                 grid-template-columns: 1fr; /* 1 columna por defecto */
+                 gap: 20px;
+                 padding: 20px;
+               }
+               .card {
+                 background-color: #90caf9;
+                 padding: 30px;
+                 text-align: center;
+                 border-radius: 10px;
+                 font-weight: bold;
+               }</code></pre>
      	</div>
     
      </div>

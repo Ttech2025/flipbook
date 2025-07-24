@@ -4,7 +4,7 @@
 				<meta name="robots" content="all"/>
         <meta name="description" content="description">
         <meta name="keywords" content="">
-        <title>Page 9 - FrontEnd_JS - Clase 08</title>
+        <title>Page 9 - FrontEnd_JS - Clase 8</title>
 <style type="text/css">
 <!--
 body {
@@ -141,7 +141,7 @@ function MM_swapImage() { //v3.0
   </div>
   <div id="content">
      <div id="content-top">
-        <div id="content-top1">Page 9 - FrontEnd_JS - Clase 08</div>
+        <div id="content-top1">Page 9 - FrontEnd_JS - Clase 8</div>
         <div id="content-top2">P. 9</div>
      </div>
      <div id="content-middle">
@@ -152,62 +152,52 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Flujo de Trabajo con Ramas:
+    <pre style="white-space:pre-line"><code>Git Restore
 
 
-               Inicio de una nueva tarea: Crear una nueva rama para trabajar en una nueva
-               funcionalidad o bug.
-               git checkout -b feature-nueva-funcionalidad
-
-               Desarrollo: Realizás cambios y los registrás en la rama mediante commits:
-               git add .
+                Acción                         Comando                                    Resultado
 
 
-               git commit -m "Agregada nueva funcionalidad"
+                Deshacer cambios locales       git restore archivo                        Vuelve  al  último
+                                                                                          commit
 
+                Quitar del staging             git restore --staged archivo               Saca  archivo  del
+                                                                                          área de staging
 
-               Subida de cambios al repositorio remoto: Subís tu rama al repositorio para
-               compartirla o hacer una revisión:
-               git push origin feature-nueva-funcionalidad
-
-
-               Finalización: Fusionás los cambios con la rama principal una vez que la
-               funcionalidad está lista:
-               git checkout main
-
-
-               git merge feature-nueva-funcionalidad
-
-               Limpieza: Eliminás la rama si ya no es necesaria:
-               git branch -d feature-nueva-funcionalidad
-
-
-               Este flujo de trabajo con ramas es útil para organizar los cambios, realizar revisiones
-               y mantener un entorno de desarrollo estable.
+                Traer  versión de un commit  git  restore  --source  &lt;hash&gt;  Recupera                     una
+                anterior                       archivo                                    versión vieja
 
 
 
 
-               Flujo de trabajo con Git y GitHub.
+               Resumen
+
+                Acción               Comando
+
+                Ver ramas            git branch
+
+                Crear rama           git branch nombre
 
 
+                Moverse a rama       git checkout nombre
+
+                Crear + cambiar      git checkout -b nombre
 
 
+                Eliminar rama        git branch -d nombre
+
+                Renombrar rama       git branch -m vieja nueva
 
 
+                Subir rama           git push origin nombre
+
+                Unir ramas           git merge nombre
 
 
+                Revertir merge       git merge --abort / git revert -m 1 &lt;hash&gt;
 
-
-
-
-               Crear un repositorio en GitHub: Vas a GitHub, creás un nuevo repositorio y le ponés un
-               nombre descriptivo.
-
-               Vincular repositorio local con GitHub: Abrí tu terminal y escribí este comando para
-               vincular tu repositorio local con el que creaste en GitHub:
-
-               git remote add origin https://github.com/tu-usuario/proyecto.git</code></pre>
+                Ver       historial  git reflog
+                oculto</code></pre>
      	</div>
     
      </div>

@@ -152,29 +152,7 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>}
-
-
-               function calcularTotal(productos) {
-
-
-                  let total = productos.reduce((sum, producto) =&gt; sum +
-               producto.precio, 0);
-
-
-                  console.log("El total es: $" + total);
-
-                  return total;
-
-
-               Paso 2: Modularizar el código. Podrías tener un módulo separado para el carrito de
-
-               compras, otro para la interfaz de usuario, y otro para el cálculo de precios.
-
-               // Módulo del carrito de compras
-
-
-               const carrito = (function() {
+    <pre style="white-space:pre-line"><code>const carrito = (function() {
 
 
                   let productos = [];
@@ -182,11 +160,11 @@ function MM_swapImage() { //v3.0
 
                   return {
 
-
                      agregar: function(producto) {
 
 
                         productos.push(producto);
+
 
                         agregarProducto(producto.nombre);
 
@@ -199,8 +177,8 @@ function MM_swapImage() { //v3.0
 
                         return calcularTotal(productos);
 
-
                      }
+
 
                   };
 
@@ -209,7 +187,17 @@ function MM_swapImage() { //v3.0
 
 
                Este es un ejemplo básico de cómo podés usar tanto funciones como programación
-               modular para crear una aplicación más compleja, reutilizable y fácil de mantener.</code></pre>
+               modular para crear una aplicación más compleja, reutilizable y fácil de mantener.
+
+               Con esto, terminamos la ampliación del tema de Funciones Nativas de JavaScript
+               y la comparación con la Programación Modular. ¡Espero que te haya quedado
+               claro y que puedas aplicar estas ideas a tus proyectos!
+
+
+                 Storytelling
+
+
+               ¡Funciones y Modulaciones!</code></pre>
      	</div>
     
      </div>

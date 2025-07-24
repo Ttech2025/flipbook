@@ -4,7 +4,7 @@
 				<meta name="robots" content="all"/>
         <meta name="description" content="description">
         <meta name="keywords" content="">
-        <title>Page 8 - FrontEnd_JS - Clase 04</title>
+        <title>Page 8 - FrontEnd_JS - Clase 4</title>
 <style type="text/css">
 <!--
 body {
@@ -141,7 +141,7 @@ function MM_swapImage() { //v3.0
   </div>
   <div id="content">
      <div id="content-top">
-        <div id="content-top1">Page 8 - FrontEnd_JS - Clase 04</div>
+        <div id="content-top1">Page 8 - FrontEnd_JS - Clase 4</div>
         <div id="content-top2">P. 8</div>
      </div>
      <div id="content-middle">
@@ -152,60 +152,55 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>RGB y RGBA: Con rgb() se pueden definir colores usando valores numéricos de 0 a 255
-               para los canales rojo, verde y azul. rgba() añade un valor de opacidad que va de 0
-               (totalmente transparente) a 1 (totalmente opaco).
+    <pre style="white-space:pre-line"><code>Herencia
+
+               Algunas propiedades CSS, como color o font-family, se heredan automáticamente
+               de los elementos padres a sus hijos. Esto significa que si defines el color en un contenedor
+               &lt;div&gt;, todos los elementos dentro de ese contenedor adoptarán ese color, a menos que
+               tengan una regla específica que lo sobreescriba.
 
 
-               Ejemplo:
+               Cascada
 
-               h2 {
-
-                   color: rgb(255, 99, 71); /* Tomate */
-
-               }
-
-
-               .semi-transparente {
-
-                   color: rgba(255, 99, 71, 0.5); /* Tomate semitransparente */
-
-               }
+               Cuando dos o más reglas aplican a un mismo elemento y tienen la misma especificidad,
+               CSS aplica la regla que aparece más abajo en el archivo CSS. Esto significa que las reglas
+               que  se  escriben  al  final  del  archivo  tienen  prioridad  sobre  las  escritas  antes,  si  la
+               especificidad es igual.
 
 
+               Orden de las reglas
 
-
-               5.2 Tamaño
-
-               El tamaño de los elementos HTML, como textos o bloques, se define en CSS mediante
-               diferentes propiedades como font-size (para el texto) o width y height (para el ancho y la
-               altura de los contenedores).
-
-               font-size: Controla el tamaño del texto. El valor puede definirse en px, em, rem, o %.
+               En resumen, cuando dos reglas afectan al mismo elemento y tienen la misma especificidad,
+               se aplicará la que esté definida al final del código CSS. Esto es porque CSS sigue un
+               orden de lectura de arriba hacia abajo.
 
                Ejemplo:
+
                p {
 
-
-                  font-size: 16px; /* Texto de 16 píxeles */
-
+                  color: blue;
+               }
+               p {
+                  color: red; /* Esta regla se aplicará porque está después */
                }
 
 
-               width y height: Definen el ancho y la altura de los elementos. También se pueden usar
-               diferentes unidades como px, %, vw, y vh.
-
-               Ejemplo:
 
 
-               .contenedor {
 
-                  width: 100%; /* Ancho completo del contenedor padre */
+               Propiedades Básicas en CSS
 
 
-                  height: 50vh; /* La mitad de la altura del viewport */
+                   ●  color
+                        Cambia el color del texto.
+                        Ej: color: red; pinta el texto de rojo.
 
-               }</code></pre>
+                   ●  background-color
+                        Cambia el color de fondo del elemento.
+                        Ej: background-color: yellow; pone fondo amarillo.
+
+                   ●  text-align
+                        Alinea el texto dentro del elemento.</code></pre>
      	</div>
     
      </div>
@@ -215,7 +210,7 @@ function MM_swapImage() { //v3.0
            <tr>
              <td width="22%" height="44"><a href="page7.html"><img src="images/previous.png" width="26" height="19" id="Image2" onmouseover="MM_swapImage('Image2','','images/previous2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
              <td width="43%">
-             	&nbsp;&nbsp;&nbsp;<a href="page3.html">3</a>&nbsp;&nbsp;&nbsp;<a href="page4.html">4</a>&nbsp;&nbsp;&nbsp;<a href="page5.html">5</a>&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>
+             	&nbsp;&nbsp;&nbsp;<a href="page3.html">3</a>&nbsp;&nbsp;&nbsp;<a href="page4.html">4</a>&nbsp;&nbsp;&nbsp;<a href="page5.html">5</a>&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>
              </td>
              <td width="35%"><a href="page9.html"><img src="images/next.png" width="26" height="19" id="Image1" onmouseover="MM_swapImage('Image1','','images/next2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
            </tr>

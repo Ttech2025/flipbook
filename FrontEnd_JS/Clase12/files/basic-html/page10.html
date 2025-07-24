@@ -152,7 +152,10 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>En este ejemplo, textContent reemplaza todo el contenido del div con texto plano, sin
+    <pre style="white-space:pre-line"><code>div.textContent = "Este es solo texto, sin HTML"; &lt;/script&gt;
+
+
+               En este ejemplo, textContent reemplaza todo el contenido del div con texto plano, sin
                interpretación de etiquetas HTML. Si hubieras intentado insertar HTML (por ejemplo, un
                &lt;h1&gt;), se mostraría tal cual, como texto, sin ser renderizado como un encabezado.
 
@@ -166,28 +169,27 @@ function MM_swapImage() { //v3.0
                eliminarlos por completo. Para esto, usamos el método remove(), que elimina un nodo del
                DOM.
 
-
                Ejemplo:
 
                   &lt;ul&gt;
 
-                    &lt;li id="item1"&gt;Elemento 1&lt;/li&gt;
 
+                    &lt;li id="item1"&gt;Elemento 1&lt;/li&gt;
 
                     &lt;li id="item2"&gt;Elemento 2&lt;/li&gt;
 
-                    &lt;li id="item3"&gt;Elemento 3&lt;/li&gt;
 
+                    &lt;li id="item3"&gt;Elemento 3&lt;/li&gt;
 
                   &lt;/ul&gt;
 
-                  &lt;script&gt;
 
+                  &lt;script&gt;
 
                     let item = document.getElementById("item2");
 
-                    item.remove();
 
+                    item.remove();
 
                   &lt;/script&gt;
 
@@ -206,9 +208,7 @@ function MM_swapImage() { //v3.0
 
 
                Los eventos en JavaScript son acciones que ocurren en el navegador y que podemos
-               "escuchar" o capturar para ejecutar algún código. Estos eventos pueden ser disparados por
-               distintas interacciones como un clic, una tecla presionada, o el envío de un formulario) o
-               bien por el navegador (carga de la página) u otros elementos interactivos.</code></pre>
+               "escuchar" o capturar para ejecutar algún código. Estos eventos pueden ser disparados por</code></pre>
      	</div>
     
      </div>

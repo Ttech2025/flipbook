@@ -152,53 +152,53 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>JavaScript (script.js):
-
-               document.addEventListener("DOMContentLoaded", () =&gt; {
-
-                fetch("https://fakestoreapi.com/products")
-                  .then((response) =&gt; response.json())
-                  .then((data) =&gt; {
-
-                    const contenedor =
-               document.getElementById("productos-container");
-                    data.forEach((producto) =&gt; {
-
-                      contenedor.innerHTML += `
-                                &lt;div class="card"&gt;
-                                    &lt;img src="${producto.image}"
-
-               alt="${producto.title}"&gt;
-                                    &lt;h3&gt;${producto.title}&lt;/h3&gt;
-                                    &lt;p&gt;Precio: $${producto.price}&lt;/p&gt;
-                                    &lt;button
-
-               onclick="agregarAlCarrito(${producto.id})"&gt;Añadir al
-               carrito&lt;/button&gt;
-                                &lt;/div&gt;
-
-                            `;
-                    });
-                  })
-
-                  .catch((error) =&gt; {
-                    console.error("Error al obtener productos:", error);
-                    contenedor.innerHTML = "&lt;p&gt;Hubo un problema al cargar los
-
-               productos.&lt;/p&gt;";
-                  });
-               });
+    <pre style="white-space:pre-line"><code>Explicación:
 
 
-               function agregarAlCarrito(idProducto) {
-                let carrito = JSON.parse(localStorage.getItem("carrito")) ||
-               [];
+                   ●  Primero hacemos la petición con fetch.
+                   ●  Después, chequeamos response.ok: esto vale false si el servidor devuelve
+                       un status 400 o 500, aunque la respuesta haya llegado.
+                   ●  Si no está OK, lanzamos un error manual con throw new Error(...)
 
-                carrito.push(idProducto);
-                localStorage.setItem("carrito", JSON.stringify(carrito));
-                alert("Producto añadido al carrito");
+                       para que el flujo pase al .catch.
+                   ●  Si está OK, transformamos la respuesta con response.json().
+                   ●  Finalmente, en el .catch, capturamos cualquier problema: ya sea errores de
+                       red o errores que nosotros lanzamos con throw.
 
-               }</code></pre>
+
+
+
+
+                   4. Renderizado Dinámico de Productos
+
+
+               Para esta práctica utilizaremos un sitio el cual simula diferentes API Rest para
+               implementarlo en el proyecto.
+               https://fakestoreapi.com/
+
+
+               4.1. Creación de Contenedor en HTML para Productos
+
+               En el HTML podemos crear un div con id productos-container que va a ser el
+
+               espacio donde se insertarán las tarjetas de producto.
+
+               &lt;div id="productos-container"&gt;&lt;/div&gt;
+
+
+               4.2. Procesamiento y Estructura de Datos en JavaScript
+
+                   ●  Una vez que tenemos los datos de la API transformados en JSON, usamos
+
+                       forEach para recorrerlos y preparar el contenido que queremos mostrar:
+                       imagen, título, precio.
+
+               4.3. Integración de Productos en el DOM Usando JavaScript
+
+
+               Con innerHTML podemos ir agregando cada tarjeta de producto dentro del
+               contenedor que creamos, para que el usuario vea el catálogo dinámicamente sin
+               recargar la página.</code></pre>
      	</div>
     
      </div>

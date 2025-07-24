@@ -4,7 +4,7 @@
 				<meta name="robots" content="all"/>
         <meta name="description" content="description">
         <meta name="keywords" content="">
-        <title>Page 5 - FrontEnd_JS - Clase 06</title>
+        <title>Page 5 - FrontEnd_JS - Clase 6</title>
 <style type="text/css">
 <!--
 body {
@@ -141,7 +141,7 @@ function MM_swapImage() { //v3.0
   </div>
   <div id="content">
      <div id="content-top">
-        <div id="content-top1">Page 5 - FrontEnd_JS - Clase 06</div>
+        <div id="content-top1">Page 5 - FrontEnd_JS - Clase 6</div>
         <div id="content-top2">P. 5</div>
      </div>
      <div id="content-middle">
@@ -152,39 +152,13 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Ejemplo de posicionamiento relativo y absoluto:
+    <pre style="white-space:pre-line"><code>Selectores avanzados
 
 
-               .relative-box {
-                  position: relative;
-                  left: 30px;
-                  top: 20px;
-                  background-color: #f0f0f0;
-                  width: 200px;
-                  height: 100px;
-               }
-               .absolute-box {
-                  position: absolute;
-                  right: 10px;
-                  bottom: 15px;
-                  background-color: #ccc;
-                  width: 150px;
-                  height: 75px;
-               }
-
-
-               En este ejemplo, .relative-box se desplaza 30px hacia la derecha y 20px hacia abajo
-               desde su posición original. .absolute-box, en cambio, se coloca 10px desde el borde
-               derecho y 15px desde el borde inferior del contenedor posicionado.
-
-               3. Selectores avanzados
-
-
-               Los selectores avanzados en CSS permiten aplicar estilos a elementos específicos con
+               Los  selectores  avanzados en CSS permiten aplicar estilos a elementos específicos con
                mayor precisión. Algunos de los selectores avanzados más comunes incluyen:
 
-
-               Selector de descendientes ( ): Aplica estilos a elementos que están dentro de otro
+               Selector  de  descendientes  (  ):  Aplica  estilos  a  elementos  que  están  dentro  de  otro
                elemento.
 
                div p {
@@ -194,6 +168,7 @@ function MM_swapImage() { //v3.0
 
                    ●  Aplica el color azul a todos los párrafos dentro de cualquier div.
 
+
                Selector de hijos directos (&gt;): Aplica estilos solo a los elementos que son hijos directos de
                un contenedor.
 
@@ -202,7 +177,29 @@ function MM_swapImage() { //v3.0
                }
 
 
-                   ●  Aplica el color verde a los párrafos que son hijos directos de un div.</code></pre>
+                   ●  Aplica el color verde a los párrafos que son hijos directos de un div.
+
+               Selector de hermano adyacente (+): Aplica estilos al elemento que sigue inmediatamente
+               a otro.
+
+               h1 + p {
+                  font-size: 1.2em;
+               }
+
+
+                   ●  Aplica un tamaño de fuente diferente al párrafo que sigue inmediatamente después
+                       de un h1.
+
+
+               Selector general de hermanos (~): Aplica estilos a todos los elementos que son hermanos
+               de un elemento especificado.
+
+               h2 ~ p {
+                  color: red;
+               }
+
+
+                   ●  Aplica el color rojo a todos los párrafos que son hermanos de un h2.</code></pre>
      	</div>
     
      </div>

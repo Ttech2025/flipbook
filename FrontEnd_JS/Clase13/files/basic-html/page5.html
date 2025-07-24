@@ -152,10 +152,13 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Para eliminar un ítem específico, usás removeItem():
+    <pre style="white-space:pre-line"><code>2.3. Eliminar datos de LocalStorage
 
+
+               Para eliminar un ítem específico, usás removeItem():
 
                localStorage.removeItem('usuario');
+
 
 
                También podés eliminar todos los datos del LocalStorage con clear():
@@ -186,17 +189,18 @@ function MM_swapImage() { //v3.0
 
                2.4. Guardar datos en SessionStorage
 
-               Similar a LocalStorage, podés usar setItem() para guardar datos:
 
+               Similar a LocalStorage, podés usar setItem() para guardar datos:
 
                sessionStorage.setItem('usuario', 'Ana');
 
 
 
+
                2.5. Obtener datos de SessionStorage
 
-
                Podés obtener los datos con getItem():
+
 
                let usuario = sessionStorage.getItem('usuario');
                console.log(usuario); // Ana
@@ -205,16 +209,13 @@ function MM_swapImage() { //v3.0
 
                2.6. Eliminar datos de SessionStorage
 
-
                Para eliminar datos de SessionStorage, usás removeItem():
 
                sessionStorage.removeItem('usuario');
 
 
 
-               Para borrar todos los datos de SessionStorage:
-
-               sessionStorage.clear();</code></pre>
+               Para borrar todos los datos de SessionStorage:</code></pre>
      	</div>
     
      </div>

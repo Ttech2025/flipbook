@@ -4,7 +4,7 @@
 				<meta name="robots" content="all"/>
         <meta name="description" content="description">
         <meta name="keywords" content="">
-        <title>Page 7 - FrontEnd_JS - Clase 02</title>
+        <title>Page 7 - FrontEnd_JS - Clase 2</title>
 <style type="text/css">
 <!--
 body {
@@ -141,7 +141,7 @@ function MM_swapImage() { //v3.0
   </div>
   <div id="content">
      <div id="content-top">
-        <div id="content-top1">Page 7 - FrontEnd_JS - Clase 02</div>
+        <div id="content-top1">Page 7 - FrontEnd_JS - Clase 2</div>
         <div id="content-top2">P. 7</div>
      </div>
      <div id="content-middle">
@@ -152,46 +152,64 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Inserción de audio
+    <pre style="white-space:pre-line"><code>¿Qué significan ./, / y ../ en rutas?
 
 
-               HTML5 permite insertar archivos de audio directamente en la página web utilizando la
-               etiqueta &lt;audio&gt;.
 
-                   ●  Atributos comunes:
-                          ○  controls: Muestra los controles de reproducción.
-                          ○  autoplay: Reproduce automáticamente el audio al cargar la página.
-
-                          ○  loop: Reproduce el audio en una repetición continua.
-
-               Ejemplo:
-               &lt;audio controls&gt;
-                   &lt;source src="audio.mp3" type="audio/mpeg"&gt;
-                   Tu navegador no soporta la reproducción de audio.
-               &lt;/audio&gt;
+               ./ → Carpeta actual
 
 
-               Inserción de video
-
-
-               Los videos también se pueden insertar en HTML5 utilizando la etiqueta &lt;video&gt;.
-
-                   ●  Atributos comunes:
-                          ○  controls: Muestra los controles de reproducción.
-                          ○  poster: Muestra una imagen antes de que se reproduzca el video.
-                          ○  autoplay: Reproduce automáticamente el video al cargar la página.
-                              ¡Atención con este atributo! No siempre es recomendable utilizarlo ya que
-                              no se considera una buena experiencia de usuario que automáticamente se
-                              reproduzcan todos los videos de una página web. Deberemos utilizar nuestro
-                              criterio al asignarlo.
+               Significa: “desde el archivo actual”.
 
                Ejemplo:
 
-               &lt;video controls poster="preview.jpg" width="600" height="400"&gt;
-                   &lt;source src="video.mp4" type="video/mp4"&gt;
 
-                   Tu navegador no soporta la reproducción de video.
-               &lt;/video&gt;</code></pre>
+               &lt;img src="./imagen.jpg"&gt;
+
+               Esto busca el archivo imagen.jpg en la misma carpeta donde está el archivo HTML.
+
+
+               Cómo decir: “Buscalo acá mismo donde estoy”.}
+
+
+
+
+               ../ → Carpeta superior
+
+               Significa: “subí un nivel” (a la carpeta que contiene la actual).
+
+
+               Ejemplo:
+
+               &lt;img src="../imagenes/foto.jpg"&gt;
+
+
+               Esto busca foto.jpg dentro de la carpeta imágenes, que está en la carpeta anterior al
+               archivo HTML.
+
+               Cómo decir: “Salí de esta carpeta, andá a la de arriba, y desde ahí entrá a imágenes/”.
+
+
+
+
+               / → Raíz del sitio web (solo cuando se usa desde un servidor)
+
+
+               Significa: “empezá desde la raíz principal del sitio”.
+
+               Ejemplo:
+
+
+               &lt;img src="/imagenes/foto.jpg"&gt;
+
+
+               Esto  busca  la  imagen  en  /imágenes/  partiendo desde la raíz del sitio web, no desde
+               donde está el HTML.
+
+               Cómo decir: “Desde el inicio del sitio, entrá a la carpeta imágenes”.
+
+               Importante: Este tipo de ruta funciona bien si tu sitio está en un servidor. Si estás probando
+               localmente sin servidor, puede no funcionar como esperás.</code></pre>
      	</div>
     
      </div>

@@ -4,7 +4,7 @@
 				<meta name="robots" content="all"/>
         <meta name="description" content="description">
         <meta name="keywords" content="">
-        <title>Page 6 - FrontEnd_JS - Clase 04</title>
+        <title>Page 6 - FrontEnd_JS - Clase 4</title>
 <style type="text/css">
 <!--
 body {
@@ -141,7 +141,7 @@ function MM_swapImage() { //v3.0
   </div>
   <div id="content">
      <div id="content-top">
-        <div id="content-top1">Page 6 - FrontEnd_JS - Clase 04</div>
+        <div id="content-top1">Page 6 - FrontEnd_JS - Clase 4</div>
         <div id="content-top2">P. 6</div>
      </div>
      <div id="content-middle">
@@ -152,63 +152,47 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>3.4 Selector de ID
-
-               Para un estilo único, usamos un ID. Solo puede aplicarse a un elemento específico. Lo
-               definimos con un numeral (#).
-
-
-               Ejemplo:
-
-               #main-title {
-
-                  font-size: 24px;
-
-
-                  color: green;
-
+    <pre style="white-space:pre-line"><code>font-size: 16px;
                }
 
 
 
 
-               4. Especificidad, herencia, cascada y orden de las reglas en
-
-               CSS
+               Selector de clase
 
 
-               A veces, varios estilos pueden estar aplicando al mismo elemento. En esos casos, el CSS
-               utiliza un sistema de especificidad y cascada para decidir cuál es la indicación de mayor
-               jerarquía que se aplicará sobre otras reglas que también estén operando.
+               Si  querés aplicar un estilo a varios elementos, pero no a todos, podés usar clases. Para
+               eso, definimos una clase con un punto (.) y se la asignamos a los elementos que queramos
+
+               Ejemplo:
+
+               .highlight {
+
+                  background-color: yellow;
+               }
 
 
-               4.1 Especificidad
+               Selector de ID
 
-               Las reglas con mayor especificidad tienen más peso. Un estilo en línea (dentro de una
-               etiqueta) tendrá mayor prioridad que una clase o un ID.
+               Para  un  estilo  único,  usamos  un  ID.  Solo  puede  aplicarse a un elemento específico. Lo
+               definimos con un numeral (#).
 
-                   ●  Estilo en línea: style="color:red;"
-                   ●  ID: #id
-                   ●  Clase: .clase
+               Ejemplo:
 
+               #main-title {
+                  font-size: 24px;
 
-               4.2 Herencia
-
-
-               Algunas propiedades, como color y font-family, se heredan de los elementos “padres”.
-               Por ejemplo, si definís el color de un &lt;div&gt;, todos los elementos dentro de ese div
-               adoptarán ese color.
-
-               4.3 Cascada
-
-               Cuando varias reglas tienen la misma especificidad, se aplica la que esté más abajo en el
-               archivo CSS.
-
-               4.4 Orden de las reglas
+                  color: green;
+               }
 
 
-               Si dos reglas afectan a un mismo elemento y tienen la misma especificidad, se aplicará la
-               última.</code></pre>
+               !important
+
+               A  veces  hay  conflictos  de  estilos  y queremos asegurarnos de que ese estilo sí o sí se
+               aplique. Para eso usamos !important.
+
+               "Si hay estilos que se pisan entre sí y necesitás que uno gane sí o sí, le ponés !important
+               al final de su valor."</code></pre>
      	</div>
     
      </div>

@@ -411,9 +411,7 @@
 
                    ●  Usa id cuando exista.
                    ●  Prefiere clases semánticas (.form-login .btn-primary).
-                   ●  Evita rutas largas y nth-child a menos que no haya alternativa.]]></page><page Index="11"><![CDATA[Talento Lab
-
-
+                   ●  Evita rutas largas y nth-child a menos que no haya alternativa.]]></page><page Index="11"><![CDATA[  Storytelling
 
 
                                                    El  equipo  de  Talento  Lab  va  a  mostrar  la  nueva
@@ -424,15 +422,14 @@
 
 
 
-
                                “Quiero un HTML limpio, sin JavaScript, con todos los atributos id y
                                name únicos. Además, dejame un documento con los selectores que
                                usarás en tus scripts.”
 
 
 
-                               Matías añade:
 
+                               Matías añade:
 
                                “Olvidate de la lógica por ahora; ya la validamos con Pytest.
                                Solo  maquetá  el  front  y  anotá  buenos  selectores.  Después
@@ -440,12 +437,13 @@
 
 
 
-
                Ejercicio Práctico
 
 
 
-               Objetivos de este ejercicio
+
+               Objetivos:
+
 
                    ●  Construir la vista estática de la calculadora (HTML + CSS externo).
                    ●  Etiquetar cada campo con identificadores estables (id, name, clases semánticas).
@@ -456,8 +454,8 @@
 
                Entregables y estructura de carpetas
 
-               Clase05/
 
+               Clase05/
 
                │  index.html        ← estructura HTML 100 % estática
 

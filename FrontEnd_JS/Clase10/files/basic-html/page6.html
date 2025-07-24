@@ -152,59 +152,67 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>else if: Si necesitás manejar múltiples condiciones, else if te da esa
+    <pre style="white-space:pre-line"><code>} else {
 
-               flexibilidad.
+
+                  salirSinParaguas();
+
+                }
+
+
+               Tomar un café con condicionales (rombos) sería algo como esto:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Tipos de Condicionales:
+
+
+               if: Este es el más básico y simplemente ejecuta un bloque de código si la
+               condición es verdadera.
 
                if (edad &gt;= 18) {
 
                   console.log("Sos mayor de edad.");
 
-                } else if (edad &gt;= 13) {
-
-
-                  console.log("Sos un adolescente.");
-
-
-                } else {
-
-                  console.log("Sos un niño/a.");
-
                 }
 
 
 
-
-
-
-               Operador ternario: Es una versión compacta de if...else. Ideal para
-               condiciones simples.
-
-               let resultado = edad &gt;= 18 ? "mayor de edad" : "menor de edad";
-
-
-
-
-               Ejemplo práctico: evaluación de la edad
-
-
-               let edad = 20;
+               if...else: Esto permite ejecutar un bloque de código si la condición es
+               verdadera, y otro en el caso de que sea falsa.
 
                if (edad &gt;= 18) {
 
-
-                console.log("Sos mayor de edad.");
-
-               } else {
+                  console.log("Sos mayor de edad.");
 
 
-                console.log("Sos menor de edad.");
-
-               }
-
-
-               Con esto, podés determinar si alguien puede entrar a un boliche o no, según
-               su edad.</code></pre>
+                } else {</code></pre>
      	</div>
     
      </div>

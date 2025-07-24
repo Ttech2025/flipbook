@@ -152,42 +152,44 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Ejercicio práctico #1:
+    <pre style="white-space:pre-line"><code>console.log(i);
 
 
+                }
 
-               Evaluación de condicionales y operadores lógicos
-
-
-               Enunciado: Crear un programa que reciba la edad de una persona y si está
-               en la lista VIP. El programa deberá verificar lo siguiente:
+               Ejemplo práctico: iterar productos
 
 
-                   1.  Si la persona tiene 18 años o más, permitirle el acceso al evento.
-                   2.  Si además de tener 18 años o más, es miembro VIP, darle acceso al
-                       área exclusiva.
-                   3.  Si la persona tiene menos de 18 años, denegar el acceso.
+               let productos = ['Laptop', 'Celular', 'Tablet'];
+
+               for (let i = 0; i &lt; productos.length; i++) {
 
 
-               Tips:
+                console.log(productos[i]);
 
-                   ●  Validación de entradas: Asegurate de que se ingrese una edad válida.
+               }
 
-                       Podés usar isNaN() para verificar que el valor ingresado sea un
-                       número.
-                   ●  Uso de operadores lógicos: Combiná el operador && para verificar
-                       que se cumplan ambas condiciones (edad &gt;= 18 y ser miembro VIP).
 
-                   ●  Operador ternario: Considerá usar un operador ternario si la lógica es
-                       sencilla.
-                   ●  Consola del navegador: Mostrá los resultados usando
-                       console.log() para verificar si se cumplen las condiciones
-                       correctamente.
+               Esto es un bucle for con tres partes:
+
+
+                   1.  let i = 0 → la variable i empieza en 0 (la posición inicial del array)
+                   2.  i &lt; productos.length → sigue mientras i sea menor que la
+
+                       longitud del array (productos) (en este caso 3)
+                   3.  i++ → aumenta de a 1 cada vuelta
 
 
 
 
 
+               5. Cómo combinar operadores lógicos y bucles
+
+
+
+               En muchos casos, vas a necesitar usar operadores lógicos dentro de bucles.
+               Por ejemplo, podés querer filtrar una lista de productos para mostrar solo los
+               que están en descuento.
 
 
 
@@ -195,20 +197,17 @@ function MM_swapImage() { //v3.0
 
 
 
+               Ejemplo práctico: filtrar productos en descuento
 
 
-               Ejercicio práctico #2:
+               let productos = [
+
+                  { nombre: 'Laptop', descuento: true },
 
 
+                  { nombre: 'Celular', descuento: false },
 
-               Iterar sobre una lista de productos con bucles y condicionales
-
-               Enunciado: crear un programa que reciba una lista de productos, cada uno
-               con un precio y un indicador de descuento (true o false). El programa debe
-
-               iterar sobre la lista y:
-
-                   1.  Mostrar todos los productos con descuento.</code></pre>
+                  { nombre: 'Tablet', descuento: true }</code></pre>
      	</div>
     
      </div>
@@ -218,7 +217,7 @@ function MM_swapImage() { //v3.0
            <tr>
              <td width="22%" height="44"><a href="page9.html"><img src="images/previous.png" width="26" height="19" id="Image2" onmouseover="MM_swapImage('Image2','','images/previous2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
              <td width="43%">
-             	&nbsp;&nbsp;&nbsp;<a href="page5.html">5</a>&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>
+             	&nbsp;&nbsp;&nbsp;<a href="page5.html">5</a>&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>&nbsp;&nbsp;&nbsp;<a href="page14.html">14</a>&nbsp;&nbsp;&nbsp;<a href="page15.html">15</a>
              </td>
              <td width="35%"><a href="page11.html"><img src="images/next.png" width="26" height="19" id="Image1" onmouseover="MM_swapImage('Image1','','images/next2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
            </tr>

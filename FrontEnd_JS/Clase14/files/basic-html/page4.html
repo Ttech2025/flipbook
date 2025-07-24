@@ -152,62 +152,21 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>2. Fetch: Consumir una API REST
+    <pre style="white-space:pre-line"><code>1.3. ¿Por qué se usa JSON en lugar de XML?
+
+                   ●  Ligereza: JSON (JavaScript Object Notation) es más ligero y fácil de leer que
+                       XML. Esto permite transferir datos de manera más rápida, reduciendo el
+                       tiempo de carga en la aplicación.
+                   ●  Compatibilidad: JSON es más compatible con JavaScript, ya que se puede
+                       convertir directamente en objetos JavaScript. Con XML, era necesario un
+                       procesamiento adicional para extraer los datos.
+                   ●  Legibilidad y Sencillez: JSON es menos verboso, haciendo que el código
+                       sea más claro y fácil de interpretar.
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-               Pero, ¿cómo pedimos esos datos que no están en nuestra página? Acá es donde
-               entra fetch(). fetch() nos permite hacer peticiones a servidores externos para
-               obtener datos.
-
-               ¿Qué es fetch?
-
-               Es una función que nos permite hacer una solicitud HTTP para obtener datos. Lo
-               genial es que lo hace de manera asíncrona, es decir, no interrumpe el
-               funcionamiento de la página.
-
-
-               Código básico con fetch():
-
-
-
-               fetch('https://fakestoreapi.com/products')
-                  .then(response =&gt; response.json())  // Convertimos la
-               respuesta a JSON
-
-                  .then(data =&gt; {
-                      console.log(data);  // Mostramos los datos obtenidos
-                  })
-
-                  .catch(error =&gt; {
-                      console.error('Hubo un error al obtener los
-               productos:', error);
-                  });
-
-
-
-               ¿Qué pasa en este código?
-
-
-                   1.  fetch(): Hace la petición a la API.
-                   2.  .then(response =&gt; response.json()): Cuando la API responde, convertimos
-                       los datos a JSON.
-                   3.  .then(data =&gt; ...): Utilizamos esos datos (en este caso, los mostramos en la
-                       consola).
-                   4.  .catch(error =&gt; ...): Si hay un error (por ejemplo, si la API no responde), lo
-                       manejamos y mostramos un mensaje de error.</code></pre>
+               Ejemplo de JSON vs. XML:</code></pre>
      	</div>
     
      </div>

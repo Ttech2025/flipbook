@@ -152,56 +152,58 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>1. Introducción al Consumo de API REST
+    <pre style="white-space:pre-line"><code>1. Promesas: ¿Qué es una promesa en JavaScript?
+
+
+               Cuando usás fetch, te devuelve una promesa: funciona como lo indica la palabra,
+
+               es un compromiso del programa que tiene tres estados factibles. Pensalo como
+               cuando quedás con tu amiga en cenar el sábado próximo, pero tenés que confirmar
+               si podés más cerca de la fecha. En nuestra programación, esta promesa, como
+               decíamos, puede tener tres estados: pendiente, resuelta o rechazada.
+
+
+               Estados de una promesa:
+
+                   ●  Pendiente (pending): La promesa todavía está esperando una respuesta (no
+                       sabés si vas a ir a cenar o no).
+                   ●  Resuelta (resolved): Todo salió bien (confirmaste que vas a cenar).
+                   ●  Rechazada (rejected): Algo salió mal (tu amiga canceló la cena).
 
 
 
 
 
+                   2. Manejo de datos con Fetch y promesas
 
 
 
+               Imaginate que tu amiga te pasó la lista de compras para la cena, pero vos todavía
+               no la miraste. Eso es lo que pasa cuando usás fetch: le pedís datos a una API y la
+               promesa te los devuelve “a futuro”.
+
+               Ahora bien, cuando llega esa lista (los datos de la API), tenés que procesarla para
+               ver qué cosas vas a comprar y cómo las vas a acomodar. En nuestro código,
+               hacemos lo mismo:
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               1.1. ¿Qué es una API REST?
-
-                   ●  Una API REST permite que dos sistemas se comuniquen de forma
-                       estructurada y eficiente. Con APIs, las aplicaciones pueden obtener y enviar
-                       datos de un servidor, facilitando la creación de experiencias dinámicas y en
-                       tiempo real.
-
-               1.2. Ejemplos de Uso en Empresas de Tecnología
-
-
-                   ●  Redes Sociales: Facebook, Twitter e Instagram ofrecen APIs que permiten
-                       acceder a perfiles, publicaciones y seguidores.
-                   ●  E-commerce: Plataformas como Amazon y eBay usan APIs para facilitar la
-                       integración de productos, precios y disponibilidad en tiendas online externas.
-                   ●  Mapas y Geolocalización: Google Maps y OpenStreetMap tienen APIs que
-                       permiten a las aplicaciones obtener información geográfica, rutas y mapas en
-                       tiempo real.
-                   ●  Pago y Autenticación: PayPal, Stripe, y MercadoPago ofrecen APIs para
-                       gestionar pagos seguros y verificar identidades.
-                   ●  Noticias y Entretenimiento: APIs como las de Spotify y YouTube permiten
-                       que las aplicaciones integren contenido musical o audiovisual.
-
-               Las APIs REST son fundamentales para la conectividad y el intercambio de datos
-               entre sistemas de diversas industrias, ofreciendo flexibilidad y potencia para crear
-               experiencias digitales modernas.</code></pre>
+               fetch("https://fakestoreapi.com/products")
+                 .then((response) =&gt; response.json())
+                 .then((data) =&gt; {
+                   const contenedor = document.getElementById("productos-container");
+                   data.forEach((producto) =&gt; {
+                     contenedor.innerHTML += `
+                       &lt;div class="card"&gt;
+                         &lt;img src="${producto.image}" alt="${producto.title}"&gt;
+                         &lt;h3&gt;${producto.title}&lt;/h3&gt;
+                         &lt;p&gt;Precio: $${producto.price}&lt;/p&gt;
+                         &lt;button onclick="agregarAlCarrito(${producto.id})"&gt;Añadir al
+               carrito&lt;/button&gt;
+                       &lt;/div&gt;
+                     `;
+                   });
+                 })
+                 .catch((error) =&gt; console.error("Error al obtener productos:", error));</code></pre>
      	</div>
     
      </div>

@@ -292,7 +292,11 @@
 
                      Para los que comienzan: copia el script, ejecútalo y lee la consola. Verás cada
                      print() confirmando los hitos. Si algo falla, Selenium lanzará una excepción
-                     señalando la línea exacta.]]></page><page Index="10"><![CDATA[Automation en TalentoLab
+                     señalando la línea exacta.]]></page><page Index="10"><![CDATA[  Storytelling
+
+
+
+               Automation en TalentoLab
 
 
                                                      Tras  varios  días  de  práctica  con  selectores  y
@@ -303,6 +307,7 @@
                                                      Product  Owner,  necesita  validar  que  el  login  y  el
                                                      carrito funcionen correctamente antes de la próxima
                                                      demo interna.
+
 
                Ese mismo lunes, durante la daily, llegan las consignas concretas para tu primer script serio
                con Selenium:
@@ -316,7 +321,6 @@
                                “Queremos una prueba automática que verifique el login y añada un
                                producto  al  carrito.  Todo  sobre  Sauce  Demo,  para  alinear  con  el
                                proyecto final.”
-
 
 
 

@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="16"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase 11:  Clase 11: Programación
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="16"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase 11: Programación Modular
 
 
 
-               Modular con Funciones
+               con Funciones
 
 
 
@@ -37,7 +37,18 @@
                    7.  Comparación entre Funciones y Programación Modular
                           ○  Diferencias clave
                           ○  Cuándo usar una sobre la otra
-                   8.  Ejercicios Prácticos]]></page><page Index="3"><![CDATA[1. Introducción a las Funciones
+                   8.  Ejercicios Prácticos]]></page><page Index="3"><![CDATA[Objetivo de la clase:
+
+               En esta clase vas a comprender cómo las funciones permiten estructurar y reutilizar el
+               código de manera más limpia y organizada. Aprenderás a definir funciones, a pasarles
+               parámetros de entrada y a recibir valores de salida, diferenciando además conceptos como
+               argumentos y alcance de variables (scope). También te vas a familiarizar con la idea de
+               programación modular, viendo cómo se relaciona y se complementa con las funciones para
+               construir programas más escalables y fáciles de mantener. Por último, conocerás las
+               funciones nativas que ofrece JavaScript y cuándo conviene aprovecharlas para simplificar
+               tareas cotidianas.
+
+               1. Introducción a las Funciones
 
 
                Las funciones son uno de los pilares más importantes
@@ -51,9 +62,8 @@
                Por ejemplo, si tuvieras que escribir varias veces un
                código para calcular el área de un rectángulo, sería
                mejor crear una función que lo haga por vos. Cada vez
-               que necesites calcular el área, simplemente invocas la
+               que necesites calcular el área, simplemente invocás la
                función en lugar de volver a escribir el código.
-
 
                Ejemplo simple:
 
@@ -65,14 +75,19 @@
 
                }
 
+
                console.log(calcularArea(5, 3)); // Devuelve 15
 
 
 
+                  ¡Recordá!
+                function calcularArea(a, b) {
+                   return a * b;
+                }
+                a y b son parámetros que la función espera recibir
 
-
-
-               2. Parámetros de Entrada y Salida en Funciones
+                la función hace la multiplicación a * b
+                return entrega el resultado al lugar donde fue llamada]]></page><page Index="4"><![CDATA[2. Parámetros de Entrada y Salida en Funciones
 
 
                Cuando hablamos de funciones, no solo nos referimos a bloques de código que
@@ -80,28 +95,29 @@
                es donde entran en juego los parámetros y los argumentos. Entender cómo
                funcionan es clave para aprovechar todo el potencial de las funciones.
 
-               Definición de Parámetros
 
+               Definición de Parámetros
 
                Los parámetros son las "variables" que las funciones reciben al ser llamadas. Se
                definen cuando se crea la función y representan los datos que la función necesita
                para operar. Es como cuando le pedís a alguien que te alcance algo, y ese "algo"
                sería el parámetro.
 
+
                function saludar(nombre) {
 
 
-                  console.log("Hola " + nombre);}]]></page><page Index="4"><![CDATA[En este ejemplo, nombre es el parámetro de la función. Cuando la llamás, tenés
-               que pasarle un argumento, que es el valor específico que querés usar:
+                  console.log("Hola " + nombre);}
 
+
+               En este ejemplo, nombre es el parámetro de la función. Cuando la llamás, tenés
+               que pasarle un argumento, que es el valor específico que querés usar:
 
                saludar("Juan"); // Esto imprimirá "Hola Juan"
 
 
 
-
                Tipos de Funciones Según los Parámetros
-
 
                Sin Parámetros: Una función que no recibe ningún dato. Simplemente realiza una
                tarea y no necesita ninguna información externa.
@@ -118,9 +134,6 @@
                saludar();  // Imprime: "Hola a todos"
 
 
-
-
-
                Con Parámetros: Estas funciones son más flexibles porque pueden trabajar con
                diferentes datos dependiendo de los argumentos que les pases.
 
@@ -130,21 +143,20 @@
                   console.log(a + b);
 
 
-               }
-
-
-               sumar(5, 10);  // Imprime: 15
+               }]]></page><page Index="5"><![CDATA[sumar(5, 10);  // Imprime: 15
 
 
                En este segundo caso, la función sumar tiene dos parámetros (a y b) que, cuando
-               la llamamos, se reemplazan con los valores 5 y 10.]]></page><page Index="5"><![CDATA[2. Argumentos: ¿Qué son y cómo funciona?
+               la llamamos, se reemplazan con los valores 5 y 10.
+
+
+               2. Argumentos: ¿Qué son y cómo funciona?
 
 
                Cuando llamamos a una función y le pasamos datos, esos datos se conocen como
                argumentos. Los argumentos son los valores reales que pasás a los parámetros de
                la función. Si pensás en los parámetros como un recipiente, los argumentos son lo
                que llenan ese recipiente.
-
 
                function multiplicar(a, b) {
 
@@ -158,18 +170,24 @@
                console.log(multiplicar(3, 4)); // Imprime: 12
 
 
+
+                  return → devuelve un valor, que podés reutilizar después
+                console.log → solo lo muestra en la consola, pero no lo devuelve
+
+
                Acá, 3 y 4 son los argumentos que reemplazan a a y b en la función. Al final, el
+
                resultado es 3 * 4, que es 12.
 
-
                Ejemplos con Múltiples Argumentos
+
 
                Las funciones pueden recibir varios argumentos, y podés usarlos dentro de la
                función de la manera que prefieras. A continuación te doy un ejemplo más
                avanzado:
 
-
                function presentar(nombre, edad, ciudad) {
+
 
 
                   console.log(nombre + " tiene " + edad + " años y vive en "
@@ -213,9 +231,9 @@
                "Hola Pedro"
 
 
-               En este caso, nombre es global, porque está definida fuera de la función saludar.
 
-
+                  ¡Importante! En este caso, nombre es global, porque está definida fuera de la
+                función saludar.
 
 
                Scope Local
@@ -241,8 +259,9 @@
                fuera de la función
 
 
-               Acá, nombre está definida dentro de la función saludar, por lo que solo es
-               accesible dentro de esa función.
+
+                  ¡Importante!  Acá,  nombre está definida dentro de la función saludar, por lo
+                que solo es accesible dentro de esa función.
 
 
                Diferencias entre Scope Global y Local
@@ -286,10 +305,10 @@
                Ejemplo de programación modular:
 
 
-               function calcularAreaRectangulo(base, altura) {
+               function calcularAreaRectangulo(base, altura) {]]></page><page Index="8"><![CDATA[return base * altura;}
 
 
-                  return base * altura;}]]></page><page Index="8"><![CDATA[function imprimirResultado(area) {
+               function imprimirResultado(area) {
 
 
                   console.log("El área del rectángulo es: " + area);
@@ -351,29 +370,25 @@
                        usuario. Es ideal para notificaciones o alertas simples.
 
 
-
-
-
                parseInt(): Convierte un string en un número entero.
 
                let numero = parseInt("123");
 
-               console.log(numero);  // Imprime 123
 
+               console.log(numero);  // Imprime 123
 
 
                        ¿Para qué sirve?
                        Te permite convertir un texto que contiene números en un número entero que
                        podés usar en cálculos matemáticos.
 
-
-
-
                Math.random(): Genera un número aleatorio entre 0 y 1.
+
 
                let aleatorio = Math.random();
 
                console.log(aleatorio);
+
 
 
                        ¿Para qué sirve?
@@ -381,12 +396,10 @@
                        algo de forma azarosa, esta función es muy útil.
 
 
-
-
-
                Date(): Devuelve la fecha y hora actual.
 
                let fechaActual = new Date();
+
 
                console.log(fechaActual);
 
@@ -394,12 +407,12 @@
                        ¿Para qué sirve?
                        Es fundamental para trabajar con fechas y horas. La podés usar para mostrar
                        la fecha actual, calcular diferencias entre fechas o registrar cuándo ocurrió un
-                       evento.]]></page><page Index="10"><![CDATA[console.log(): Imprime un mensaje en la consola del navegador.
-
-               console.log("Este es un mensaje para la consola");
+                       evento.
 
 
-                       ¿Para qué sirve?
+               console.log(): Imprime un mensaje en la consola del navegador.
+
+               console.log("Este es un mensaje para la consola");]]></page><page Index="10"><![CDATA[¿Para qué sirve?
                        Esta es tu mejor amiga cuando estás desarrollando. Te permite ver el estado
                        de tus variables y objetos mientras ejecutás el código, facilitando la
                        depuración y la prueba de tu programa.
@@ -421,10 +434,8 @@
                        mostrarlo. Por ejemplo, para comparar strings de manera que no importe si
                        están en mayúsculas o minúsculas.
 
-
-
-
                slice(): Extrae una parte de un string o array.
+
 
                let frase = "JavaScript es increíble";
 
@@ -434,13 +445,15 @@
                console.log(parte);  // Imprime "JavaScript"
 
 
-
                        ¿Para qué sirve?
                        Te permite extraer una porción de un string o array sin modificar el original.
-                       Ideal para trabajar con textos largos y obtener solo la parte que necesitás.]]></page><page Index="11"><![CDATA[¿Por qué usar funciones nativas?
+                       Ideal para trabajar con textos largos y obtener solo la parte que necesitás.
+
+
+               ¿Por qué usar funciones nativas?
+
 
                El uso de funciones nativas tiene varias ventajas clave:
-
 
                    ●  Eficiencia: las funciones nativas están optimizadas en los motores de
                        JavaScript, como V8 (usado en Chrome). Esto significa que son más rápidas
@@ -448,8 +461,7 @@
                    ●  Simplicidad: usar funciones preexistentes simplifica el código y lo hace más
                        legible. En lugar de tener que reinventar la lógica para cada tarea,
                        simplemente utilizás una función que ya existe y que sabés que funciona
-                       correctamente.
-                   ●  Menos Errores: las funciones nativas han sido probadas y validadas por
+                       correctamente.]]></page><page Index="11"><![CDATA[●  Menos Errores: las funciones nativas han sido probadas y validadas por
                        millones de desarrolladores alrededor del mundo. Esto reduce el riesgo de
                        errores o comportamientos inesperados en tu código.
 
@@ -483,7 +495,10 @@
 
                Acá estamos usando prompt() para pedir el nombre, toUpperCase() para
                convertirlo a mayúsculas, y alert() para mostrar el saludo. Además, con
-               console.log() registramos el nombre ingresado en la consola.]]></page><page Index="12"><![CDATA[Comparación entre Funciones y Programación Modular
+               console.log() registramos el nombre ingresado en la consola.
+
+
+               Comparación entre Funciones y Programación Modular
 
                Hasta ahora hemos visto cómo trabajar con funciones y las ventajas de usar
                funciones nativas. Pero, ¿cómo se comparan las funciones con el concepto más
@@ -492,17 +507,13 @@
 
                Diferencias clave
 
-
                    ●  Funciones: son bloques de código que realizan una tarea específica. En
                        general, las funciones pueden definirse de manera que resuelvan una acción
                        concreta (como sumar dos números o mostrar un mensaje).
                    ●  Programación Modular: va más allá de las funciones individuales. Implica
                        dividir todo el programa en módulos (que pueden contener varias funciones).
                        Cada módulo es responsable de una parte del comportamiento del programa.
-                       Estos módulos son reutilizables y, generalmente, son independientes entre sí.
-
-
-               En resumen: una función es una pieza específica de código, mientras que la
+                       Estos módulos son reutilizables y, generalmente, son independientes entre sí.]]></page><page Index="12"><![CDATA[En resumen: una función es una pieza específica de código, mientras que la
                programación modular es una estrategia general para organizar todo el código en
                partes manejables.
 
@@ -523,20 +534,22 @@
 
 
                Ejemplo práctico: Proyecto que combina programación
-               modular y funciones
 
+               modular y funciones
 
 
                Vamos a suponer que estás creando una pequeña aplicación que maneja un carrito
                de compras en una tienda online.
-
 
                Paso 1: Crear funciones individuales para manejar las tareas.
 
                function agregarProducto(producto) {
 
 
-                  console.log(producto + " fue agregado al carrito.");]]></page><page Index="13"><![CDATA[}
+                  console.log(producto + " fue agregado al carrito.");
+
+
+               }
 
 
                function calcularTotal(productos) {
@@ -548,17 +561,15 @@
 
                   console.log("El total es: $" + total);
 
+
                   return total;
 
 
                Paso 2: Modularizar el código. Podrías tener un módulo separado para el carrito de
-
                compras, otro para la interfaz de usuario, y otro para el cálculo de precios.
 
-               // Módulo del carrito de compras
 
-
-               const carrito = (function() {
+               // Módulo del carrito de compras]]></page><page Index="13"><![CDATA[const carrito = (function() {
 
 
                   let productos = [];
@@ -566,11 +577,11 @@
 
                   return {
 
-
                      agregar: function(producto) {
 
 
                         productos.push(producto);
+
 
                         agregarProducto(producto.nombre);
 
@@ -583,8 +594,8 @@
 
                         return calcularTotal(productos);
 
-
                      }
+
 
                   };
 
@@ -593,59 +604,103 @@
 
 
                Este es un ejemplo básico de cómo podés usar tanto funciones como programación
-               modular para crear una aplicación más compleja, reutilizable y fácil de mantener.]]></page><page Index="14"><![CDATA[Con esto, terminamos la ampliación del tema de Funciones Nativas de JavaScript
+               modular para crear una aplicación más compleja, reutilizable y fácil de mantener.
+
+               Con esto, terminamos la ampliación del tema de Funciones Nativas de JavaScript
                y la comparación con la Programación Modular. ¡Espero que te haya quedado
                claro y que puedas aplicar estas ideas a tus proyectos!
 
+
+                 Storytelling
+
+
+               ¡Funciones y Modulaciones!]]></page><page Index="14"><![CDATA[Tomás (Desarrollador Senior)
+
+                            ¡Muy buen trabajo con las estructuras de control y bucles! Ahora vamos a dar
+                            el  siguiente  paso  para  modularizar  y  organizar  nuestro  código  de  forma
+                            profesional.  Las  funciones  nos  van  a  permitir  separar  la  lógica  de  nuestro
+                            programa en bloques reutilizables y fáciles de mantener.
 
 
 
                Ejercicio práctico #1:
 
 
+               Calculadora Modular con Funciones
 
-               Función para Validar la Edad de una Persona
-
-
-               Enunciado: Crear una función que reciba como parámetros el nombre y la edad de
-               una persona. La función debe realizar lo siguiente:
-
-                   1.  Verificar si la persona es mayor de edad (18 años o más).
-                   2.  Mostrar un mensaje en la consola que diga si la persona es mayor o menor
-                       de edad.
-                   3.  Si es menor de edad, mostrar también cuántos años le faltan para cumplir 18.
+                              Lucía (Product Owner)
 
 
-               Tips:
-
-                   ●  Uso de parámetros: Pasar el nombre y la edad como argumentos a la
-                       función.
-                   ●  Condicionales: Usar un if...else para determinar si es mayor o menor
-                       de edad.
-
-                   ●  Consola del navegador: Utilizá console.log() para mostrar los
-                       resultados en la consola.
+                              El equipo necesita una calculadora que sea clara y fácil de extender.
+                              Para eso vamos a dividir su lógica en varias funciones, cada una con
+                              una responsabilidad concreta.
 
 
 
 
-               Ejercicio práctico #2:
+               Lo que harás:
+
+
+                   ●  Definí  cuatro  funciones  diferentes:  una  para  sumar,  otra  para  restar,  otra  para
+                       multiplicar y otra para dividir.
+                   ●  Cada  función  recibirá  dos  parámetros  numéricos  y  devolverá  el  resultado  de  la
+                       operación correspondiente.
+                   ●  En el caso de la función dividir, acordate de verificar que el divisor no sea cero. Si lo
+                       es, mostrá un mensaje de error en la consola.
+                   ●  Probá  el  correcto  funcionamiento  creando  dos  variables  numéricas  de  ejemplo  y
+                       llamando a las cuatro funciones con ellas.
 
 
 
-               Función para Calcular el Precio Total de un Producto con IVA
-
-               Enunciado: Crear una función que reciba el precio de un producto y el porcentaje
-               de IVA (Impuesto al Valor Agregado). La función debe:
+                  ¡Importante! Mostrá los resultados de cada operación en la consola de forma clara y
+                legible usando console.log().
 
 
-                   1.  Calcular el precio total del producto, sumando el IVA.
-                   2.  Mostrar el precio total en la consola.
-                   3.  Hacer que el IVA sea un parámetro opcional, con un valor predeterminado del
-                       21% (típico en Argentina).]]></page><page Index="15"><![CDATA[Tips:
 
-                   ●  Parámetros opcionales: Definir un valor por defecto para el IVA si no se
-                       proporciona uno.
-                   ●  Operaciones matemáticas: Calcular el IVA y sumarlo al precio del producto.
 
-                   ●  Consola del navegador: Mostrar el precio final con console.log().]]></page><page Index="16"><![CDATA[]]></page></pages></Search>
+                             Tips de Tomás:
+                              Recordá la sintaxis de function para declarar funciones. Podés cambiar los
+                             valores de prueba para verificar distintos resultados. Usá comentarios si te
+                             ayuda a organizar el código.]]></page><page Index="15"><![CDATA[Ejercicio práctico #2:
+
+
+
+               Generación y visualización de productos con formato JSON
+
+
+                              Lucía (Product Owner)
+
+                              En nuestro próximo sprint queremos preparar un catálogo de productos
+                              dinámico. Vamos a practicar la creación de datos estructurados usando
+                              objetos, simulando un escenario real de desarrollo.
+
+
+               Lo que vas a hacer:
+
+                   1.  Creá una función llamada generarProductos() que no reciba parámetros.
+
+                   2.  Dentro de la función, armá un array llamado productos con al menos 5 objetos.
+                       Cada producto debe tener:
+                   ●  id: un identificador numérico único
+
+                   ●  name: nombre del producto
+
+                   ●  description: descripción breve
+
+                   ●  amount: precio en formato numérico
+
+                   ●  Retorná el array completo desde la función.
+
+
+
+                  ¡Importante! Fuera de la función, guardá el resultado en una variable y recorré el array
+                con  un  bucle  (for  o forEach) para mostrar en consola cada producto con todos sus
+                datos.
+
+
+
+
+
+                             Tips de Tomás:
+                              Repasá la estructura de un objeto JSON. Usá nombres de propiedades
+                             claros y coherentes. Probá agregar un producto más si querés practicar]]></page><page Index="16"><![CDATA[]]></page></pages></Search>

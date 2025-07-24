@@ -152,44 +152,66 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>});
-                })
-
-                .catch((error) =&gt; console.error("Error al obtener
-               productos:", error));
-
-
-               Explicación:
-
-                   1.  Recorremos los datos de los productos que nos devolvió la API.
-                   2.  Por cada producto, creamos una tarjeta (card) con la imagen, el nombre, el
-
-                       precio y un botón para agregar al carrito.
-                   3.  El botón llama a la función agregarAlCarrito, que es la que nos va a
-                       permitir agregarlo al carrito.
+    <pre style="white-space:pre-line"><code>3. Consumo de APIs con fetch()
 
 
 
 
-               5. Manejo de errores con Fetch.
 
 
-               Como en la vida misma, en ocasiones las cosas no salen como esperamos. Las
-               promesas pueden fallar y es importante dar gestión a dichos errores.
 
 
-               Manejo de errores:
 
-               fetch("https://fakestoreapi.com/products")
-                .then((response) =&gt; response.json())
 
-                .then((data) =&gt; {
-                  // Mostrar productos...
-                })
 
-                .catch((error) =&gt; {
-                  console.error("Error al obtener productos:", error);
-                  alert("Hubo un problema al cargar los productos.");
+
+
+
+
+               3.1. Uso de fetch() para Hacer Solicitudes HTTP
+
+                   ●  fetch() permite realizar solicitudes HTTP a una API de forma asíncrona.
+                       Esto nos permite pedir datos desde un servidor de forma sencilla, similar a
+                       enviar un mensaje y esperar la respuesta.
+
+
+               Ejemplo básico de fetch:
+
+               fetch('https://fakestoreapi.com/products')
+
+                .then(response =&gt; response.json())
+
+
+                .then(data =&gt; console.log(data))
+
+
+                .catch(error =&gt; console.error('Error al obtener datos:',
+               error));
+
+
+
+
+
+               3.2. Procesamiento de la Respuesta en JSON
+
+
+                   ●  Usamos response.json() para convertir los datos en un objeto JSON, lo
+                       cual facilita el procesamiento en JavaScript.
+
+               Ejemplo:
+
+               fetch('https://fakestoreapi.com/products')
+
+
+                .then(response =&gt; response.json())
+
+                .then(data =&gt; {
+
+
+                    // Aquí se procesan los datos obtenidos y se integran en
+
+               el DOM
+
                 });</code></pre>
      	</div>
     

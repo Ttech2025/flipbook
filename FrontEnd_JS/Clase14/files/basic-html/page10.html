@@ -152,54 +152,54 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>8. Ejemplo práctico: Crear un carrito de compras con
-               productos de una API
+    <pre style="white-space:pre-line"><code>fetch('https://fakestoreapi.com/products')
+
+                .then(response =&gt; response.json())
 
 
-
-               Ahora vamos a integrar todo esto en un carrito de compras básico. Vamos a guardar
-               los productos en el carrito utilizando LocalStorage para que, aunque se cierre la
-               página, el carrito siga estando ahí.
-
-               Pasos:
-
-                   1.  Mostrar los productos obtenidos desde la API.
-                   2.  Cuando se haga clic en "Añadir al carrito", se debe guardar ese producto en
-                       LocalStorage.
-                   3.  Al abrir la página, mostrar cuántos productos tiene el carrito.
+                .then(data =&gt; {
 
 
-               Código extendido del carrito:
-
-               JavaScript (agregando la función para mostrar el carrito):
-
-
-               function actualizarCarrito() {
-                const carrito = JSON.parse(localStorage.getItem("carrito"))
-
-               || [];
-                const carritoCounter =
-               document.getElementById("cart-counter");
-                carritoCounter.textContent = carrito.length;
-
-               }
-
-               document.addEventListener("DOMContentLoaded", () =&gt; {
-
-                fetch("https://fakestoreapi.com/products")
-                  .then((response) =&gt; response.json())
-                  .then((data) =&gt; {
                     const contenedor =
-
                document.getElementById("productos-container");
-                    data.forEach((producto) =&gt; {
-                      contenedor.innerHTML += `
 
-                                &lt;div class="card"&gt;
-                                    &lt;img src="${producto.image}"
+
+                    data.forEach(producto =&gt; {
+
+
+                        const productoCard = `
+
+
+                            &lt;div class="card"&gt;
+
+
+                                &lt;img src="${producto.image}"
                alt="${producto.title}"&gt;
 
-                                    &lt;h3&gt;${producto.title}&lt;/h3&gt;</code></pre>
+
+                                &lt;h3&gt;${producto.title}&lt;/h3&gt;
+
+
+                                &lt;p&gt;Precio: $${producto.price}&lt;/p&gt;
+
+                                &lt;button
+
+               onclick="agregarAlCarrito(${producto.id})"&gt;Añadir al
+               carrito&lt;/button&gt;
+
+
+                            &lt;/div&gt;
+
+
+                        `;
+
+                        contenedor.innerHTML += productoCard;
+
+
+                    });
+
+
+                });</code></pre>
      	</div>
     
      </div>
@@ -209,7 +209,7 @@ function MM_swapImage() { //v3.0
            <tr>
              <td width="22%" height="44"><a href="page9.html"><img src="images/previous.png" width="26" height="19" id="Image2" onmouseover="MM_swapImage('Image2','','images/previous2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
              <td width="43%">
-             	&nbsp;&nbsp;&nbsp;<a href="page5.html">5</a>&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>&nbsp;&nbsp;&nbsp;<a href="page14.html">14</a>
+             	&nbsp;&nbsp;&nbsp;<a href="page5.html">5</a>&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>&nbsp;&nbsp;&nbsp;<a href="page14.html">14</a>&nbsp;&nbsp;&nbsp;<a href="page15.html">15</a>
              </td>
              <td width="35%"><a href="page11.html"><img src="images/next.png" width="26" height="19" id="Image1" onmouseover="MM_swapImage('Image1','','images/next2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
            </tr>

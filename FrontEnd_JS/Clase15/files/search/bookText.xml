@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="12"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase 15: API y Procesamiento de
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="11"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase 15: API y Procesamiento de
 
 
 
@@ -7,281 +7,216 @@
 
 
 
-               Índice
 
 
-                   1.  Introducción al Consumo de API REST
-                          ○  1.1. ¿Qué es una API REST?
-                          ○  1.2. Ejemplos de uso en empresas de tecnología
-                          ○  1.3. ¿Por qué se usa JSON en lugar de XML?
-                   2.  Consumo de APIs con fetch()
-                          ○  2.1. Uso de fetch() para hacer solicitudes HTTP
-                          ○  2.2. Procesamiento de la respuesta en JSON
-                          ○  2.3. Manejo de errores con .catch(), códigos 500 y 400
-                   3.  Renderizado Dinámico de Productos
-                          ○  3.1. Creación de contenedor en HTML para productos
-                          ○  3.2. Procesamiento y estructura de datos en JavaScript
-                          ○  3.3. Integración de productos en el DOM usando JavaScript
-                   4.  Buenas Prácticas de Accesibilidad y SEO
-                          ○  4.1. Accesibilidad: etiquetas alt, navegación por teclado, estructura
+
+
+
+                   1.  Promesas:
+                          a.  ¿Qué es una promesa en JavaScript?
+                          b.  Estados de una promesa: pending, rejected, resolved
+                   2.  Manejo de Datos con Fetch y Promesas
+                          a.  Explicación de encadenamiento.then
+
+                   3.  Manejo de Errores con Fetch
+                          a.  Introducir la validación de status 400/500 con un solo ejemplo
+                              sencillo, no varios casos.
+                   4.  Async/Await: Otra Forma de Esperar
+                          a.  Explicar la sintaxis y usar un único ejemplo de async/await
+                              sobre fetch ya visto.
+
+                   5.  Buenas Prácticas de Accesibilidad y SEO
+                          a.  4.1. Accesibilidad: etiquetas alt, navegación por teclado, estructura
                               semántica
-                          ○  4.2. SEO: uso de metaetiquetas, encabezados lógicos y contenido
+                          b.  4.2. SEO: uso de metaetiquetas, encabezados lógicos y contenido
                               optimizado
-                   5.  Guía para el Proyecto Final de E-commerce
-                          ○  5.1. Estructura y requisitos del proyecto
-                          ○  5.2. Puntos clave para revisión y entrega]]></page><page Index="3"><![CDATA[1. Introducción al Consumo de API REST
+                   6.  Guía para el Proyecto Final de E-commerce
+                          a.  5.1. Estructura y requisitos del proyecto
+                          b.  5.2. Puntos clave para revisión y entrega
 
 
 
+               Objetivo de la clase:
 
 
+               En esta clase vas a profundizar el manejo de asincronía en JavaScript a través del
+               uso de promesas, entendiendo sus estados y cómo trabajar con ellas usando then
 
+               y catch. También vas a aprender la sintaxis de async/await como alternativa
+               para escribir código asincrónico más legible. Además, incorporarás prácticas de
+               accesibilidad y SEO para optimizar la experiencia del usuario y mejorar la visibilidad
+               de tu proyecto en buscadores. Finalmente, te orientarás sobre los requisitos y
+               puntos clave para avanzar con la entrega del proyecto final de e-commerce.]]></page><page Index="3"><![CDATA[1. Promesas: ¿Qué es una promesa en JavaScript?
 
 
+               Cuando usás fetch, te devuelve una promesa: funciona como lo indica la palabra,
 
+               es un compromiso del programa que tiene tres estados factibles. Pensalo como
+               cuando quedás con tu amiga en cenar el sábado próximo, pero tenés que confirmar
+               si podés más cerca de la fecha. En nuestra programación, esta promesa, como
+               decíamos, puede tener tres estados: pendiente, resuelta o rechazada.
 
 
+               Estados de una promesa:
 
+                   ●  Pendiente (pending): La promesa todavía está esperando una respuesta (no
+                       sabés si vas a ir a cenar o no).
+                   ●  Resuelta (resolved): Todo salió bien (confirmaste que vas a cenar).
+                   ●  Rechazada (rejected): Algo salió mal (tu amiga canceló la cena).
 
 
 
 
 
+                   2. Manejo de datos con Fetch y promesas
 
 
 
+               Imaginate que tu amiga te pasó la lista de compras para la cena, pero vos todavía
+               no la miraste. Eso es lo que pasa cuando usás fetch: le pedís datos a una API y la
+               promesa te los devuelve “a futuro”.
 
+               Ahora bien, cuando llega esa lista (los datos de la API), tenés que procesarla para
+               ver qué cosas vas a comprar y cómo las vas a acomodar. En nuestro código,
+               hacemos lo mismo:
 
 
-
-               1.1. ¿Qué es una API REST?
-
-                   ●  Una API REST permite que dos sistemas se comuniquen de forma
-                       estructurada y eficiente. Con APIs, las aplicaciones pueden obtener y enviar
-                       datos de un servidor, facilitando la creación de experiencias dinámicas y en
-                       tiempo real.
-
-               1.2. Ejemplos de Uso en Empresas de Tecnología
-
-
-                   ●  Redes Sociales: Facebook, Twitter e Instagram ofrecen APIs que permiten
-                       acceder a perfiles, publicaciones y seguidores.
-                   ●  E-commerce: Plataformas como Amazon y eBay usan APIs para facilitar la
-                       integración de productos, precios y disponibilidad en tiendas online externas.
-                   ●  Mapas y Geolocalización: Google Maps y OpenStreetMap tienen APIs que
-                       permiten a las aplicaciones obtener información geográfica, rutas y mapas en
-                       tiempo real.
-                   ●  Pago y Autenticación: PayPal, Stripe, y MercadoPago ofrecen APIs para
-                       gestionar pagos seguros y verificar identidades.
-                   ●  Noticias y Entretenimiento: APIs como las de Spotify y YouTube permiten
-                       que las aplicaciones integren contenido musical o audiovisual.
-
-               Las APIs REST son fundamentales para la conectividad y el intercambio de datos
-               entre sistemas de diversas industrias, ofreciendo flexibilidad y potencia para crear
-               experiencias digitales modernas.]]></page><page Index="4"><![CDATA[1.3. ¿Por qué se usa JSON en lugar de XML?
-
-
-                   ●  Ligereza: JSON (JavaScript Object Notation) es más ligero y fácil de leer que
-                       XML. Esto permite transferir datos de manera más rápida, reduciendo el
-                       tiempo de carga en la aplicación.
-                   ●  Compatibilidad: JSON es más compatible con JavaScript, ya que se puede
-                       convertir directamente en objetos JavaScript. Con XML, era necesario un
-                       procesamiento adicional para extraer los datos.
-                   ●  Legibilidad y Sencillez: JSON es menos verboso, haciendo que el código
-                       sea más claro y fácil de interpretar.
-
-
-
-
-               Ejemplo de JSON vs. XML:]]></page><page Index="5"><![CDATA[2. Consumo de APIs con fetch()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               2.1. Uso de fetch() para Hacer Solicitudes HTTP
-
-                   ●  fetch() permite realizar solicitudes HTTP a una API de forma asíncrona.
-                       Esto es útil para obtener datos sin recargar la página, mejorando la
-                       experiencia del usuario.
-
-
-               Ejemplo básico de fetch:
-
-               fetch('https://fakestoreapi.com/products')
-
-                .then(response => response.json())
-
-
-                .then(data => console.log(data))
-
-
-                .catch(error => console.error('Error al obtener datos:',
-               error));
-
-
-
-
-
-               2.2. Procesamiento de la Respuesta en JSON
-
-
-                   ●  Usamos response.json() para convertir los datos en un objeto JSON, lo
-                       cual facilita el procesamiento en JavaScript.
-
-               Ejemplo:
-
-               fetch('https://fakestoreapi.com/products')
-
-
-                .then(response => response.json())
-
-                .then(data => {
-
-
-                    // Aquí se procesan los datos obtenidos y se integran en
-
-               el DOM
-
-                });]]></page><page Index="6"><![CDATA[2.3. Manejo de Errores con .catch() y Códigos 400/500
-
-                   ●  Cuando una solicitud a la API falla, es esencial manejar el error para que el
-                       usuario reciba un mensaje claro.
-                   ●  Errores Comunes:
-                          ○  Errores 400: Problemas con la solicitud, como parámetros incorrectos
-                              o falta de permisos. Ejemplo: 404 (No Encontrado), 401 (No
-                              Autorizado).
-                          ○  Errores 500: Problemas en el servidor. Estos errores son más difíciles
-                              de predecir, ya que ocurren en el lado del servidor.]]></page><page Index="7"><![CDATA[Manejo de Errores:
-
-               fetch('https://fakestoreapi.com/products')
-
-
-                .then(response => {
-
-
-                    if (!response.ok) {
-
-
-                        throw new Error(`HTTP error! Status:
-               ${response.status}`);
-
-
-                    }
-
-                    return response.json();
-
-
-                })]]></page><page Index="8"><![CDATA[.then(data => {
-
-
-                    // Procesamiento de datos
-
-
-                })
-
-                .catch(error => {
-
-
-                    console.error('Error en la comunicación con la API:',
-               error);
-
-
-                    // Aquí podrías mostrar un mensaje de error al usuario
-
-
-                });
-
-
-
-
-
-               3. Renderizado Dinámico de Productos
-
-
-               3.1. Creación de Contenedor en HTML para Productos
-
-               En el HTML, necesitamos un contenedor para mostrar los productos de forma
-               dinámica:
-
-               <div id="productos-container"></div>
-
-               3.2. Procesamiento y Estructura de Datos en JavaScript
-
-
-                   ●  Con los datos obtenidos de la API, usamos JavaScript para generar
-                       elementos HTML que representen cada producto (imagen, título, precio,
-                       botón de compra).
-
-
-               3.3. Integración de Productos en el DOM Usando JavaScript
-
-               Insertamos cada producto en el contenedor usando JavaScript y manipulación del
-               DOM:
-
-               fetch('https://fakestoreapi.com/products')
-
-                .then(response => response.json())
-
-
-                .then(data => {
-
-
-                    const contenedor =
-               document.getElementById("productos-container");]]></page><page Index="9"><![CDATA[data.forEach(producto => {
-
-
-                        const productoCard = `
-
-
-                            <div class="card">
-
-                                <img src="${producto.image}"
-
-               alt="${producto.title}">
-
-                                <h3>${producto.title}</h3>
-
-
-                                <p>Precio: $${producto.price}</p>
-
-
-                                <button
-               onclick="agregarAlCarrito(${producto.id})">Añadir al
-
+               fetch("https://fakestoreapi.com/products")
+                 .then((response) => response.json())
+                 .then((data) => {
+                   const contenedor = document.getElementById("productos-container");
+                   data.forEach((producto) => {
+                     contenedor.innerHTML += `
+                       <div class="card">
+                         <img src="${producto.image}" alt="${producto.title}">
+                         <h3>${producto.title}</h3>
+                         <p>Precio: $${producto.price}</p>
+                         <button onclick="agregarAlCarrito(${producto.id})">Añadir al
                carrito</button>
+                       </div>
+                     `;
+                   });
+                 })
+                 .catch((error) => console.error("Error al obtener productos:", error));]]></page><page Index="4"><![CDATA[Explicación:
 
-                            </div>
+                   ●  Pedimos la lista de productos (como pedirle la lista a tu amiga).
+                   ●  Esperamos que la promesa se cumpla (lleguen los datos).
+                   ●  Procesamos esa lista para organizarla en el HTML (mostrando imagen,
+                       nombre, precio y botón de compra).
 
+                   ●  Si falla, al menos nos enteramos con un .catch() (como si tu amiga nos
+                       dijera “me olvidé la lista”).
 
-                        `;
-
-
-                        contenedor.innerHTML += productoCard;
-
-
-                    });
-
-
-                });
-
-
-
-
-               4. Buenas Prácticas de Accesibilidad y SEO
+                   3. Manejo de errores con Fetch.
 
 
-               4.1. Accesibilidad en el Proyecto
+               Igual que en la vida, puede pasar que la tienda esté cerrada o que la lista esté
+               incompleta. En programación, los errores también suceden, y hay que estar
+               preparados.
+
+               Por ejemplo, si la respuesta no viene bien del servidor (códigos 400 o 500),
+               podemos mostrarle un mensaje al usuario para que no se quede esperando:
+
+
+               fetch("https://fakestoreapi.com/products")
+                 .then((response) => {
+                   if (!response.ok) {
+
+                     throw new Error(`Error de servidor: ${response.status}`);
+                   }
+
+                   return response.json();
+                 })
+                 .then((data) => {
+                   // Mostrar productos normalmente
+
+                 })
+                 .catch((error) => {
+
+                   console.error("Error al obtener productos:", error);
+                   alert("Hubo un problema al cargar los productos. Por favor, intentá más tarde.");
+                 });
+
+
+               Explicación:
+
+
+                   ●  Validamos si la respuesta es correcta (response.ok), porque a veces el
+                       servidor contesta “no encontré nada” (error 404) o “me rompí” (error 500).
+                   ●   ✅ Si algo sale mal, usamos throw para “avisar fuerte” que no podemos
+                       seguir.
+                   ●   ✅ Y con el .catch() le damos un mensaje al usuario, así no queda perdido
+                       sin explicación.]]></page><page Index="5"><![CDATA[4. Async/Await: Otra forma de esperar
+
+
+               ¿Te acordás de la promesa de cenar con tu amiga? Con then le vas mandando
+
+               mensajitos uno tras otro:
+
+                   ●  ¿Podés venir?
+                   ●  ¿Traés algo?
+                   ●  ¿A qué hora llegás?
+
+               Esos mensajes van encadenados, como pasa con las promesas en JavaScript.
+
+
+               Pero con async/await, en vez de andar mandando mensajes sueltos, es como si se
+               sentaran a charlar cara a cara y resuelven todo de una:
+
+                   ●  Confirmamos la cena.
+                   ●  Definimos la hora.
+                   ●  Ya sabemos qué traemos.
+
+
+               Más directo, más claro, más fácil de leer.
+
+               async function mostrarProductos() {
+
+
+                 try {
+
+                   const respuesta = await fetch("https://fakestoreapi.com/products");
+
+
+                   const data = await respuesta.json();
+
+                   // procesar datos...
+
+
+                 } catch (error) {
+
+                   console.error("Error al obtener productos:", error);
+
+
+                 }
+
+               }
+
+
+
+
+               Explicación:
+
+
+                   ●  async indica que la función puede esperar tareas asincrónicas.
+                   ●  await pausa el flujo hasta obtener la respuesta.
+                   ●  Así evitamos encadenar varios .then, y el código queda más limpio.]]></page><page Index="6"><![CDATA[¿Por qué usar async/await?
+                  Porque hace el código más fácil de leer y entender ya que se parece a un paso a paso
+                escrito en lenguaje natural en lugar de cadenas de .then evita anidaciones confusas y
+
+                permite manejar errores con try/catch de forma más clara además la lectura es más
+                lineal y sencilla de mantener
+
+
+
+
+
+
+
+                   5. Buenas Prácticas de Accesibilidad y SEO
+
+
+               5.1. Accesibilidad en el Proyecto
 
 
                    ●  Etiquetas Alt en Imágenes: Cada imagen debe tener un atributo alt que
@@ -290,21 +225,22 @@
                    ●  Navegación por Teclado: Asegurarse de que los elementos interactivos,
                        como botones y enlaces, puedan ser accesados con el teclado.
                    ●  Estructura Semántica: Usar etiquetas como <header>, <main>,
-                       <section>, <footer> para que el contenido sea fácilmente interpretable.]]></page><page Index="10"><![CDATA[4.2. Optimización SEO en el Proyecto
 
+                       <section>, <footer> para que el contenido sea fácilmente interpretable.
+
+
+
+
+               5.2. Optimización SEO en el Proyecto
 
                    ●  Metaetiquetas: Las etiquetas <meta> en el <head> mejoran la visibilidad en
+
                        los motores de búsqueda.
                    ●  Encabezados Lógicos: Usar encabezados (<h1>, <h2>, <h3>) en una
                        estructura jerárquica para que los motores de búsqueda puedan entender la
                        relevancia del contenido.
                    ●  Contenido Optimizado: Asegurarse de que las descripciones y los nombres
-                       de productos sean claros y relevantes para los usuarios.
-
-
-
-
-               5. Guía para el Proyecto Final de E-commerce
+                       de productos sean claros y relevantes para los usuarios.]]></page><page Index="7"><![CDATA[6. Guía para el Proyecto Final de E-commerce
 
 
 
@@ -327,23 +263,134 @@
 
 
 
-               5.1. Estructura y Requisitos del Proyecto
+               6.1. Estructura y Requisitos del Proyecto
 
                    ●  HTML: Uso de etiquetas semánticas para organizar la página.
                    ●  CSS: Implementación de un diseño responsivo y atractivo usando Bootstrap y
                        Flexbox.
                    ●  JavaScript: Integración de una API REST para obtener datos y renderizar
                        productos en el DOM, además de la funcionalidad de un carrito de compras
-                       usando localStorage.
 
+                       usando localStorage.
                    ●  Accesibilidad y SEO: Implementar prácticas que mejoren la experiencia del
                        usuario y optimicen la página para los motores de búsqueda.
 
-               5.2. Puntos Clave para Revisión y Entrega
+               6.2. Puntos Clave para Revisión y Entrega
 
                    ●  Subida del Proyecto: Debe estar disponible en GitHub Pages o Netlify para
                        facilitar su acceso.
                    ●  Control de versiones: Mantener un historial de commits detallado para
-                       documentar cada avance.]]></page><page Index="11"><![CDATA[●  Presentación: El archivo README.md debe incluir una descripción del
+                       documentar cada avance.
+                   ●  Presentación: El archivo README.md debe incluir una descripción del
                        proyecto, las tecnologías usadas, instrucciones de instalación y cualquier
-                       detalle relevante.]]></page><page Index="12"><![CDATA[]]></page></pages></Search>
+                       detalle relevante.]]></page><page Index="8"><![CDATA[Entrega Final del Proyecto - E-Commerce
+
+
+
+
+               Curso de Desarrollo Web - Proyecto Integrador
+
+
+
+
+
+                  Punto 1: Introducción al Proyecto Final
+
+               En esta etapa final, desarrollarás una página web completa que integre todo lo
+               aprendido a lo largo del curso.
+
+                  El proyecto consiste en un sitio web de e-commerce interactivo que:
+               ●  • Consume datos de una API REST.
+               ●  • Permite añadir productos a un carrito de compras.
+
+
+                  Tecnologías y enfoques a aplicar:
+               ●  • HTML: estructura semántica.
+               ●  • CSS: diseño responsivo con Bootstrap y Flexbox.
+               ●  • JavaScript: renderizado dinámico, carrito, API.
+               ●  • Accesibilidad y SEO: buenas prácticas.
+
+
+
+
+                  Punto 2: Puntos Clave para Revisión y Entrega
+
+               ●  • Subida en GitHub Pages o Netlify.
+               ●  • Control de versiones con commits detallados.
+               ●  • Archivo README.md con descripción, tecnologías, instalación.
+
+
+
+                  Punto 3: Formato de Entrega
+
+               Repositorio en GitHub
+
+               El repositorio debe ser público e incluir todos los archivos del proyecto.
+
+
+               Hosting del Proyecto
+               Subirlo a Netlify o GitHub Pages con un enlace funcional.
+
+
+               Entrega en el Campus Virtual
+               Subir los enlaces en la sección de Pre-Entrega de Proyecto.]]></page><page Index="9"><![CDATA[   Punto 4: Condiciones de Entrega
+
+                  A partir de la clase N°15 contás con 7 días corridos para entregar el proyecto.
+
+               ●  • HTML semántico (header, nav, main, etc.).
+               ●  • Formulario funcional con Formspree.
+               ●  • Archivo README.md con resumen del proyecto.
+
+
+
+                  Punto 5: Estilos y Diseño Responsivo
+
+               ●  • CSS externo: estilos para header, footer y navegación.
+               ●  • Google Fonts correctamente aplicadas.
+               ●  • Uso de background (color, imagen o gradiente).
+               ●  • Productos: cards con Flexbox.
+               ●  • Reseñas: uso de Grid.
+               ●  • Contacto: Media Queries para responsividad.
+
+
+
+                  Punto 6: Multimedia y Navegación
+
+
+               ●  • Imágenes, videos o iframe correctamente integrados.
+               ●  • Menú de navegación con lista desordenada e ítems internos.
+               ●  • Hosting obligatorio con enlace funcional.
+
+
+
+               ⚙ Punto 7: Funcionalidad con JavaScript
+
+               ●  • Archivo script.js enlazado.
+               ●  • Validación de formularios (campos requeridos, email).
+               ●  • Manipulación del DOM para interacciones.
+               ●  • Fetch API para consumir productos desde una API REST.
+               ●  • Renderizado de productos en tarjetas con imagen, título y precio.
+
+
+
+                  Punto 8: Carrito de Compras Dinámico
+
+               ●  • Agregar productos desde tarjetas.
+               ●  • Guardar carrito con localStorage o sessionStorage.
+               ●  • Contador dinámico de productos.
+               ●  • Lista de productos con cantidad, precio y total.
+               ●  • Posibilidad de editar o eliminar productos.
+
+
+
+                  Punto 9: SEO y Accesibilidad
+
+               ●  • Etiquetas alt en imágenes.
+               ●  • Navegación accesible con teclado.
+               ●  • Uso de metaetiquetas en el head para mejorar el SEO.]]></page><page Index="10"><![CDATA[✅ Punto 10: Funcionalidad Esperada
+
+               ●  • Página interactiva que permita ver productos, agregar al carrito, editarlo y
+                   simular la compra.
+               ●  • Formulario de contacto que funcione correctamente.
+               ●  • Diseño adaptable a distintos tamaños de pantalla.
+               ●  • Carrito persistente con localStorage/sessionStorage.]]></page><page Index="11"><![CDATA[]]></page></pages></Search>

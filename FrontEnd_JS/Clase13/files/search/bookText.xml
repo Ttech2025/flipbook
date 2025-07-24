@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="13"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase 13:  JS 6 - LocalStorage,
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="17"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase 13:  JS 6 - LocalStorage,
 
 
                SessionStorage y Carrito de
@@ -37,21 +37,16 @@
 
 
 
+               Objetivo de la clase:
+
+               En esta clase aprenderás a utilizar LocalStorage y SessionStorage para almacenar datos en
+               el navegador de forma persistente o temporal. Conocerás sus diferencias, ventajas y
+               limitaciones, y practicarás su uso en un proyecto concreto: la implementación de un carrito
+               de compras. Al finalizar, serás capaz de guardar, recuperar y eliminar datos de manera
+               local, brindando a tus proyectos una experiencia de usuario más completa y profesional.]]></page><page Index="3"><![CDATA[1. Introducción a LocalStorage y SessionStorage
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-               1. Introducción a LocalStorage y SessionStorage]]></page><page Index="3"><![CDATA[¡Les damos la bienvenida a la clase de LocalStorage y SessionStorage! Hoy vamos
+               ¡Les damos la bienvenida a la clase de LocalStorage y SessionStorage! Hoy vamos
                a ver cómo podés guardar datos en el navegador de una manera súper simple, y lo
                mejor de todo: ¡permanentes o temporales, según lo que necesites!
 
@@ -97,6 +92,7 @@
                como el tema de la aplicación:
 
 
+
                localStorage.setItem('tema', 'oscuro');
 
 
@@ -105,9 +101,8 @@
 
                SessionStorage es similar a LocalStorage pero sus datos son temporales. Los datos
                se eliminan cuando la pestaña o ventana del navegador se cierra. Esto es útil para
-               almacenar información que solo es relevante durante la sesión actual, como el
+               almacenar información que sólo es relevante durante la sesión actual, como el
                estado de un formulario en un proceso de compra:
-
 
 
                sessionStorage.setItem('pasoActual', '2');]]></page><page Index="4"><![CDATA[1.3. Diferencias entre LocalStorage y SessionStorage
@@ -155,8 +150,8 @@
 
                2.1. Guardar datos en LocalStorage
 
-               Para guardar datos en LocalStorage, usás el método setItem():
 
+               Para guardar datos en LocalStorage, usás el método setItem():
 
 
                localStorage.setItem('usuario', 'Pedro');
@@ -168,16 +163,14 @@
 
                Para recuperar datos almacenados, usás el método getItem():
 
-
                let usuario = localStorage.getItem('usuario');
-               console.log(usuario); // Pedro
+               console.log(usuario); // Pedro]]></page><page Index="5"><![CDATA[2.3. Eliminar datos de LocalStorage
 
 
-
-               2.3. Eliminar datos de LocalStorage]]></page><page Index="5"><![CDATA[Para eliminar un ítem específico, usás removeItem():
-
+               Para eliminar un ítem específico, usás removeItem():
 
                localStorage.removeItem('usuario');
+
 
 
                También podés eliminar todos los datos del LocalStorage con clear():
@@ -208,17 +201,18 @@
 
                2.4. Guardar datos en SessionStorage
 
-               Similar a LocalStorage, podés usar setItem() para guardar datos:
 
+               Similar a LocalStorage, podés usar setItem() para guardar datos:
 
                sessionStorage.setItem('usuario', 'Ana');
 
 
 
+
                2.5. Obtener datos de SessionStorage
 
-
                Podés obtener los datos con getItem():
+
 
                let usuario = sessionStorage.getItem('usuario');
                console.log(usuario); // Ana
@@ -227,16 +221,17 @@
 
                2.6. Eliminar datos de SessionStorage
 
-
                Para eliminar datos de SessionStorage, usás removeItem():
 
                sessionStorage.removeItem('usuario');
 
 
 
-               Para borrar todos los datos de SessionStorage:
+               Para borrar todos los datos de SessionStorage:]]></page><page Index="6"><![CDATA[sessionStorage.clear();
 
-               sessionStorage.clear();]]></page><page Index="6"><![CDATA[3. Implementación de un Carrito de Compras con LocalStorage y
+
+
+               3. Implementación de un Carrito de Compras con LocalStorage y
                SessionStorage
 
 
@@ -293,17 +288,18 @@
 
                localStorage.setItem('carrito', JSON.stringify(carrito));
 
-               *Recordà que JSON.stringify(carrito) convierte nuestro carrito, que es un array de objetos, en
-               una cadena de texto. LocalStorage solo puede guardar strings, así que necesitamos convertir
-               el array para poder almacenarlo. Cuando queramos recuperarlo, usaremos JSON.parse() para
-               convertir esa cadena de vuelta en un array."
+                  Recordà  que  JSON.stringify(carrito)  convierte  nuestro  carrito,  que  es  un  array  de
+                objetos,  en  una  cadena  de texto. LocalStorage solo puede guardar strings, así que
+                necesitamos  convertir  el  array para poder almacenarlo. Cuando queramos recuperarlo,
+                usaremos JSON.parse() para convertir esa cadena de vuelta en un array.
+
 
 
                3.4. Actualización del Carrito en tiempo real
 
-
                Cada vez que el usuario añada o elimine un producto, actualizá el DOM y el
                LocalStorage para reflejar los cambios.
+
 
                function actualizarCarrito() {
                 var carrito = JSON.parse(localStorage.getItem('carrito')) || [];
@@ -320,11 +316,10 @@
 
                4. Ejercicio Práctico de ejemplo: Carrito de Compras
 
-
                4.1. Enunciado del Ejercicio
 
-               Desarrollá un carrito de compras que permita:
 
+               Desarrollá un carrito de compras que permita:
 
                    ●  Añadir productos.
                    ●  Eliminar productos.
@@ -338,26 +333,26 @@
                    2.  Implementar la funcionalidad de agregar productos con JavaScript.
                    3.  Utilizar LocalStorage para guardar los productos.
                    4.  Mostrar el contenido del carrito al cargar la página.
-                   5.  Implementar la opción de vaciar el carrito.
+                   5.  Implementar la opción de vaciar el carrito.]]></page><page Index="8"><![CDATA[4.3. Tips para la implementación
 
-               4.3. Tips para la implementación]]></page><page Index="8"><![CDATA[●  Usamos JSON.stringify() y JSON.parse() para manejar objetos
+
+                   ●  Usamos JSON.stringify() y JSON.parse() para manejar objetos
                        complejos en LocalStorage.
                    ●  Nos aseguramos de actualizar tanto el DOM como LocalStorage cada vez
                        que se añadan o eliminen productos.
-
                    ●  Usamos eventos click para capturar las interacciones del usuario.
                    ●
 
-               Código Completo: Carrito de Compras
 
+               Código Completo: Carrito de Compras
 
                Te dejo el código HTML, CSS y JavaScript completo para que puedas crear tu
                propio carrito de compras.
 
+
                Luego vos deberás hacer lo mismo en tu sitio, separando el js en un archivo aparte
                y adaptando todo a tu sitio. (Este ejercicio será el segundo de la ppt de ejercicios de
                esta semana)
-
 
                <!DOCTYPE html>
                <html lang="es">
@@ -377,6 +372,7 @@
                     padding: 0;
                   }
                   #lista-carrito li {
+
                     background-color: #f4f4f4;
                     margin: 5px 0;
                     padding: 10px;
@@ -384,9 +380,9 @@
                   }
                   #vaciar-carrito {
                     margin-top: 10px;
-                    background-color: red;
-                    color: white;
-                    border: none;]]></page><page Index="9"><![CDATA[padding: 10px 20px;
+                    background-color: red;]]></page><page Index="9"><![CDATA[color: white;
+                    border: none;
+                    padding: 10px 20px;
                     cursor: pointer;
                   }
                   #vaciar-carrito:hover {
@@ -409,9 +405,9 @@
                     </li>
                     <li>
                       Producto 2 - $15
+
                       <button class="agregar-carrito" data-id="2"
                data-nombre="Producto 2" data-precio="15">Agregar al Carrito</button>
-
                     </li>
                     <li>
                       Producto 3 - $20
@@ -450,8 +446,8 @@
 
                   function agregarProducto(event) {
                     var producto = {
-                      id: event.target.getAttribute('data-id'),
 
+                      id: event.target.getAttribute('data-id'),
                       nombre: event.target.getAttribute('data-nombre'),
                       precio: event.target.getAttribute('data-precio')
                     };
@@ -468,8 +464,8 @@
 
                     var carrito = JSON.parse(localStorage.getItem('carrito')) || [];
 
-                    for (var i = 0; i < carrito.length; i++) {
-                      var producto = carrito[i];]]></page><page Index="11"><![CDATA[var li = document.createElement('li');
+                    for (var i = 0; i < carrito.length; i++) {]]></page><page Index="11"><![CDATA[var producto = carrito[i];
+                      var li = document.createElement('li');
                       li.textContent = producto.nombre + ' - $' + producto.precio;
                       listaCarrito.appendChild(li);
                     }
@@ -481,57 +477,300 @@
 
 
 
+                 Storytelling
 
 
-               Ejercicios Práctico 1:
+               Persistencia              de        datos         con         LocalStorage               y
 
-
-
-
-               Guardar Preferencias de Usuario
-
-
-               Enunciado:
-
-               Crear una función que guarde y recupere las preferencias de un usuario, como su
-               nombre y el color de fondo preferido, utilizando LocalStorage.
-
-
-                   1.  La función debe permitir al usuario ingresar su nombre y seleccionar su color
-                       de fondo preferido desde una lista de opciones.
-                   2.  Los datos ingresados deben almacenarse en LocalStorage.
-                   3.  Cada vez que la página se recargue, las preferencias deben recuperarse de
-                       LocalStorage y aplicarse automáticamente (mostrar el nombre del usuario y
-                       cambiar el color de fondo).
-
-               Tips:
-
-                   ●  Uso de LocalStorage para almacenar el nombre y el color.
-                   ●  Manipulación del DOM para aplicar los cambios de color de fondo.
-
-                   ●  Uso de eventos como submit para guardar las preferencias.]]></page><page Index="12"><![CDATA[Ejercicio Práctico 2:
+               SessionStorage
 
 
 
-               Carrito de Compras con Conteo de Productos
 
 
-               Enunciado:
-
-               Crear un carrito de compras utilizando LocalStorage, que permita a los usuarios
-               agregar productos y muestre la cantidad total de productos en el carrito.
 
 
-                   1.  Los productos deben tener un botón para agregar al carrito.
-                   2.  Al agregar un producto, se debe mostrar el número total de productos en el
-                       carrito, almacenándolo en LocalStorage.
-                   3.  Al recargar la página, el número total de productos debe recuperarse de
-                       LocalStorage y mostrarse correctamente.
 
-               Tips:
 
-                   ●  Uso de LocalStorage para guardar el número total de productos en el carrito.
-                   ●  Manipulación del DOM para actualizar el contador de productos en tiempo
-                       real.
 
-                   ●  Utilización de eventos click para agregar productos.]]></page><page Index="13"><![CDATA[]]></page></pages></Search>
+
+
+
+
+
+
+
+               Tomás (Desarrollador Senior)
+
+                            Chicos  y  chicas,  llegó  el  momento  de  dar  un  gran  salto:  aprender a
+                            guardar  información  en  el  navegador.  Esto  les  va  a  permitir  crear
+
+                            sitios  más  completos,  donde  las  preferencias  del  usuario  o  los
+                            productos de un carrito no desaparezcan al actualizar la página.
+
+               Hoy  vamos  a  trabajar  con  LocalStorage,  una  herramienta  súper  práctica  para
+               mantener datos persistentes entre sesiones, y aplicarla a casos reales.
+
+
+
+
+
+
+
+
+
+
+               Ejercicio práctico #1:]]></page><page Index="12"><![CDATA[Guardar preferencias de usuario
+
+
+                              Lucía (Product Owner)
+
+                              Queremos que el usuario se sienta cómodo cada vez que entre al sitio.
+                              Por  eso  vamos  a  permitirle  elegir  su  nombre  y  su  color  de  fondo
+                              preferido, y recordar esas elecciones.
+
+                              Pasos a seguir:
+
+
+                   1.  Crear el formulario
+                   ●  Armá en tu HTML un formulario con dos campos:
+                          ○  un campo para el nombre (input).
+                          ○  un selector (select) con diferentes colores de fondo.
+                   ●  Sumale un botón de enviar para guardar las preferencias.
+
+                   2.  Capturar los datos
+                   ●  En JavaScript, usá un evento submit para capturar el nombre y el color cuando el
+                       usuario envía el formulario.
+                   ●  Recordá usar preventDefault() para evitar que el formulario recargue la página.
+
+                   3.  Guardar en LocalStorage
+                   ●  Usá localStorage.setItem() para guardar el nombre y el color.
+
+                   4.  Recuperar y aplicar preferencias
+                   ●  Cada vez que la página se cargue, verificá si hay datos guardados en LocalStorage.
+                   ●  Si existen, aplicá automáticamente:
+                          ○  el saludo con el nombre del usuario.
+                          ○  el color de fondo elegido.
+
+
+               Tips de Tomás:
+                             Usá localStorage.getItem() para leer los datos
+
+                             Manipulá el DOM con document.body.style.backgroundColor para
+                             cambiar el color
+
+
+                             Probá recargando la página para chequear que la preferencia se mantiene
+
+
+
+
+
+
+
+               Ejercicio práctico #2:]]></page><page Index="13"><![CDATA[Carrito de Compras con conteo de productos
+
+
+                              Lucía (Product Owner)
+
+                              Ahora necesitamos un carrito de compras básico, que no pierda la
+                              información si la página se recarga.
+
+
+
+
+               Pasos a seguir:
+
+
+                   1.  Armar el catálogo
+                   ●  Creá un listado de productos en el HTML (pueden utilizar los que ya armaron
+                       anteriormente “Agregar al carrito”).
+
+                   2.  Configurar el contador
+                   ●  Mostrá un contador (por ejemplo, en la esquina superior) que indique cuántos
+                       productos hay en el carrito.
+
+                   3.  Programar el agregado
+                   ●  Cuando el usuario haga clic en “Agregar al carrito”, aumentá la cantidad de
+                       productos.
+                   ●  Guardá el valor actualizado en LocalStorage.
+
+                   4.  Recuperar los datos al cargar
+                   ●  Cada vez que se recargue la página, tomá el número guardado en LocalStorage.
+                   ●  Mostralo en el contador del carrito.
+
+
+
+
+               Tips de Tomás:
+                             Usá addEventListener("click") para detectar el clic en los botones
+
+                             Recordá actualizar el DOM cada vez que cambie el contador
+
+
+                             Verificá con localStorage.getItem() si ya existe un valor antes de
+                             empezar en 0
+
+
+
+
+
+
+
+
+
+               Ejercicios Práctico 1:]]></page><page Index="14"><![CDATA[Integración
+
+
+               <!-- PREFERENCIAS DE USUARIO -->
+
+
+               <div id="preferencias">
+
+                 <h2>Preferencias de Usuario</h2>
+
+
+                 <form id="form-preferencias">
+
+
+                   <label>
+
+                     Nombre:
+
+
+                     <input type="text" id="nombre-usuario">
+
+                   </label>
+
+
+                   <label>
+
+                     Color de fondo:
+
+
+                     <select id="color-fondo">
+
+
+                       <option value="#ffffff">Blanco</option>
+
+                       <option value="#f8f9fa">Gris claro</option>
+
+
+                       <option value="#e0f7fa">Celeste</option>
+
+                       <option value="#fce4ec">Rosa</option>
+
+
+                     </select>
+
+                   </label>
+
+
+                   <button type="submit">Guardar Preferencias</button>
+
+
+                 </form>
+
+               </div>
+
+
+
+
+
+
+
+               <script>]]></page><page Index="15"><![CDATA[// ---------------------------
+
+
+                 // Funcionalidad Preferencias
+
+                 // ---------------------------
+
+
+                 document.addEventListener('DOMContentLoaded', function() {
+
+                   aplicarPreferencias();
+
+
+                 });
+
+
+
+               document.getElementById('form-preferencias').addEventListener('submi
+               t', function(e) {
+
+                   e.preventDefault();
+
+
+                   const nombre = document.getElementById('nombre-usuario').value;
+
+
+                   const color = document.getElementById('color-fondo').value;
+
+
+
+
+                   localStorage.setItem('nombreUsuario', nombre);
+
+                   localStorage.setItem('colorFondo', color);
+
+
+
+
+                   aplicarPreferencias();
+
+
+                 });
+
+
+
+
+                 function aplicarPreferencias() {
+
+
+                   const nombre = localStorage.getItem('nombreUsuario');
+
+                   const color = localStorage.getItem('colorFondo');
+
+
+
+
+                   if (nombre) {
+
+
+                     alert(`¡Bienvenido/a nuevamente, ${nombre}!`);]]></page><page Index="16"><![CDATA[}
+
+
+
+
+                   if (color) {
+
+
+                     document.body.style.backgroundColor = color;
+
+                   }
+
+
+                 }
+
+               </script>
+
+
+
+
+
+
+               Ejercicio Práctico 2:
+
+
+
+               Integración
+
+               Sumar al carrito de compras ya existente.
+
+               <h2>Carrito de Compras (<span id="contador-productos">0</span>
+               productos)</h2>
+
+               // dentro de  la función y como último llamado a cargarCarrito()
+               document.getElementById('contador-productos').textContent =
+               carrito.length;]]></page><page Index="17"><![CDATA[]]></page></pages></Search>

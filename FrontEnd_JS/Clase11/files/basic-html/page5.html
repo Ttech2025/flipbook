@@ -152,14 +152,20 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>2. Argumentos: ¿Qué son y cómo funciona?
+    <pre style="white-space:pre-line"><code>sumar(5, 10);  // Imprime: 15
+
+
+               En este segundo caso, la función sumar tiene dos parámetros (a y b) que, cuando
+               la llamamos, se reemplazan con los valores 5 y 10.
+
+
+               2. Argumentos: ¿Qué son y cómo funciona?
 
 
                Cuando llamamos a una función y le pasamos datos, esos datos se conocen como
                argumentos. Los argumentos son los valores reales que pasás a los parámetros de
                la función. Si pensás en los parámetros como un recipiente, los argumentos son lo
                que llenan ese recipiente.
-
 
                function multiplicar(a, b) {
 
@@ -173,18 +179,24 @@ function MM_swapImage() { //v3.0
                console.log(multiplicar(3, 4)); // Imprime: 12
 
 
+
+                  return → devuelve un valor, que podés reutilizar después
+                console.log → solo lo muestra en la consola, pero no lo devuelve
+
+
                Acá, 3 y 4 son los argumentos que reemplazan a a y b en la función. Al final, el
+
                resultado es 3 * 4, que es 12.
 
-
                Ejemplos con Múltiples Argumentos
+
 
                Las funciones pueden recibir varios argumentos, y podés usarlos dentro de la
                función de la manera que prefieras. A continuación te doy un ejemplo más
                avanzado:
 
-
                function presentar(nombre, edad, ciudad) {
+
 
 
                   console.log(nombre + " tiene " + edad + " años y vive en "

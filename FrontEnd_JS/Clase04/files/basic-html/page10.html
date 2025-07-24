@@ -4,7 +4,7 @@
 				<meta name="robots" content="all"/>
         <meta name="description" content="description">
         <meta name="keywords" content="">
-        <title>Page 10 - FrontEnd_JS - Clase 04</title>
+        <title>Page 10 - FrontEnd_JS - Clase 4</title>
 <style type="text/css">
 <!--
 body {
@@ -141,7 +141,7 @@ function MM_swapImage() { //v3.0
   </div>
   <div id="content">
      <div id="content-top">
-        <div id="content-top1">Page 10 - FrontEnd_JS - Clase 04</div>
+        <div id="content-top1">Page 10 - FrontEnd_JS - Clase 4</div>
         <div id="content-top2">P. 10</div>
      </div>
      <div id="content-middle">
@@ -152,46 +152,58 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Ejercicio práctico #1:
+    <pre style="white-space:pre-line"><code>BEM
 
 
+               La metodología BEM, o Block Element Modifier,
+               es  un  enfoque  para  estructurar  y  organizar
+               código  CSS  que  se  centra  en  la  creación  de
+               componentes reutilizables y mantenibles. Divide
+               la    interfaz   de    usuario    en    bloques
+               independientes,  cada  uno  con  elementos  y
+               modificadores,  utilizando  convenciones  de
+               nomenclatura para facilitar la comprensión y el
+               mantenimiento del código.
 
-               Incorporar CSS externo
-               Objetivo: Crear un archivo styles.css, importarlo en tu HTML, y aplicar estilos al
-               header y footer.
-
-               Paso a paso:
-
-                   1.  Crear el archivo styles.css: Crea un archivo llamado styles.css en la misma
-                       carpeta que tu archivo HTML.
-
-
-               Importar styles.css en tu HTML: Dentro del &lt;head&gt; de tu archivo HTML, agrega la
-               siguiente línea:
-
-               &lt;link rel="stylesheet" href="styles.css"&gt;
-
-                   2.  Agregar contenido en el HTML: asegúrate de tener un header y un footer en tu
-                       archivo HTML.
+               Block (Bloque)
 
 
-               &lt;header&gt;
+               Es un contenedor principal que representa una parte independiente del sitio.
+               Ejemplo:
 
-                    &lt;h1&gt;Mi Sitio Web&lt;/h1&gt;
+               &lt;article class="noticia"&gt;&lt;/article&gt;
 
-               &lt;/header&gt;
-
-
-               &lt;footer&gt;
-
-
-                    &lt;p&gt;© 2024 Mi Sitio Web. Todos los derechos reservados.&lt;/p&gt;
-
-               &lt;/footer&gt;
+               .noticia {
+                 background: lightgray;
+               }
 
 
-                   3.  Aplicar estilos en el archivo  styles.css: Estilizar el header y el footer, aplicando
-                       un color de fondo y cambiando el estilo de la fuente con las propiedades vistas.</code></pre>
+               Element (Elemento)
+
+
+               Es una parte interna del bloque, como un título o un botón.
+               Se escribe como bloque__elemento.
+
+               &lt;h1 class="noticia__titulo"&gt;Título&lt;/h1&gt;
+
+               .noticia__titulo {
+                 text-transform: capitalize;
+               }
+
+
+               Modifier (Modificador)
+
+
+               Sirve para cambiar la apariencia o comportamiento del bloque o elemento.
+               Se escribe con --modificador.
+
+               &lt;article class="noticia noticia--destacada"&gt;
+                 &lt;h1 class="noticia__titulo noticia__titulo--uppercase"&gt;Título&lt;/h1&gt;
+               &lt;/article&gt;
+
+               .noticia--destacada {
+                 background-color: cornsilk;
+               }</code></pre>
      	</div>
     
      </div>
@@ -201,7 +213,7 @@ function MM_swapImage() { //v3.0
            <tr>
              <td width="22%" height="44"><a href="page9.html"><img src="images/previous.png" width="26" height="19" id="Image2" onmouseover="MM_swapImage('Image2','','images/previous2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
              <td width="43%">
-             	&nbsp;&nbsp;&nbsp;<a href="page5.html">5</a>&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>
+             	&nbsp;&nbsp;&nbsp;<a href="page5.html">5</a>&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>&nbsp;&nbsp;&nbsp;<a href="page14.html">14</a>&nbsp;&nbsp;&nbsp;<a href="page15.html">15</a>
              </td>
              <td width="35%"><a href="page11.html"><img src="images/next.png" width="26" height="19" id="Image1" onmouseover="MM_swapImage('Image1','','images/next2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
            </tr>

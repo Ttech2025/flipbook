@@ -4,7 +4,7 @@
 				<meta name="robots" content="all"/>
         <meta name="description" content="description">
         <meta name="keywords" content="">
-        <title>Page 5 - FrontEnd_JS - Clase 03</title>
+        <title>Page 5 - FrontEnd_JS - Clase 3</title>
 <style type="text/css">
 <!--
 body {
@@ -141,7 +141,7 @@ function MM_swapImage() { //v3.0
   </div>
   <div id="content">
      <div id="content-top">
-        <div id="content-top1">Page 5 - FrontEnd_JS - Clase 03</div>
+        <div id="content-top1">Page 5 - FrontEnd_JS - Clase 3</div>
         <div id="content-top2">P. 5</div>
      </div>
      <div id="content-middle">
@@ -152,52 +152,50 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Herramientas de inspección
+    <pre style="white-space:pre-line"><code>Buenas prácticas en el uso de tablas
 
 
 
-               Las herramientas de inspección en los navegadores permiten a los desarrolladores ver y
-               modificar el código fuente de una página web en tiempo real.
-
-               Acceso a herramientas de inspección:
-
-                   ●  En Chrome:
-                          ○  Hacer clic derecho en cualquier parte de la página y seleccionar
-                              "Inspeccionar".
-                          ○  Alternativamente, usar el atajo Ctrl + Shift + I.
-                   ●  En Firefox:
-                          ○  Hacer clic derecho y seleccionar "Inspeccionar elemento".
-                          ○  Usar Ctrl + Shift + I para abrir las herramientas de desarrollo.
-
-               Funciones básicas de las herramientas de inspección:
+               Usar etiquetas correctamente:
 
 
-                   ●  Elementos: Examinar y editar el HTML de la página.
-                   ●  Consola: Ver mensajes de depuración y ejecutar código JavaScript.
-                   ●  Red: Ver las solicitudes HTTP enviadas por la página, ideal para depurar problemas
-                       de red.
-                   ●  Estilos: Modificar y probar CSS en vivo.
-                   ●  Depuración de JavaScript: Colocar puntos de interrupción en el código JS para
-                       analizar la ejecución.
+                   ●  &lt;table&gt;: define la tabla.
+                   ●  &lt;caption&gt;: título de la tabla.
+                   ●  &lt;thead&gt;: contiene los encabezados.
+                   ●  &lt;tbody&gt;: contiene los datos.
+                   ●  &lt;th&gt;: celdas de encabezado (usa scope).
+                   ●  &lt;td&gt;: celdas normales.
+                   ●  Estructurar las tablas correctamente:
+                          ○  Evitar tablas anidadas (una tabla dentro de otra), ya que pueden complicar la
+                              accesibilidad y el mantenimiento del código.
 
+               &lt;table border="1"&gt;
+                       &lt;caption&gt;Notas por materia&lt;/caption&gt;
+                       &lt;thead&gt;
+                              &lt;tr&gt;
+                                     &lt;th scope="col"&gt;Estudiante&lt;/th&gt;
+                                     &lt;th scope="col"&gt;Materia&lt;/th&gt;
+                                     &lt;th scope="col"&gt;Nota&lt;/th&gt;
+                              &lt;/tr&gt;
+                       &lt;/thead&gt;
+                       &lt;tbody&gt;
+                              &lt;tr&gt;
+                                     &lt;td rowspan="2"&gt;Ana&lt;/td&gt;
+                                     &lt;td&gt;Matemática&lt;/td&gt;
+                                     &lt;td&gt;9&lt;/td&gt;
+                              &lt;/tr&gt;
 
+                              &lt;tr&gt;
+                                     &lt;td&gt;Lengua&lt;/td&gt;
+                                     &lt;td&gt;8&lt;/td&gt;
+                              &lt;/tr&gt;
 
-               Subida a un Hosting Gratuito
-
-
-
-               Ahora que ya tenés tu formulario armado, toca ponerlo online para que todo el mundo lo
-               vea. Vamos a usar dos servicios que te lo hacen fácil y sin gastar un peso: Netlify y GitHub
-               Pages.
-
-                          Netlify: el hosting simple (y eficaz)
-
-                   1.  Andá a Netlify, creá tu cuenta.
-                   2.  Prepará la carpeta del proyecto, asegurate que tenga el archivo index.html.
-                   3.  Arrastrá la carpeta a Netlify Drop (literalmente arrastrá y soltá, como cuando
-                       mandás un archivo por WhatsApp).
-                   4.  ¡Listo! Netlify te da una URL para que la compartas con tus amigos, tu perro, o quien
-                       quieras.</code></pre>
+                              &lt;tr&gt;
+                                     &lt;td colspan="2"&gt;Promedio general&lt;/td&gt;
+                                     &lt;td&gt;8.5&lt;/td&gt;
+                              &lt;/tr&gt;
+                       &lt;/tbody&gt;
+               &lt;/table&gt;</code></pre>
      	</div>
     
      </div>
@@ -207,7 +205,7 @@ function MM_swapImage() { //v3.0
            <tr>
              <td width="22%" height="44"><a href="page4.html"><img src="images/previous.png" width="26" height="19" id="Image2" onmouseover="MM_swapImage('Image2','','images/previous2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
              <td width="43%">
-             	&nbsp;&nbsp;&nbsp;<a href="page1.html">1</a>&nbsp;&nbsp;&nbsp;<a href="page2.html">2</a>&nbsp;&nbsp;&nbsp;<a href="page3.html">3</a>&nbsp;&nbsp;&nbsp;<a href="page4.html">4</a>&nbsp;&nbsp;&nbsp;<a href="page5.html">5</a>&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>
+             	&nbsp;&nbsp;&nbsp;<a href="page1.html">1</a>&nbsp;&nbsp;&nbsp;<a href="page2.html">2</a>&nbsp;&nbsp;&nbsp;<a href="page3.html">3</a>&nbsp;&nbsp;&nbsp;<a href="page4.html">4</a>&nbsp;&nbsp;&nbsp;<a href="page5.html">5</a>&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>
              </td>
              <td width="35%"><a href="page6.html"><img src="images/next.png" width="26" height="19" id="Image1" onmouseover="MM_swapImage('Image1','','images/next2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
            </tr>

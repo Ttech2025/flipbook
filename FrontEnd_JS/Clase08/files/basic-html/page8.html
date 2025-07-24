@@ -4,7 +4,7 @@
 				<meta name="robots" content="all"/>
         <meta name="description" content="description">
         <meta name="keywords" content="">
-        <title>Page 8 - FrontEnd_JS - Clase 08</title>
+        <title>Page 8 - FrontEnd_JS - Clase 8</title>
 <style type="text/css">
 <!--
 body {
@@ -141,7 +141,7 @@ function MM_swapImage() { //v3.0
   </div>
   <div id="content">
      <div id="content-top">
-        <div id="content-top1">Page 8 - FrontEnd_JS - Clase 08</div>
+        <div id="content-top1">Page 8 - FrontEnd_JS - Clase 8</div>
         <div id="content-top2">P. 8</div>
      </div>
      <div id="content-middle">
@@ -152,49 +152,50 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Revisar y Fusionar la Rama con la Rama Principal: Después de terminar el
-               trabajo en tu rama, podés fusionarla con la rama principal (main o master). Para
-               esto, primero asegurate de estar en la rama principal:
-               Comando para cambiar a la rama principal:
-               git checkout main
+    <pre style="white-space:pre-line"><code>Revertir un Merge
 
 
-               Luego, podés fusionar tu rama con la rama principal usando el comando git
-               merge:
+               Si no hiciste commit:
+
+               git merge --abort
 
 
+               Si ya hiciste commit:
+
+               Buscá el hash del commit con:
+               git log --oneline
 
 
-               Comando para hacer merge:
-               git merge nombre-de-la-rama
+                   1.  Luego:
+                       git revert -m 1 &lt;hash&gt;
+                   2.  -m 1 indica que se mantiene el primer "padre", normalmente la rama principal.
 
 
-               Ejemplo:
-               git merge feature-agregar-formulario-contacto
+               Recuperar una Rama Eliminada
 
 
-               Esto va a combinar los cambios de la rama
-               feature-agregar-formulario-contacto con la rama principal.
+               Ver historial oculto:
+
+               git reflog
 
 
+               Recuperar una rama perdida:
+
+               git checkout -b nombre &lt;hash&gt;
 
 
-               Eliminar la Rama (Opcional): Una vez que la rama ha sido fusionada y no la
-               necesitás más, podés eliminarla para mantener el repositorio organizado:
-               Comando:
-               git branch -d nombre-de-la-rama
-
-
-               Ejemplo:
-               git branch -d feature-agregar-formulario-contacto
-
+               Reset de Commits
 
 
 
-                 Resolver Conflictos: Si durante el merge Git detecta que hay conflictos entre tu
-               rama y la principal, tendrás que resolverlos manualmente. Git te mostrará en el
-               archivo afectado dónde están los conflictos, y tendrás que decidir qué cambios
-               conservar.</code></pre>
+                Comando                             Qué hace
+
+                git reset --soft &lt;hash&gt;             Borra commit, mantiene cambios stageados
+
+
+                git reset --mixed &lt;hash&gt;            Borra commit, mantiene cambios no stageados
+
+                git reset --hard &lt;hash&gt;             Borra commit y también los cambios locales</code></pre>
      	</div>
     
      </div>

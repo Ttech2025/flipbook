@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="9"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase  N°1  |  Introducción  al  Automation
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="12"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase  N°1  |  Introducción  al  Automation
 
 
 
@@ -22,19 +22,26 @@
 
 
 
+
+
+
                Objetivos de clase:
-                 En  esta  clase  vamos  a  introducirnos  en  el  mundo  del  Automation  Testing.  Vamos  a
-               entender  qué  es,  para  qué sirve, el rol del Automation Tester, qué herramientas se usan
+
+
+               En esta clase vamos a introducirnos en el mundo del Automation Testing. Vamos a entender
+               qué  es,  para  qué  sirve,  el  rol  del  Automation  Tester,  qué  herramientas  se  usan
                frecuentemente, las habilidades necesarias para tener éxito en este rol, las oportunidades
                laborales  y  cómo  configurar  tu  entorno  de  trabajo  básico  para  empezar  a  automatizar
                pruebas. Además, vamos a repasar brevemente los temas que veremos a lo largo del curso.]]></page><page Index="3"><![CDATA[¿Qué aprenderemos en la cursada?
 
 
-               Durante las próximas clases, cubriremos en profundidad los siguientes temas:
+               Durante    las   próximas    clases,   cubriremos   en
+               profundidad los siguientes temas:
 
                    ●  Módulo 1: Introducción y Fundamentos
 
-                          ○  Introducción al Automation Testing y configuración inicial
+                          ○  Introducción  al  Automation  Testing  y
+                              configuración inicial
                           ○  Fundamentos de Python
                           ○  Control de versiones con Git
                           ○  Pytest y automatización básica
@@ -70,11 +77,11 @@
 
                Recordemos  que  un  tester,  también  conocido  como
                analista  de  pruebas  o  QA  (Quality  Assurance)
-               tester,  es  el  profesional  responsable  de  verificar que
-               un producto de software funcione correctamente antes
-               de que se libere al usuario final. Su tarea principal es
+               tester, es el profesional responsable de verificar que un
+               producto de software funcione correctamente antes de
+               que  se  libere  al  usuario  final.  Su  tarea  principal  es
                detectar    errores,   fallos   o   comportamientos
-               inesperados  en  las  aplicaciones  para  garantizar que
+               inesperados  en  las  aplicaciones  para  garantizar  que
                cumplan  con  los  requisitos  funcionales  y  de  calidad
                establecidos.
 
@@ -174,17 +181,162 @@
                sectores como tecnología, banca, comercio electrónico, salud, telecomunicaciones y otros
                donde la calidad y rapidez son fundamentales.
 
-
-
-
                La paradoja del Automation Testing:
+
 
                Curiosamente, una de las paradojas del Automation Testing es
                que  usamos  software  para  verificar  otros  sistemas  de
                software.  Es  decir,  necesitamos  asegurarnos  que  nuestras
                herramientas  y  scripts  sean  altamente  confiables,  ya  que
                cualquier  error  en  estos  podría  generar  falsos  positivos  o
-               negativos en las pruebas automatizadas.]]></page><page Index="7"><![CDATA[  Storytelling
+               negativos en las pruebas automatizadas.]]></page><page Index="7"><![CDATA[Automatización de Pruebas: Enfoque y Alcance
+
+
+               Una vez entendido el rol del tester automation, es clave
+               entender el ciclo de vida de las pruebas automatizadas
+               y qué tipo de pruebas se pueden o no automatizar.
+
+               La automatización no reemplaza todas las pruebas, pero
+               sí  permite  optimizar  tiempo  y  recursos  en  aquellas  que
+               son  repetitivas,  críticas  o de alto impacto. Esto requiere
+               no  solo  saber  programar  scripts,  sino  también
+               comprender qué se está probando y cuál es el objetivo
+               de cada tipo de prueba dentro del flujo de aseguramiento
+               de calidad.
+
+               Automatizar sin una estrategia clara puede generar scripts
+               inútiles,  poco  mantenibles  o  incluso  contraproducentes.
+               Por eso, el conocimiento de los distintos tipos de pruebas
+               y su función es clave para tomar buenas decisiones desde el rol técnico.
+
+
+
+               Ciclo de Vida de las Pruebas Automatizadas
+
+
+               Son  las  etapas  que  se  siguen  para  planificar,  diseñar,  implementar, ejecutar y mantener
+               pruebas automatizadas dentro del proceso de aseguramiento de calidad del software.
+
+               Las etapas son:
+
+                   1.  Análisis: Identificar qué pruebas son candidatas para automatización. No todo debe
+                       automatizarse.
+                   2.  Diseño: Planificar la estructura de los scripts y seleccionar herramientas adecuadas.
+                   3.  Implementación:  Codificar  los  scripts  de  prueba  con  buenas  prácticas  de
+                       programación.
+                   4.  Ejecución: Correr las pruebas de forma periódica, preferentemente en un entorno
+                       de CI/CD.
+                   5.  Mantenimiento:  Actualizar  los  scripts  cuando  cambia  la  aplicación o se detectan
+                       falsos positivos.]]></page><page Index="8"><![CDATA[Tipos de Pruebas Automatizadas
+
+
+               En  el proceso de asegurar la calidad de un software, existen distintos tipos de pruebas
+               automatizadas,  cada  una  enfocada  en  validar  aspectos  específicos  del  sistema.  La
+               automatización  no  se  aplica  de  forma  única,  sino  que  se  adapta  a  las  necesidades  del
+               proyecto: desde comprobar funciones pequeñas de código hasta evaluar el rendimiento de
+               toda una aplicación.
+
+
+               A continuación, se describen los principales tipos de pruebas que se pueden automatizar,
+               junto con su objetivo y algunas herramientas comúnmente utilizadas para llevarlas a cabo:
+
+
+                Tipo de Prueba            Descripción                             Herramientas
+
+                Pruebas Unitarias         Verifican componentes individuales      Pytest, JUnit
+
+                Pruebas de Integración  Validan         interacciones      entre  Selenium,
+                                          componentes                             RestAssured
+
+                Pruebas de UI             Comprueban la interfaz de usuario       Selenium, Cypress
+
+                Pruebas de API            Verifican servicios web                 Postman, RestSharp
+
+                Pruebas              de  Analizan velocidad y estabilidad         JMeter, Locust
+                Rendimiento
+
+
+
+               Configuración Inicial del Entorno
+
+
+
+                Instalar Python
+
+                   1.  Accede a la página oficial de descargas de Python:
+                       https://www.python.org/downloads/
+
+                   2.  Haz  clic  en  el  botón  Download  Python  (última
+                       versión).
+
+                   3.  Importante: Durante la instalación, marca la opción:
+                        ✅ Add Python to PATH
+                        Esto permite ejecutar Python desde cualquier terminal.
+
+                   4.  Completa la instalación con las opciones por defecto.
+
+                   5.  Verificar instalación:
+
+                          ○  Abre la Consola (CMD en Windows, Terminal en macOS/Linux).
+
+
+                       Escribe:
+                       python --version]]></page><page Index="9"><![CDATA[Deberías ver algo como:
+                       Python 3.xx.x
+
+
+
+
+               Instalar Visual Studio Code
+
+                   1.  Descarga VS Code desde:
+                           https://code.visualstudio.com/download
+
+                   2.  Ejecuta el instalador y sigue los pasos por defecto.
+
+                   3.  (Opcional pero recomendado) Marca:
+                         ✅ Add to PATH y Register Code as editor durante la
+                       instalación.
+
+
+               Configurar el Proyecto en VS Code
+
+                   1.  Abre Visual Studio Code.
+                   2.  Crea una carpeta para el curso:
+                          ○  Ve a Archivo → Abrir carpeta.
+
+
+               Nómbrala:
+               curso-automation-testing
+
+                   3.  Abre la carpeta recién creada en VS Code.
+
+
+               Instalar Extensiones en VS Code
+
+                   1.  Haz clic en el ícono de Extensiones (barra lateral izquierda).
+                   2.  Busca e instala:
+                          ○  Python (desarrollado por Microsoft).
+                          ○  Pytest (para pruebas automatizadas).
+                   3.  Reinicia VS Code para aplicar los cambios.
+
+
+
+
+
+               Crear el Primer Script
+               Dentro de la carpeta del proyecto, crea un archivo llamado: test.py
+               Escribe el siguiente código: print("¡Hola Automation Tester!")
+
+               Ejecutar el Script
+                   1.  Abre la Terminal integrada en VS Code:
+                        Ver → Terminal (o Ctrl + Ñ en Windows / Ctrl + Shift + en macOS).
+
+               Ejecuta el archivo con: python test.py
+               Si todo está correcto, deberías ver: ¡Hola Automation Tester!
+
+                     ✅¡Listo! Ahora tienes tu entorno configurado para comenzar con Python y
+                                              Automatización de Pruebas.]]></page><page Index="10"><![CDATA[  Storytelling
 
                ¡Bienvenido a TalentoLab!
 
@@ -236,7 +388,7 @@
 
 
                             Matias:  Automation  Tester  Senior.  Matias  te  ayudará  en  tu  rol  como  QA
-                            Automation tester junior.]]></page><page Index="8"><![CDATA[Ejercicio Práctico
+                            Automation tester junior.]]></page><page Index="11"><![CDATA[Ejercicio Práctico
 
 
 
@@ -264,4 +416,4 @@
 
 
                               Matías espera que tengas tu entorno listo para comenzar las primeras tareas
-                              en la siguiente sesión.]]></page><page Index="9"><![CDATA[]]></page></pages></Search>
+                              en la siguiente sesión.]]></page><page Index="12"><![CDATA[]]></page></pages></Search>

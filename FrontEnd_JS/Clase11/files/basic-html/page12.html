@@ -152,26 +152,7 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Comparación entre Funciones y Programación Modular
-
-               Hasta ahora hemos visto cómo trabajar con funciones y las ventajas de usar
-               funciones nativas. Pero, ¿cómo se comparan las funciones con el concepto más
-               amplio de programación modular?
-
-
-               Diferencias clave
-
-
-                   ●  Funciones: son bloques de código que realizan una tarea específica. En
-                       general, las funciones pueden definirse de manera que resuelvan una acción
-                       concreta (como sumar dos números o mostrar un mensaje).
-                   ●  Programación Modular: va más allá de las funciones individuales. Implica
-                       dividir todo el programa en módulos (que pueden contener varias funciones).
-                       Cada módulo es responsable de una parte del comportamiento del programa.
-                       Estos módulos son reutilizables y, generalmente, son independientes entre sí.
-
-
-               En resumen: una función es una pieza específica de código, mientras que la
+    <pre style="white-space:pre-line"><code>En resumen: una función es una pieza específica de código, mientras que la
                programación modular es una estrategia general para organizar todo el código en
                partes manejables.
 
@@ -192,20 +173,42 @@ function MM_swapImage() { //v3.0
 
 
                Ejemplo práctico: Proyecto que combina programación
-               modular y funciones
 
+               modular y funciones
 
 
                Vamos a suponer que estás creando una pequeña aplicación que maneja un carrito
                de compras en una tienda online.
-
 
                Paso 1: Crear funciones individuales para manejar las tareas.
 
                function agregarProducto(producto) {
 
 
-                  console.log(producto + " fue agregado al carrito.");</code></pre>
+                  console.log(producto + " fue agregado al carrito.");
+
+
+               }
+
+
+               function calcularTotal(productos) {
+
+
+                  let total = productos.reduce((sum, producto) =&gt; sum +
+               producto.precio, 0);
+
+
+                  console.log("El total es: $" + total);
+
+
+                  return total;
+
+
+               Paso 2: Modularizar el código. Podrías tener un módulo separado para el carrito de
+               compras, otro para la interfaz de usuario, y otro para el cálculo de precios.
+
+
+               // Módulo del carrito de compras</code></pre>
      	</div>
     
      </div>

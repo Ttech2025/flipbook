@@ -152,32 +152,55 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Ejercicio Práctico 2:
+    <pre style="white-space:pre-line"><code>Guardar preferencias de usuario
+
+
+                              Lucía (Product Owner)
+
+                              Queremos que el usuario se sienta cómodo cada vez que entre al sitio.
+                              Por  eso  vamos  a  permitirle  elegir  su  nombre  y  su  color  de  fondo
+                              preferido, y recordar esas elecciones.
+
+                              Pasos a seguir:
+
+
+                   1.  Crear el formulario
+                   ●  Armá en tu HTML un formulario con dos campos:
+                          ○  un campo para el nombre (input).
+                          ○  un selector (select) con diferentes colores de fondo.
+                   ●  Sumale un botón de enviar para guardar las preferencias.
+
+                   2.  Capturar los datos
+                   ●  En JavaScript, usá un evento submit para capturar el nombre y el color cuando el
+                       usuario envía el formulario.
+                   ●  Recordá usar preventDefault() para evitar que el formulario recargue la página.
+
+                   3.  Guardar en LocalStorage
+                   ●  Usá localStorage.setItem() para guardar el nombre y el color.
+
+                   4.  Recuperar y aplicar preferencias
+                   ●  Cada vez que la página se cargue, verificá si hay datos guardados en LocalStorage.
+                   ●  Si existen, aplicá automáticamente:
+                          ○  el saludo con el nombre del usuario.
+                          ○  el color de fondo elegido.
+
+
+               Tips de Tomás:
+                             Usá localStorage.getItem() para leer los datos
+
+                             Manipulá el DOM con document.body.style.backgroundColor para
+                             cambiar el color
+
+
+                             Probá recargando la página para chequear que la preferencia se mantiene
 
 
 
-               Carrito de Compras con Conteo de Productos
 
 
-               Enunciado:
-
-               Crear un carrito de compras utilizando LocalStorage, que permita a los usuarios
-               agregar productos y muestre la cantidad total de productos en el carrito.
 
 
-                   1.  Los productos deben tener un botón para agregar al carrito.
-                   2.  Al agregar un producto, se debe mostrar el número total de productos en el
-                       carrito, almacenándolo en LocalStorage.
-                   3.  Al recargar la página, el número total de productos debe recuperarse de
-                       LocalStorage y mostrarse correctamente.
-
-               Tips:
-
-                   ●  Uso de LocalStorage para guardar el número total de productos en el carrito.
-                   ●  Manipulación del DOM para actualizar el contador de productos en tiempo
-                       real.
-
-                   ●  Utilización de eventos click para agregar productos.</code></pre>
+               Ejercicio práctico #2:</code></pre>
      	</div>
     
      </div>
@@ -187,7 +210,7 @@ function MM_swapImage() { //v3.0
            <tr>
              <td width="22%" height="44"><a href="page11.html"><img src="images/previous.png" width="26" height="19" id="Image2" onmouseover="MM_swapImage('Image2','','images/previous2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
              <td width="43%">
-             	&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>
+             	&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>&nbsp;&nbsp;&nbsp;<a href="page14.html">14</a>&nbsp;&nbsp;&nbsp;<a href="page15.html">15</a>&nbsp;&nbsp;&nbsp;<a href="page16.html">16</a>&nbsp;&nbsp;&nbsp;<a href="page17.html">17</a>
              </td>
              <td width="35%"><a href="page13.html"><img src="images/next.png" width="26" height="19" id="Image1" onmouseover="MM_swapImage('Image1','','images/next2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
            </tr>

@@ -451,17 +451,20 @@
 
 
                Si tu selector sobrevive a un cambio de estilo y no depende de la posición de un elemento,
-               has ganado la mitad de la batalla contra la fragilidad de los tests.]]></page><page Index="12"><![CDATA[¡Manos a la obra en TalentoLab!
+               has ganado la mitad de la batalla contra la fragilidad de los tests.]]></page><page Index="12"><![CDATA[  Storytelling
+
+
+               ¡Manos a la obra en TalentoLab!
+
 
 
                Durante el último sprint afinaste tu maqueta HTML/CSS y
-               escribiste  los  primeros  test  unitarios  en  Pytest.  Ahora  el
+               escribiste  los  primeros  test  unitarios  en  Pytest. Ahora el
                equipo Front-End anuncia una refactorización profunda
-               del  formulario  de registro del portal interno de perfiles.
+               del formulario de registro del portal interno de perfiles.
                Como  QA  te  corresponde  proteger  la  automatización
                futura:  si  mañana  cambian  colores  o  posiciones,  tus
                selectores no deben romperse.
-
 
                 Avisos que llegan al canal #qa
 
@@ -482,12 +485,11 @@
                 body > div:nth-child(3) > form > input o /html/body/div[2]/button; basta mover un <div> o
                 renombrar una clase para que dejen de funcionar.
 
-
                Requisitos funcionales:
+
 
                Concentrarse en los 4 campos obligatorios (nombre, apellido, correo, contraseña) y el
                botón Guardar.
-
 
                    ●  Si existe un id único, úsalo (CSS).
                    ●  Si no, construye un CSS o un XPath robusto.

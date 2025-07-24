@@ -152,40 +152,62 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Ejercicio práctico #2:
+    <pre style="white-space:pre-line"><code>3.  Implementá funciones para:
+                   ●  Recuperar el carrito guardado en localStorage o crear uno vacío si no existe.
+                   ●  Añadir productos nuevos al carrito (podés guardar solo el ID o el objeto completo).
+                   ●  Guardar el carrito actualizado en localStorage.
+                   ●  Mostrar la cantidad total de productos en el carrito en un elemento visible de la
+                       página (por ejemplo, un &lt;div id="contador-carrito"&gt;&lt;/div&gt;).
+                   ●  Actualizar ese contador cada vez que se agregue un producto.
+                   ●  Al cargar la página, inicializar el contador leyendo el carrito guardado en
+                       localStorage.
+
+                   4.  Confirmá cada agregado al carrito con un mensaje breve (por ejemplo un alert()).
+
+
+               Tips de Tomás:
+                             Usá innerHTML o createElement para generar dinámicamente las tarjetas
+                             y botones.
+
+                             Recordá siempre convertir los objetos a texto con JSON.stringify() para
+                             guardarlos, y JSON.parse() para leerlos.
+
+
+                  No  rehagas  la  carga  de  productos  del  ejercicio  1,  construí  sobre  esa  base  para
+                mantener orden y claridad.
 
 
 
-               Crear un carrito de compras dinámico con productos de una API
-
-               Enunciado:
-               Vas a crear un carrito de compras dinámico que permite agregar productos al carrito
-               utilizando datos obtenidos de una API externa. Los pasos específicos son:
+               Resolución de los ejercicios:
 
 
-                   1.  Utilizá fetch() para obtener una lista de productos desde una API (puede ser
-                       la misma API de productos del Ejercicio 1).
-                   2.  Mostrá los productos en la página en forma de tarjetas o lista.
-                   3.  Agregá un botón "Añadir al carrito" para cada producto. Al hacer clic en el
-                       botón, el producto debe añadirse al carrito.
-                   4.  Usá LocalStorage para almacenar los productos que se agreguen al carrito,
-                       de manera que si recarga la página, los productos sigan allí.
-                   5.  Mostrá la cantidad de productos que hay en el carrito en todo momento,
-                       actualizándose cada vez que se añada un nuevo producto.
+               &lt;!DOCTYPE html&gt;
 
-               Tips:
+               &lt;html lang="es"&gt;
 
 
-                   ●  Manipulación del DOM: Usá métodos como createElement() y
-                       appendChild() para crear dinámicamente las tarjetas de productos y los
-                       botones.
-                   ●  LocalStorage: Almacená los productos agregados en LocalStorage
-                       utilizando JSON.stringify() y JSON.parse() para convertir los objetos
+               &lt;head&gt;
 
-                       a formato JSON y viceversa.
-                   ●  Actualización del carrito: Cada vez que un producto sea añadido al carrito,
-                       asegurate de actualizar el contador del carrito para poder ver cuántos
-                       productos tiene.</code></pre>
+                 &lt;meta charset="UTF-8" /&gt;
+
+
+                 &lt;meta name="viewport" content="width=device-width,
+               initial-scale=1.0"/&gt;
+
+                 &lt;title&gt;Carrito con API&lt;/title&gt;
+
+
+                 &lt;style&gt;
+
+                   body {
+
+
+                     font-family: Arial, sans-serif;
+
+                   }
+
+
+                   .producto-card {</code></pre>
      	</div>
     
      </div>
@@ -195,7 +217,7 @@ function MM_swapImage() { //v3.0
            <tr>
              <td width="22%" height="44"><a href="page12.html"><img src="images/previous.png" width="26" height="19" id="Image2" onmouseover="MM_swapImage('Image2','','images/previous2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
              <td width="43%">
-             	&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>&nbsp;&nbsp;&nbsp;<a href="page14.html">14</a>
+             	&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>&nbsp;&nbsp;&nbsp;<a href="page14.html">14</a>&nbsp;&nbsp;&nbsp;<a href="page15.html">15</a>&nbsp;&nbsp;&nbsp;<a href="page16.html">16</a>&nbsp;&nbsp;&nbsp;<a href="page17.html">17</a>&nbsp;&nbsp;&nbsp;<a href="page18.html">18</a>
              </td>
              <td width="35%"><a href="page14.html"><img src="images/next.png" width="26" height="19" id="Image1" onmouseover="MM_swapImage('Image1','','images/next2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
            </tr>

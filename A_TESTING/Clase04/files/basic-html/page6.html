@@ -166,19 +166,17 @@ function MM_swapImage() { //v3.0
 
                Decoradores y aserciones
 
-
-               ¿Qué es un decorador?
-
                Los decoradores en Python son funciones que “envuelven” a otra para modificar su
                comportamiento sin tocar su código interno.
 
                Pytest se apoya en decoradores para tres tareas claves:
 
-                     Decorador                                 ¿Para qué sirve?
 
+                     Decorador                                 ¿Para qué sirve?
                                      Declarar ﬁxtures: piezas reutilizables que preparan datos u objetos antes del
                  @pytest.ﬁxture      test y, opcionalmente, los limpian después. Evitan código duplicado y
                                      centralizan la conﬁguración.
+
                                      Parametrizar un mismo test con varias combinaciones de datos. Pytest crea
                  @pytest.mark.para   un sub-test por cada ﬁla del parámetro, aumentando la cobertura sin
                  metrize
@@ -193,7 +191,6 @@ function MM_swapImage() { //v3.0
                Un fixture es una función especial (decorada con @pytest.fixture) que se ejecuta
                antes de tu prueba para preparar datos, objetos o estado, y, opcionalmente, después para
                limpiarlos. Reduce repetición y centraliza la configuración.
-
                @pytest.fixture
                def numeros_enteros():
                    """Prepara dos enteros comunes."""
@@ -201,7 +198,6 @@ function MM_swapImage() { //v3.0
 
                    ●  Esto crea una fixture que devuelve una tupla (20, 5).
                    ●  Sirve para evitar repetir estos datos en múltiples tests.
-
 
                Usamos la fixture así:
 

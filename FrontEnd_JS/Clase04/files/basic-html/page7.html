@@ -4,7 +4,7 @@
 				<meta name="robots" content="all"/>
         <meta name="description" content="description">
         <meta name="keywords" content="">
-        <title>Page 7 - FrontEnd_JS - Clase 04</title>
+        <title>Page 7 - FrontEnd_JS - Clase 4</title>
 <style type="text/css">
 <!--
 body {
@@ -141,7 +141,7 @@ function MM_swapImage() { //v3.0
   </div>
   <div id="content">
      <div id="content-top">
-        <div id="content-top1">Page 7 - FrontEnd_JS - Clase 04</div>
+        <div id="content-top1">Page 7 - FrontEnd_JS - Clase 4</div>
         <div id="content-top2">P. 7</div>
      </div>
      <div id="content-middle">
@@ -152,61 +152,30 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Ejemplo:
+    <pre style="white-space:pre-line"><code>Especificidad,  herencia,  cascada  y  orden  de
 
-               p {
-
-
-                  color: blue;
-
-               }
-
-
-               p {
-
-                  color: red; /* Esta regla se aplicará porque está después */
-
-
-               }
+               las reglas en CSS
 
 
 
+               Cuando  varios  estilos  intentan  aplicarse  al  mismo  elemento,  CSS  utiliza  un  sistema  de
+               prioridades para determinar cuál regla tendrá efecto. Este sistema se basa en los conceptos
+               de especificidad, herencia, cascada y el orden de las reglas.
 
-               5. Atributos básicos en CSS
+               Especificidad
 
+               La especificidad indica la prioridad de una regla CSS según el tipo de selector que se utiliza.
+               Cuanto más específica sea la regla, mayor prioridad tendrá. El orden de especificidad, de
+               mayor a menor, es:
 
-               5.1 Color
+                   ●  Estilos en línea (atributo style dentro de la etiqueta HTML)
 
-               El atributo color en CSS permite cambiar el color del texto de los elementos HTML. Hay
-               varias formas de especificar colores en CSS, y es importante entender cómo funcionan. Las
-               formas más comunes son:
+                   ●  Selectores de ID (#id)
+                   ●  Selectores de clase (.clase), pseudo-clases y atributos
+                   ●  Selectores por etiqueta (elementos HTML)
 
-               Nombres de colores: CSS reconoce muchos nombres de colores, como red, blue, black,
-               white, etc. Este método es útil cuando quieres usar un color estándar.
-               Ejemplo:
-
-               p {
-
-
-                  color: red;
-
-               }
-
-
-               Valores hexadecimales: Los valores hexadecimales se componen de seis dígitos que
-               representan los colores rojo, verde y azul (RGB). Por ejemplo, el rojo se escribe como
-               #FF0000, donde FF es el valor máximo para el rojo.
-
-
-
-               Ejemplo:
-
-
-               h1 {
-
-                  color: #3498db; /* Azul claro */
-
-               }</code></pre>
+               Por  ejemplo,  un estilo definido en línea siempre tendrá prioridad sobre un estilo aplicado
+               mediante una clase o un ID.</code></pre>
      	</div>
     
      </div>

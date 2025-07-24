@@ -4,7 +4,7 @@
 				<meta name="robots" content="all"/>
         <meta name="description" content="description">
         <meta name="keywords" content="">
-        <title>Page 8 - FrontEnd_JS - Clase 06</title>
+        <title>Page 8 - FrontEnd_JS - Clase 6</title>
 <style type="text/css">
 <!--
 body {
@@ -141,7 +141,7 @@ function MM_swapImage() { //v3.0
   </div>
   <div id="content">
      <div id="content-top">
-        <div id="content-top1">Page 8 - FrontEnd_JS - Clase 06</div>
+        <div id="content-top1">Page 8 - FrontEnd_JS - Clase 6</div>
         <div id="content-top2">P. 8</div>
      </div>
      <div id="content-middle">
@@ -152,41 +152,28 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>flex-direction: Establece la dirección
-               del eje principal. Valores comunes incluyen
-               row (por defecto), column, row-reverse,
-               y column-reverse.
-
-
-
-
-
-
-
-
-
-
-               flex-wrap: Permite a los ítems flexibles
-               pasar a la siguiente línea si no caben en el
-               contenedor. Valores comunes incluyen
-               nowrap (por defecto), wrap, y
+    <pre style="white-space:pre-line"><code>flex-wrap: Permite a los ítems flexibles pasar a la
+               siguiente línea si no caben en el contenedor. Valores
+               comunes  incluyen  nowrap  (por  defecto),  wrap,  y
                wrap-reverse.
+
+
+
+
 
 
 
                Propiedades para los ítems flex:
 
-
                    ●  flex-grow: Permite que un ítem crezca para ocupar el espacio disponible. Un valor
                        de 1 significa que el ítem puede crecer para llenar el espacio.
-                   ●  flex-shrink: Permite que un ítem se encoja si es necesario para evitar
+                   ●  flex-shrink:  Permite  que  un  ítem  se  encoja  si  es  necesario  para  evitar
                        desbordamiento. Un valor de 0 significa que el ítem no se encogerá.
-                   ●  flex-basis: Establece el tamaño inicial del ítem antes de que el espacio se
+                   ●  flex-basis:  Establece  el  tamaño  inicial  del  ítem  antes  de  que  el  espacio  se
                        distribuya. Puede ser un valor fijo (como px, em, %) o auto.
-                   ●
+
 
                Ejemplo completo de Flexbox:
-
 
                .container {
                   display: flex;
@@ -194,7 +181,21 @@ function MM_swapImage() { //v3.0
                   flex-wrap: wrap;
                   justify-content: space-between;
                   align-items: center;
-               }</code></pre>
+               }
+
+               .item {
+                  flex: 1 1 200px;
+                  margin: 10px;
+                  background-color: #2196F3;
+                  color: white;
+                  padding: 20px;
+               }
+
+
+
+               En  este  ejemplo,  los  ítems  .item  se  distribuyen  en  filas,  se  envuelven  cuando  es
+               necesario, y se alinean al centro del eje secundario. Cada ítem ocupa un mínimo de 200px y
+               puede crecer si hay espacio disponible.</code></pre>
      	</div>
     
      </div>
@@ -204,7 +205,7 @@ function MM_swapImage() { //v3.0
            <tr>
              <td width="22%" height="44"><a href="page7.html"><img src="images/previous.png" width="26" height="19" id="Image2" onmouseover="MM_swapImage('Image2','','images/previous2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
              <td width="43%">
-             	&nbsp;&nbsp;&nbsp;<a href="page3.html">3</a>&nbsp;&nbsp;&nbsp;<a href="page4.html">4</a>&nbsp;&nbsp;&nbsp;<a href="page5.html">5</a>&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>
+             	&nbsp;&nbsp;&nbsp;<a href="page3.html">3</a>&nbsp;&nbsp;&nbsp;<a href="page4.html">4</a>&nbsp;&nbsp;&nbsp;<a href="page5.html">5</a>&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>
              </td>
              <td width="35%"><a href="page9.html"><img src="images/next.png" width="26" height="19" id="Image1" onmouseover="MM_swapImage('Image1','','images/next2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
            </tr>

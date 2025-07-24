@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="10"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase           N°      3     |   Fundamentos                      de      Python
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="11"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase           N°      3     |   Fundamentos                      de      Python
 
 
                Par te 2 y Control de Versiones
@@ -37,12 +37,7 @@
                daremos  nuestros  primeros  pasos  en  el  flujo  de  trabajo  con  Git,  aprendiendo  prácticas
                colaborativas  esenciales  para  trabajar  en  equipo  a  través  de  GitHub.  Esta  combinación
                entre organización del código y control de versiones sentará las bases para un desarrollo
-               más profesional y colaborativo.]]></page><page Index="3"><![CDATA[Funciones  en  Python:  del  flujo  secuencial  al  código
-
-               modular
-
-
-               ¿Qué es una función?
+               más profesional y colaborativo.]]></page><page Index="3"><![CDATA[Funciones en Python
 
 
                Una función es un bloque de código con un propósito definido. A diferencia de un programa
@@ -56,12 +51,14 @@
                    ●  Mantenimiento: Si detectás un error, lo corregís en un solo lugar, no en todo el flujo.
 
 
+
                Sintaxis de una función
 
 
                def saludar(nombre):
                  """Imprime un saludo al usuario"""
                  print(f"¡Hola, {nombre}!")
+
 
                    ●  def: palabra clave para definir.
                    ●  saludar: nombre de la función.
@@ -71,9 +68,10 @@
 
                función
 
-
-               Esta es la calculadora que realizamos en la clase anterior utilizando programación lineal sin
-               funciones.
+               En  la  clase  anterior  trabajamos con una calculadora básica estructurada de forma lineal,
+               donde todas las operaciones, entradas y salidas estaban integradas en un único bloque de
+               código. Si bien era funcional, esta estructura no permitía reutilizar ni organizar fácilmente las
+               diferentes partes del programa.
 
 
                Calculadora básica en Python (programación lineal)
@@ -83,7 +81,6 @@
                num1 = float(input("Primer número: "))
                num2 = float(input("Segundo número: "))
                oper = input("Operación (+, -, *, /): ")
-
                if oper == '+':
                  result = num1 + num2
                elif oper == '-':
@@ -95,6 +92,7 @@
                else:
                  result = "Inválida"
                print(f"Resultado: {result}")
+
 
 
                Refactorización con funciones
@@ -116,9 +114,10 @@
                    ●  Reutilización:  podés  usar  la misma función en distintos lugares del programa sin
                        repetir código.
                    ●  Mantenimiento: si hay un error en una operación, solo necesitás corregirlo en un
-                       lugar.
-                   ●  Testeo: es más fácil probar funciones individuales para asegurarse de que funcionen
-                       correctamente (lo que será clave cuando veamos Pytest).]]></page><page Index="5"><![CDATA[def sumar(a, b):
+                       lugar.]]></page><page Index="5"><![CDATA[●  Testeo: es más fácil probar funciones individuales para asegurarse de que funcionen
+                       correctamente (lo que será clave cuando veamos Pytest).
+
+               def sumar(a, b):
                   return a + b
                def restar(a, b):
                   return a - b
@@ -142,8 +141,8 @@
                       elif opcion == '3': resultado = multiplicar(a, b)
                       elif opcion == '4': resultado = dividir(a, b)
                       else:
-                          print("Opción inválida.")
 
+                          print("Opción inválida.")
                           return
                       print(f"Resultado: {resultado}")
                   except ValueError as e:
@@ -160,9 +159,12 @@
                    2.  Incluimos control de errores con try-except para evitar que el programa se rompa
                        si el usuario comete un error (por ejemplo, dividir por cero).
                    3.  Agrupamos todo en una función principal llamada calculadora(), que actúa como
-                       interfaz interactiva con el usuario.
-                   4.  Usamos if __name__ == '__main__' para que el programa se ejecute solo si
-                       lo ejecutamos directamente (buena práctica en Python).]]></page><page Index="6"><![CDATA[¿Qué mejora?
+                       interfaz interactiva con el usuario.]]></page><page Index="6"><![CDATA[4.  Usamos if __name__ == '__main__' para que el programa se ejecute solo si
+                       lo ejecutamos directamente (buena práctica en Python).
+
+
+
+               ¿Qué mejora?
 
                    ●  Cada operación vive en su propia función.
                    ●  Facilita agregar nuevas operaciones.
@@ -172,10 +174,7 @@
                Este  pequeño  cambio  en  la  estructura  marca  una  gran diferencia en cómo escribimos y
                entendemos  nuestro  código.  A  partir  de  ahora,  vas  a  empezar a pensar en términos de
                bloques  funcionales  reutilizables,  lo  cual  es  fundamental  para  automatizar  pruebas,
-               trabajar en equipo y desarrollar proyectos más robustos.
-
-
-               Manejo de excepciones: control de errores
+               trabajar en equipo y desarrollar proyectos más robustos.]]></page><page Index="7"><![CDATA[Manejo de excepciones: control de errores
 
 
                Cuando  escribimos  programas,  especialmente  aquellos  que  interactúan  con  usuarios  o
@@ -183,8 +182,8 @@
                detenga inesperadamente. Para eso usamos el manejo de excepciones, una herramienta
                que nos permite anticipar y controlar errores de forma ordenada y segura.
 
-               Estructura básica
 
+               Estructura básica
 
                try:
                   valor = int(input("Ingresa un número entero: "))
@@ -193,14 +192,12 @@
                except ZeroDivisionError:
                   print("Error: División por cero.")
                except ValueError:
-
                   print("Error: Entrada inválida, no es un número entero.")
                finally:
                   print("Operación finalizada.")
 
 
                ¿Qué hace cada bloque?
-
 
                    ●  try:
                         Aquí colocamos el código que puede generar un error. Python intentará ejecutarlo
@@ -213,21 +210,25 @@
 
                    ●  finally:
                          Este  bloque  siempre  se  ejecuta,  ocurra  o  no  un  error.  Es  útil  para  mostrar
-                       mensajes finales, liberar recursos o cerrar archivos.]]></page><page Index="7"><![CDATA[Tipos de excepciones comunes:
+                       mensajes finales, liberar recursos o cerrar archivos.
+
+
+
+               Tipos de excepciones comunes:
+
 
                    ●  ZeroDivisionError
                    ●  ValueError
-                   ●  KeyError
+                   ●  KeyError]]></page><page Index="8"><![CDATA[Flujo de trabajo básico con Git
+
+
+                                                 Git es una herramienta de control de versiones que nos
+                                                 permite  registrar,  rastrear  y  compartir  los  cambios
+                                                 realizados en nuestros proyectos de código. Esencial en
+                                                 cualquier trabajo colaborativo o desarrollo profesional.
 
 
 
-               Flujo de trabajo básico con Git
-
-
-                                               Git  es  una  herramienta  de  control  de  versiones  que  nos
-                                               permite  registrar,  rastrear  y  compartir  los  cambios
-                                               realizados  en  nuestros  proyectos  de  código.  Esencial  en
-                                               cualquier trabajo colaborativo o desarrollo profesional.
 
                El flujo típico para registrar y compartir cambios:
 
@@ -239,7 +240,6 @@
 
                Creación de repositorios
 
-
                    ●  git init: convierte la carpeta actual en un repositorio Git local.
                    ●  git  clone  URL_DEL_REPOSITORIO:  descarga  una  copia  de  un  repositorio
                        remoto.
@@ -250,7 +250,10 @@
                    ●  git commit -m "Descripción breve del cambio"
                    ●  git push origin main
                           ○  origin: nombre por defecto del repositorio remoto.
-                          ○  main: rama principal (antes master).]]></page><page Index="8"><![CDATA[Ramas (branches) y fusiones (merges)
+                          ○  main: rama principal (antes master).
+
+
+               Ramas (branches) y fusiones (merges)
 
                Las ramas permiten trabajar en nuevas funcionalidades sin afectar la rama principal.
 
@@ -263,25 +266,22 @@
                git commit -m "Implementar nueva funcionalidad"
                git checkout main
                git merge nueva-funcionalidad  # fusiona cambios
-               git branch -d nueva-funcionalidad  # elimina rama local
+               git branch -d nueva-funcionalidad  # elimina rama local]]></page><page Index="9"><![CDATA[Colaboración en proyectos mediante GitHub
 
 
-
-               Colaboración en proyectos mediante GitHub
-
-               GitHub  es  un  servicio  que  aloja  repositorios  remotos  y  facilita  la
+               GitHub  es  un  servicio  que  aloja  repositorios  remotos y facilita la
                colaboración:
 
                    ●  Fork:  copia  personal  de  un  repositorio  para  trabajar
                        independientemente.
                    ●  Pull  Request  (PR):  propuesta  de  cambios  al  repositorio
                        original.
-                   ●  Revisiones  de  código:  comentarios  y  discusión  antes  de
+                   ●  Revisiones  de  código: comentarios y discusión antes de
                        fusionar.
 
 
-               Buenas prácticas de versionado
 
+               Buenas prácticas de versionado
 
                    ●  Mensajes de commit claros: usar infinitivo y describir el cambio (p.ej., Agregar
                        función dividir).
@@ -289,24 +289,16 @@
                    ●  Uso de ramas: mantener main estable, desarrollar en ramas separadas y fusionar
                        cuando estén listas.
                    ●  Modelos  de  branching:  adoptar  Git  Flow,  GitHub  Flow  o  similares  para orden y
-                       consistencia.
+                       consistencia.]]></page><page Index="10"><![CDATA[  Storytelling
 
-
-               Preguntas para reflexionar
-
-
-                   ●  ¿Cómo cambia la mantenibilidad del código al usar funciones?
-                   ●  ¿Por qué es fundamental comprender el flujo básico de Git?
-                   ●  ¿Qué ventajas aporta usar Pull Requests en equipo?]]></page><page Index="9"><![CDATA[¡Un nuevo desafío en Talento Lab!
+               ¡Un nuevo desafío en Talento Lab!
 
 
 
-
-
-               Tras  haber  configurado  tu  entorno  y  repasado  la
-               teoría,  Silvia  y  Matías  quieren  que  afiances  lo
-               aprendido con un ejercicio concreto antes de avanzar
-               a conceptos más avanzados.
+               Tras  haber  configurado tu entorno y repasado la teoría,
+               Silvia y Matías quieren que afiances lo aprendido con un
+               ejercicio  concreto  antes  de  avanzar  a  conceptos  más
+               avanzados.
 
 
                                 Silvia comenta:
@@ -325,7 +317,6 @@
 
 
 
-
                Ejercicios Prácticos
 
 
@@ -339,7 +330,6 @@
                           ○  git init para crear un repositorio en la carpeta del ejercicio.
                           ○  git add y git commit de forma incremental.
                           ○  Crear y cambiar a la rama feature/calculadora-lineal.
-
                           ○  Fusionar con main al finalizar.
                    4.  Subir a Github:
-                          ○  Subir la rama en la que estes trabajando]]></page><page Index="10"><![CDATA[]]></page></pages></Search>
+                          ○  Subir la rama en la que estes trabajando]]></page><page Index="11"><![CDATA[]]></page></pages></Search>

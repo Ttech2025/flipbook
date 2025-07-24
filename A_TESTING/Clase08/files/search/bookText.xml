@@ -298,13 +298,14 @@
                             páginas
 
                 No  mezcles  demasiadas  implícitas  y  explícitas  con  tiempos  altos;  pueden
-                acumularse y frenar el test.]]></page><page Index="9"><![CDATA[Próximos pasos
+                acumularse y frenar el test.
+
+
+               Próximos pasos
 
 
                En  la  Clase  9  abordaremos  Page  Object  Model  para  escalar  nuestros  tests  y  evitar
-               duplicación de código. ¡Practica hasta que tus scripts sean estables y fáciles de leer!
-
-
+               duplicación de código. ¡Practica hasta que tus scripts sean estables y fáciles de leer!]]></page><page Index="9"><![CDATA[  Storytelling
 
 
 
@@ -319,6 +320,7 @@
                                                        lo  esencial  —el  login  y  la  navegación  básica—
                                                        funcione perfectamente de forma automatizada.
 
+
                Daily del lunes: tareas asignadas
 
 
@@ -332,6 +334,7 @@
 
 
                Matías (Automation Lead):
+
 
                                  “Usá  localización  por  ID,  Name  y  CSS  para  esos  tres  elementos
                                  clave. Agregá al menos una espera explícita (con WebDriverWait)

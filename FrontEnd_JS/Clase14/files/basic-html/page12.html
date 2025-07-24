@@ -152,43 +152,59 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Ejercicio práctico #1:
+    <pre style="white-space:pre-line"><code>1.  Elegí una API pública para probar, por ejemplo:
+                        https://fakestoreapi.com/products
+
+
+                   2.  En tu archivo HTML, creá un contenedor donde se mostrarán los productos,
+                       por ejemplo:
+                        &lt;div id="productos-container"&gt;&lt;/div&gt;
+
+                   3.  En un archivo JavaScript separado o dentro de un &lt;script&gt;:
+                   ●  Usá fetch() para obtener los productos desde la API.
+
+                   ●  Convertí la respuesta a JSON para poder trabajar con los datos.
+                   ●  Recorré la lista de productos con un bucle .forEach() y generá las tarjetas
+                       para mostrarlos en el contenedor del HTML.
+                   ●  Agregá manejo de errores con .catch(), mostrando un mensaje claro si
+                       algo falla (alert o texto en la página).
+
+                   4.  Probá recargar la página para verificar que los productos se carguen
+                       correctamente.
+
+
+               Tips de Tomás:
+                             Usá un diseño simple para las tarjetas, con imagen, título y precio.
+
+
+                             Prepará la estructura para añadir botones de “Añadir al carrito” después.
+
+                             Mantener el JavaScript separado en archivos externos mejora la organización
+                             y mantenimiento.
 
 
 
-               Aplicar el consumo de API Fetch en tu proyecto personal
+
+               Ejercicio práctico #2:
 
 
-               Enunciado:
-               En este ejercicio, vas a integrar el consumo de una API REST utilizando fetch()
-               en tu proyecto personal de e-commerce o cualquier otro proyecto que estés
-               desarrollando. Los pasos a seguir son:
 
-                   1.  Elige una API pública (como Fake Store API) que te proporcione datos de
-                       productos, usuarios y usuarias o cualquier otro recurso que quieras mostrar
-                       en tu proyecto.
-                   2.  Usa fetch() para hacer una solicitud a la API y obtener los datos.
-                   3.  Muestra los datos obtenidos en tu proyecto, ya sea en forma de lista de
-                       productos, usuarias o usuarios o lo que elijas.
-                   4.  Asegúrate de manejar los posibles errores utilizando .catch() y mostrá un
+               Carrito dinámico con productos de la API
 
-                       mensaje si algo falla.
-                   5.  Opcional: Integra los datos obtenidos con alguna funcionalidad de tu
-                       proyecto, como un carrito de compras o una lista de productos favoritos.
-
-               Tips:
-
-                   ●  Selección de API: Busca una API pública que tenga los datos que querés
-                       incluir en tu proyecto. Algunas opciones son APIs de productos, películas,
-                       personas, etc.
-                   ●  Manejo de errores: Usa .catch() para capturar cualquier error en la
-
-                       solicitud y mostrar un mensaje de error en la página.
-                   ●  Integración con el proyecto: Pensá cómo podés integrar los datos
-                       obtenidos con otras funcionalidades de tu proyecto.
+                              Lucía (Product Owner)
 
 
-               ___________________________________________________________________</code></pre>
+                              Ahora vamos a hacer que tu tienda permita agregar productos al carrito, y
+                              que este se mantenga guardado aunque recargues la página. Para esto,
+                              combinaremos fetch(), la manipulación del DOM y localStorage.
+
+
+
+               Pasos a seguir:
+
+                   1.  Partí del ejercicio anterior donde ya tienes los productos cargados con fetch.
+
+                   2.  Añadí un botón “Añadir al carrito” en cada tarjeta de producto.</code></pre>
      	</div>
     
      </div>
@@ -198,7 +214,7 @@ function MM_swapImage() { //v3.0
            <tr>
              <td width="22%" height="44"><a href="page11.html"><img src="images/previous.png" width="26" height="19" id="Image2" onmouseover="MM_swapImage('Image2','','images/previous2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
              <td width="43%">
-             	&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>&nbsp;&nbsp;&nbsp;<a href="page14.html">14</a>
+             	&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>&nbsp;&nbsp;&nbsp;<a href="page14.html">14</a>&nbsp;&nbsp;&nbsp;<a href="page15.html">15</a>&nbsp;&nbsp;&nbsp;<a href="page16.html">16</a>&nbsp;&nbsp;&nbsp;<a href="page17.html">17</a>
              </td>
              <td width="35%"><a href="page13.html"><img src="images/next.png" width="26" height="19" id="Image1" onmouseover="MM_swapImage('Image1','','images/next2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
            </tr>

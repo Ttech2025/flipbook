@@ -156,13 +156,13 @@ function MM_swapImage() { //v3.0
 
 
                Vamos ahora a realizar un ejemplo mucho mas avanzado con la misma calculadora que
-               tenemos. En él vamos a aplicar lo visto en los puntos 3, 4 y 5.
+               tenemos. En él vamos a aplicar lo visto en los puntos anteriores.
 
 
                Para realizar el ejemplo deberás crear un archivo pytest.ini en la raíz de tu proyecto
                para registrar las etiquetas personalizadas y evitar advertencias:
 
-               Link al archivo
+
 
                [pytest]
 
@@ -173,10 +173,9 @@ function MM_swapImage() { //v3.0
                    exception: casos que validan manejo de errores
 
 
-               Código
-
 
                Este es el nuevo archivo de pruebas que implementa todos los conceptos mencionados:
+
 
                Podés obtenerlo del repo:
                https://github.com/emilianospinoso/pre-entrega-automation-testing/blob/main/tests/test_calc
@@ -189,8 +188,8 @@ function MM_swapImage() { //v3.0
 
                a. Fixtures con @pytest.fixture
 
-
                Creamos dos fixtures:
+
 
                    ●  numeros_enteros: Devuelve una tupla con dos enteros (20, 5) que se pueden
                        usar en múltiples tests.
@@ -201,7 +200,6 @@ function MM_swapImage() { //v3.0
                reduciendo la duplicación de código.
 
                b. Parametrización con @pytest.mark.parametrize
-
 
                Implementamos tests parametrizados para las funciones sumar y restar. Cada
                combinación de parámetros crea un test independiente. Esto permite:

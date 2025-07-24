@@ -152,67 +152,61 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>2. Consumo de APIs con fetch()
+    <pre style="white-space:pre-line"><code>4. Async/Await: Otra forma de esperar
+
+
+               ¿Te acordás de la promesa de cenar con tu amiga? Con then le vas mandando
+
+               mensajitos uno tras otro:
+
+                   ●  ¿Podés venir?
+                   ●  ¿Traés algo?
+                   ●  ¿A qué hora llegás?
+
+               Esos mensajes van encadenados, como pasa con las promesas en JavaScript.
+
+
+               Pero con async/await, en vez de andar mandando mensajes sueltos, es como si se
+               sentaran a charlar cara a cara y resuelven todo de una:
+
+                   ●  Confirmamos la cena.
+                   ●  Definimos la hora.
+                   ●  Ya sabemos qué traemos.
+
+
+               Más directo, más claro, más fácil de leer.
+
+               async function mostrarProductos() {
+
+
+                 try {
+
+                   const respuesta = await fetch("https://fakestoreapi.com/products");
+
+
+                   const data = await respuesta.json();
+
+                   // procesar datos...
+
+
+                 } catch (error) {
+
+                   console.error("Error al obtener productos:", error);
+
+
+                 }
+
+               }
 
 
 
 
+               Explicación:
 
 
-
-
-
-
-
-
-
-
-
-               2.1. Uso de fetch() para Hacer Solicitudes HTTP
-
-                   ●  fetch() permite realizar solicitudes HTTP a una API de forma asíncrona.
-                       Esto es útil para obtener datos sin recargar la página, mejorando la
-                       experiencia del usuario.
-
-
-               Ejemplo básico de fetch:
-
-               fetch('https://fakestoreapi.com/products')
-
-                .then(response =&gt; response.json())
-
-
-                .then(data =&gt; console.log(data))
-
-
-                .catch(error =&gt; console.error('Error al obtener datos:',
-               error));
-
-
-
-
-
-               2.2. Procesamiento de la Respuesta en JSON
-
-
-                   ●  Usamos response.json() para convertir los datos en un objeto JSON, lo
-                       cual facilita el procesamiento en JavaScript.
-
-               Ejemplo:
-
-               fetch('https://fakestoreapi.com/products')
-
-
-                .then(response =&gt; response.json())
-
-                .then(data =&gt; {
-
-
-                    // Aquí se procesan los datos obtenidos y se integran en
-
-               el DOM
-
-                });</code></pre>
+                   ●  async indica que la función puede esperar tareas asincrónicas.
+                   ●  await pausa el flujo hasta obtener la respuesta.
+                   ●  Así evitamos encadenar varios .then, y el código queda más limpio.</code></pre>
      	</div>
     
      </div>

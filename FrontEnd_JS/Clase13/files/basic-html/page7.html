@@ -156,17 +156,18 @@ function MM_swapImage() { //v3.0
 
                localStorage.setItem('carrito', JSON.stringify(carrito));
 
-               *Recordà que JSON.stringify(carrito) convierte nuestro carrito, que es un array de objetos, en
-               una cadena de texto. LocalStorage solo puede guardar strings, así que necesitamos convertir
-               el array para poder almacenarlo. Cuando queramos recuperarlo, usaremos JSON.parse() para
-               convertir esa cadena de vuelta en un array."
+                  Recordà  que  JSON.stringify(carrito)  convierte  nuestro  carrito,  que  es  un  array  de
+                objetos,  en  una  cadena  de texto. LocalStorage solo puede guardar strings, así que
+                necesitamos  convertir  el  array para poder almacenarlo. Cuando queramos recuperarlo,
+                usaremos JSON.parse() para convertir esa cadena de vuelta en un array.
+
 
 
                3.4. Actualización del Carrito en tiempo real
 
-
                Cada vez que el usuario añada o elimine un producto, actualizá el DOM y el
                LocalStorage para reflejar los cambios.
+
 
                function actualizarCarrito() {
                 var carrito = JSON.parse(localStorage.getItem('carrito')) || [];
@@ -183,11 +184,10 @@ function MM_swapImage() { //v3.0
 
                4. Ejercicio Práctico de ejemplo: Carrito de Compras
 
-
                4.1. Enunciado del Ejercicio
 
-               Desarrollá un carrito de compras que permita:
 
+               Desarrollá un carrito de compras que permita:
 
                    ●  Añadir productos.
                    ●  Eliminar productos.
@@ -201,9 +201,7 @@ function MM_swapImage() { //v3.0
                    2.  Implementar la funcionalidad de agregar productos con JavaScript.
                    3.  Utilizar LocalStorage para guardar los productos.
                    4.  Mostrar el contenido del carrito al cargar la página.
-                   5.  Implementar la opción de vaciar el carrito.
-
-               4.3. Tips para la implementación</code></pre>
+                   5.  Implementar la opción de vaciar el carrito.</code></pre>
      	</div>
     
      </div>

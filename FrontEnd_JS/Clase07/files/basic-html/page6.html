@@ -4,7 +4,7 @@
 				<meta name="robots" content="all"/>
         <meta name="description" content="description">
         <meta name="keywords" content="">
-        <title>Page 6 - FrontEnd_JS - Clase 07</title>
+        <title>Page 6 - FrontEnd_JS - Clase 7</title>
 <style type="text/css">
 <!--
 body {
@@ -141,7 +141,7 @@ function MM_swapImage() { //v3.0
   </div>
   <div id="content">
      <div id="content-top">
-        <div id="content-top1">Page 6 - FrontEnd_JS - Clase 07</div>
+        <div id="content-top1">Page 6 - FrontEnd_JS - Clase 7</div>
         <div id="content-top2">P. 6</div>
      </div>
      <div id="content-middle">
@@ -152,57 +152,52 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Ejemplo de combinación:
-
-
-               &lt;div class="grid-container"&gt;
-
-                    &lt;header class="header"&gt;Cabecera&lt;/header&gt;
-
-
-                    &lt;nav class="menu"&gt;
-
-                      &lt;ul class="flex-menu"&gt;
-
-
-                        &lt;li&gt;&lt;a href="#"&gt;Inicio&lt;/a&gt;&lt;/li&gt;
-
-                        &lt;li&gt;&lt;a href="#"&gt;Servicios&lt;/a&gt;&lt;/li&gt;
-
-
-                        &lt;li&gt;&lt;a href="#"&gt;Contacto&lt;/a&gt;&lt;/li&gt;
-
-                      &lt;/ul&gt;
-
-
-                    &lt;/nav&gt;
-
-                    &lt;section class="main"&gt;Contenido principal&lt;/section&gt;
-
-
-                    &lt;footer class="footer"&gt;Pie de página&lt;/footer&gt;
-
-                  &lt;/div&gt;
-
-
-
-
-               CSS:
+    <pre style="white-space:pre-line"><code>CSS:
 
                .grid-container {
-
-
                   display: grid;
-
-
                   grid-template-columns: 200px 1fr;
-
                   grid-template-rows: auto 1fr auto;
-
                   gap: 10px;
+               }
+
+               .flex-menu {
+                  display: flex;
+                  flex-direction: column;
+                  gap: 5px;}
+
+               .header, .footer {
+                  grid-column: 1 / 3;
+
+               }
+
+               .main {
+                  grid-column: 2 / 3;
+               }
 
 
-               }</code></pre>
+               Explicación:
+
+
+                   ●  Usamos  Grid  para  organizar  el  layout  principal  de  la  página  (cabecera,  menú,
+                       contenido, pie de página).
+                   ●  Dentro del menú (.flex-menu), utilizamos Flexbox para distribuir los elementos de
+                       la lista en una columna, con un espacio (gap) entre cada uno de ellos.
+
+
+
+
+               Conceptos Básicos de Grid
+
+
+                   ●  Grid  Container:  es  el  contenedor  que  define  la  cuadrícula,  configurado  con
+                       display: grid.
+                   ●  Grid  Item:  son  los  elementos  dentro  del  grid  container;  se  alinean  en  filas  y
+                       columnas automáticamente.
+                   ●  Grid Track: el espacio entre dos líneas adyacentes, ya sea una fila o una columna.
+                   ●  Grid Cell: la intersección entre una fila y una columna, donde se coloca un grid item.
+                   ●  Grid Area: un área rectangular dentro de la cuadrícula que puede estar ocupada por
+                       uno o varios grid items.</code></pre>
      	</div>
     
      </div>

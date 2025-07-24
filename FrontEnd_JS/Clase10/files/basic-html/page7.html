@@ -152,60 +152,59 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>3. Operadores lógicos y de comparación
+    <pre style="white-space:pre-line"><code>console.log("Sos menor de edad.");
+
+                }
 
 
-               ¿Qué son los operadores lógicos y de comparación?
+               else if: Si necesitás manejar múltiples condiciones, else if te da esa
+
+               flexibilidad.
+
+               if (edad &gt;= 18) {
+
+                  console.log("Sos mayor de edad.");
 
 
-               Son herramientas que usás para comparar valores y tomar decisiones
-               basadas en esas comparaciones. Por ejemplo, podés comparar si dos
-               números son iguales, o si un valor es mayor que otro.
+                } else if (edad &gt;= 13) {
+
+                  console.log("Sos un adolescente.");
 
 
-               Comparadores
+                } else {
+
+                  console.log("Sos un niño/a.");
+
+                }
 
 
-                   ●  == Verifica si dos valores son iguales, pero no necesariamente del
-                       mismo tipo de dato.
+               Operador ternario: Es una versión compacta de if...else. Ideal para
 
-                   ●  === Compara tanto el valor como el tipo de dato.
-                   ●  != Verifica si dos valores son diferentes.
-                   ●  !== Verifica si dos valores son diferentes, incluyendo su tipo de datos.
+               condiciones simples.
 
-                   ●  &lt;, &gt;, &lt;=, &gt;= Comparan valores numéricos.
+               let resultado = edad &gt;= 18 ? "mayor de edad" : "menor de edad";
 
 
-               Operadores lógicos
-
-                   ●  && (AND): Se cumplen todas las condiciones.
-
-                   ●  || (OR): Se cumple al menos una de las condiciones.
-                   ●  ! (NOT): Invierte el valor de la condición.
-
-               Ejemplo práctico: acceso a un evento
+               Ejemplo práctico: evaluación de la edad
 
 
-               let edad = 22;
+               let edad = 20;
 
+               if (edad &gt;= 18) {
 
-               let miembroVIP = true;
+                console.log("Sos mayor de edad.");
 
-               if (edad &gt;= 18 && miembroVIP) {
-
-
-                console.log("Acceso concedido al área VIP.");
 
                } else {
 
 
-                console.log("Acceso denegado.");
+                console.log("Sos menor de edad.");
 
                }
 
 
-               En este ejemplo, el acceso depende tanto de la edad como de ser miembro
-               VIP.</code></pre>
+               Con esto, podés determinar si alguien puede entrar a un boliche o no, según
+               su edad.</code></pre>
      	</div>
     
      </div>

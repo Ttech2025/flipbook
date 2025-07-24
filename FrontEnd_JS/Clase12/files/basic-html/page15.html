@@ -152,34 +152,67 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Ejercicio práctico #2:
+    <pre style="white-space:pre-line"><code>});
+
+                  &lt;/script&gt;
 
 
-               Creación Dinámica de Elementos y Eventos
+               Este código:
 
 
-               Enunciado: Desarrollar un programa que permita a la persona agregar nuevos
-               elementos a una lista mediante un botón. Los pasos son:
+                   1.  Agrega un solo listener al &lt;ul&gt;.
 
-                   1.  Al hacer clic en un botón, se debe crear un nuevo elemento &lt;li&gt; en una lista
+                   2.  Cada vez que hacés click en algo dentro de esa lista, el evento sube al &lt;ul&gt;.
 
-                       ya existente.
-                   2.  El contenido del nuevo elemento debe ser el texto: "Nuevo Elemento".
-                   3.  Usar createElement() para crear el nuevo elemento y appendChild()
-                       para añadirlo a la lista.
-                   4.  Cada vez que se agrega un nuevo elemento, se debe mostrar una alerta
-                       indicando: "Se ha añadido un nuevo elemento".
+                   3.  Usando event.target, podés ver en qué elemento realmente se hizo clic.
 
-               Tips:
+                   4.  Si el target es un &lt;li&gt;, mostrás el alert.
 
 
-                   ●  Creación de elementos: Usar createElement() para generar el nuevo
-                       nodo &lt;li&gt;.
-                   ●  Agregar al DOM: Usar appendChild() para añadir el nuevo elemento a la
+                   ¿Por qué se llama delegación?
 
-                       lista.
-                   ●  Eventos: Utilizá addEventListener() para asociar la acción de agregar el
-                       elemento al evento click del botón.</code></pre>
+
+
+                Porque el elemento padre delega su capacidad de escuchar a todos sus hijos.
+                El evento sube (propaga) hasta el padre, y ahí decidís si te interesa capturarlo o no.
+
+                    ●  Menos código.
+                    ●  Más fácil de mantener
+                    ●  Si  agregás  nuevos  &lt;li&gt;  con  JS  después,  ¡no  hace  falta  volver  a  ponerles
+                        listeners uno por uno!
+
+
+                Por eso se usa mucho con elementos dinámicos.
+
+
+                 Storytelling
+
+
+               ¡Dinamizamos                la     web        mostrando  productos  y
+
+               agregando interactividad con JavaScript!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Tomás (Desarrollador Senior)
+
+                            ¡Vamos  avanzando  muy  bien!  Ahora  es  momento  de  llevar  a  la  práctica la
+                            manipulación dinámica del contenido con JavaScript y hacer que tu sitio web
+                            sea más interactivo para los usuarios.</code></pre>
      	</div>
     
      </div>
@@ -189,7 +222,7 @@ function MM_swapImage() { //v3.0
            <tr>
              <td width="22%" height="44"><a href="page14.html"><img src="images/previous.png" width="26" height="19" id="Image2" onmouseover="MM_swapImage('Image2','','images/previous2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
              <td width="43%">
-             	&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>&nbsp;&nbsp;&nbsp;<a href="page14.html">14</a>&nbsp;&nbsp;&nbsp;<a href="page15.html">15</a>&nbsp;&nbsp;&nbsp;<a href="page16.html">16</a>
+             	&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>&nbsp;&nbsp;&nbsp;<a href="page14.html">14</a>&nbsp;&nbsp;&nbsp;<a href="page15.html">15</a>&nbsp;&nbsp;&nbsp;<a href="page16.html">16</a>&nbsp;&nbsp;&nbsp;<a href="page17.html">17</a>&nbsp;&nbsp;&nbsp;<a href="page18.html">18</a>
              </td>
              <td width="35%"><a href="page16.html"><img src="images/next.png" width="26" height="19" id="Image1" onmouseover="MM_swapImage('Image1','','images/next2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
            </tr>

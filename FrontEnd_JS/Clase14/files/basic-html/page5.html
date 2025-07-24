@@ -152,60 +152,30 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>3. Promesas: ¿Qué es una promesa en JavaScript?
+    <pre style="white-space:pre-line"><code>2. Introducción a la Asincronía
 
 
-               Cuando usás fetch, te devuelve una promesa: funciona como lo indica la palabra,
-
-               es un compromiso del programa que tiene tres estados factibles. Pensalo como
-               cuando quedás con tu amiga en cenar el sábado próximo, pero tenés que confirmar
-               si podés más cerca de la fecha. En nuestra programación, esta promesa, como
-               decíamos, puede tener tres estados: pendiente, resuelta o rechazada.
+               La asincronía significa que no tenemos que esperar a que una tarea termine para
+               seguir con otras, como poner la pava para calentar el agua y mientras tanto preparar
+               las tostadas.
 
 
-               Estados de una promesa:
-
-                   ●  Pendiente (pending): La promesa todavía está esperando una respuesta (no
-                       sabés si vas a ir a cenar o no).
-                   ●  Resuelta (resolved): Todo salió bien (confirmaste que vas a cenar).
-                   ●  Rechazada (rejected): Algo salió mal (tu amiga canceló la cena).
+               ¿Por qué la web necesita asincronía?
+                Porque no queremos que el sitio se “congele” mientras espera una respuesta del
+               servidor o un archivo pesado. La web tiene que seguir funcionando aunque todavía
+               no hayan llegado los datos.
 
 
 
 
-
-               4. Manejo de datos con Fetch y promesas
-
-
-               Ahora que sabemos pedir datos, ¿qué hacemos con ellos? Supongamos que
-               estamos creando una tienda online y queremos mostrar productos de una API
-               externa.
-
-               Mostrar los productos en nuestra página:
-
-
-               fetch("https://fakestoreapi.com/products")
-                .then((response) =&gt; response.json())
-                .then((data) =&gt; {
-
-                  const contenedor =
-               document.getElementById("productos-container");
-                  data.forEach((producto) =&gt; {
-                    contenedor.innerHTML += `
-
-                              &lt;div class="card"&gt;
-                                  &lt;img src="${producto.image}"
-               alt="${producto.title}"&gt;
-
-                                  &lt;h3&gt;${producto.title}&lt;/h3&gt;
-                                  &lt;p&gt;Precio: $${producto.price}&lt;/p&gt;
-                                  &lt;button
-
-               onclick="agregarAlCarrito(${producto.id})"&gt;Añadir al
-               carrito&lt;/button&gt;
-                              &lt;/div&gt;
-
-                          `;</code></pre>
+               Asincronía en JavaScript: Básicamente, el
+               código sigue ejecutándose sin esperar a que la
+               tarea asíncrona (como una petición a una API)
+               se complete. Imaginá que hacés un pedido de
+               comida con delivery: mientras el repartidor va
+               hacia tu casa, vos seguís viendo tele. Ese sería
+               el comportamiento asincrónico: la tarea de traer
+               la comida no frena tus otras actividades.</code></pre>
      	</div>
     
      </div>

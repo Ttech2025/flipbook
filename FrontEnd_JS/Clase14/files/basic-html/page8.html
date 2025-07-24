@@ -152,50 +152,58 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>7. Ejemplo práctico: Consumir API externa y mostrar datos
-
-               en HTML
+    <pre style="white-space:pre-line"><code>Manejo de Errores:
 
 
+                  Cuando  hacés  un fetch para traer datos, la respuesta llega igual aunque el
 
+                servidor diga “no encontré nada” (por ejemplo, un 404) o “me rompí” (un 500).
 
-
-
-
-
+                Por eso no alcanza con usar solo .catch, porque ese solo atrapa errores de red
+                (como que no tengas conexión).
 
 
 
 
+               fetch('https://fakestoreapi.com/products')
+
+                .then(response =&gt; {
 
 
-               Vamos a implementar un ejemplo completo que consuma una API y muestre
-               productos en la pantalla de un e-commerce.
+                    if (!response.ok) {
 
 
-               HTML:
-
-               &lt;!DOCTYPE html&gt;
-               &lt;html lang="es"&gt;
-
-                &lt;head&gt;
-                  &lt;meta charset="UTF-8" /&gt;
-                  &lt;meta name="viewport" content="width=device-width,
-
-               initial-scale=1.0" /&gt;
-                  &lt;title&gt;Tienda Online&lt;/title&gt;
-                  &lt;link rel="stylesheet" href="styles.css" /&gt;
-                &lt;/head&gt;
-
-                &lt;body&gt;
-                  &lt;h1&gt;Productos Disponibles&lt;/h1&gt;
-                  &lt;div id="productos-container"&gt;&lt;/div&gt;
+                        throw new Error(`HTTP error! Status:
+               ${response.status}`);
 
 
-                  &lt;script src="script.js"&gt;&lt;/script&gt;
-                &lt;/body&gt;
+                    }
 
-               &lt;/html&gt;</code></pre>
+
+                    return response.json();
+
+
+                })
+
+                .then(data =&gt; {
+
+
+                    // Procesamiento de datos
+
+
+                })
+
+
+                .catch(error =&gt; {
+
+
+                    console.error('Error en la comunicación con la API:',
+               error);
+
+
+                    // Aquí podrías mostrar un mensaje de error al usuario
+
+                });</code></pre>
      	</div>
     
      </div>

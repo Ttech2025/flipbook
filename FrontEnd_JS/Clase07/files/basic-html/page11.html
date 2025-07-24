@@ -4,7 +4,7 @@
 				<meta name="robots" content="all"/>
         <meta name="description" content="description">
         <meta name="keywords" content="">
-        <title>Page 11 - FrontEnd_JS - Clase 07</title>
+        <title>Page 11 - FrontEnd_JS - Clase 7</title>
 <style type="text/css">
 <!--
 body {
@@ -141,7 +141,7 @@ function MM_swapImage() { //v3.0
   </div>
   <div id="content">
      <div id="content-top">
-        <div id="content-top1">Page 11 - FrontEnd_JS - Clase 07</div>
+        <div id="content-top1">Page 11 - FrontEnd_JS - Clase 7</div>
         <div id="content-top2">P. 11</div>
      </div>
      <div id="content-middle">
@@ -152,56 +152,50 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Breakpoints en Media Queries
-
-               Un breakpoint es el punto en el que se aplican diferentes estilos dependiendo del ancho de
-               la pantalla del dispositivo. Estos breakpoints son esenciales para asegurarse de que el
-               diseño sea responsivo y adaptable.
-
-               Breakpoints comunes:
-
-
-                   ●  Hasta 600px: dispositivos móviles pequeños (celulares).
-                   ●  600px - 768px: tablets en modo vertical.
-                   ●  768px - 992px: tablets en modo horizontal y laptops pequeñas.
-                   ●  992px - 1200px: laptops y monitores de escritorio estándar.
-                   ●  Más de 1200px: monitores grandes.
+    <pre style="white-space:pre-line"><code>Ejercicio práctico #1:
 
 
 
-               Ejemplo de breakpoints:
+               Sección “Reseñas”
 
 
-               /* Estilos para pantallas pequeñas */
+               Lucía (Product Owner)
 
-               @media only screen and (max-width: 600px) {
+                              Para  esta  sección  necesitamos  mostrar  los  testimonios  de  usuarios
+                              que  ya  probaron  nuestros  servicios.  Queremos  que  se  vean  bien
+                              ordenados,  que  transmitan  confianza  y  que  se  adapten  a diferentes
+                              pantallas.
+
+                   1.  Crear la estructura HTML
+                   ●  Dentro de tu etiqueta &lt;main&gt;, agregá una nueva &lt;section&gt;.
+                   ●  Esta &lt;section&gt; debe tener una clase llamada reseñas.
+                   ●  Dentro de ella, incluí tres bloques para los testimonios. Cada uno debe ser un
+                       elemento &lt;section&gt; con la clase card.
+                   ●  En el interior de cada card podés incluir un nombre, una opinión y quizás una
+                       imagen o ícono (opcional).
+
+                   2.  Aplicar CSS Grid
+                   ●  Usá display: grid en la clase .reseñas.
+                   ●  Establecé un número de columnas responsivo, es decir, que se adapte al tamaño
+                       de pantalla.
+                   ●  Usá gap para separar las tarjetas entre sí.
+                   ●  Sumá padding para que las tarjetas no queden pegadas a los bordes.
+
+                   3.  Aplicar estilo a las tarjetas .card
+
+                   ●  Añadí un padding interno y un border suave.
+                   ●  Agregá una sombra (box-shadow) para que se destaquen visualmente.
+                   ●  Usá una transición suave para los cambios visuales.
+
+                   4.  Aplicar interactividad con pseudo-clases (EXTRA)
+                   ●  Usá la pseudo-clase :hover para generar un efecto al pasar el mouse (por
+                       ejemplo, que la tarjeta suba levemente).
+                   ●  Sumá una transición con la propiedad transition para que el movimiento no sea
+                       brusco.
 
 
-                  .container {
-
-                      grid-template-columns: 1fr; /* Una sola columna en pantallas
-               pequeñas */
-
-
-                  }
-
-               }
-
-
-               /* Estilos para pantallas medianas */
-
-               @media only screen and (min-width: 768px) {
-
-
-                  .container {
-
-
-                      grid-template-columns: 1fr 1fr; /* Dos columnas en pantallas
-               medianas */
-
-                  }
-
-               }</code></pre>
+                  Este  es  un  gran  momento  para  practicar  :hover,  transition,  e incluso explorar
+                :nth-child() si querés aplicar estilos diferentes a alguna tarjeta.</code></pre>
      	</div>
     
      </div>

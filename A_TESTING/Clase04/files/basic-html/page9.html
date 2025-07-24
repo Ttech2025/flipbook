@@ -168,23 +168,19 @@ function MM_swapImage() { //v3.0
 
 
 
-
-
-
-
                Aserciones de precisión
 
 
-
                He utilizado pytest.approx() para realizar comparaciones con tolerancia:
+
 
                    ●  En test_multiplicar_preciso: Maneja la imprecisión inherente de multiplicar
                        números flotantes.
                    ●  En test_dividir_preciso: Maneja la imprecisión de representar un número
                        periódico.
 
-
                ¿Cómo ejecutar estos tests?
+
 
                Para ejecutar todos los tests:
 
@@ -215,7 +211,12 @@ function MM_swapImage() { //v3.0
 
                Para ejecutar solo los tests marcados como "smoke":
 
-               pytest -v -m smoke</code></pre>
+               pytest -v -m smoke
+
+
+               Para ejecutar solo los tests marcados como "exception":
+
+               pytest -v -m exception</code></pre>
      	</div>
     
      </div>

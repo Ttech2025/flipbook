@@ -4,7 +4,7 @@
 				<meta name="robots" content="all"/>
         <meta name="description" content="description">
         <meta name="keywords" content="">
-        <title>Page 12 - FrontEnd_JS - Clase 07</title>
+        <title>Page 12 - FrontEnd_JS - Clase 7</title>
 <style type="text/css">
 <!--
 body {
@@ -141,7 +141,7 @@ function MM_swapImage() { //v3.0
   </div>
   <div id="content">
      <div id="content-top">
-        <div id="content-top1">Page 12 - FrontEnd_JS - Clase 07</div>
+        <div id="content-top1">Page 12 - FrontEnd_JS - Clase 7</div>
         <div id="content-top2">P. 12</div>
      </div>
      <div id="content-middle">
@@ -152,20 +152,9 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>/* Estilos para pantallas grandes */
-
-               @media only screen and (min-width: 1200px) {
-
-
-                  .container {
-
-
-                      grid-template-columns: 1fr 1fr 1fr; /* Tres columnas en
-               pantallas grandes */
-
-                  }
-
-               }
+    <pre style="white-space:pre-line"><code>Resultado esperado:
+               Tres  reseñas  visualmente  atractivas,  distribuidas  en  pantalla  de  forma  flexible,  con
+               interactividad y buena presentación.
 
 
 
@@ -173,29 +162,49 @@ function MM_swapImage() { //v3.0
 
 
 
-               Ejercicio práctico #1:
+               Ejercicio práctico #2: Media Queries
 
 
 
-               Secciòn “Reseñas”
+                             ¡Buen trabajo con las reseñas! Ahora es momento de asegurarnos de
+                             que  el  diseño  funcione  bien  en  celulares,  tablets  y  computadoras.
+                             Vamos  a  practicar  el  uso  de  Media  Queries,  una  herramienta  clave
+                             para lograr que tu web se vea bien en todos lados.
+
+               Lo que harás:
+
+               Crear una media query para pantallas menores a 768px
 
 
-               Crear al menos 3 cards en la sección de "Reseñas", utilizando Grid, para organizar
-               al menos tres cards de manera responsiva.
-                 1.    Estructura HTML: Asegurate de tener una estructura básica que incluya una sección
-                       para "Reseñas" dentro de &lt;main&gt;, y que cada reseña esté dentro de un &lt;div&gt; con la
-                       clase card.
-                 2.    Aplicar CSS Grid: En el archivo styles.css, aplicá display: grid y
+                   ●  Dentro de tu archivo CSS, agregá una regla @media que se aplique a max-width:
+                       768px.
 
-                       grid-template-columns con repeat(auto-fit, minmax(250px, 1fr)) para hacer que las
-                       cards sean responsivas y se adapten a la pantalla.
-                 3.    Márgenes y Espaciado: Usá gap para dar espacio entre las cards y padding para
-                       que no queden pegadas a los bordes del contenedor.
-                 4.    Interactividad: Añadí un efecto de hover con transform: translateY(-5px) para que las
 
-                       tarjetas se eleven al pasar el mouse.
-                 5.    Box Model: Aplicá padding, border y box-shadow para darle estructura a las cards y
-                       hacerlas más atractivas visualmente.</code></pre>
+
+               2. Adaptar la sección .reseñas
+
+                   ●  Dentro de la media query, indicá que las tarjetas se dispongan en una sola
+                       columna.
+                   ●  Esto se hace modificando la propiedad de grid-template-columns.
+
+
+               3. Adaptar el formulario de “Contacto”
+
+
+                   ●  Revisá tu HTML y asegurate de tener una estructura semántica clara, por ejemplo:
+
+                       &lt;section id="contacto"&gt;
+                         &lt;form&gt;
+                           &lt;input type="text" placeholder="Tu nombre"&gt;
+                           &lt;input type="email" placeholder="Tu correo"&gt;
+                           &lt;textarea placeholder="Tu mensaje"&gt;&lt;/textarea&gt;
+                         &lt;/form&gt;
+                       &lt;/section&gt;
+
+                   ●  Dentro del formulario, agregá campos para:
+                          ○  Nombre (input type text)
+                          ○  Correo (input type email)
+                          ○  Mensaje (textarea)</code></pre>
      	</div>
     
      </div>

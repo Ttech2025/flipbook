@@ -36,23 +36,21 @@
 
 
 
-               Python  es  uno de los lenguajes más populares para la
-               automatización  debido  a  su  simplicidad  y  claridad.  Su
-               sintaxis se lee casi como inglés, lo que facilita aprender
-               programación  sin  distraerse  con  símbolos  complejos.
-               Además,  cuenta  con  una  enorme  comunidad:  si  te
-               atascas, es muy probable que alguien ya haya hecho la
-               misma pregunta y exista una solución documentada.
+               Python  es  uno  de  los  lenguajes  más  populares  para  la
+               automatización debido a su simplicidad y claridad. Su sintaxis
+               se lee casi como inglés, lo que facilita aprender programación
+               sin  distraerse  con  símbolos  complejos.  Además,  cuenta  con
+               una  enorme  comunidad:  si  te atascas, es muy probable que
+               alguien  ya  haya  hecho  la  misma  pregunta  y  exista  una
+               solución documentada.
 
-               Python viene con una “batería” de librerías estándar que
-               resuelven    tareas    cotidianas   (archivos,   fechas,
-               estadísticas)  sin  instalar  nada  extra.  Cuando necesitas
-               algo  más avanzado, como automatizar un navegador o
-               consumir  una  API,  basta  con  agregar  paquetes  como
-               selenium  o  requests  en  un  solo  comando  pip
-               install.  Por  todo  esto,  Python  se  ha  convertido  en  el  “idioma  común”  entre  testers,
-               desarrolladores  y  científicos  de  datos,  lo  que  facilita  la  colaboración  dentro  de  equipos
-               multidisciplinarios.
+               Python  viene  con  una  “batería”  de  librerías  estándar  que
+               resuelven tareas cotidianas (archivos, fechas, estadísticas) sin
+               instalar nada extra. Cuando necesitas algo más avanzado, como automatizar un navegador
+               o consumir una API, basta con agregar paquetes como selenium o requests en un solo
+               comando pip install. Por todo esto, Python se ha convertido en el “idioma común” entre
+               testers,  desarrolladores  y  científicos  de  datos,  lo  que  facilita  la  colaboración  dentro  de
+               equipos multidisciplinarios.
 
 
 
@@ -82,11 +80,13 @@
                        multiplicacion = 2 * 6  # Resultado: 12
                        division = 8 / 2   # Resultado: 4.0
                        modulo = 9 % 2     # Resultado: 1
-                       potencia = 3 ** 2  # Resultado: 9]]></page><page Index="4"><![CDATA[Operadores Relacionales: Comparan dos valores y devuelven True o False.
+                       potencia = 3 ** 2  # Resultado: 9
+
+               Operadores Relacionales: Comparan dos valores y devuelven True o False.
                        mayor = 10 > 5         # True
-                       menor_igual = 3 <= 3   # True
-                       igual = 7 == 7         # True
+                       menor_igual = 3 <= 3   # True]]></page><page Index="4"><![CDATA[igual = 7 == 7         # True
                        distinto = 5 != 3      # True
+
 
                Operadores Lógicos: Combinan condiciones.
 
@@ -109,8 +109,8 @@
                medio de la función print, se mostrará ese valor de la
                variable nombre por consola.
 
-               nombre = input("¿Cuál es tu nombre?")
 
+               nombre = input("¿Cuál es tu nombre?")
                print(f"Hola, {nombre}")
 
 
@@ -124,7 +124,6 @@
                función int.
 
                edad = int(input("Ingresa tu edad: "))   # Convertimos a entero
-
 
                altura = float(input("Ingresa tu altura: "))  # Convertimos a float]]></page><page Index="5"><![CDATA[Estructuras de control:
 
@@ -230,8 +229,13 @@
                   resultado = "Operación inválida"
                print(f"El resultado es: {resultado}")
 
-               En  la  siguiente  clase  haremos  la  misma  calculadora  pero  con  funciones.  Y  luego
-               utilizaremos esa calculadora para realizar tests automáticos.
+                   Nota: En la siguiente clase haremos la misma calculadora pero con funciones. Y luego
+                utilizaremos esa calculadora para realizar tests automáticos.
+
+
+
+
+
 
 
 
@@ -243,34 +247,36 @@
                    ●  ¿De  qué  manera  consideras  que  se  aplicaría  lo  aprendido  hoy  en  tu  rol  como
                        Automation Tester?
                    ●  ¿Qué dificultades encontraste al escribir tus primeros scripts en Python y cómo las
-                       resolviste?
-
-
-
-
-               Próximos Pasos
-
+                       resolviste?]]></page><page Index="8"><![CDATA[Próximos Pasos
 
 
                En  la  siguiente  clase  profundizaremos  aún  más  en  Python,  explorando  estructuras
                avanzadas,  funciones,  manejo  de  excepciones  y  comenzaremos  a  aplicar  estos
-               conocimientos en casos prácticos específicos de automatización de pruebas.]]></page><page Index="8"><![CDATA[¡Trabajando en Talento Lab!
+               conocimientos en casos prácticos específicos de automatización de pruebas.
+
+
+
+
+
+                 Storytelling
+
+
+               ¡Trabajando en Talento Lab!
+
 
 
                Tras configurar tu entorno básico, Matías, tu mentor en
                el  equipo,  te  introduce  al  proyecto  que  llevarás
                adelante durante las siguientes semanas:
 
+
                                 Silvia (Product Owner) comenta:
 
-
-                                “Estamos  desarrollando  un  módulo
-                                crítico de gestión de perfiles internos. Necesitamos scripts robustos
-                                que  automatizarán  pruebas recurrentes, asegurando así la calidad
-                                continua del sistema.”
+                                “Estamos  desarrollando  un  módulo  crítico  de  gestión  de  perfiles
+                                internos.  Necesitamos  scripts robustos que automatizarán pruebas
+                                recurrentes, asegurando así la calidad continua del sistema.”
 
                                 Matías añade:
-
 
                                 “Tu  primera  tarea  real  será  practicar  con  Python  básico.  Esto  te
                                 preparará para escribir scripts más avanzados próximamente.”
@@ -283,14 +289,15 @@
                Ejercicios Prácticos
 
 
-               Actividad 1:
 
+               Actividad 1:
 
                    ●  Define variables para almacenar el nombre, edad y profesión del usuario.
                    ●  Solicita estos datos por teclado utilizando input().
                    ●  Imprime en pantalla un mensaje personalizado incluyendo todos estos datos.
 
                Actividad 2:
+
 
                    ●  Escribe un pequeño script que utilice un bucle para mostrar los primeros 10 números
                        pares.

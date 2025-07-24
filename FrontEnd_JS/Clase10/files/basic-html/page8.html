@@ -152,60 +152,59 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>4. Bucles en JavaScript
+    <pre style="white-space:pre-line"><code>3. Operadores lógicos y de comparación
 
 
-               ¿Qué es un bucle?
+               ¿Qué son los operadores lógicos y de comparación?
 
 
-               Un bucle es una estructura que repite acciones en tu programa hasta que una
-               condición deje de cumplirse. Imaginate que tenés que iterar sobre una lista de
-               productos: con un bucle, podés hacerlo fácilmente.
+               Son herramientas que usás para comparar valores y tomar decisiones
+               basadas en esas comparaciones. Por ejemplo, podés comparar si dos
+               números son iguales, o si un valor es mayor que otro.
 
 
-               Tipos de bucles
+               Comparadores
 
 
-               while: El ciclo se ejecuta mientras la condición sea verdadera.
+                   ●  == Verifica si dos valores son iguales, pero no necesariamente del
+                       mismo tipo de dato.
 
-               let i = 0;
+                   ●  === Compara tanto el valor como el tipo de dato.
+                   ●  != Verifica si dos valores son diferentes.
 
-               while (i &lt; 5) {
-
-
-                console.log(i);
-
-                i++;
-
-               }
+                   ●  !== Verifica si dos valores son diferentes, incluyendo su tipo de datos.
+                   ●  &lt;, &gt;, &lt;=, &gt;= Comparan valores numéricos.
 
 
-               do...while: Similar a while, pero siempre ejecuta el código al menos una
-
-               vez.
-
-               let i = 0;
-
-               do {
+               Operadores lógicos
 
 
-                console.log(i);
-
-                i++;
-
-               } while (i &lt; 5);
+                   ●  && (AND): Se cumplen todas las condiciones.
+                   ●  || (OR): Se cumple al menos una de las condiciones.
+                   ●  ! (NOT): Invierte el valor de la condición.
 
 
-               for: Es más compacto y se usa cuando conocés de antemano cuántas veces
-               se repetirá el bucle.
 
 
-               for (let i = 0; i &lt; 5; i++) {
+               Ejemplo práctico: acceso a un evento
 
 
-                  console.log(i);
+               let edad = 22;
 
-                }</code></pre>
+               let miembroVIP = true;
+
+
+               if (edad &gt;= 18 && miembroVIP) {
+
+
+                console.log("Acceso concedido al área VIP.");
+
+               } else {
+
+
+                console.log("Acceso denegado.");
+
+               }</code></pre>
      	</div>
     
      </div>
@@ -215,7 +214,7 @@ function MM_swapImage() { //v3.0
            <tr>
              <td width="22%" height="44"><a href="page7.html"><img src="images/previous.png" width="26" height="19" id="Image2" onmouseover="MM_swapImage('Image2','','images/previous2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
              <td width="43%">
-             	&nbsp;&nbsp;&nbsp;<a href="page3.html">3</a>&nbsp;&nbsp;&nbsp;<a href="page4.html">4</a>&nbsp;&nbsp;&nbsp;<a href="page5.html">5</a>&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>
+             	&nbsp;&nbsp;&nbsp;<a href="page3.html">3</a>&nbsp;&nbsp;&nbsp;<a href="page4.html">4</a>&nbsp;&nbsp;&nbsp;<a href="page5.html">5</a>&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>
              </td>
              <td width="35%"><a href="page9.html"><img src="images/next.png" width="26" height="19" id="Image1" onmouseover="MM_swapImage('Image1','','images/next2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
            </tr>

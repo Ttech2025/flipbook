@@ -152,44 +152,52 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Tipos de excepciones comunes:
+    <pre style="white-space:pre-line"><code>Manejo de excepciones: control de errores
+
+
+               Cuando  escribimos  programas,  especialmente  aquellos  que  interactúan  con  usuarios  o
+               datos externos, es fundamental prever posibles errores que podrían hacer que el código se
+               detenga inesperadamente. Para eso usamos el manejo de excepciones, una herramienta
+               que nos permite anticipar y controlar errores de forma ordenada y segura.
+
+
+               Estructura básica
+
+               try:
+                  valor = int(input("Ingresa un número entero: "))
+                  resultado = 10 / valor
+                  print(f"10 / {valor} = {resultado}")
+               except ZeroDivisionError:
+                  print("Error: División por cero.")
+               except ValueError:
+                  print("Error: Entrada inválida, no es un número entero.")
+               finally:
+                  print("Operación finalizada.")
+
+
+               ¿Qué hace cada bloque?
+
+                   ●  try:
+                        Aquí colocamos el código que puede generar un error. Python intentará ejecutarlo
+                       normalmente.
+
+                   ●  except:
+                        Si ocurre un error en el bloque try, Python busca una excepción que coincida con
+                       el  tipo  de  error.  Si  la  encuentra,  ejecuta  ese  bloque  en  lugar  de  detener  el
+                       programa.
+
+                   ●  finally:
+                         Este  bloque  siempre  se  ejecuta,  ocurra  o  no  un  error.  Es  útil  para  mostrar
+                       mensajes finales, liberar recursos o cerrar archivos.
+
+
+
+               Tipos de excepciones comunes:
+
 
                    ●  ZeroDivisionError
                    ●  ValueError
-                   ●  KeyError
-
-
-
-               Flujo de trabajo básico con Git
-
-
-                                               Git  es  una  herramienta  de  control  de  versiones  que  nos
-                                               permite  registrar,  rastrear  y  compartir  los  cambios
-                                               realizados  en  nuestros  proyectos  de  código.  Esencial  en
-                                               cualquier trabajo colaborativo o desarrollo profesional.
-
-               El flujo típico para registrar y compartir cambios:
-
-                   1.  Editás archivos en tu proyecto.
-                   2.  git add agrega cambios al área de preparación.
-                   3.  git commit crea un snapshot en el historial.
-                   4.  git push envía los commits al repositorio remoto.
-
-
-               Creación de repositorios
-
-
-                   ●  git init: convierte la carpeta actual en un repositorio Git local.
-                   ●  git  clone  URL_DEL_REPOSITORIO:  descarga  una  copia  de  un  repositorio
-                       remoto.
-
-
-               Comandos básicos
-                   ●  git add archivo.txt
-                   ●  git commit -m "Descripción breve del cambio"
-                   ●  git push origin main
-                          ○  origin: nombre por defecto del repositorio remoto.
-                          ○  main: rama principal (antes master).</code></pre>
+                   ●  KeyError</code></pre>
      	</div>
     
      </div>
@@ -199,7 +207,7 @@ function MM_swapImage() { //v3.0
            <tr>
              <td width="22%" height="44"><a href="page6.html"><img src="images/previous.png" width="26" height="19" id="Image2" onmouseover="MM_swapImage('Image2','','images/previous2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
              <td width="43%">
-             	&nbsp;&nbsp;&nbsp;<a href="page2.html">2</a>&nbsp;&nbsp;&nbsp;<a href="page3.html">3</a>&nbsp;&nbsp;&nbsp;<a href="page4.html">4</a>&nbsp;&nbsp;&nbsp;<a href="page5.html">5</a>&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>
+             	&nbsp;&nbsp;&nbsp;<a href="page2.html">2</a>&nbsp;&nbsp;&nbsp;<a href="page3.html">3</a>&nbsp;&nbsp;&nbsp;<a href="page4.html">4</a>&nbsp;&nbsp;&nbsp;<a href="page5.html">5</a>&nbsp;&nbsp;&nbsp;<a href="page6.html">6</a>&nbsp;&nbsp;&nbsp;<a href="page7.html">7</a>&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>
              </td>
              <td width="35%"><a href="page8.html"><img src="images/next.png" width="26" height="19" id="Image1" onmouseover="MM_swapImage('Image1','','images/next2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
            </tr>

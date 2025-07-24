@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="12"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase 10:  Estructuras de control
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="15"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase 10:  Estructuras de control
 
 
 
@@ -13,8 +13,8 @@
                           ○  ¿Qué es un diagrama de flujo?
                           ○  Elementos clave de un diagrama de flujo
                           ○  Ejemplo práctico: Preparación de café
-                          ○  Utilidad del diagrama de flujo en programación
 
+                          ○  Utilidad del diagrama de flujo en programación
                    2.  Condicionales en JavaScript
                           ○  ¿Qué es un condicional?
                           ○  Tipos de condicionales
@@ -29,10 +29,10 @@
                           ○  Combinación de operadores en condiciones complejas
                           ○  Ejemplo práctico: Validación de acceso a un evento según edad y
                               membresía
+
                    4.  Bucles en JavaScript
                           ○  ¿Qué es un bucle?
                           ○  Tipos de bucles.
-
                           ○  Diferencias entre los tipos de bucles
                           ○  Ejemplo práctico: Iterar una lista de productos
                    5.  Cómo combinar operadores lógicos y bucles
@@ -40,14 +40,20 @@
                           ○  Casos de uso en la vida real
 
                           ○  Ejemplo práctico: Filtrado de productos con descuentos en un
-                              catálogo]]></page><page Index="3"><![CDATA[1. Diagrama de flujo
+                              catálogo]]></page><page Index="3"><![CDATA[Objetivo de la clase:
+
+
+               En esta clase vas a aprender a planificar programas con diagramas de flujo y
+               a usar condicionales para que tus programas tomen decisiones según
+               distintas situaciones. Además, conocerás los bucles para repetir acciones y
+               cómo combinarlos con condicionales para resolver problemas prácticos. Así,
+               podrás crear código más eficiente y adaptado a diferentes necesidades.
 
 
 
 
 
-
-
+               1. Diagrama de flujo
 
 
 
@@ -74,33 +80,65 @@
                Se trata de un mapa que muestra paso a paso cómo realizar una tarea o
                resolver un problema: es la representación gráfica del flujo de tu algoritmo.
                Es una herramienta visual súper útil, sobre todo en programación, porque te
-
                permite ver cómo se conectan las decisiones y las acciones de tu programa.
                Imaginá que querés preparar un café, ¿qué pasos seguirías? Un diagrama de
+
                flujo te mostraría, por ejemplo, que primero necesitás hervir el agua, luego
                poner el café en el filtro, y así sucesivamente.
 
-
                Elementos claves de un diagrama de flujo
 
-                   ●  Inicio/Fin: Representan el comienzo o la conclusión del proceso, se
 
+                   ●  Inicio/Fin: Representan el comienzo o la conclusión del proceso, se
                        muestran en forma de óvalo.
                    ●  Acción/Proceso: Son las operaciones o tareas que se deben realizar,
-                       y se representan por un rectángulo.
-                   ●  Decisión: Muestra una bifurcación en el proceso (una decisión de “sí” o
+
+                       y se representan por un rectángulo.]]></page><page Index="4"><![CDATA[●  Decisión: Muestra una bifurcación en el proceso (una decisión de “sí” o
                        “no”), se representa por un rombo.
                    ●  Flechas: Indican la dirección en la que fluye el proceso.
 
 
-               Ejemplo práctico: preparar un café
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Ejemplo práctico: preparar un café
 
                    1.  Inicio
                    2.  Hervir agua
+
                    3.  Poner el café en el filtro
                    4.  Verter agua sobre el café
-                   5.  Fin]]></page><page Index="4"><![CDATA[Con este diagrama, antes de escribir una sola línea de código, ya tenés la
+                   5.  Fin]]></page><page Index="5"><![CDATA[Con este diagrama, antes de escribir una sola línea de código, ya tenés la
                idea clara de qué debe suceder y en qué orden. Usar diagramas de flujo para
                planificar tu código ayuda a evitar errores y mejora la organización.
 
@@ -113,7 +151,6 @@
 
                Una estructura condicional permite, en programación, la toma de decisiones.
                Tendrá esencialmente dos partes: la condición (si… ocurre X acción) y la
-
                acción a llevar a cabo como consecuencia (entonces… realizar Y acción).
                Los condicionales sólo pueden dar dos estados de respuesta, ya que la
                condición sólo puede ser o verdadera o falsa.
@@ -128,27 +165,18 @@
 
 
 
+
                if (llueve) {
 
-
-                  llevarParaguas();
-
-                } else {
+                  llevarParaguas();]]></page><page Index="6"><![CDATA[} else {
 
 
                   salirSinParaguas();
 
-                }]]></page><page Index="5"><![CDATA[Tomar un café con condicionales (rombos) sería algo como esto:
+                }
 
 
-
-
-
-
-
-
-
-
+               Tomar un café con condicionales (rombos) sería algo como esto:
 
 
 
@@ -180,9 +208,9 @@
 
                Tipos de Condicionales:
 
+
                if: Este es el más básico y simplemente ejecuta un bloque de código si la
                condición es verdadera.
-
 
                if (edad >= 18) {
 
@@ -191,20 +219,21 @@
                 }
 
 
+
                if...else: Esto permite ejecutar un bloque de código si la condición es
                verdadera, y otro en el caso de que sea falsa.
-
 
                if (edad >= 18) {
 
                   console.log("Sos mayor de edad.");
 
-                } else {
+
+                } else {]]></page><page Index="7"><![CDATA[console.log("Sos menor de edad.");
+
+                }
 
 
-                  console.log("Sos menor de edad.");
-
-                }]]></page><page Index="6"><![CDATA[else if: Si necesitás manejar múltiples condiciones, else if te da esa
+               else if: Si necesitás manejar múltiples condiciones, else if te da esa
 
                flexibilidad.
 
@@ -212,8 +241,8 @@
 
                   console.log("Sos mayor de edad.");
 
-                } else if (edad >= 13) {
 
+                } else if (edad >= 13) {
 
                   console.log("Sos un adolescente.");
 
@@ -225,16 +254,11 @@
                 }
 
 
-
-
-
-
                Operador ternario: Es una versión compacta de if...else. Ideal para
+
                condiciones simples.
 
                let resultado = edad >= 18 ? "mayor de edad" : "menor de edad";
-
-
 
 
                Ejemplo práctico: evaluación de la edad
@@ -244,8 +268,8 @@
 
                if (edad >= 18) {
 
-
                 console.log("Sos mayor de edad.");
+
 
                } else {
 
@@ -256,7 +280,7 @@
 
 
                Con esto, podés determinar si alguien puede entrar a un boliche o no, según
-               su edad.]]></page><page Index="7"><![CDATA[3. Operadores lógicos y de comparación
+               su edad.]]></page><page Index="8"><![CDATA[3. Operadores lógicos y de comparación
 
 
                ¿Qué son los operadores lógicos y de comparación?
@@ -275,25 +299,28 @@
 
                    ●  === Compara tanto el valor como el tipo de dato.
                    ●  != Verifica si dos valores son diferentes.
-                   ●  !== Verifica si dos valores son diferentes, incluyendo su tipo de datos.
 
+                   ●  !== Verifica si dos valores son diferentes, incluyendo su tipo de datos.
                    ●  <, >, <=, >= Comparan valores numéricos.
 
 
                Operadores lógicos
 
-                   ●  && (AND): Se cumplen todas las condiciones.
 
+                   ●  && (AND): Se cumplen todas las condiciones.
                    ●  || (OR): Se cumple al menos una de las condiciones.
                    ●  ! (NOT): Invierte el valor de la condición.
+
+
+
 
                Ejemplo práctico: acceso a un evento
 
 
                let edad = 22;
 
-
                let miembroVIP = true;
+
 
                if (edad >= 18 && miembroVIP) {
 
@@ -305,11 +332,11 @@
 
                 console.log("Acceso denegado.");
 
-               }
+               }]]></page><page Index="9"><![CDATA[En este ejemplo, el acceso depende tanto de la edad como de ser miembro
+               VIP.
 
 
-               En este ejemplo, el acceso depende tanto de la edad como de ser miembro
-               VIP.]]></page><page Index="8"><![CDATA[4. Bucles en JavaScript
+               4. Bucles en JavaScript
 
 
                ¿Qué es un bucle?
@@ -337,8 +364,8 @@
                }
 
 
-               do...while: Similar a while, pero siempre ejecuta el código al menos una
 
+               do...while: Similar a while, pero siempre ejecuta el código al menos una
                vez.
 
                let i = 0;
@@ -350,19 +377,19 @@
 
                 i++;
 
+
                } while (i < 5);
 
 
                for: Es más compacto y se usa cuando conocés de antemano cuántas veces
                se repetirá el bucle.
 
+               for (let i = 0; i < 5; i++) {]]></page><page Index="10"><![CDATA[console.log(i);
 
-               for (let i = 0; i < 5; i++) {
 
+                }
 
-                  console.log(i);
-
-                }]]></page><page Index="9"><![CDATA[Ejemplo práctico: iterar productos
+               Ejemplo práctico: iterar productos
 
 
                let productos = ['Laptop', 'Celular', 'Tablet'];
@@ -375,8 +402,14 @@
                }
 
 
-               Este ejemplo te muestra cómo recorrer una lista de productos y mostrarlos en
-               la consola.
+               Esto es un bucle for con tres partes:
+
+
+                   1.  let i = 0 → la variable i empieza en 0 (la posición inicial del array)
+                   2.  i < productos.length → sigue mientras i sea menor que la
+
+                       longitud del array (productos) (en este caso 3)
+                   3.  i++ → aumenta de a 1 cada vuelta
 
 
 
@@ -391,19 +424,22 @@
                que están en descuento.
 
 
+
+
+
+
+
                Ejemplo práctico: filtrar productos en descuento
+
 
                let productos = [
 
-
                   { nombre: 'Laptop', descuento: true },
+
 
                   { nombre: 'Celular', descuento: false },
 
-
-                  { nombre: 'Tablet', descuento: true }
-
-                ];
+                  { nombre: 'Tablet', descuento: true }]]></page><page Index="11"><![CDATA[];
 
 
                  for (let i = 0; i < productos.length; i++) {
@@ -413,41 +449,33 @@
 
                     console.log(productos[i].nombre + " tiene descuento.");}}
 
-               Con esta clase, ya dominás el uso de condicionales y bucles en JavaScript,
 
+
+                  Los corchetes definen un array (una lista ordenada de elementos).
+                Por ejemplo: let productos = [ ... ]
+
+                significa que productos es un array.
+
+                Dentro  de  ese  array,  cada  elemento  se  escribe  también entre llaves { }, porque son
+                objetos.
+
+
+                Por ejemplo:
+
+                { nombre: 'Laptop', descuento: true }
+
+                Esto define un objeto con clave/valor:
+
+
+
+
+               Con esta clase, ya dominás el uso de condicionales y bucles en JavaScript,
                herramientas fundamentales para cualquier aplicación dinámica. A medida
                que vayas practicando, estos conceptos se volverán cada vez más naturales
-               y fáciles de implementar. ¡Adelante y a seguir experimentando!]]></page><page Index="10"><![CDATA[Ejercicio práctico #1:
+               y fáciles de implementar. ¡Adelante y a seguir experimentando!]]></page><page Index="12"><![CDATA[  Storytelling
 
 
-
-               Evaluación de condicionales y operadores lógicos
-
-
-               Enunciado: Crear un programa que reciba la edad de una persona y si está
-               en la lista VIP. El programa deberá verificar lo siguiente:
-
-
-                   1.  Si la persona tiene 18 años o más, permitirle el acceso al evento.
-                   2.  Si además de tener 18 años o más, es miembro VIP, darle acceso al
-                       área exclusiva.
-                   3.  Si la persona tiene menos de 18 años, denegar el acceso.
-
-
-               Tips:
-
-                   ●  Validación de entradas: Asegurate de que se ingrese una edad válida.
-
-                       Podés usar isNaN() para verificar que el valor ingresado sea un
-                       número.
-                   ●  Uso de operadores lógicos: Combiná el operador && para verificar
-                       que se cumplan ambas condiciones (edad >= 18 y ser miembro VIP).
-
-                   ●  Operador ternario: Considerá usar un operador ternario si la lógica es
-                       sencilla.
-                   ●  Consola del navegador: Mostrá los resultados usando
-                       console.log() para verificar si se cumplen las condiciones
-                       correctamente.
+               ¡Evaluación de condicionales y operadores lógicos!
 
 
 
@@ -460,36 +488,96 @@
 
 
 
+
+
+
+
+               Tomás (Desarrollador Senior)
+
+
+                            ¡Vamos  equipo!  Ahora  que  entendimos  cómo  funcionan  los  condicionales,
+                            operadores lógicos y bucles, es momento de ponerlos a prueba en situaciones
+                            cercanas al mundo real.
+
+
+
+                            Ejercicio práctico #1:
+
+
+
+               Validación de campos de un formulario (simulado con variables)
+
+
+                              Lucía (Product Owner)
+
+                              Queremos  asegurarnos  de  que  ningún  usuario  envíe  un  formulario
+                              incompleto. Para eso vamos a simular los campos de un formulario con
+                              variables en JavaScript.
+
+
+               Lo que harás:
+
+
+                   ●  Declarar tres variables: nombre, correo y mensaje, asignándoles valores de
+                       prueba.
+                   ●  Crear una función que valide que ninguna de estas variables esté vacía.
+                   ●  Si todos los campos tienen texto, mostrar por consola:
+                        "Formulario completo. Listo para enviar."
+                   ●  Si falta completar alguno, mostrar:
+                        "Faltan completar campos obligatorios."
+
+
+                             Tips de Tomás:
+                              Usá el operador && para verificar que todas las variables contengan texto.
+                              Jugá cambiando los valores de prueba para ver cómo responde tu validación.]]></page><page Index="13"><![CDATA[  ¡Importante! Esta práctica te va a servir para entender la validación de datos antes de
+                enviarlos a un servidor, algo fundamental en cualquier aplicación web.
 
 
                Ejercicio práctico #2:
 
 
 
-               Iterar sobre una lista de productos con bucles y condicionales
 
-               Enunciado: crear un programa que reciba una lista de productos, cada uno
-               con un precio y un indicador de descuento (true o false). El programa debe
+               Iterar una lista de productos y mostrarlos con alert()
 
-               iterar sobre la lista y:
+                              Lucía (Product Owner)
 
-                   1.  Mostrar todos los productos con descuento.]]></page><page Index="11"><![CDATA[2.  Mostrar el total de productos sin descuento.
-                   3.  Al final, mostrar cuántos productos tienen descuento y cuántos no.
+                              Ahora necesitamos mostrar un listado de productos para que el usuario
+                              pueda conocer la oferta disponible.
 
 
 
+                              Lo que harás:
 
-               Tips:
+                   ●  Crear un array de al menos 5 productos (por ejemplo: "Remera", "Pantalón",
+                       "Gorra").
+                   ●  Recorrer el array con un bucle for o for...of.
+
+                   ●  En cada iteración, mostrar el producto con un alert().
+                   ●  Al finalizar, enviar por consola el mensaje:
+                              "Lista de productos mostrada correctamente."
 
 
-                   ●  Uso de bucles: Utilizá un for para recorrer la lista de productos.
+                             Tips de Tomás:
+                              Definí el array como const para practicar buenas prácticas de variables
+                             constantes.
+                              Podés sumar un contador para contar cuántos productos se muestran.
 
-                   ●  Condicionales: Dentro del bucle, utilizá if para verificar si el producto
-                       tiene descuento (producto.descuento === true).
 
-                   ●  Validación: Podés agregar validaciones para asegurarte de que los
-                       datos de los productos sean correctos (nombres no vacíos, precios
-                       válidos).
-                   ●  Consola del navegador: Mostrá los resultados de los productos con
-                       descuento y el total de productos en la consola usando
-                       console.log().]]></page><page Index="12"><![CDATA[]]></page></pages></Search>
+                  ¡Recordá! Mostrar la información de forma dinámica con bucles es la base para crear
+                interfaces interactivas más adelante.
+
+
+                  const significa que no podés volver a asignar otro array a esa misma variable,
+                pero sí podés modificar el contenido del array.
+
+
+                    ●  Podés  agregar,  quitar  o  modificar  elementos  dentro  del  array  declarado  con
+                        const.
+                    ●  Pero no podés decirle después que sea un array completamente nuevo.
+
+
+                Recordemos:
+
+                    ●  const = su referencia no cambia.]]></page><page Index="14"><![CDATA[●  let = variable flexible, su valor puede cambiar.
+                    ●  var = forma más vieja, hoy se recomienda evitarla.]]></page><page Index="15"><![CDATA[]]></page></pages></Search>

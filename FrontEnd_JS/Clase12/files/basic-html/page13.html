@@ -152,63 +152,61 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>Ejemplo con función flecha:
+    <pre style="white-space:pre-line"><code>Ejemplo con función tradicional:
 
-               boton.addEventListener("click", () =&gt; {
+               boton.addEventListener("click", function() {
 
 
-               console.log(this);  // 'this' se refiere al contexto exterior, no al
-               botón
+                  console.log(this);  // 'this' se refiere al elemento que disparó el
+               evento
 
                 });
 
 
-               En general, si necesitás que this apunte al elemento que disparó el evento, usá una
-               función tradicional.
+               Acá usás una función tradicional.
+
+                   ●  Cuando hacés click, la función se ejecuta con this apuntando al botón que
+                       disparó el evento.
+
+                   ●  O sea, this significa “el botón que fue clickeado”.
+
+
+               Por eso podés hacer, por ejemplo:
+
+               this.style.backgroundColor = "red";
 
 
 
 
-               Delegación de eventos
+               Ejemplo con función flecha:
+
+               boton.addEventListener("click", () =&gt; {
+
+               console.log(this);  // 'this' se refiere al contexto exterior, no al
+               botón
 
 
-               La delegación de eventos es una técnica que nos permite escuchar eventos de varios
-               elementos hijos utilizando un solo "listener" en el padre. Es especialmente útil cuando los
-               elementos hijos son generados dinámicamente.
+                });
 
-               Ejemplo:
-
-                  &lt;ul id="lista"&gt;
+               Acá usás una función flecha.
 
 
-                    &lt;li&gt;Elemento 1&lt;/li&gt;
+                   ●  Las funciones flecha no crean su propio this.
 
-                    &lt;li&gt;Elemento 2&lt;/li&gt;
-
-
-                    &lt;li&gt;Elemento 3&lt;/li&gt;
-
-                  &lt;/ul&gt;
+                   ●  En cambio, heredan el this del contexto donde fueron definidas (por ejemplo, la
+                       ventana global o el objeto exterior).
 
 
-                  &lt;script&gt;
 
-                    let lista = document.getElementById("lista");
-
-
-                    lista.addEventListener("click", function(event) {
-
-                      if (event.target.tagName === "LI") {
+               Por eso, cuando hacés click, this no apunta al botón, sino al contexto exterior (por ejemplo
+               window o el objeto que contiene la función flecha).
 
 
-                        alert("Hiciste clic en " + event.target.textContent);
+               Si dentro de una función flecha hacés:
 
-                      }
+               this.style.backgroundColor = "red";
 
-
-                    });
-
-                  &lt;/script&gt;</code></pre>
+               probablemente te dé error, porque this ya no es el botón.</code></pre>
      	</div>
     
      </div>
@@ -218,7 +216,7 @@ function MM_swapImage() { //v3.0
            <tr>
              <td width="22%" height="44"><a href="page12.html"><img src="images/previous.png" width="26" height="19" id="Image2" onmouseover="MM_swapImage('Image2','','images/previous2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
              <td width="43%">
-             	&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>&nbsp;&nbsp;&nbsp;<a href="page14.html">14</a>&nbsp;&nbsp;&nbsp;<a href="page15.html">15</a>&nbsp;&nbsp;&nbsp;<a href="page16.html">16</a>
+             	&nbsp;&nbsp;&nbsp;<a href="page8.html">8</a>&nbsp;&nbsp;&nbsp;<a href="page9.html">9</a>&nbsp;&nbsp;&nbsp;<a href="page10.html">10</a>&nbsp;&nbsp;&nbsp;<a href="page11.html">11</a>&nbsp;&nbsp;&nbsp;<a href="page12.html">12</a>&nbsp;&nbsp;&nbsp;<a href="page13.html">13</a>&nbsp;&nbsp;&nbsp;<a href="page14.html">14</a>&nbsp;&nbsp;&nbsp;<a href="page15.html">15</a>&nbsp;&nbsp;&nbsp;<a href="page16.html">16</a>&nbsp;&nbsp;&nbsp;<a href="page17.html">17</a>&nbsp;&nbsp;&nbsp;<a href="page18.html">18</a>
              </td>
              <td width="35%"><a href="page14.html"><img src="images/next.png" width="26" height="19" id="Image1" onmouseover="MM_swapImage('Image1','','images/next2.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
            </tr>

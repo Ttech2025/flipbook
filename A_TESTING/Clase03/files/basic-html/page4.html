@@ -156,9 +156,10 @@ function MM_swapImage() { //v3.0
 
                función
 
-
-               Esta es la calculadora que realizamos en la clase anterior utilizando programación lineal sin
-               funciones.
+               En  la  clase  anterior  trabajamos con una calculadora básica estructurada de forma lineal,
+               donde todas las operaciones, entradas y salidas estaban integradas en un único bloque de
+               código. Si bien era funcional, esta estructura no permitía reutilizar ni organizar fácilmente las
+               diferentes partes del programa.
 
 
                Calculadora básica en Python (programación lineal)
@@ -168,7 +169,6 @@ function MM_swapImage() { //v3.0
                num1 = float(input("Primer número: "))
                num2 = float(input("Segundo número: "))
                oper = input("Operación (+, -, *, /): ")
-
                if oper == '+':
                  result = num1 + num2
                elif oper == '-':
@@ -180,6 +180,7 @@ function MM_swapImage() { //v3.0
                else:
                  result = "Inválida"
                print(f"Resultado: {result}")
+
 
 
                Refactorización con funciones
@@ -201,9 +202,7 @@ function MM_swapImage() { //v3.0
                    ●  Reutilización:  podés  usar  la misma función en distintos lugares del programa sin
                        repetir código.
                    ●  Mantenimiento: si hay un error en una operación, solo necesitás corregirlo en un
-                       lugar.
-                   ●  Testeo: es más fácil probar funciones individuales para asegurarse de que funcionen
-                       correctamente (lo que será clave cuando veamos Pytest).</code></pre>
+                       lugar.</code></pre>
      	</div>
     
      </div>
