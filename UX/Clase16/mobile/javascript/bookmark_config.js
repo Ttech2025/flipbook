@@ -1,1 +1,1 @@
-﻿var ols=[{caption:"Tendencias en prototipado. ",page:"8",url:"",level:"1",children:[]}];
+﻿var ols=[{caption:"Tipos de Prototipos en el Proceso de Diseño: ",page:"4",url:"",level:"1",children:[{caption:" ",page:"7",url:"",level:"2",children:[]},{caption:"Tendencias en prototipado. ",page:"8",url:"",level:"2",children:[]}]},{caption:"Última misión en Talento Labs: el camino feliz dibujado a mano​ ",page:"9",url:"",level:"1",children:[]},{caption:"​Ejercicios prácticos: ",page:"9",url:"",level:"1",children:[]}];

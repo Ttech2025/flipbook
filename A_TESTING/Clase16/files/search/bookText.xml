@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="9"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase N.º 16:                 Presentación                    del      Proyecto
+
+
+
+               Final y Cier re
+
+
+
+
+               Temario
+
+
+                   ●  Retrospectiva del curso
+
+                   ●  Próximos pasos en la carrera de automation testing
+                   ●  Siguiente paso recomendado: Carrera de Desarrollador Front-End
+                   ●  Recursos adicionales
+                   ●  Cierre del curso
+
+
+
+
+               ¡Llegamos a la meta!
+               Después de 16 clases intensivas, esta sesión marca el cierre oficial de tu recorrido como
+               estudiante  de  Automation  Testing.  Hoy  haremos  un  repaso  de  todo  lo  que  aprendiste,
+               conoceremos  los  proyectos  finales  y  trazaremos  el  camino  para  seguir  creciendo
+               profesionalmente. Este no es solo el final del curso, sino el comienzo de tu carrera en QA
+               con  bases  sólidas,  herramientas  modernas  y  una  mentalidad  de  mejora  continua.
+               ¡Felicidades por todo lo que lograste!]]></page><page Index="3"><![CDATA[Introducción.
+
+
+               En esta última clase, celebramos el cierre de un proceso
+               de formación técnico y profesional.
+
+               Repasaremos      los   principales   hitos   del   curso,
+               escucharemos  las  presentaciones  de  los  proyectos
+               finales  y abriremos la conversación sobre los próximos
+               pasos en tu camino como Automation Tester. Este es un
+               momento  para  mirar  hacia  atrás  con  orgullo  y  hacia
+               adelante con ambición.
+
+
+
+
+
+                 Retrospectiva del curso.
+
+               A  lo  largo  de  estas  16  clases,  construimos  mucho  más  que  un  conjunto  de  scripts  o
+               pipelines. Paso a paso, fuiste desarrollando una mentalidad de calidad continua, aprendiste
+               a automatizar pruebas reales, a colaborar con metodologías ágiles y a comunicar hallazgos
+               con claridad profesional.
+
+               Hagamos un repaso de los principales hitos del recorrido:
+
+                   ●  Semanas 1 y 2
+                        Iniciamos con los fundamentos del testing, aprendiendo a leer requerimientos,
+                       formular criterios de aceptación y colaborar en un entorno ágil. Fue el primer paso
+                       para pensar como QA.
+
+                   ●  Semanas 3 y 4
+                        Nos adentramos en el testing de interfaces web usando Selenium y Python.
+                       Aplicaste el patrón Page Object Model y sentaste las bases de tu framework de
+                       automatización.
+
+                   ●  Semana 5
+                        Dimos el salto al testing de APIs, donde aprendiste a automatizar validaciones
+                       REST usando requests y pytest. Sumaste una nueva capa de cobertura
+                       funcional.
+
+                   ●  Semana 6
+                        Profundizaste en el manejo de datos dinámicos, fixtures personalizados y
+                       esquemas JSON, habilidades clave para hacer tests más realistas y reutilizables.
+
+                   ●  Semana 7
+                        Incorporamos buenas prácticas de código, como el patrón Service y herramientas
+                       de linting, alineando tu código con estándares de calidad profesional.]]></page><page Index="4"><![CDATA[●  Semana 8
+                        Aprendiste a generar reportes y estructurar logs, dejando evidencia clara para el
+                       equipo, líderes técnicos o stakeholders.
+
+                   ●  Semana 9
+                        Nos metimos en el mundo del BDD con Behave, entendiendo cómo convertir
+                       historias de usuario en pruebas vivas conectadas al negocio.
+
+                   ●  Semanas 10 y 11
+                        Abordamos la teoría de CI/CD, entendiendo cómo lograr que nuestras pruebas se
+                       ejecuten de forma autónoma cada vez que alguien sube código.
+
+                   ●  Semanas 12 a 15
+                        ¡Manos a la obra con GitHub Actions! Aprendiste a crear tu primer pipeline
+                       completo, ejecutar tests automáticamente, generar reportes y proteger ramas del
+                       proyecto.
+
+                   ●  Semana 16
+                        Llega el momento de presentar tu proyecto final y celebrar todo lo que lograste: tu
+                       framework completo, tu portfolio, y tu próxima puerta profesional abierta.
+
+
+
+               Este  recorrido  no  solo  te  deja  conocimientos  técnicos,  sino  también  experiencia  real  de
+               trabajo, confianza para enfrentar desafíos del mundo laboral y una comunidad con la que
+               aprendiste y creciste.]]></page><page Index="5"><![CDATA[Guía  sugerida  para  la  presentación  de  proyectos
+
+               finales
+
+
+               Modalidad: Cada equipo/estudiante tendrá 8-10 minutos para presentar su proyecto final
+               de automation testing.
+
+
+               Estructura sugerida para la presentación:
+
+               1. Contexto y problema (2 min)
+
+                   ●  ¿Qué aplicación/sistema decidieron testear y por qué?
+                   ●  ¿Cuál era el principal reto de testing que querían resolver?
+                   ●  ¿Qué les motivó a elegir esa estrategia de automatización?
+
+
+               2. Demo en vivo (4-5 min)
+
+                   ●  Mostrar el repositorio y su estructura
+                   ●  Ejecutar el pipeline en tiempo real (¡ese badge verde en acción!)
+                   ●  Demostrar 2-3 casos de prueba clave funcionando
+                   ●  Mostrar el reporte de Allure generado
+
+
+               3. Aprendizajes y métricas (2-3 min)
+
+                   ●  KPIs del proyecto: número de casos automatizados, tiempo de ejecución, cobertura
+                       alcanzada
+                   ●  Principal desafío técnico que superaron
+                   ●  Funcionalidad/patrón del que están más orgullosos
+                   ●  ¿Qué harían diferente si empezaran de nuevo?
+
+
+               Tips para una presentación impactante:
+
+               ✅ Prepara tu "número estrella": Una métrica que demuestre el valor (ej: "Reducimos el
+               tiempo de testing de 4 horas a 15 minutos")
+
+               ✅ Muestra, no expliques: El código ejecutándose vale más que slides
+
+
+               ✅ Sé honesto con los fallos: Compartir errores y cómo los resolvieron es muy valioso
+
+               ✅ Enfócate en el negocio: ¿Cómo tú automatización ayuda al equipo/empresa?]]></page><page Index="6"><![CDATA[El ecosistema QA: Manual vs Automation
+
+
+               Ahora  que  han  completado  su  formación  como  Automation  Testers,  es  importante
+               entender cómo se posicionan dentro del ecosistema más amplio de QA y cuál es su relación
+               con otras disciplinas del testing.
+
+               ¿Por qué es importante esta distinción?
+
+
+               En  el  mundo  laboral  se  encontrarán  con  equipos  donde  coexisten  ambos  perfiles,  y
+               entender las fortalezas de cada uno les permitirá:
+
+                   ●  Colaborar efectivamente con QA Manuales
+                   ●  Complementar habilidades en lugar de competir
+                   ●  Elegir la estrategia correcta para cada tipo de testing
+                   ●  Comunicar su valor como Automation Testers
+
+
+               La realidad del mercado: La mayoría de empresas necesitan ambos perfiles trabajando
+               en sinergia. Ustedes no reemplazan al testing manual, sino que lo potencian.
+
+
+
+                 Aspecto               QA Manual                        QA Automation
+                                       Detectar  defectos  ejecutando  Diseñar,  codificar  y  mantener
+                 Objetivo principal
+                                       casos manuales                   scripts de prueba
+                 Herramientas          TestRail,  Excel,  Exploratory  Selenium  /  Playwright,  Pytest,
+                 clave                 Testing                          CI/CD
+
+                                       Baja  –  dependiente  de  la
+                 Repetibilidad                                          Alta – pipelines reproducibles
+                                       persona
+
+                 Habilidades           Curiosidad,     comunicación,  Lógica       de     programación,
+                 dominantes            documentación                    DevOps, debugging
+
+
+                                                                        SDET,    DevOps     Tester,   QA
+                 Crecimiento           Líder QA, Analista Funcional
+                                                                        Architect
+
+
+
+
+               La sinergia perfecta
+
+               Testing Manual: Explora, descubre edge cases, valida UX/UI, testing exploratorio Testing
+               Automation: Asegura cobertura continua, regresión, libera tiempo para exploratorias más
+               profundas
+
+               Su ventaja como Automation Testers: Pueden entender y automatizar los casos que los
+               QA Manuales descubren, creando un ciclo virtuoso de calidad.]]></page><page Index="7"><![CDATA[Siguiente paso recomendado: Carrera de Desarrollador
+
+               Front-End
+
+
+               ¿Por qué continuar con el desarrollo después de Automation Testing?
+
+
+               Cómo Automation Tester, ya dominas Python y conceptos de programación. El siguiente
+               paso natural es expandir tus habilidades hacia el desarrollo Front-End, lo que te convertirá
+               en un profesional ás completo y versátil.
+
+               Beneficios de combinar Testing + Desarrollo:
+
+
+                   ●  Mayor empleabilidad: Perfiles híbridos son muy demandados
+                   ●  Mejor comprensión del producto: Entender cómo se construye lo que testeas
+                   ●  Comunicación más efectiva: Hablar el mismo idioma que los desarrolladores
+                   ●  Debugging avanzado: Identificar problemas directamente en el código
+                   ●  Automatización más robusta: Crear mejores selectores y estrategias de testing
+
+               Ruta recomendada en Talento Tech (3 cursos - 12 meses):
+
+
+                   1.  Programación Inicial con Python (4 meses)
+                          ○  Ya tienes ventaja: Reforzarás Python + bases de datos SQL
+                          ○  Estructuras de datos, funciones, módulos y SQLite
+                   2.  Front-End JS (4 meses)
+                          ○  HTML semántico, CSS responsivo, JavaScript interactivo
+                          ○  Git/GitHub, APIs REST, proyecto web completo
+                   3.  React JS (4 meses)
+                          ○  Componentes, hooks, Context API, autenticación
+                          ○  Proyecto e-commerce completo con CRUD
+
+
+               Enlace del curso: https://talentotech.bue.edu.ar/#/
+
+               Tu ventaja competitiva: Al finalizar tendrás el perfil único de QA Developer - alguien que
+               puede  tanto  desarrollar  funcionalidades  como  asegurar  su  calidad  mediante  testing
+               automatizado.]]></page><page Index="8"><![CDATA[Cierre del curso
+
+
+                  ¡Felicitaciones!
+                Completaste con éxito una formación intensiva que no solo te brindó herramientas técnicas
+               de  alto  nivel,  sino  también  una  mirada  profesional  sobre el rol del Automation Tester en
+               equipos reales de desarrollo.
+
+               Este curso no fue solo una secuencia de contenidos: fue una experiencia de construcción
+               paso a paso, donde cada clase aportó un ladrillo a un framework completo y funcional que
+               ahora forma parte de tu portfolio profesional.
+
+               Lo que lograste no es menor:
+
+                   ●  Diseñaste pruebas automatizadas robustas para UI y API.
+                   ●  Construiste un pipeline de CI/CD funcional con reportes y artefactos profesionales.
+                   ●  Implementaste buenas prácticas de desarrollo y metodologías ágiles.
+                   ●  Compartiste aprendizajes, desafíos y logros con una comunidad en formación.
+
+               Ahora, estás listo para dar el siguiente paso en tu carrera, ya sea postulándote a roles de
+               QA Automation Junior o expandiendo tus habilidades hacia el desarrollo.
+
+
+
+
+               Nueva versión del cierre “Próximos hitos sugeridos”
+
+
+               Tu camino recién empieza, y ya contás con una base sólida. Te recomendamos:
+
+                   ●      Pulir y documentar tu proyecto final, y enlazarlo en tu CV y perfil de LinkedIn.
+                   ●      Postular a roles de QA Automation Junior o programas de trainees.
+                   ●      Seguir construyendo: agregá pruebas de performance, cobertura móvil,
+                       refactorizaciones con patrones avanzados o explorá nuevos frameworks.
+                   ●      Sumarte a la carrera de Front-End Developer para potenciar tu perfil con
+                       desarrollo real.
+
+
+               Este curso fue tu punto de partida. ¡Lo que hagas después es tu próximo gran logro!]]></page><page Index="9"><![CDATA[]]></page></pages></Search>

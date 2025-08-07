@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="12"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase N° 1 | Reporte UX
-
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="15"><page Index="1"><![CDATA[]]></page><page Index="2"><![CDATA[Clase N° 1 | Reporte UX
 
 
 
@@ -7,54 +6,89 @@
                Temario:
 
 
+
                    ●  Diseño UX UI.
                    ●  Usabilidad.
                    ●  Manejo de imágenes para productos digitales.
                    ●  Reporte de Investigación UX.
-                   ●  Análisis de proyectos finales integradores.]]></page><page Index="3"><![CDATA[Diseño UX
+                   ●  Análisis de proyectos finales integradores.
 
 
 
 
+               Objetivo de la clase:
 
 
+               En  esta  sesión,  los  estudiantes  comprenderán  la  relevancia  del  diseño  UX/UI  en  el
+               desarrollo de productos digitales. Se explorarán los principios de usabilidad y las mejores
+               prácticas  para  la  optimización  del  manejo  de  imágenes,  con  el  fin  de  mejorar  la
+               experiencia de usuario.
 
+               Además,  aprenderán  a  estructurar  y  presentar  un  Reporte  de  Investigación  UX,
+               documentando  hallazgos  clave  para  la  toma  de  decisiones  en  diseño.  Finalmente,
+               analizarán  proyectos  finales  integradores,  aplicando  criterios  de  evaluación  que  les
+               permitan  identificar  oportunidades  de  mejora  y  validar  la experiencia de usuario de
+               manera efectiva.]]></page><page Index="3"><![CDATA[Diseño UX
 
 
+                                       El diseño de la Experiencia de Usuario (UX) es el proceso de crear
+                                       productos,  sistemas  o  servicios  que  ofrezcan  experiencias
+                                       significativas, intuitivas y relevantes para las personas. Este enfoque
+                                       abarca  toda  la  interacción  del  usuario  con  el  producto,  desde  su
+                                       adquisición hasta su integración, considerando aspectos clave como
+                                       marca, diseño, usabilidad y funcionalidad.
 
+               Uno  de  los  pilares  fundamentales del diseño UX es garantizar que el producto final sea
+               funcional y accesible, proporcionando una experiencia positiva, eficiente y satisfactoria que
+               responda a las necesidades y expectativas del usuario.
 
+               Objetivos del Diseño de Experiencia de Usuario (UX):
 
+                   ●  Facilidad de uso: Garantizar que los usuarios puedan realizar sus tareas de forma
+                       intuitiva y con el mínimo esfuerzo.
 
+                   ●  Eficiencia: Permitir que las personas completen sus actividades de manera rápida y
+                       sin complicaciones.
 
-               El diseño de Experiencia de Usuario (UX) es el proceso de crear productos, sistemas o
-               servicios que proporcionen experiencias significativas y relevantes a las personas. Involucra
-               todo el proceso de adquisición e integración del producto, lo que incluye aspectos de marca,
-               diseño, usabilidad y funcionalidad. Una gran parte del diseño UX es hacer que el producto
-               final resulte funcional para proporcionar una experiencia positiva, eficiente y satisfactoria
-               para la persona.
+                   ●  Satisfacción: Asegurar una experiencia positiva que genere bienestar y confianza
+                       en el usuario al interactuar con el producto, servicio o sistema.
 
-               Objetivos del diseño UX:
+                   ●  Accesibilidad:  Diseñar  productos  inclusivos  que  se  adapten  a  personas  con
+                       diversas habilidades, incluyendo aquellas con discapacidades.
 
-                   ●  Facilidad de uso: asegurarse de que los usuarios y usuarias puedan realizar sus
-                       tareas con el mínimo esfuerzo.
+                   ●  Compromiso:  Fomentar  el  interés  y  la  conexión  emocional  de  los  usuarios,
+                       incentivando una interacción prolongada y significativa.]]></page><page Index="4"><![CDATA[Diseño UI
 
-                   ●  Eficiencia: permitir que las personas completen las tareas rápidamente.
 
-                   ●  Satisfacción: asegurar que quien utiliza el producto, servicio o sistema tenga una
-                       experiencia positiva y se sientan bien al usar el producto.
-                   ●  Accesibilidad: hacer que el producto pueda ser usado por personas con diversas
-                       habilidades y discapacidades.
+                                     El Diseño de Interfaces de Usuario (UI) se centra en los aspectos
+                                     visuales  e  interactivos  del  producto.  Se  encarga  de  definir  la
+                                     apariencia  y  el comportamiento de la interfaz mediante la selección
+                                     de paletas de colores, tipografías, gráficos y elementos interactivos,
+                                     garantizando no solo un atractivo visual, sino también una experiencia
+                                     intuitiva y coherente para el usuario.
 
-                   ●  Compromiso: mantener a las personas interesados y comprometidos con el
-                       producto.
+               Una vez aprobada la estructura final y el prototipo, inicia la fase de diseño UI. En esta etapa
+               se busca crear un producto visualmente impactante, reconociendo que la apariencia influye
+               significativamente  en  la  percepción  y  respuesta  emocional  del  usuario,  lo  que  resulta
+               fundamental para lograr una interacción satisfactoria.
 
 
+               Objetivos del Diseño UI:
 
+                   ●  Atractivo estético: Diseñar interfaces visualmente impactantes que se alineen con
+                       la identidad de la marca.
 
+                   ●  Usabilidad: Garantizar una interacción intuitiva, permitiendo a los usuarios realizar
+                       sus tareas sin complicaciones.
 
-               Diseño UI
+                   ●  Consistencia:  Mantener  un  lenguaje  visual  uniforme  en  todo  el  producto  para
+                       ofrecer una experiencia fluida y coherente.
 
+                   ●  Accesibilidad:  Crear  interfaces  que  sean  fácilmente  utilizables  por personas con
+                       diversas habilidades y necesidades.
 
+                   ●  Compromiso:  Generar  una  experiencia  atractiva  y  placentera  que  motive  a  los
+                       usuarios a interactuar de manera continua con el producto.]]></page><page Index="5"><![CDATA[Diferencia entre UX y UI
 
 
 
@@ -66,86 +100,41 @@
 
 
 
-               El diseño de Interfaz de Usuario (UI) se enfoca en los aspectos visuales e interactivos de la
-               interfaz de un producto. Implica determinar la apariencia y el comportamiento del producto,
-               incluidos el diseño, los colores, la tipografía y los elementos interactivos, para asegurar que]]></page><page Index="4"><![CDATA[sea visualmente atractivo y fácil de usar. El diseño UI se encarga de crear elementos
-               visuales e interactivos de un producto para lograr una experiencia de usuario atractiva,
-               intuitiva y cohesiva.
 
-               Una vez que se decide la estructura final y se aprueba el prototipo, comienza el diseño UI.
-               Por supuesto, se trata de crear un producto atractivo, pero ese no es el único objetivo. La
-               apariencia de cualquier producto tiene un fuerte impacto psicológico en la persona.
 
-               Objetivos del diseño UI:
 
-                   ●  Atractivo estético: crear interfaces visualmente atractivas que reflejen la identidad
-                       de la marca.
 
-                   ●  Usabilidad: garantizar que las personas puedan interactuar fácilmente con la
-                       interfaz y realizar sus tareas sin confusión.
 
-                   ●  Consistencia: mantener un lenguaje de diseño uniforme en todo el producto para
-                       proporcionar una experiencia de usuario sin fisuras.
+               UX y UI son pilares fundamentales en el diseño web. UX (Experiencia de Usuario) se centra
+               en la interacción global del usuario con el sitio, evaluando aspectos como la facilidad de
+               navegación, la claridad de la información y la capacidad para retener lo aprendido. En
+               contraste, UI (Interfaz de Usuario) se encarga de la apariencia visual del sitio, abarcando
+               el diseño, la disposición de los elementos, la paleta de colores y la tipografía. Comprender y
+               diferenciar estos dos enfoques es esencial para desarrollar productos digitales que sean, a
+               la vez, intuitivos y visualmente impactantes.
 
-                   ●  Accesibilidad: diseñar interfaces que puedan utilizar personas con diversas
-                       habilidades y discapacidades.
+                          UX                                             UI
 
-                   ●  Compromiso: hacer que la interfaz sea atractiva y agradable de usar para alentar a
-                       las personas a interactuar con el producto
 
+          Alcance         Experiencia más amplia de usar el producto  Aspectos        superficiales   de    un
+                          (cómo  funciona  y  cómo  satisface  las  producto (cómo se ve y se siente).
+                          necesidades del usuario/a).
 
-               Diferencia entre UX y UI
 
+          Proceso         Investigación  de  usuarios  y  usuarias,  Creación de diseños visuales, guías
+                          creación de perfiles, wireframing, prototipado  de estilo y elementos interactivos.
+                          y pruebas.
 
 
+          Objetivo        Crear un producto fácil de usar, eficiente y  Crear    una    interfaz  visualmente
+                          que proporcione una experiencia positiva.      atractiva y cohesiva.
 
-
-
-
-
-
-
-
-
-
-
-
-
-               UX y UI son aspectos esenciales del diseño web. UX se refiere a la experiencia general de
-               usar un sitio web, incluidas la facilidad de uso, la comprensión y la memorización. Mientras
-               que UI hace referencia a la apariencia y sensación de un sitio web, lo que incluye su diseño,
-               disposición, colores y fuentes. Comprender las diferencias entre estos aspectos del diseño
-               es crucial para crear productos que sean tanto visualmente atractivos como fáciles de usar.]]></page><page Index="5"><![CDATA[UX                                   UI
-
-
-                  Alcance         Experiencia más amplia de usar el       Aspectos superficiales de un
-                                    producto (cómo funciona y cómo          producto (cómo se ve y se
-                                     satisface las necesidades del                   siente).
-                                              usuario/a).
-
-                  Proceso            Investigación de usuarios y         Creación de diseños visuales,
-                                     usuarias, creación de perfiles,       guías de estilo y elementos
-                                  wireframing, prototipado y pruebas.              interactivos.
-
-
-
-                  Objetivo         Crear un producto fácil de usar,      Crear una interfaz visualmente
-                                    eficiente y que proporcione una           atractiva y cohesiva.
-                                          experiencia positiva.
-
-                 Resultado        Una experiencia de producto bien            Apariencia final y los
-                                  estructurada, usable y satisfactoria.     elementos interactivos del
-                                                                                    producto.
-
-
-
-
-               UX y UI más allá de las pantallas.
-
+          Resultado       Una    experiencia    de    producto    bien  Apariencia  final  y  los  elementos
+                          estructurada, usable y satisfactoria.          interactivos del producto.]]></page><page Index="6"><![CDATA[UX y UI más allá de las pantallas.
 
 
                La UI y la UX se han expandido significativamente a medida que las empresas reconocen la
-               importancia de entender a sus usuarios y usuarias para mejorar su experiencia y la
+               importancia  de  entender  a  sus  usuarios  y  usuarias  para  mejorar  su  experiencia  y  la
                retención.
 
                El diseño UI es esencial para diversas interfaces, tanto en línea como fuera de línea. Desde
@@ -153,108 +142,92 @@
                entre el objeto y el usuario necesita diseño UI.
 
                El diseño UX ahora se aplica a una amplia gama de productos, interfaces y servicios, no
-               solo sitios web. El enfoque ha cambiado de solo la interfaz a la experiencia general del
+               solo  sitios  web.  El  enfoque  ha  cambiado  de solo la interfaz a la experiencia general del
                producto.
 
-               El objetivo es apoyar a las personas a lo largo de todo su recorrido y resolver cualquier
+               El  objetivo  es  apoyar  a las personas a lo largo de todo su recorrido y resolver cualquier
                obstáculo que encuentren.
-
-
-               Conclusión
-
 
                El diseño UI y UX han adquirido mayor relevancia a medida que las empresas reconocen el
                impacto que un enfoque centrado en la persona tiene en la satisfacción y fidelización de los
                clientes y clientas. El diseño UX abarca ahora todo el trayecto de la persona a través de
                diferentes productos y servicios, buscando garantizar una experiencia fluida y placentera.
-               Por su parte, el diseño UI sigue siendo fundamental para desarrollar interfaces que sean]]></page><page Index="6"><![CDATA[intuitivas y visualmente atractivas, tanto en entornos digitales como físicos. Al dar prioridad
+               Por su parte, el diseño UI sigue siendo fundamental para desarrollar interfaces que sean
+               intuitivas y visualmente atractivas, tanto en entornos digitales como físicos. Al dar prioridad
                tanto al diseño UI como al UX, las empresas pueden crear productos que no solo cumplan
-               con las expectativas de las personas, sino que también les generen una experiencia
-               gratificante que promueva su lealtad.
+               con  las  expectativas  de  las  personas,  sino  que  también  les  generen  una  experiencia
+               gratificante que promueva su lealtad.]]></page><page Index="7"><![CDATA[Usabilidad.
 
-
-
-
-               Usabilidad.
-
-               La usabilidad hace referencia a cómo usamos las cosas, a la facilidad con la que las
+               La  usabilidad  hace  referencia  a  cómo  usamos  las  cosas,  a  la  facilidad  con  la  que  las
                utilizamos y a si nos permiten hacer lo que necesitamos o deseamos hacer. Se trata de una
                característica de facilidad de uso, esencialmente aplicada al software, pero relevante para
-               cualquier artefacto humano. En términos generales, un producto o aplicación es fácil de
+               cualquier  artefacto  humano.  En  términos  generales,  un  producto  o aplicación es fácil de
                utilizar cuando responde efectivamente a la tarea para la cual se utiliza.
 
                El origen de la usabilidad proviene de la traducción literal del término anglosajón usability
-               que, aunque no haya sido aceptado desde sus inicios por la Real Academia Española,
+               que,  aunque  no  haya  sido  aceptado  desde  sus  inicios  por  la  Real  Academia  Española,
                mantiene un adecuado significado y valor lingüístico.
 
                ¿Cómo podemos saber si un producto o sistema es usable? Jacob Nielsen, experto en la
                materia, mide la usabilidad a partir de cinco criterios:
 
-                   1.  Facilidad de aprendizaje: el sistema o producto debe ser fácil de aprender, de
+                   1.  Facilidad  de  aprendizaje:  el  sistema  o  producto  debe  ser  fácil  de  aprender,  de
                        manera que la persona pueda trabajar con él lo más rápido posible.
+
 
                    2.  Eficiencia de uso: el nivel de productividad del usuario/a que ha aprendido a usar el
                        producto debe ser alto para poder completar determinadas tareas.
-
                    3.  Facilidad de memorización: el sistema debe ser fácil de recordar incluso después
                        de algún periodo sin uso.
 
                    4.  Errores: para que un producto sea usable debe generar el menor número de errores
                        posible.
 
-                   5.  Satisfacción: el sistema debe ser agradable de utilizar; debe proporcionar
-                       comodidad y actitud positiva durante su uso.
+                   5.  Satisfacción:  el  sistema  debe  ser  agradable  de  utilizar;  debe  proporcionar
+                       comodidad y actitud positiva durante su uso.]]></page><page Index="8"><![CDATA[La combinación de usabilidad y accesibilidad
 
 
 
 
-               La combinación de usabilidad y accesibilidad
-
-
-
-
-
-                                                              En muchas ocasiones el concepto de
-                                                              usabilidad aparece frecuentemente junto al
-                                                              de accesibilidad. La accesibilidad consiste
-                                                              en asegurarse que un producto esté a
+                                                              En  muchas  ocasiones  el  concepto  de
+                                                              usabilidad  aparece  frecuentemente  junto  al
+                                                              de  accesibilidad.  La accesibilidad consiste
+                                                              en  asegurarse  que  un  producto  esté  a
                                                               disposición de todas las personas, sean o no
-                                                              impedidas física o psíquicamente. Este]]></page><page Index="7"><![CDATA[concepto logra que las interfaces de usuario sean fáciles de percibir, operativas y
-               comprensibles para personas con un amplio abanico de habilidades o con distintas
-               circunstancias, entornos y condiciones.
+                                                              impedidas  física  o  psíquicamente.  Este
+                                                              concepto logra que las interfaces de usuario
+                                                              sean  fáciles  de  percibir,  operativas  y
+                                                              comprensibles para personas con un amplio
+                                                              abanico  de  habilidades  o  con  distintas
+                                                              circunstancias, entornos y condiciones.
 
                Ahora bien, ¿qué tienen en común la usabilidad y la accesibilidad?: el objetivo de conseguir
                que los medios y los productos estén disponibles para todas las personas. De esta manera,
                podríamos afirmar que si un diseño no es usable, tampoco puede considerarse accesible y
                viceversa.
 
-               No obstante, estos conceptos no se ocupan únicamente de construir productos para
-               personas con características compartidas. La usabilidad tiene en cuenta personas
+               No  obstante,  estos  conceptos  no  se  ocupan  únicamente  de  construir  productos  para
+               personas  con  características  compartidas.  La  usabilidad  tiene  en  cuenta  personas
                específicas, en contextos de uso determinados y con objetivos concretos. La accesibilidad,
                en cambio, lo hace fijando una atención especial a la diversidad de las personas. El público
-               es variado y diverso, por lo que es esencial satisfacer a toda esa variedad a partir de
+               es  variado  y  diverso,  por  lo  que  es  esencial  satisfacer  a  toda  esa  variedad  a  partir  de
                diseños diferentes, adaptados a las personas y a los contextos de uso.
 
                Usabilidad y accesibilidad, pues, van de la mano y se debe tener en cuenta a la hora de
-               diseñar y construir productos interactivos. Desde un punto de vista práctico, el diseño
+               diseñar  y  construir  productos  interactivos.  Desde  un  punto  de  vista  práctico,  el  diseño
                centrado en el usuario/a hace posible tener en cuenta los principios del diseño universal y
-               accesible, así como la diversidad de las personas junto con el resto de requisitos.
+               accesible, así como la diversidad de las personas junto con el resto de requisitos.]]></page><page Index="9"><![CDATA[Principios  de  la  usabilidad  en  la  creación  de  productos
 
-
-
-
-               Principios de la usabilidad en la creación de productos
                interactivos
 
 
-
                Sin duda, la usabilidad y la accesibilidad son dos conceptos de especial relevancia a la hora
-               de diseñar y crear productos interactivos. Para alcanzar productos interactivos usables
+               de  diseñar  y  crear  productos  interactivos.  Para  alcanzar  productos  interactivos  usables
                debemos tener en cuenta estos cinco principios clave de la usabilidad:
 
-                   ●  Coherencia: un producto interactivo debe ser coherente desde el punto de vista
-                       gráfico e interactivo para evitar confusiones y complicaciones. Esto consiste en
-                       utilizar los mismos botones o iconos interactivos, los mismos colores, la misma
+                   ●  Coherencia:  un  producto  interactivo  debe  ser  coherente  desde  el  punto de vista
+                       gráfico  e  interactivo  para  evitar  confusiones  y  complicaciones.  Esto  consiste  en
+                       utilizar  los  mismos  botones  o  iconos  interactivos,  los  mismos  colores,  la  misma
                        terminología y organización en cada una de las pantallas.
 
                    ●  Interacción: la interacción tiene que ser predecible, visible y reversible. El objetivo
@@ -264,14 +237,15 @@
                    ●  Información, comunicación y retroalimentación: hay que ayudar a las personas a
                        encontrar la información rápida y fácilmente, usar enlaces de texto, títulos y ofrecer
                        instrucciones sencillas y claras.
-                   ●  Control: las personas deben ser capaces de tomar la iniciativa de emprender
+
+                   ●  Control:  las  personas  deben  ser  capaces  de  tomar  la  iniciativa  de  emprender
                        numerosas acciones. La persona tiene que poder personalizar un producto para sus
                        intereses y necesidades para que se sienta cómodo como, por ejemplo, el tamaño
-                       del texto en un sitio web.]]></page><page Index="8"><![CDATA[●  Opciones: hay que ofrecer a las personas más de una forma de encontrar lo que
-                       buscan para que puedan elegir el método de interacción más apropiado a su
+                       del texto en un sitio web.
+
+                   ●  Opciones: hay que ofrecer a las personas más de una forma de encontrar lo que
+                       buscan  para  que  puedan  elegir  el  método  de  interacción  más  apropiado  a  su
                        situación.
-
-
 
                Usabilidad y experiencia de usuario
 
@@ -285,99 +259,70 @@
                en juego la experiencia de usuario (UX) y factores como la aceptación, la credibilidad, la
                confianza, la emoción o el placer.
 
-               La experiencia de usuario pone énfasis en los aspectos más relacionados con la
-               experiencia, la empatía, el significado y el valor de la interacción persona-ordenador,
-               aunque también tiene en cuenta las percepciones de la persona en relación con los
-               aspectos más prácticos como la utilidad, la facilidad de uso y la eficiencia de un sistema.
-
-               Y es que la experiencia de usuario representa un cambio emergente del propio concepto de
-               usabilidad, ya que evalúa un ciclo de vida que va más allá del desarrollo del producto.
+               La  experiencia  de  usuario  pone  énfasis  en  los  aspectos  más  relacionados  con  la
+               experiencia,  la  empatía,  el  significado  y  el  valor  de  la  interacción  persona-ordenador,
+               aunque  también  tiene  en  cuenta  las  percepciones  de  la  persona  en  relación  con  los
+               aspectos más prácticos como la utilidad, la facilidad de uso y la eficiencia de un sistema.]]></page><page Index="10"><![CDATA[Y es que la experiencia de usuario representa un cambio emergente del propio concepto de
+               usabilidad,  ya  que  evalúa  un  ciclo  de  vida  que  va  más  allá  del  desarrollo del producto.
                Comienza a través de la observación, planteando el perfil de las personas y acaba mucho
                después del prototipado y posterior distribución.
 
-               Los expertos y expertas en multimedia, pues, deben tener el objetivo de diseñar y crear
-               productos interactivos fáciles de usar y que nos hagan sonreír cada vez que los utilizamos.]]></page><page Index="9"><![CDATA[Manejo de imágenes para Productos Digitales
+               Los  expertos  y  expertas  en  multimedia, pues, deben tener el objetivo de diseñar y crear
+               productos interactivos fáciles de usar y que nos hagan sonreír cada vez que los utilizamos.
 
 
 
 
+               Manejo de imágenes para Productos Digitales
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               Se refiere al proceso de creación, optimización, y gestión de imágenes que se utilizan en
-               productos digitales, como sitios web, aplicaciones móviles, software, y otros medios
-               digitales. Este manejo es fundamental para asegurar que las imágenes sean de alta calidad,
-               se carguen rápidamente, y se presenten de manera adecuada en diferentes dispositivos y
-               pantallas.
-
+               Se refiere al proceso de creación, optimización,
+               y  gestión  de  imágenes  que  se  utilizan  en
+               productos     digitales,   como   sitios   web,
+               aplicaciones móviles, software, y otros medios
+               digitales.  Este  manejo  es  fundamental  para
+               asegurar  que  las  imágenes  sean  de  alta
+               calidad,  se  carguen  rápidamente,  y  se
+               presenten  de  manera  adecuada  en  diferentes
+               dispositivos y pantallas.
 
 
                Importancia del Manejo de Imágenes en Productos Digitales:
 
-               El manejo eficiente de imágenes es esencial para ofrecer una experiencia de usuario
-               óptima, ya que las imágenes juegan un papel crucial en la comunicación visual y en la
+
+               El  manejo  eficiente  de  imágenes  es  esencial  para  ofrecer  una  experiencia  de  usuario
+               óptima,  ya  que  las  imágenes  juegan  un  papel  crucial  en  la  comunicación visual y en la
                percepción general de la calidad de un producto digital. Un manejo adecuado contribuye a
-               una carga rápida de la página, una navegación fluida, y una mayor satisfacción de la
+               una  carga  rápida  de  la  página,  una  navegación  fluida,  y  una  mayor  satisfacción  de  la
                persona.
 
 
 
                Aspectos Clave del Manejo de Imágenes para Productos Digitales:
 
-               Creación y Selección de Imágenes: involucra la creación o selección de imágenes que
-               sean visualmente atractivas y relevantes para el contenido o el mensaje que se desea
-               comunicar.
+                   ●  Creación y Selección de Imágenes: involucra la creación o selección de imágenes
+                       que sean visualmente atractivas y relevantes para el contenido o el mensaje que se
+                       desea comunicar.
+                   ●  Optimización de Imágenes: implica reducir el tamaño de los archivos de imagen
+                       sin  perder  calidad,  utilizando  técnicas  como  la  compresión,  para  mejorar  el
+                       rendimiento y tiempos de carga del producto digital.
+                       Adaptación  a  Diferentes  Dispositivos:  asegura  que  las  imágenes  se  muestren
+                       correctamente  en  una  variedad  de  dispositivos  y  tamaños  de  pantalla,  utilizando
+                       técnicas como imágenes responsivas o adaptativas.]]></page><page Index="11"><![CDATA[●  Accesibilidad:  incluye  la  adición  de  descripciones  alternativas  (alt  text)  a  las
+                       imágenes para que sean accesibles a personas con discapacidades visuales y para
+                       mejorar la indexación en motores de búsqueda.
+                   ●  Gestión  de  Formatos  de  Imagen:  selección  de  los  formatos  de  imagen  más
+                       adecuados (JPEG, PNG, SVG, WebP, etc.) según el uso específico, equilibrio entre
+                       calidad y tamaño, y soporte del navegador o dispositivo.
+                   ●  Organización      y   Almacenamiento:      implica   una    gestión   eficiente   del
+                       almacenamiento y organización de las imágenes para facilitar su acceso y utilización
+                       dentro del equipo de desarrollo o diseño.
 
-               Optimización de Imágenes: implica reducir el tamaño de los archivos de imagen sin perder
-               calidad, utilizando técnicas como la compresión, para mejorar el rendimiento y tiempos de
-               carga del producto digital.
-
-               Adaptación a Diferentes Dispositivos: asegura que las imágenes se muestren]]></page><page Index="10"><![CDATA[correctamente en una variedad de dispositivos y tamaños de pantalla, utilizando técnicas
-               como imágenes responsivas o adaptativas.
-
-               Accesibilidad: incluye la adición de descripciones alternativas (alt text) a las imágenes para
-               que sean accesibles a personas con discapacidades visuales y para mejorar la indexación
-               en motores de búsqueda.
-
-               Gestión de Formatos de Imagen: selección de los formatos de imagen más adecuados
-               (JPEG, PNG, SVG, WebP, etc.) según el uso específico, equilibrio entre calidad y tamaño, y
-               soporte del navegador o dispositivo.
-
-               Organización y Almacenamiento: implica una gestión eficiente del almacenamiento y
-               organización de las imágenes para facilitar su acceso y utilización dentro del equipo de
-               desarrollo o diseño.
-
-               Consideraciones Estéticas y Funcionales: asegura que las imágenes no solo se vean
-               bien, sino que también apoyen la usabilidad y la experiencia del usuario, evitando
-               distracciones o confusiones.
-
-               Licencias y Derechos de Uso: garantiza que todas las imágenes utilizadas tengan los
-               derechos de uso adecuados para evitar problemas legales.
+                   ●  Consideraciones Estéticas y Funcionales: asegura que las imágenes no solo se
+                       vean  bien,  sino  que  también  apoyen  la  usabilidad  y  la  experiencia  del  usuario,
+                       evitando distracciones o confusiones.
+                   ●  Licencias y Derechos de Uso: garantiza que todas las imágenes utilizadas tengan
+                       los derechos de uso adecuados para evitar problemas legales.
 
 
 
@@ -385,32 +330,115 @@
 
 
 
-               Los reportes de investigación son los datos registrados por los investigadores de UX,
-               transformados en información útil mediante el análisis de la información. El objetivo es
+               Los  reportes  de  investigación  son  los  datos  registrados  por  los  investigadores  de  UX,
+               transformados  en  información  útil  mediante  el  análisis  de  la  información.  El  objetivo  es
                transmitir los detalles sobre el estudio, para que se puedan incorporar en el diseño UX y de
                la estrategia del producto digital.
 
-               Un Reporte de Investigación UX es un componente esencial en el proceso de diseño
-               centrado en la persona. No solo comunica los resultados de una investigación, sino que
-               también ofrece recomendaciones prácticas para mejorar el producto, asegurando que las
-               decisiones de diseño estén bien fundamentadas y alineadas con las necesidades y
+               Un  Reporte  de  Investigación  UX  es  un  componente  esencial  en  el  proceso  de  diseño
+               centrado  en  la  persona.  No  solo comunica los resultados de una investigación, sino que
+               también  ofrece recomendaciones prácticas para mejorar el producto, asegurando que las
+               decisiones  de  diseño  estén  bien  fundamentadas  y  alineadas  con  las  necesidades  y
                expectativas de las personas.
 
                Estructurar un caso de estudio es esencial para demostrar el proceso de diseño de manera
                coherente, profesional, y completa, asegurando que se cubran todos los aspectos críticos
-               que contribuyen al éxito de un producto digital.
-
-
-               Análisis del proyecto final integrador
+               que contribuyen al éxito de un producto digital.]]></page><page Index="12"><![CDATA[Análisis del proyecto final integrador
 
 
                ¿Cómo se construye el proyecto integrador?
-               Al final de la cursada, serás evaluado mediante la entrega de un Proyecto Integrador, que
-               es fundamental para completar el curso y cumplir con los requisitos de egreso. Este]]></page><page Index="11"><![CDATA[proyecto se construirá de manera progresiva, combinando la resolución de Ejercicios y el
-               seguimiento de las  4 Ruta de Avance presentes a lo largo de la cursada.
 
-               Vamos a ver el siguiente Proyecto Final Integrador que nos guiará durante la cursada y
-               como recurso una Plantilla de Informe para ayudar a estructurar el reporte. Es
-               importante que tengas en cuenta que esta plantilla no debe usarse como el formato
-               definitivo para la entrega, sino que cada estudiante debe adaptarla según su propio formato
-               de presentación basado en su caso de estudio.]]></page><page Index="12"><![CDATA[]]></page></pages></Search>
+               Este proyecto consta de un reporte de investigación UX, de ahora en más lo llamaremos
+               reporte UX que vas a comenzar a crear desde el primer día.
+
+               Durante  cada  una  de  las  clases  vas  a  conocer  conceptos  y  herramientas  que  te  van a
+               ayudar a crear, paso a paso, un reporte UX.
+
+               Es importante que accedas a este Proyecto Final Integrador para que tengas una referencia
+               real de como se ve un verdadero reporte UX.
+
+               Vas a tener siempre a mano esta Plantilla de Informe para ayudarte a estructurar el reporte.
+
+               Es también fundamental que lo tomes como una referencia y que a este le des tu impronta,
+               estilo y que ello vaya de la mano del producto o servicio que estás evaluando.]]></page><page Index="13"><![CDATA[  Storytelling
+
+
+               Te damos la bienvenida al equipo de desarrollo Talento
+
+               Lab.
+
+               ¡Primer día en Talento Lab!
+
+
+
+               Acabas  de  llegar  a  tu  estación de trabajo en
+               Talento Labs, donde la innovación y el diseño
+               y al encender tu computadora, se despliega tu
+               primera notificación:
+
+
+
+
+
+
+               Mariana – UX Manager
+
+
+                               Hola,  ¿cómo  estás?  En  Talento  Labs  nos  apasiona  crear  experiencias
+                               intuitivas  y  significativas  que  resuelven  problemas  reales.  Para  arrancar,
+                               quiero que te pongas a investigar el Play Store, la tienda de aplicaciones
+                               de Google donde encontrás desde juegos hasta herramientas que facilitan
+                               la vida diaria."
+
+
+
+
+
+               Equipo TechLab:
+
+
+
+                                Silvia                                   Martín
+                                UX Manager                               Senior UX Designer]]></page><page Index="14"><![CDATA[Ejercicio Práctico
+
+
+
+               Tu primer desafío es animarte a mirar el mundo digital con otros ojos:
+
+                   1.  Descargá una aplicación nueva en tu Play Store:
+                       Elegí una app que te llame la atención, instalala en tu dispositivo y probala durante
+                       un rato.
+
+               Contanos:
+
+
+                   ●  ¿Te resultó útil?
+                   ●  ¿Por qué la elegiste?
+                   ●  ¿Te ayudó a resolver algún problema o necesidad?
+
+                   2.  Explorá tu propio celular:
+                       Armá una lista con tres aplicaciones que ya tengas instaladas en tu móvil y que,
+                       en tu día a día, te ayuden a resolver problemas específicos. Podés pensar en apps
+                       para organizarte, aprender, moverte, comprar, comunicarte, etc.
+
+
+
+
+
+               Reporte de Investigación UX
+
+
+               A lo largo de este trayecto, iremos desarrollando una investigación en UX como proyecto
+               principal. Para acompañarte en este proceso, te brindamos una plantilla de apoyo que te
+               ayudará a organizar y estructurar tu reporte de investigación.
+
+                 Accedé a la plantilla del proyecto acá
+
+
+                 Importante: Esta plantilla es solo una guía inicial. No debe ser utilizada como formato
+               final de entrega. Cada estudiante debe personalizar y adaptar el reporte según su propio
+               caso de estudio y el estilo de presentación que prefiera.
+
+
+               Aprovechá la plantilla para inspirarte, pero asegurate de que tu trabajo refleje tu análisis, tus
+               decisiones y tu propia mirada sobre la investigación.]]></page><page Index="15"><![CDATA[]]></page></pages></Search>
